@@ -300,6 +300,10 @@ class Fetcher:
         )
         self._last_hit: dict[str, float] = {}
         self._robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
+        # Hosts that have made it clear they don't want us this run. Retrying
+        # each remaining URL against a host that is already answering 429 just
+        # burns 20 minutes and annoys it further.
+        self._blocked: dict[str, str] = {}
         self.stats = {"fetched": 0, "not_modified": 0, "fresh": 0, "skipped": 0}
 
     # -- robots ----------------------------------------------------------
@@ -350,6 +354,10 @@ class Fetcher:
             return None
 
         host = httpx.URL(url).netloc.decode()
+        if host in self._blocked:
+            raise Blocked(f"{host} already refused us this run "
+                          f"({self._blocked[host]})")
+
         cached = None if self.force else (self.store.cache_get(url) if cache else None)
 
         if cached is not None and max_age is not None:
@@ -366,6 +374,7 @@ class Fetcher:
             if cached["last_modified"]:
                 headers["If-Modified-Since"] = cached["last_modified"]
 
+        throttled = 0
         for attempt in range(max_retries):
             self._wait(host)
             try:
@@ -382,6 +391,8 @@ class Fetcher:
                 return bytes(cached["body"])
 
             if r.status_code in (429, 500, 502, 503, 504):
+                if r.status_code == 429:
+                    throttled += 1
                 retry_after = r.headers.get("Retry-After", "")
                 wait = float(retry_after) if retry_after.isdigit() else 2 ** attempt * 10
                 log.warning("HTTP %s on %s - backing off %.0fs",
@@ -401,6 +412,13 @@ class Fetcher:
                                      r.headers.get("Last-Modified"), r.content)
             return r.content
 
+        if throttled == max_retries:
+            # Rate-limited on every attempt, including the first: this host is
+            # refusing this client outright (datacenter IPs often are), not
+            # reacting to our pace. Give up on the whole host, not just the URL.
+            reason = f"HTTP 429 on every attempt at {url}"
+            self._blocked[host] = reason
+            raise Blocked(f"{host} is rate-limiting this client - {reason}")
         log.error("giving up on %s after %d attempts", url, max_retries)
         return None
 
@@ -1220,6 +1238,9 @@ def main() -> int:
     p.add_argument("--city", default="paris")
     p.add_argument("--source", action="append", choices=sorted(SOURCES),
                    help="limit to these sources (repeatable); default: all")
+    p.add_argument("--exclude", action="append", choices=sorted(SOURCES), default=[],
+                   help="skip these sources (repeatable) - useful for a host "
+                        "that refuses the environment you run in")
     p.add_argument("--no-sync", action="store_true",
                    help="read the local DB only, make no requests")
     p.add_argument("--force", action="store_true",
@@ -1249,7 +1270,9 @@ def main() -> int:
 
     store = Store(DB_PATH)
 
-    wanted = args.source or sorted(SOURCES)
+    wanted = [n for n in (args.source or sorted(SOURCES)) if n not in args.exclude]
+    if args.exclude:
+        log.info("excluding source(s): %s", ", ".join(args.exclude))
     failed: list[str] = []
 
     if not args.no_sync:
@@ -1282,6 +1305,8 @@ def main() -> int:
                          upcoming=not args.all_dates)
     if args.source:
         events = [e for e in events if e.source in set(args.source)]
+    # Excluded sources are not scraped, but events already in the DB from a
+    # previous run are still perfectly good calendar entries, so they stay.
 
     print(render(events))
 

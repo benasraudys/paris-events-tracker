@@ -37,6 +37,9 @@ jobs:
         uses: astral-sh/setup-uv@v6
         with:
           enable-cache: true
+          # Deps are declared inline (PEP 723) with no lockfile, so key the
+          # uv cache on the script itself - otherwise it never invalidates.
+          cache-dependency-glob: scrape_events.py
 
       # Scheduled runs would otherwise hit every site at the same wall-clock
       # second every day, which is exactly the pattern rate-limiters look for.
