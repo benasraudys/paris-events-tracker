@@ -28,7 +28,30 @@ replacing it with something worse.
 
 The scraper is built for unattended running: one failing source is logged and
 skipped, the calendar is still written from everything that did work, and the
-run only exits non-zero if *every* source failed.
+run only exits non-zero if *every* source failed. A host that answers 429 on
+every attempt is abandoned for the whole run rather than retried per URL.
+
+### shotgun.live is skipped in CI
+
+`shotgun.live` returns **HTTP 429 to the very first request from a GitHub
+runner IP**, reproducibly, no matter how slowly we go — it is refusing
+datacenter traffic, not reacting to our pace. The scheduled run therefore
+passes `--exclude shotgun`: retrying daily would be pointless traffic aimed at
+a host that has said no. No attempt is made to disguise the client or route
+around the block.
+
+It still works fine from a normal connection, so run it locally when you want
+those listings refreshed:
+
+```bash
+uv run scrape_events.py --source shotgun --ics public/paris-events.ics
+```
+
+Note that the local DB is not shared with CI, so **the hosted calendar covers
+erasmusplace + Eventbrite only** (16 events at time of writing, vs 21 locally).
+If you want Shotgun in the hosted feed, the honest options are to run the job
+from a machine on a residential connection (a cron on your own box, pushing the
+`.ics`), or to drop that source.
 
 ## Usage
 

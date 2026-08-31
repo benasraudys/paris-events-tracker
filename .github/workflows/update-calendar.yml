@@ -63,10 +63,16 @@ jobs:
           restore-keys: |
             events-db-
 
+      # shotgun.live answers 429 to the very first request from GitHub runner
+      # IPs - reproducibly, and regardless of pacing. Retrying it daily would
+      # just be noise aimed at a host that has said no, so it is skipped here.
+      # It still works from a normal connection: drop --exclude when running
+      # locally. Events already collected from it stay in the calendar.
       - name: Scrape and build calendar
         run: |
           mkdir -p public
           uv run scrape_events.py \
+            --exclude shotgun \
             --ics public/paris-events.ics \
             --json public/paris.json \
             ${{ inputs.force && '--force' || '' }}
