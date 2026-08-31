@@ -1,0 +1,103 @@
+name: Update calendar
+
+on:
+  schedule:
+    # 05:17 UTC daily. An odd minute avoids the on-the-hour stampede that
+    # GitHub's scheduler already struggles with; the job then adds its own
+    # random delay (see "Randomised delay" below).
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Ignore all caches and refetch every page"
+        type: boolean
+        default: false
+
+# Least privilege: read the repo, publish to Pages. Nothing needs write
+# access to the repository itself - the calendar is deployed, not committed.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two runs deploy Pages at once, but don't cancel a run in flight
+# either: it is mid-scrape and cancelling wastes the requests already made.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      # Scheduled runs would otherwise hit every site at the same wall-clock
+      # second every day, which is exactly the pattern rate-limiters look for.
+      # Manual runs are not delayed - you are waiting on them.
+      - name: Randomised delay
+        if: github.event_name == 'schedule'
+        run: |
+          DELAY=$(( RANDOM % 2400 ))
+          echo "Sleeping ${DELAY}s (~$(( DELAY / 60 )) min) before scraping."
+          sleep "$DELAY"
+
+      # The DB carries the change stamps and cached bodies that make a run
+      # cost ~3 requests instead of ~30. Without it every run is a cold start.
+      # A run_id-suffixed key with a prefix restore-key gives us a rolling
+      # cache (a fixed key would never be updated).
+      - name: Restore scrape cache
+        uses: actions/cache/restore@v4
+        with:
+          path: data/events.db
+          key: events-db-${{ github.run_id }}
+          restore-keys: |
+            events-db-
+
+      - name: Scrape and build calendar
+        run: |
+          mkdir -p public
+          uv run scrape_events.py \
+            --ics public/paris-events.ics \
+            --json public/paris.json \
+            ${{ inputs.force && '--force' || '' }}
+
+      # Saved even if a source failed: a partially updated DB is still worth
+      # more than a cold start next time.
+      - name: Save scrape cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/events.db
+          key: events-db-${{ github.run_id }}
+
+      - name: Assemble site
+        run: |
+          cp site/index.html public/index.html
+          ls -la public/
+          echo "--- calendar head ---"
+          head -c 400 public/paris-events.ics
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  # Separate job so a failed scrape leaves the previously published calendar
+  # in place rather than replacing it with something broken.
+  deploy:
+    needs: scrape
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

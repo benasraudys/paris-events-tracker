@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paris student &amp; youth events calendar</title>
+<style>
+  :root {
+    --bg: #fbfaf8;
+    --fg: #1a1a1a;
+    --muted: #5c5c5c;
+    --line: #e2ddd5;
+    --card: #ffffff;
+    --accent: #1744b9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --fg: #ececec;
+      --muted: #9d9d9d;
+      --line: #2b2f36;
+      --card: #1b1e24;
+      --accent: #7ea6ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2.5rem 1.25rem 4rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 44rem; margin: 0 auto; }
+  h1 { font-size: 1.75rem; line-height: 1.2; margin: 0 0 .5rem; letter-spacing: -.01em; }
+  .sub { color: var(--muted); margin: 0 0 2rem; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1.25rem 1.35rem;
+    margin: 0 0 1.25rem;
+  }
+  h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .07em;
+       color: var(--muted); margin: 0 0 .75rem; font-weight: 600; }
+  .btn {
+    display: inline-block; padding: .6rem 1.1rem; border-radius: 7px;
+    background: var(--accent); color: #fff; text-decoration: none; font-weight: 600;
+  }
+  .btn.secondary { background: transparent; color: var(--accent);
+                   border: 1px solid var(--accent); margin-left: .5rem; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: .875em; background: var(--bg); border: 1px solid var(--line);
+    border-radius: 4px; padding: .12em .4em; word-break: break-all;
+  }
+  ul { margin: .5rem 0 0; padding-left: 1.2rem; }
+  li { margin: .3rem 0; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: .875rem; margin-top: 2.5rem;
+           border-top: 1px solid var(--line); padding-top: 1.25rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Paris student &amp; youth events</h1>
+  <p class="sub">
+    Cheap and free events for students, Erasmus and young people in Paris,
+    collected daily from several listing sites into one calendar feed.
+  </p>
+
+  <div class="card">
+    <h2>Subscribe</h2>
+    <p style="margin-top:0">
+      Subscribing keeps the calendar updated automatically. Downloading imports
+      a one-off snapshot instead.
+    </p>
+    <p style="margin-bottom:.35rem">
+      <a class="btn" href="webcal://benasraudys.github.io/paris-events-tracker/paris-events.ics">Subscribe</a>
+      <a class="btn secondary" href="./paris-events.ics">Download .ics</a>
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Add it manually</h2>
+    <p style="margin-top:0">Paste this URL into your calendar app's
+      &ldquo;subscribe to calendar&rdquo; option:</p>
+    <p><code>https://benasraudys.github.io/paris-events-tracker/paris-events.ics</code></p>
+    <ul>
+      <li><strong>Google Calendar</strong> &rarr; Other calendars &rarr; From URL</li>
+      <li><strong>Apple Calendar</strong> &rarr; File &rarr; New Calendar Subscription</li>
+      <li><strong>Outlook</strong> &rarr; Add calendar &rarr; Subscribe from web</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Good to know</h2>
+    <ul>
+      <li>Times are Europe/Paris, with a proper <code>VTIMEZONE</code>, so they
+          stay correct in any timezone.</li>
+      <li>Ticket prices are in the event title &mdash; several listings share the
+          same name, and the price is usually what you are deciding on.</li>
+      <li>The same night can appear twice if two sites list it, sometimes at
+          different prices. Both are kept on purpose, so you can pick the cheaper.</li>
+      <li>Prices and line-ups change; always check the linked event page before
+          turning up.</li>
+    </ul>
+  </div>
+
+  <footer>
+    Rebuilt daily by a scheduled job.
+    Raw data: <a href="./paris.json">paris.json</a>.
+    Source and scraper notes:
+    <a href="https://github.com/benasraudys/paris-events-tracker">github.com/benasraudys/paris-events-tracker</a>.
+    Not affiliated with any of the listing sites or event organisers.
+  </footer>
+</main>
+</body>
+</html>

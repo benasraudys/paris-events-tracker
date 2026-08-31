@@ -1,0 +1,23 @@
+# Local scrape state: the SQLite DB holds cached page bodies and is rebuilt
+# from the sources, so it is never committed. CI persists it via actions/cache.
+data/
+
+# Generated outputs. `public/` is assembled by the workflow from site/ plus
+# the scraper's output and published to Pages, so it is never committed.
+public/
+*.ics
+*.json
+!.github/**/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
