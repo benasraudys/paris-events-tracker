@@ -16,7 +16,9 @@ on:
 # Least privilege: read the repo, publish to Pages. Nothing needs write
 # access to the repository itself - the calendar is deployed, not committed.
 permissions:
-  contents: read
+  # write: the calendar is committed to calendar/ so its history shows how
+  # listings changed. Pages still gets its own copy via the artifact.
+  contents: write
   pages: write
   id-token: write
 
@@ -69,10 +71,11 @@ jobs:
       # It still works from a normal connection: drop --exclude when running
       # locally. Events already collected from it stay in the calendar.
       - name: Scrape and build calendar
+        env:
+          SCRAPINGANT_API_KEY: ${{ secrets.SCRAPINGANT_API_KEY }}
         run: |
           mkdir -p public
           uv run scrape_events.py \
-            --exclude shotgun \
             --ics public/paris-events.ics \
             --json public/paris.json \
             ${{ inputs.force && '--force' || '' }}
@@ -92,6 +95,39 @@ jobs:
           ls -la public/
           echo "--- calendar head ---"
           head -c 400 public/paris-events.ics
+
+      # Committed so the repo carries a history of how listings changed.
+      # Every run rewrites DTSTAMP, so a plain `git diff` would produce a
+      # commit a day saying nothing; only real content changes are kept.
+      - name: Commit calendar if it changed
+        run: |
+          mkdir -p calendar
+          cp public/paris-events.ics calendar/paris-events.ics
+          cp public/paris.json       calendar/paris.json
+
+          if git diff --quiet -- calendar/; then
+            echo "Calendar unchanged."
+            exit 0
+          fi
+
+          substantive=$(git diff -U0 -- calendar/ \
+            | grep -E '^[+-]' \
+            | grep -vE '^(\+\+\+|---)' \
+            | grep -vE '^[+-]DTSTAMP' \
+            | head -1 || true)
+
+          if [ -z "$substantive" ]; then
+            echo "Only DTSTAMP changed - not committing."
+            git checkout -- calendar/
+            exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add calendar/
+          git commit -m "Update calendar ($(date -u '+%Y-%m-%d')) [skip ci]"
+          git push
+          echo "Committed calendar changes."
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

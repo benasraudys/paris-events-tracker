@@ -17,7 +17,9 @@ uv run scrape_events.py
 
 `.github/workflows/update-calendar.yml` runs daily at 05:17 UTC, then sleeps a
 random 0–40 min before scraping so the sites are not hit at the same
-wall-clock second every day. It can also be run by hand from the Actions tab
+wall-clock second every day. The calendar is committed to
+[`calendar/`](calendar/) — only when something other than the timestamp
+changed — and published to Pages. It can also be run by hand from the Actions tab
 (with an optional `force` input to bypass every cache).
 
 The SQLite DB is carried between runs by `actions/cache`, which is what keeps a
@@ -31,74 +33,45 @@ skipped, the calendar is still written from everything that did work, and the
 run only exits non-zero if *every* source failed. A host that answers 429 on
 every attempt is abandoned for the whole run rather than retried per URL.
 
-### shotgun.live is skipped in CI
+### shotgun.live and ScrapingAnt
 
 `shotgun.live` returns **HTTP 429 to the very first request from a GitHub
-runner IP**, reproducibly, no matter how slowly we go — it is refusing
-datacenter traffic, not reacting to our pace. The scheduled run therefore
-passes `--exclude shotgun`: retrying daily would be pointless traffic aimed at
-a host that has said no. No attempt is made to disguise the client or route
-around the block.
+runner IP**, no matter how slowly we go: it filters datacenter ranges rather
+than reacting to our pace. Its robots.txt is `Allow: /`, so the pages
+themselves are fair game — the block is about where the request comes from.
 
-It still works fine from a normal connection, so run it locally when you want
-those listings refreshed:
+CI therefore routes *only this host* through [ScrapingAnt](https://scrapingant.com)
+(`SCRAPINGANT_API_KEY`, a repository secret). The other two sources are fetched
+directly, as before. Set the same variable locally to scrape it from your own
+machine; without a key the source simply fails and is skipped.
 
-```bash
-uv run scrape_events.py --source shotgun --ics public/paris-events.ics
-```
+**Pool escalation keeps it cheap.** Measured costs, `browser=false`:
 
-Note that the local DB is not shared with CI, so **the hosted calendar covers
-erasmusplace + Eventbrite only** (16 events at time of writing, vs 21 locally).
-If you want Shotgun in the hosted feed, the honest options are to run the job
-from a machine on a residential connection (a cron on your own box, pushing the
-`.ics`), or to drop that source.
+| Pool | Credits/request | Works on shotgun? |
+| --- | --- | --- |
+| `datacenter` | 1 | Intermittently — exits get burnt |
+| `residential` (FR) | 25 | Yes, sometimes after a retry |
 
-## Usage
+So each run starts on the 1-credit datacenter pool; the first `HTTP 423`
+("our browser was detected") marks the host and everything after it goes
+residential. That wastes at most one credit per run instead of paying 25×
+for every page. Rejected attempts are not billed, so retrying costs nothing
+but time.
 
-```bash
-uv run scrape_events.py                      # sync + list upcoming Paris events
-uv run scrape_events.py --free-only          # only free ones
-uv run scrape_events.py --city lyon          # other cities
-uv run scrape_events.py --source shotgun     # one source only
-uv run scrape_events.py --json data/paris.json
-uv run scrape_events.py --ics                 # -> data/paris-events.ics
-uv run scrape_events.py --free-only --ics free.ics
-uv run scrape_events.py --no-sync --ics      # rebuild the .ics, zero requests
-uv run scrape_events.py --force              # ignore caches, refetch everything
-uv run scrape_events.py --delay 10 -v        # slower + verbose
-```
+A full cold refresh is ~201 credits (1 + 8 × 25) against a 10,000/month free
+tier. Steady state is far lower — the venue page is held 20 h and event pages
+3 days, so a typical day is ~25–90 credits, and a run with a warm cache spends
+nothing at all.
 
-Data lands in `data/events.db` (`events` + `http_cache` tables). Events are
-upserted, never deleted, with `first_seen` / `last_seen` stamps, so the DB
-doubles as a history of what was listed when.
+Three guards, because the quota is finite and a loop bug is expensive:
 
-## Not getting IP-banned
+- `PROXY_BUDGET_PER_RUN` (12) caps proxied requests per run.
+- `PROXY_CREDIT_FLOOR` (500) stops using the proxy near the end of the quota.
+- Remaining credits are logged whenever the proxy was used.
 
-The `Fetcher` class enforces all of this centrally, for every source:
-
-| Measure | Detail |
-| --- | --- |
-| robots.txt | Fetched once per host and honoured before every request |
-| Serial requests | One at a time — no concurrency, ever |
-| Throttle | 4 s + up to 2 s random jitter between requests (`--delay`) |
-| Incremental sync | Detail pages are refetched **only** when the index says the post changed |
-| Fresh-cache TTL | `max_age` serves a recent cached copy with **no request at all** |
-| Conditional GET | `If-None-Match` / `If-Modified-Since` from the local cache |
-| Backoff | Exponential, honouring `Retry-After`, on 429 and 5xx |
-| Bail-out | A 403 aborts the run rather than hammering a host that is blocking us |
-
-The big win is the incremental sync, not the throttling:
-
-- **First run:** ~30 requests ≈ 3 min (robots + 2 REST + 14 event pages;
-  1 Eventbrite profile + 2 event pages; 1 Shotgun venue + 8 event pages)
-- **Every run after:** **3 requests** ≈ 17 s — erasmusplace detail pages are
-  skipped by change-stamp, Eventbrite's and Shotgun's by TTL
-
-So a daily cron costs a handful of requests a day, and only pays for pages that
-actually changed. Note that erasmusplace.com sends no `ETag` or `Last-Modified`
-on event pages, so conditional GET is inert *on this host* — the `modified`
-timestamp from the REST index is what does the real work here. Eventbrite pages
-*do* send ETags, so conditional GET is live on that source.
+`browser=false` throughout: the data is server-rendered, so headless Chrome
+would add cost and nothing else. No fingerprint spoofing beyond the ordinary
+browser UA already in use, and `--no-proxy` disables the whole path.
 
 ## Calendar export
 

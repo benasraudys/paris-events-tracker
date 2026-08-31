@@ -1,0 +1,518 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//events-tracker//Paris student events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Paris student & youth events
+X-WR-TIMEZONE:Europe/Paris
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:erasmusplace-286729@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260831T200000
+DTEND;TZID=Europe/Paris:20260831T220000
+SUMMARY:Erasmus Meet and speak : Rooftop night - Free
+LOCATION:Generator Hostel
+URL:https://erasmusplace.com/region/paris/evenements/erasmus-meet-and-speak
+ /
+CATEGORIES:gratuit
+DESCRIPTION:Price: Free\nVenue: Generator Hostel\nErasmus Meet & Speak arri
+ ve à Paris !Chaque lundi\, retrouve-nous au Generator Paris\, avec sa pre
+ mière sur son rooftop avec une vue imprenable sur le Sacré-Cœur\, pour 
+ un moment de rencontres et d'échanges dans l'un des plus beaux spots de l
+ a capitale.Une table\, une langue : installe-toi à la table de ton choix 
+ selon la langue que tu souhaites pratiquer\, ou passe de l'une à l'autre 
+ au fil de la soirée. L'objectif est simple : rencontrer de nouvelles pers
+ onnes\, partager des expériences et pratiquer les langues dans une ambian
+ ce conviviale et internationale.Ouvert aux Erasmus\, étudiants internatio
+ naux\, au-pairs\, voyageurs et Français.Que tu souhaites parler anglais\,
+  espagnol\, italien\, allemand\, français ou simplement discuter avec des
+  personnes venues des quatre coins du monde\, tout le monde est le bienven
+ u.C'est un moment détendu pour faire de nouvelles rencontres\, découvrir
+  Paris sous le soleil depuis le rooftop du Generator et commencer la semai
+ ne dans la meilleure des ambiances\, autour d'un verre.Nous avons hâte de
+  te retrouver pour cette nouvelle édition du Erasmus Meet and Speak à Pa
+ ris !\n\nhttps://erasmusplace.com/region/paris/evenements/erasmus-meet-and
+ -speak/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-14238@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260902T230000
+DTEND;TZID=Europe/Paris:20260903T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-ready-
+ for-a-new-life-020926/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nVoyager à travers le mon
+ de en une soirée c’est possible !KISS MY ERASMUS\, c'est le rendez-vous
+  de tous les étudiants Erasmus\, au pair\, stagiaires de nationalité ét
+ rangère vivant à Paris et leurs amis…KISS MY ERASMUS Une soirée Erasm
+ us qui te fait découvrir les 4 coins du monde en quelques pas de danse et
+  des "Chupitos/shooter" pour briser ta timidité. Tu pourras porter fière
+ ment les couleurs de ton pays grâce aux drapeaux distribués dès l’ent
+ rée.Côté musique on reste électro\, RNB\, Reggaeton\, Pop\, Disco\, ce
+ tte soirée c’est la tienne !\n\nhttps://erasmusplace.com/region/paris/e
+ venements/kiss-my-erasmus-ready-for-a-new-life-020926/
+END:VEVENT
+BEGIN:VEVENT
+UID:shotgun-584521@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260904T203000
+DTEND;TZID=Europe/Paris:20260905T050000
+SUMMARY:The Garden Party - Chalet Du Lac - Vendredi 4 Septembre - from 10.0
+ 0 EUR
+LOCATION:Chalet du lac\, Bois de Vincennes\, 2 Avenue Anna Politkovskaïa O
+ rée du\, 75012 Paris\, France
+URL:https://shotgun.live/en/events/villa-club-the-garden-party-chalet-du-la
+ c
+DESCRIPTION:Price: from 10.00 EUR\nVenue: Chalet du lac\, Bois de Vincennes
+ \, 2 Avenue Anna Politkovskaïa Orée du\, 75012 Paris\, France\nENGLISH B
+ ELOW LA VILLA CLUB — THE GARDEN PARTY 🌴 LA PLUS GRANDE SOIRÉE DE LA 
+ RENTRÉE 🔥 TOUTES ÉCOLES • TOUTES UNIVERSITÉS • FRANÇAIS & INTER
+ NATIONAUX VENDREDI 4 SEPTEMBRE — CHALET DU LAC Pour une nuit exceptionne
+ lle\, plus de 3 000 étudiants français et internationaux vont prendre po
+ ssession du mythique Chalet du Lac pour célébrer ensemble la rentrée. L
+ ’un des plus grands rassemblements étudiants de l’année. 🌴 IMMENS
+ E GARDEN EN EXTÉRIEUR 🎧 DJ SETS OUTDOOR 🔥 2 CLUBS • 2 AMBIANCES 
+ 🌍 3 000+ FRANÇAIS & INTERNATIONAUX 🍔 FOOD TRUCKS & BARS 🎪 JEUX 
+ • PERFORMERS • ANIMATIONS ✨ SURPRISES TOUTE LA SOIRÉE 🕺 PARTY JU
+ SQU’AU BOUT DE LA NUIT Venez tôt profiter de la Garden Party\, rencontr
+ er des étudiants venus de tout Paris et du monde entier\, prendre un verr
+ e et célébrer les derniers jours de l’été. Puis\, à la tombée de l
+ a nuit… LA VILLA SE TRANSFORME EN CLUB. 🔥 🔥 2 CLUBS — 2 AMBIANCE
+ S MAIN ROOM 🌍 Hits • Hip-Hop • Afro • Pop • Club Anthems BAILE 
+ LOCA ROOM 🌶️ Reggaeton • Baile Funk • Latino Un ticket. Deux club
+ s. 3 000+ personnes. 🎟️ BILLETS GRATUIT — Guestlist avant 00h00 10 
+ € — Early Ticket\, entrée avant 1h30 15 € — Standard Ticket\, ent
+ rée avant 2h00 20 € — Last Ticket\, entrée avant 3h00 ⚠️ PLAC...
+ \n\nhttps://shotgun.live/en/events/villa-club-the-garden-party-chalet-du-l
+ ac
+END:VEVENT
+BEGIN:VEVENT
+UID:eventbrite-1997468836059@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260906T150000
+DTEND;TZID=Europe/Paris:20260906T200000
+SUMMARY:ERASMUS WELCOME PICNIC 2026 - Free
+LOCATION:Tour Eiffel - Parc du Champ-de-Mars\, Champs de Mars\, 75007 Paris
+URL:https://www.eventbrite.fr/e/erasmus-welcome-picnic-2026-tickets-1997468
+ 836059
+DESCRIPTION:Price: Free\nVenue: Tour Eiffel - Parc du Champ-de-Mars\, Champ
+ s de Mars\, 75007 Paris\nOfficial Erasmus Kick-off by Paris Erasmus Life\n
+ \nhttps://www.eventbrite.fr/e/erasmus-welcome-picnic-2026-tickets-19974688
+ 36059
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-287793@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260907T200000
+DTEND;TZID=Europe/Paris:20260908T003000
+SUMMARY:Erasmus Meet and speak : Karaoke night - Free
+LOCATION:Generator Hostel
+URL:https://erasmusplace.com/region/paris/evenements/erasmus-meet-and-speak
+ -karaoke/
+CATEGORIES:gratuit
+DESCRIPTION:Price: Free\nVenue: Generator Hostel\nErasmus Meet & Speak t'ac
+ cueille chaque lundi au Generator Paris !Retrouve-nous dans le bar du Gene
+ rator pour une soirée conviviale où les rencontres se font naturellement
+  autour d'une grande table\, de jeux\, d'un karaoké et de discussions ave
+ c des étudiants venus des quatre coins du monde.Une table\, une langue : 
+ installe-toi où tu le souhaites\, pratique une langue\, découvre une nou
+ velle culture ou profite simplement d'une bonne conversation. Ici\, le plu
+ s important est de rencontrer de nouvelles personnes et de partager un bon
+  moment.Ouvert aux Erasmus\, étudiants internationaux\, au-pairs\, voyage
+ urs et Français.Que tu souhaites parler anglais\, espagnol\, italien\, al
+ lemand\, français ou simplement échanger avec des personnes du monde ent
+ ier\, tout le monde est le bienvenu.Au programme : discussions\, jeux\, ka
+ raoké\, rencontres et une ambiance chaleureuse pour commencer la semaine 
+ de la meilleure façon possible.Que tu viennes d'arriver à Paris ou que t
+ u y vives déjà\, c'est le rendez-vous idéal pour élargir ton cercle d'
+ amis\, pratiquer les langues et vivre pleinement ton expérience internati
+ onale.\n\nhttps://erasmusplace.com/region/paris/evenements/erasmus-meet-an
+ d-speak-karaoke/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-287746@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260909T230000
+DTEND;TZID=Europe/Paris:20260910T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/lyon/evenements/kiss-my-erasmus-welcome
+ -party-090926/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nC’est LE grand rendez-v
+ ous de rentrée. Tous les étudiants internationaux\, Erasmus\, au pairs e
+ t jeunes expats sont attendus pour une soirée XXL. On fête ensemble le d
+ ébut de cette nouvelle aventure\, avec une ambiance survoltée ! Personne
+  ne se connaît encore vraiment... et c’est justement pour ça que c’e
+ st si facile de se faire des amis !\n\nhttps://erasmusplace.com/region/lyo
+ n/evenements/kiss-my-erasmus-welcome-party-090926/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-287927@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260911T230000
+DTEND;TZID=Europe/Paris:20260912T050000
+SUMMARY:Erasmus & Student Party | Club Haussmann - À partir de 13€
+LOCATION:Club Haussmann
+URL:https://erasmusplace.com/region/paris/evenements/erasmus-student-party/
+DESCRIPTION:Price: À partir de 13€\nVenue: Club Haussmann\nREADY FOR THE
+  BIG STUDENT OPENING ?Rendez-vous le vendredi 11 septembre au Club Haussma
+ nn pour lancer la saison 2026/2027 avec tous les étudiants internationaux
+ \, Français et Erasmus de Paris.Que tu viennes d’arriver à Paris ou qu
+ e tu sois déjà installé\, c’est la soirée parfaite pour rencontrer d
+ u monde\, faire de nouvelles connaissances et commencer l’année dans un
+ e ambiance internationale.AU PROGRAMMEHappy Hour de 23h à minuit avec des
+  tarifs réduits sur toute la carte du barLa nouvelle roue à shots : tu l
+ a fais tourner\, elle décideTournoi de Beer PongPhotobooth gratuit toute 
+ la soiréeGoodies offertsMusique généraliste\, commerciale et internatio
+ nalePRÊTS À LANCER CETTE NOUVELLE SAISON AVEC NOUS ?\n\nhttps://erasmusp
+ lace.com/region/paris/evenements/erasmus-student-party/
+END:VEVENT
+BEGIN:VEVENT
+UID:shotgun-574275@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260912T233000
+DTEND;TZID=Europe/Paris:20260913T053000
+SUMMARY:Erasmus Welcome Party 2026 - Solum Pont Alexandre I… - from 13.20
+  EUR
+LOCATION:Solum\, Rive gauche\, Pont Alexandre III\, 75007 Paris\, France
+URL:https://shotgun.live/en/events/international-welcome-party-2025-solum-p
+ ont-alexandre-iii-4
+DESCRIPTION:Price: from 13.20 EUR\nVenue: Solum\, Rive gauche\, Pont Alexan
+ dre III\, 75007 Paris\, France\nFOLLOW PARIS ERASMUS LIFE on INSTAGRAM htt
+ ps://www.instagram.com/paris.erasmus.life/ 🔥✦✦✦ ERASMUS WELCOME P
+ ARTY 2026 – SOLUM PONT ALEXANDRE III ✦✦✦🔥 🎉 SATURDAY\, SEPTE
+ MBER 12th – The Ultimate Welcome Party of the Year Lands in Paris! Get r
+ eady for a mind-blowing night as we take over the legendary Solum for an e
+ pic international celebration like no other! This isn’t just another par
+ ty. It’s a full-scale sensorial experience with insane sound\, dazzling 
+ lights\, and electrifying energy. Welcome to Paris guys ! 🌍 1200+ Stude
+ nts & Internationals. One Legendary Night. Are You In? Which nationality w
+ ill be the most represented? —which school will take over the dancefloor
+ ? 🔹 WHAT TO EXPECT? ✨ Spectacular Location: A stunning venue under Al
+ exander III Bridge 🎭 Live Performers & Artists: Open your senses 🎧 3
+  International Guest DJs 🔥 Hottest Dancefloor: A fusion of Hip-Hop\, Re
+ ggaeton & House beats 🏆 Massive VIP area behind the DJ 🌎 50+ Nationa
+ lities—Unite\, Dance\, Celebrate! 📸 Photographers & Videographers cap
+ turing every wild moment 🎶 Non-Stop Hits from: Drake • J Balvin • R
+ ihanna • Bad Bunny • David Guetta • Karol G • Dua Lipa • Kendric
+ k Lamar • Kanye West • Doja Cat • Central Cee • Rauw Al...\n\nhttp
+ s://shotgun.live/en/events/international-welcome-party-2025-solum-pont-ale
+ xandre-iii-4
+END:VEVENT
+BEGIN:VEVENT
+UID:shotgun-589146@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260912T233000
+DTEND;TZID=Europe/Paris:20260913T060000
+SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
+ m 12.99 EUR
+LOCATION:YOYO\, Palais De Tokyo\, 13 Avenue du Président Wilson\, 75016 Pa
+ ris\, France
+URL:https://shotgun.live/en/events/la-plus-grande-soiree-reggaeton-open-for
+ mat-yoyo-12septembre
+DESCRIPTION:Price: from 12.99 EUR\nVenue: YOYO\, Palais De Tokyo\, 13 Avenu
+ e du Président Wilson\, 75016 Paris\, France\n🌶 SAMEDI 12 septembre | 
+ DE 23H00 À 06H00 🌶 BAILE LOCA LA + GROSSE SOIRÉE REGGAETON DE FRANCE 
+ ! ✨ La plus grosse soirée 100% Reggaeton | Latino | Hiphop de Paris 
+ 🕛 Le meilleur des sons actuels & des classiques de 23h30 à 05h30 📍 
+ YOYO – PALAIS DE TOKYO | PARIS 16E 💥 REGGAETON PARTY XXL 💥 🚨 + 
+ DE 1400 PERSONNES À CHAQUE ÉDITION ! ➡️ LE RENDEZ-VOUS LATINO #1 DE 
+ LA CAPITALE ! 🇨🇴🇨🇺🇵🇷🇩🇴 ⸻ 🔥 BAILE LOCA EST DEV
+ ENUE EN QUELQUES ANNÉES LA SOIRÉE REGGAETON DE RÉFÉRENCE A PARIS LA NU
+ IT S’ANNONCE BRÛLANTE… 🔥 Prépare-toi pour La soirée reggaeton & 
+ Open Format\, latino & hip-hop de l’année à Paris ! Une ambiance de fo
+ lie\, une foule en délire\, des rythmes endiablés… 💃🏼 Viens dans
+ er jusqu’au lever du soleil sur le meilleur de la culture latine ! 🕺
+ 🏽 AJOUTEZ NOUS SUR INSTAGRAM > https://instagram.com/soireeaparis75 
+ 🎶 AU PROGRAMME MUSICAL : ➡️ 100% REGGAETON 💃 | LATINO CLASSIQUES
+  🌴 | HIP-HOP 🔥 & OPEN FORMAT 🎧 🎧 Aux platines : ✨ DJ' S : DJ
+  LS\, DJ FADEK & SEAN CORTEZ AUX COMMANDES 💥 🚨🔥 ➡️ Un mix exp
+ losif des plus gros hits du moment & des classiques qui font vibrer tout l
+ e monde ! 🎵 Tu vas t’enjailler sur : Bad Bunny 🐰 – Karol G 💅 
+ – Daddy Yankee 🚀 – Nicky Jam 🎤 – Rosalía 💃 – Don Omar 
+ 🔥 – J Balvin 💥 – Ozun...\n\nhttps://shotgun.live/en/events/la-pl
+ us-grande-soiree-reggaeton-open-format-yoyo-12septembre
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-285795@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260916T230000
+DTEND;TZID=Europe/Paris:20260917T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-dia-de
+ -la-independencia-160926/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée 100% Mexico p
+ our fêter l’indépendance comme là-bas ! Mariachis\, couleurs vives\, 
+ drapeaux de méxique... Cette nuit\, on crie "Viva México" tous ensemble.
+  Que tu sois mexicain ou juste fan de tacos et de tequila\, tu es le bienv
+ enu pour une soirée pleine de chaleur et de musique latine.\n\nhttps://er
+ asmusplace.com/region/paris/evenements/kiss-my-erasmus-dia-de-la-independe
+ ncia-160926/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-286738@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260918T230000
+DTEND;TZID=Europe/Paris:20260919T050000
+SUMMARY:Erasmus Full Party : Huge Welcome Party - Free
+LOCATION:Café Oz Châtelet
+URL:https://erasmusplace.com/region/paris/evenements/erasmus-full-party-ful
+ l180926/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nMesdames et Messieurs\,
+  ici Air Erasmus.L'embarquement est désormais ouvert. Destination : le to
+ ur du monde... en une seule nuit.Bienvenue à bord de l'Erasmus Full Party
+  – Huge Welcome Party\, la plus grande soirée internationale de la rent
+ rée.Prépare-toi à rencontrer des centaines d'étudiants Erasmus\, inter
+ nationaux\, français et jeunes actifs venus des quatre coins du monde\, d
+ ans une ambiance où chaque discussion peut devenir une nouvelle amitié e
+ t chaque chanson un souvenir inoubliable.Au programme : les meilleurs sons
+  Reggaeton\, Baile Funk\, Pop et tous les plus grands hits internationaux 
+ que tout le monde chante à l'unisson.Que tu viennes d'arriver ou que tu s
+ ois déjà installé\, cette soirée est le meilleur moyen de commencer to
+ n aventure\, de créer de nouvelles rencontres et de vivre l'expérience i
+ nternationale qui fait la réputation des soirées Erasmus.Déjà des mill
+ iers d'étudiants ont participé aux précédentes éditions. Si tu n'as j
+ amais vécu une Erasmus Full Party\, prépare-toi à comprendre pourquoi t
+ out le monde en parle.Bienvenue à bord d'Air Erasmus. Attache ta ceinture
+ ... il est temps de faire le tour du monde en une seule nuit.\n\nhttps://e
+ rasmusplace.com/region/paris/evenements/erasmus-full-party-full180926/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-14390@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260923T230000
+DTEND;TZID=Europe/Paris:20260924T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-italia
+ n-party-230926/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
+  une soirée haute en couleur (et en chaleur). Entre classiques pop\, regg
+ aeton et tubes 100% italiens. Tu n’as pas besoin de parler italien pour 
+ venir\, mais tu repartiras sûrement avec quelques mots en tête… et peu
+ t-être un ou deux nouveaux amis de Rome\, Milan ou Naples ! Les italiens 
+ savent mettre de l’ambiance !KISS MY ERASMUS Une soirée Erasmus qui te 
+ fait découvrir les 4 coins du monde en quelques pas de danse et des "Chup
+ itos/shooter" pour briser ta timidité. Tu pourras porter fièrement les c
+ ouleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côt
+ é musique on reste électro\, RNB\, Reggaeton\, Pop\, Disco\, cette soir
+ ée c’est la tienne !\n\nhttps://erasmusplace.com/region/paris/evenement
+ s/kiss-my-erasmus-italian-party-230926/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-284315@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260925T230000
+DTEND;TZID=Europe/Paris:20260926T050000
+SUMMARY:E-BOAT PARTY - A partir de 13€
+LOCATION:2 Quai de la Tournelle\, 75005 Paris
+URL:https://erasmusplace.com/region/paris/evenements/e-boat-party-boat25092
+ 6/
+CATEGORIES:payant,soirees
+DESCRIPTION:Price: A partir de 13€\nVenue: 2 Quai de la Tournelle\, 75005
+  Paris\nC’est ta première vraie « Erasmus Boat Party » ! Face à notr
+ e dame ! Pour cette saison 2026-27\, direction les rives de la seine !Notr
+ e bateau sera amarré au Port de la Tournelle\,. Notre nouveau petit plais
+ ir se déroulera de 23 h à 5h du matin. Deux niveaux d’ambiance et une 
+ terrasse pour admirer Notre Dame de Paris. Nos internationaux seront au re
+ ndez-vous. Prix réduit sur les consommations (les temps sont dur) \, musi
+ que généraliste Electro\, pop\, RNB\, Rock\, Latino\, Reggaeton\, disco
+ …. Pour être dans l’ambiance. Viens avec ta bouée et ton pull à ray
+ ures bleus et blancs !Erasmus\, International\, au pair ou stagiaire\, tu 
+ es le bienvenu !\n\nhttps://erasmusplace.com/region/paris/evenements/e-boa
+ t-party-boat250926/
+END:VEVENT
+BEGIN:VEVENT
+UID:shotgun-580512@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260925T230000
+DTEND;TZID=Europe/Paris:20260926T053000
+SUMMARY:International Boat Party - Rhythm & Groove - from 11.00 EUR
+LOCATION:Bateau Concorde Atlantique\, Port de Solférino\, Quai Anatole Fra
+ nce niveau 23\, 75007 Paris\, France
+URL:https://shotgun.live/en/events/international-boat-party-rhythm-groove-2
+DESCRIPTION:Price: from 11.00 EUR\nVenue: Bateau Concorde Atlantique\, Port
+  de Solférino\, Quai Anatole France niveau 23\, 75007 Paris\, France\nSAM
+ EDI 26 SEPTEMBRE 2026 - INTERNATIONAL BOAT PARTY X CONCORDE ATLANTIQUE Fol
+ low us for more >>> https://www.instagram.com/paris.erasmus.life/ 800 peop
+ le. One boat. Zero excuses. This Saturday\, we takes over Paris's biggest 
+ boat on the Seine. Summer warmth\, open skies\, hot dancefloors\, internat
+ ional crowd\, the kind of night you'll be telling people about. Spaniards\
+ , Brazilians\, Italians\, Dutch\, Germans... every flag is represented. Wh
+ ich one will dominate? See you on the water. 🛥️ 🌐+ 800 Guests 🎉
+  2 Rooms - 2 Vibes: Afrobeats & HipHop / Generalist & Pop 2000s 📸 Huge 
+ rooftop semi-covered 🎶 4 Internationals DJs 🌍 +50 Nationalities 🍭
+  Candies & Gifts 💸 Tickets from 10€ to 20€ - Act fast to pay less A
+ nd a lot of surprises....Go Hard or GO HOME Don't miss this unique evening
+  ! Bateau Concorde Atlantique 23 Quai Anatole France 75007 Paris The Boat 
+ is staying all night\n\nhttps://shotgun.live/en/events/international-boat-
+ party-rhythm-groove-2
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-285942@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20260930T230000
+DTEND;TZID=Europe/Paris:20261001T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-brazil
+ ian-night-300926/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
+ , ça te tente ? Ce soir\, c’est le Brésil qui t’accueille avec ses r
+ ythmes\, et son énergie folle. Attends-toi à danser\, rire\, chanter\, e
+ t peut-être même découvrir quelques pas de samba... Les Brésiliens et 
+ Brésiliennes savent mettre de l’ambiance crois moi !\n\nhttps://erasmus
+ place.com/region/paris/evenements/kiss-my-erasmus-brazilian-night-300926/
+END:VEVENT
+BEGIN:VEVENT
+UID:eventbrite-1989154673174@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20261003T213000
+DTEND;TZID=Europe/Paris:20261004T050000
+SUMMARY:Aquaboulevard Paris Biggest Pool Party 2026 - Samedi 3 octobre - 11
+ .85-27.84 EUR
+LOCATION:Aquaboulevard de Paris\, 4 Rue Louis Armand\, 75015 Paris
+URL:https://www.eventbrite.fr/e/aquaboulevard-paris-biggest-pool-party-2026
+ -samedi-3-octobre-tickets-1989154673174
+DESCRIPTION:Price: 11.85-27.84 EUR\nVenue: Aquaboulevard de Paris\, 4 Rue L
+ ouis Armand\, 75015 Paris\n2 Dancefloors // Artists & Shows // VIP Area //
+  Pools & Jacuzzis\n\nhttps://www.eventbrite.fr/e/aquaboulevard-paris-bigge
+ st-pool-party-2026-samedi-3-octobre-tickets-1989154673174
+END:VEVENT
+BEGIN:VEVENT
+UID:shotgun-534853@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20261003T213000
+DTEND;TZID=Europe/Paris:20261004T050000
+SUMMARY:Aquaboulevard Paris Biggest Pool Party 2026 - from 10.00 EUR
+LOCATION:Aquaboulevard de Paris\, 4 Rue Louis Armand\, 75015 Paris\, France
+URL:https://shotgun.live/en/events/aquaboulevard-paris-biggest-pool-party-2
+ 026-samedi-30-mai
+DESCRIPTION:Price: from 10.00 EUR\nVenue: Aquaboulevard de Paris\, 4 Rue Lo
+ uis Armand\, 75015 Paris\, France\nENGLISH BELOW 💥💦 SAMEDI 3 OCTOBRE
+  – LA PLUS GRANDE POOL PARTY DE FRANCE 💦💥 📍 AQUABOULEVARD – P
+ ARIS 🔥 UNE NUIT. UN LIEU. UNE EXPÉRIENCE INOUBLIABLE. 💦 Immense pis
+ cine intérieure & jacuzzis 🎧 2 Dancefloors • 6 DJs internationaux 
+ – Urban Pop & Afrobeats by FUSION et Latino\, Baile funk by BAILE LOCA +
+  House music 🎭 Performers en live artistes & spectacles ☀ 100% Indoor
+  • 100% Chauffé 🩱 Dress Code : BEACH PLEASE ! De Rio à Mykonos — 
+ arbore ton look plage le plus audacieux ✨ 2 000+ fêtards 🌍 50+ natio
+ nalités réunies 💡 Après 6 mois de préparation\, voici l’ÉVÉNEME
+ NT international de Mai. On ouvre l’été mais on le fais de façon ÉPI
+ QUE. 🎭 PROGRAMME DE LA SOIRÉE 21h – 23h30 : AQUAPARK GEANT 💦 → 
+ ACCÈS GRATUIT aux piscines & jacuzzis → XXL Party Pool : bouées géant
+ es\, vagues artificielles\, canons à mousse\, jets d’eau synchronisés\
+ , lumières & son immersifs → Ambiance Smooth & House pour bien démarre
+ r → Dancefloor au bord de la piscine + Chill Lounge avec transats ⚠ Ar
+ rive tôt — c’est ton moment pour profiter de la magie aquatique ! Ens
+ uite la fête a lieu autour de la piscine ! 23h30 – 5h : CLUB AQUABOULEV
+ ARD 🌐 → 2 DANCEFLOORS • 2 AMBIANCES On sort de l’eau et on passe 
+ en mode club 💃🏼 • Floor 1...\n\nhttps://shotgun.live/en/events/aqu
+ aboulevard-paris-biggest-pool-party-2026-samedi-30-mai
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-285806@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20261007T230000
+DTEND;TZID=Europe/Paris:20261008T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-spanis
+ h-night-071026/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nOlé ! Une soirée dédi
+ ée à l’Espagne et à sa culture festive. Au programme : drapeaux rouge
+ s et jaunes\, flamenco\, pop espagnole et reggaeton. Ramène ta bande ou v
+ iens solo\, tu ne resteras pas seul(e) longtemps !\n\nhttps://erasmusplace
+ .com/region/paris/evenements/kiss-my-erasmus-spanish-night-071026/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-287750@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20261014T230000
+DTEND;TZID=Europe/Paris:20261015T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-italia
+ n-party-141026/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
+  une soirée haute en couleur (et en chaleur). Entre classiques pop\, regg
+ aeton et tubes 100% italiens. Tu n’as pas besoin de parler italien pour 
+ venir\, mais tu repartiras sûrement avec quelques mots en tête… et peu
+ t-être un ou deux nouveaux amis de Rome\, Milan ou Naples ! Les italiens 
+ savent mettre de l’ambiance !KISS MY ERASMUS Une soirée Erasmus qui te 
+ fait découvrir les 4 coins du monde en quelques pas de danse et des "Chup
+ itos/shooter" pour briser ta timidité. Tu pourras porter fièrement les c
+ ouleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côt
+ é musique on reste électro\, RNB\, Reggaeton\, Pop\, Disco\, cette soir
+ ée c’est la tienne !\n\nhttps://erasmusplace.com/region/paris/evenement
+ s/kiss-my-erasmus-italian-party-141026/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-287044@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20261021T230000
+DTEND;TZID=Europe/Paris:20261022T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-reggae
+ ton-night-211026/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
+ r cœur ? Cette soirée est faite pour toi. Du début à la fin\, on balan
+ ce les sons reggaeton les plus emblématiques. Viens bouger sur Bad Bunny\
+ , Karol G\, Daddy Yankee et plein d'autres. C’est caliente ce soir !\n\n
+ https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-reggaeton
+ -night-211026/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-284296@events-tracker
+DTSTAMP:20260831T155130Z
+DTSTART;TZID=Europe/Paris:20261028T230000
+DTEND;TZID=Europe/Paris:20261029T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Châtelet
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-hallow
+ een-281026/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nCostume\, déguisement\
+ , maquillage effrayant ou drôle\, tout est permis ! L’Halloween version
+  Erasmus\, c’est une grande fête déguisée où tu peux vraiment être 
+ qui tu veux (ou ce que tu veux). Musique éclectique\, ambiance mystérieu
+ se\, et toujours cette atmosphère internationale qui rend chaque soirée 
+ unique !KISS MY ERASMUS Une soirée Erasmus qui te fait découvrir les 4 c
+ oins du monde en quelques pas de danse et des "Chupitos/shooter" pour bris
+ er ta timidité. Tu pourras porter fièrement les couleurs de ton pays gr
+ âce aux drapeaux distribués dès l’entrée.Côté musique on reste él
+ ectro\, RNB\, Reggaeton\, Pop\, Disco\, cette soirée c’est la tienne !\
+ n\nhttps://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-hallow
+ een-281026/
+END:VEVENT
+END:VCALENDAR

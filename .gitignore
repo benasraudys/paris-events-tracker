@@ -8,6 +8,15 @@ public/
 *.ics
 *.json
 !.github/**/*.json
+# ...except the published calendar, which IS tracked so its history shows how
+# listings changed over time. Written by the daily workflow.
+!calendar/paris-events.ics
+!calendar/paris.json
+
+# Secrets. The ScrapingAnt key lives here for local runs; CI uses a
+# repository secret. Never commit either.
+.scrapingant_key
+.env
 
 # Python
 __pycache__/

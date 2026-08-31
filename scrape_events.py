@@ -36,6 +36,7 @@ import dataclasses
 import html as html_mod
 import json
 import logging
+import os
 import random
 import re
 import sqlite3
@@ -43,6 +44,7 @@ import sys
 import time
 import unicodedata
 import urllib.robotparser
+from urllib.parse import quote
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Iterable, Iterator
@@ -56,6 +58,19 @@ PARIS_TZ = ZoneInfo("Europe/Paris")
 # Cached page bodies older than this are dropped, so a long-lived DB (e.g. a
 # CI cache restored every day) does not grow without bound.
 CACHE_RETENTION = timedelta(days=30)
+
+# ScrapingAnt is used only for hosts that refuse the environment we run in
+# (see Shotgun.PROXY_HOSTS). It is metered, so proxied requests are counted and
+# capped per run. Measured cost with browser=false on the datacenter pool is
+# 1 credit per request against a 10k/month free tier, which is why that is the
+# default; residential (~50x) is available via --proxy-type if the cheap pool
+# ever stops getting through.
+SCRAPINGANT_ENDPOINT = "https://api.scrapingant.com/v2/general"
+SCRAPINGANT_USAGE = "https://api.scrapingant.com/v2/usage"
+PROXY_BUDGET_PER_RUN = 12
+# Stop using the proxy entirely below this many remaining credits, so a runaway
+# job cannot drain a month's quota.
+PROXY_CREDIT_FLOOR = 500
 
 ROOT = Path(__file__).resolve().parent
 DB_PATH = ROOT / "data" / "events.db"
@@ -283,11 +298,21 @@ class Fetcher:
     """Single-threaded, rate-limited, robots-aware, conditional-GET HTTP client."""
 
     def __init__(self, store: Store, *, delay: float = 4.0, jitter: float = 2.0,
-                 force: bool = False, timeout: float = 30.0):
+                 force: bool = False, timeout: float = 30.0,
+                 proxy_key: str | None = None,
+                 proxy_hosts: frozenset[str] = frozenset(),
+                 proxy_type: str = "datacenter",
+                 proxy_country: str | None = "FR",
+                 proxy_budget: int = PROXY_BUDGET_PER_RUN):
         self.store = store
         self.delay = delay
         self.jitter = jitter
         self.force = force
+        self.proxy_key = proxy_key
+        self.proxy_hosts = proxy_hosts
+        self.proxy_type = proxy_type
+        self.proxy_country = proxy_country
+        self.proxy_budget = proxy_budget
         self.client = httpx.Client(
             headers={
                 "User-Agent": USER_AGENT,
@@ -304,7 +329,11 @@ class Fetcher:
         # each remaining URL against a host that is already answering 429 just
         # burns 20 minutes and annoys it further.
         self._blocked: dict[str, str] = {}
-        self.stats = {"fetched": 0, "not_modified": 0, "fresh": 0, "skipped": 0}
+        # Hosts that rejected a cheap datacenter exit this run.
+        self._escalated: set[str] = set()
+        self._credit_checked = False
+        self.stats = {"fetched": 0, "not_modified": 0, "fresh": 0, "skipped": 0,
+                      "proxied": 0, "proxy_detected": 0}
 
     # -- robots ----------------------------------------------------------
     def _allowed(self, url: str) -> bool:
@@ -326,6 +355,57 @@ class Fetcher:
             self._last_hit[host] = time.monotonic()
         rp = self._robots[host]
         return True if rp is None else rp.can_fetch(USER_AGENT, url)
+
+    # -- proxy -----------------------------------------------------------
+    def _redact(self, text: str) -> str:
+        """Never let the API key reach a log line or an exception message."""
+        return text.replace(self.proxy_key, "***") if self.proxy_key else text
+
+    def _proxy_url(self, url: str, pool: str) -> str:
+        """
+        Rewrite a request to go through ScrapingAnt on a given proxy pool.
+
+        `browser=false` matters: the data we want is server-rendered, so
+        skipping headless Chrome is both faster and much cheaper in credits.
+        The API key is sent as a header by the caller, never as the documented
+        query parameter, so it cannot leak via an exception or redirect trace.
+        """
+        params = {"url": url, "browser": "false", "proxy_type": pool}
+        if self.proxy_country:
+            params["proxy_country"] = self.proxy_country
+        query = "&".join(f"{k}={quote(v, safe='')}" for k, v in params.items())
+        return f"{SCRAPINGANT_ENDPOINT}?{query}"
+
+    def _pool_for(self, host: str) -> str:
+        """
+        Which proxy pool to use for a host.
+
+        Datacenter costs 1 credit and residential ~25, so always start cheap.
+        A host that rejects a datacenter exit is remembered for the rest of the
+        run and goes straight to residential, wasting at most one credit.
+        """
+        if self.proxy_type != "datacenter":
+            return self.proxy_type
+        return "residential" if host in self._escalated else "datacenter"
+
+    def _credits_ok(self) -> bool:
+        """Refuse to start spending if the quota is nearly gone."""
+        if self._credit_checked:
+            return True
+        self._credit_checked = True
+        credits = self.proxy_credits()
+        if credits and credits[0] < PROXY_CREDIT_FLOOR:
+            log.error("only %d ScrapingAnt credit(s) left (floor %d) - not "
+                      "using the proxy this run", credits[0], PROXY_CREDIT_FLOOR)
+            return False
+        if credits:
+            log.info("ScrapingAnt: %d of %d credits available", *credits)
+        return True
+
+    def _should_proxy(self, host: str) -> bool:
+        if not self.proxy_key:
+            return False
+        return any(host == h or host.endswith("." + h) for h in self.proxy_hosts)
 
     # -- throttle --------------------------------------------------------
     def _wait(self, host: str) -> None:
@@ -374,14 +454,38 @@ class Fetcher:
             if cached["last_modified"]:
                 headers["If-Modified-Since"] = cached["last_modified"]
 
+        via_proxy = self._should_proxy(host)
+        if via_proxy:
+            if self.stats["proxied"] >= self.proxy_budget:
+                raise Blocked(
+                    f"proxy budget of {self.proxy_budget} request(s) per run is "
+                    f"spent; not fetching {url}")
+            if not self._credits_ok():
+                raise Blocked(f"ScrapingAnt quota too low to fetch {url}")
+            headers["x-api-key"] = self.proxy_key or ""
+            # Conditional-GET validators belong to the target, not the proxy,
+            # and ScrapingAnt would forward them and hand back a bodyless 304.
+            headers.pop("If-None-Match", None)
+            headers.pop("If-Modified-Since", None)
+
+        # A proxied request can fail simply because the exit IP it drew was
+        # already known to the target; another attempt draws a different one,
+        # so it is worth more tries than a direct request gets.
+        attempts = max(max_retries, 6) if via_proxy else max_retries
+
         throttled = 0
-        for attempt in range(max_retries):
+        for attempt in range(attempts):
+            # Built per attempt: a rejected datacenter exit escalates the host
+            # to residential, which changes the URL for the next try.
+            pool = self._pool_for(host) if via_proxy else ""
+            request_url = self._proxy_url(url, pool) if via_proxy else url
             self._wait(host)
             try:
-                r = self.client.get(url, headers=headers)
+                r = self.client.get(request_url, headers=headers)
             except httpx.HTTPError as exc:
                 wait = 2 ** attempt * 5
-                log.warning("network error %s (%s) - retry in %ss", url, exc, wait)
+                log.warning("network error %s (%s) - retry in %ss",
+                            url, self._redact(str(exc)), wait)
                 time.sleep(wait)
                 continue
 
@@ -389,6 +493,22 @@ class Fetcher:
                 log.debug("304 not modified: %s", url)
                 self.stats["not_modified"] += 1
                 return bytes(cached["body"])
+
+            if r.status_code == 423 and via_proxy:
+                # ScrapingAnt's "our browser was detected by target site".
+                # Transient and per-exit-IP; their own guidance is to retry.
+                self.stats["proxy_detected"] += 1
+                if pool == "datacenter":
+                    # Don't keep paying for a pool this host clearly filters.
+                    self._escalated.add(host)
+                    log.info("%s rejected the datacenter exit - switching to "
+                             "the residential pool for this run", host)
+                    continue
+                wait = 2 ** attempt * 2
+                log.warning("proxy exit rejected by %s (attempt %d/%d) - "
+                            "retrying in %.0fs", host, attempt + 1, attempts, wait)
+                time.sleep(wait)
+                continue
 
             if r.status_code in (429, 500, 502, 503, 504):
                 if r.status_code == 429:
@@ -405,12 +525,33 @@ class Fetcher:
                     f"HTTP 403 on {url} - the site may be blocking this client; "
                     f"abandoning this source so we do not make it worse")
 
-            r.raise_for_status()
+            if r.status_code in (404, 410):
+                # A single missing page must not cost us the whole source.
+                log.warning("HTTP %s on %s - skipping this page", r.status_code, url)
+                return None
+
+            if r.status_code >= 400:
+                # Body included because ScrapingAnt reports quota and proxy
+                # problems in a `detail` field, which is what you need to see.
+                raise Blocked(self._redact(
+                    f"HTTP {r.status_code} on {url}: {r.text[:300]}"))
+
             self.stats["fetched"] += 1
+            if via_proxy:
+                self.stats["proxied"] += 1
+                log.debug("proxied %s (%d/%d this run)", url,
+                          self.stats["proxied"], self.proxy_budget)
             if cache:
                 self.store.cache_put(url, r.headers.get("ETag"),
                                      r.headers.get("Last-Modified"), r.content)
             return r.content
+
+        if via_proxy and self.stats["proxy_detected"]:
+            # Skip this page rather than abandon the source: other pages may
+            # well draw a clean exit IP.
+            log.error("gave up on %s after %d proxied attempts (target kept "
+                      "rejecting the proxy exit)", url, attempts)
+            return None
 
         if throttled == max_retries:
             # Rate-limited on every attempt, including the first: this host is
@@ -425,6 +566,20 @@ class Fetcher:
     def get_json(self, url: str, **kw):
         body = self.get(url, **kw)
         return None if body is None else json.loads(body)
+
+    def proxy_credits(self) -> tuple[int, int] | None:
+        """(remaining, total) ScrapingAnt credits, or None if unavailable."""
+        if not self.proxy_key:
+            return None
+        try:
+            r = self.client.get(SCRAPINGANT_USAGE,
+                                headers={"x-api-key": self.proxy_key}, timeout=15)
+            if r.status_code != 200:
+                return None
+            data = r.json()
+            return data["remained_credits"], data["plan_total_credits"]
+        except (httpx.HTTPError, ValueError, KeyError):
+            return None
 
     def close(self) -> None:
         self.client.close()
@@ -500,6 +655,9 @@ def _truncate(s: str | None, n: int) -> str | None:
 
 class Source:
     name: str = ""
+    # Hosts this source can only reach through ScrapingAnt. Empty for sources
+    # that work fine from anywhere.
+    PROXY_HOSTS: frozenset[str] = frozenset()
 
     def __init__(self, fetcher: Fetcher, store: Store):
         self.fetcher = fetcher
@@ -927,13 +1085,21 @@ class Shotgun(Source):
     name = "shotgun"
     BASE = "https://shotgun.live"
 
+    # Refuses datacenter IPs outright (429 on the first request), so from CI
+    # this host is only reachable through ScrapingAnt's residential pool.
+    PROXY_HOSTS = frozenset({"shotgun.live"})
+
     # Venue/organizer profile slugs to track: slug -> label (label for humans).
     VENUES = {
         "paris-erasmus-life": "Paris Erasmus Life",
     }
 
-    VENUE_TTL = timedelta(hours=6)
-    DETAIL_TTL = timedelta(hours=12)
+    # Long TTLs here are about restraint rather than cost: this host does not
+    # want datacenter traffic, so we keep the volume to ~9 requests a day even
+    # though credits are cheap. New events are still picked up the day they
+    # appear, because they are simply absent from the cache.
+    VENUE_TTL = timedelta(hours=20)
+    DETAIL_TTL = timedelta(days=3)
 
     def sync(self, city: str) -> Iterator[Event]:
         for slug, label in self.VENUES.items():
@@ -1249,6 +1415,16 @@ def main() -> int:
     p.add_argument("--all-dates", action="store_true", help="include past events")
     p.add_argument("--delay", type=float, default=4.0,
                    help="minimum seconds between requests (default: 4)")
+    p.add_argument("--no-proxy", action="store_true",
+                   help="never use ScrapingAnt, even if a key is configured")
+    p.add_argument("--proxy-type", default="datacenter",
+                   choices=["residential", "datacenter"],
+                   help="ScrapingAnt proxy pool. datacenter costs 1 credit and "
+                        "currently gets through; residential is ~50x dearer "
+                        "(default: datacenter)")
+    p.add_argument("--proxy-budget", type=int, default=PROXY_BUDGET_PER_RUN,
+                   help=f"max proxied requests per run, to protect a metered "
+                        f"quota (default: {PROXY_BUDGET_PER_RUN})")
     p.add_argument("--json", metavar="PATH", help="also write results to a JSON file")
     p.add_argument("--ics", metavar="PATH", nargs="?", const="data/paris-events.ics",
                    help="write an iCalendar file (default: data/paris-events.ics)")
@@ -1277,7 +1453,22 @@ def main() -> int:
 
     if not args.no_sync:
         store.prune_cache(CACHE_RETENTION)
-        fetcher = Fetcher(store, delay=args.delay, force=args.force)
+
+        proxy_key = None if args.no_proxy else (os.environ.get("SCRAPINGANT_API_KEY") or "").strip() or None
+        proxy_hosts = frozenset().union(
+            *(SOURCES[n].PROXY_HOSTS for n in wanted)) if wanted else frozenset()
+        if proxy_hosts and not proxy_key:
+            log.warning("no SCRAPINGANT_API_KEY set; %s may refuse this client",
+                        ", ".join(sorted(proxy_hosts)))
+        elif proxy_hosts:
+            log.info("routing %s via ScrapingAnt (%s, max %d request(s) this run)",
+                     ", ".join(sorted(proxy_hosts)), args.proxy_type,
+                     args.proxy_budget)
+
+        fetcher = Fetcher(store, delay=args.delay, force=args.force,
+                          proxy_key=proxy_key, proxy_hosts=proxy_hosts,
+                          proxy_type=args.proxy_type,
+                          proxy_budget=args.proxy_budget)
         try:
             for name in wanted:
                 count = 0
@@ -1295,11 +1486,16 @@ def main() -> int:
                     log.exception("[%s] source failed", name)
                 log.info("[%s] synced %d event(s)", name, count)
         finally:
+            if fetcher.stats["proxied"]:
+                credits = fetcher.proxy_credits()
+                if credits:
+                    log.info("ScrapingAnt credits: %d of %d remaining", *credits)
             fetcher.close()
-            log.info("HTTP: %d fetched, %d unchanged (304), %d served from "
-                     "fresh cache, %d skipped",
-                     fetcher.stats["fetched"], fetcher.stats["not_modified"],
-                     fetcher.stats["fresh"], fetcher.stats["skipped"])
+            log.info("HTTP: %d fetched (%d via proxy), %d unchanged (304), "
+                     "%d served from fresh cache, %d skipped",
+                     fetcher.stats["fetched"], fetcher.stats["proxied"],
+                     fetcher.stats["not_modified"], fetcher.stats["fresh"],
+                     fetcher.stats["skipped"])
 
     events = store.query(city=args.city, free_only=args.free_only,
                          upcoming=not args.all_dates)
