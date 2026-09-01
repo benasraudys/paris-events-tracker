@@ -267,6 +267,19 @@ alone. Nor is "free" inferred from the titles: those walking tours are typically
 and the same organizer sells a dinner cruise, so guessing from a name would be
 wrong in both directions. They show as `-` and are excluded by `--free-only`.
 
+## Retiring events that vanish upstream
+
+Events are never deleted from the DB, so something has to stop a cancelled or
+delisted event lingering in a calendar other people rely on. A `sync_state`
+table records when each source last completed a sync **without failing**; an
+event is hidden once its own source has since finished a clean run that did not
+return it.
+
+The distinction matters: if a source *fails* (site redesign, block, outage) its
+`last_success` does not advance, so nothing of its is retired — a broken
+scraper cannot silently empty the calendar. Retired events stay in the DB and
+`--include-retired` shows them again.
+
 ## Known gap: cross-source duplicates
 
 There is no deduplication. `key` is `source:source_id`, so an event listed on

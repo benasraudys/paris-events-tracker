@@ -141,6 +141,14 @@ CREATE TABLE IF NOT EXISTS events (
 );
 CREATE INDEX IF NOT EXISTS idx_events_date ON events(start_date);
 
+-- When each source last completed a sync without failing. Used to retire
+-- events the source has stopped listing, without letting a *failed* source
+-- delete everything it could not fetch.
+CREATE TABLE IF NOT EXISTS sync_state (
+    source       TEXT PRIMARY KEY,
+    last_success TEXT NOT NULL
+);
+
 CREATE TABLE IF NOT EXISTS http_cache (
     url           TEXT PRIMARY KEY,
     etag          TEXT,
@@ -218,10 +226,37 @@ class Store:
         )
         self.db.commit()
 
+    def mark_success(self, source: str, started: str) -> None:
+        """Record that `source` completed a full sync begun at `started`."""
+        self.db.execute(
+            "INSERT INTO sync_state (source, last_success) VALUES (?,?) "
+            "ON CONFLICT(source) DO UPDATE SET last_success=excluded.last_success",
+            (source, started),
+        )
+        self.db.commit()
+
+    def retired(self) -> list[Event]:
+        """
+        Events their own source has stopped listing.
+
+        An event is retired when its source has since completed a successful
+        sync that did not return it - which is very different from the source
+        having failed, in which case last_success is not advanced and nothing
+        is retired.
+        """
+        return [_row_to_event(r) for r in self.db.execute(
+            "SELECT e.* FROM events e JOIN sync_state s ON s.source = e.source "
+            "WHERE e.last_seen < s.last_success")]
+
     def query(self, *, city: str | None = None, free_only: bool = False,
-              upcoming: bool = True) -> list[Event]:
+              upcoming: bool = True, include_retired: bool = False) -> list[Event]:
         sql = "SELECT * FROM events WHERE 1=1"
         args: list[object] = []
+        if not include_retired:
+            # Drop what the source no longer lists, so a cancelled event does
+            # not linger in a calendar other people are relying on.
+            sql += (" AND NOT EXISTS (SELECT 1 FROM sync_state s "
+                    "WHERE s.source = events.source AND events.last_seen < s.last_success)")
         if city:
             sql += " AND lower(city) = ?"
             args.append(city.lower())
@@ -1569,6 +1604,8 @@ def main() -> int:
                    help="ignore caches and refetch everything")
     p.add_argument("--free-only", action="store_true")
     p.add_argument("--all-dates", action="store_true", help="include past events")
+    p.add_argument("--include-retired", action="store_true",
+                   help="also show events their source has stopped listing")
     p.add_argument("--delay", type=float, default=4.0,
                    help="minimum seconds between requests (default: 4)")
     p.add_argument("--no-proxy", action="store_true",
@@ -1608,6 +1645,9 @@ def main() -> int:
     failed: list[str] = []
 
     if not args.no_sync:
+        # Stamped before any fetching, so an event touched during this run
+        # always compares as "seen" against it.
+        run_started = datetime.now().isoformat(timespec="seconds")
         store.prune_cache(CACHE_RETENTION)
 
         proxy_key = None if args.no_proxy else (os.environ.get("SCRAPINGANT_API_KEY") or "").strip() or None
@@ -1640,6 +1680,9 @@ def main() -> int:
                 except Exception:
                     failed.append(name)
                     log.exception("[%s] source failed", name)
+                else:
+                    # Only a clean run may retire this source's old events.
+                    store.mark_success(name, run_started)
                 log.info("[%s] synced %d event(s)", name, count)
         finally:
             if fetcher.stats["proxied"]:
@@ -1653,8 +1696,16 @@ def main() -> int:
                      fetcher.stats["not_modified"], fetcher.stats["fresh"],
                      fetcher.stats["skipped"])
 
+    retired = [e for e in store.retired()
+               if not e.start_date or e.start_date >= date.today().isoformat()]
+    if retired:
+        log.info("hiding %d upcoming event(s) the source no longer lists: %s",
+                 len(retired),
+                 ", ".join(f"{e.source}:{e.title[:30]}" for e in retired[:5]))
+
     events = store.query(city=args.city, free_only=args.free_only,
-                         upcoming=not args.all_dates)
+                         upcoming=not args.all_dates,
+                         include_retired=args.include_retired)
     if args.source:
         events = [e for e in events if e.source in set(args.source)]
     # Excluded sources are not scraped, but events already in the DB from a
