@@ -23,8 +23,8 @@ changed — and published to Pages. It can also be run by hand from the Actions 
 (with an optional `force` input to bypass every cache).
 
 The SQLite DB is carried between runs by `actions/cache`, which is what keeps a
-daily run at ~3 requests instead of ~30; a cache miss just means one cold
-start. Publishing is a **separate job** that only runs if the scrape succeeded,
+typical daily run to a handful of requests instead of ~35; a cache miss just
+means one cold start. Publishing is a **separate job** that only runs if the scrape succeeded,
 so a broken run leaves the previously published calendar in place rather than
 replacing it with something worse.
 
@@ -41,7 +41,7 @@ than reacting to our pace. Its robots.txt is `Allow: /`, so the pages
 themselves are fair game — the block is about where the request comes from.
 
 CI therefore routes *only this host* through [ScrapingAnt](https://scrapingant.com)
-(`SCRAPINGANT_API_KEY`, a repository secret). The other two sources are fetched
+(`SCRAPINGANT_API_KEY`, a repository secret). Every other source is fetched
 directly, as before. Set the same variable locally to scrape it from your own
 machine; without a key the source simply fails and is skipped.
 
@@ -72,6 +72,56 @@ Three guards, because the quota is finite and a loop bug is expensive:
 `browser=false` throughout: the data is server-rendered, so headless Chrome
 would add cost and nothing else. No fingerprint spoofing beyond the ordinary
 browser UA already in use, and `--no-proxy` disables the whole path.
+
+## Usage
+
+```bash
+uv run scrape_events.py                      # sync + list upcoming Paris events
+uv run scrape_events.py --free-only          # only free ones
+uv run scrape_events.py --city lyon          # other cities
+uv run scrape_events.py --source billetweb   # one source only
+uv run scrape_events.py --exclude shotgun    # skip a source
+uv run scrape_events.py --ics                # -> data/paris-events.ics
+uv run scrape_events.py --json data/paris.json
+uv run scrape_events.py --no-sync --ics      # rebuild the .ics, zero requests
+uv run scrape_events.py --force              # ignore caches, refetch everything
+uv run scrape_events.py --no-proxy           # never use ScrapingAnt
+uv run scrape_events.py --delay 10 -v        # slower + verbose
+```
+
+Data lands in `data/events.db` (`events` + `http_cache` tables). Events are
+upserted, never deleted, with `first_seen` / `last_seen` stamps, so the DB
+doubles as a history of what was listed when.
+
+## Not getting IP-banned
+
+The `Fetcher` class enforces all of this centrally, for every source:
+
+| Measure | Detail |
+| --- | --- |
+| robots.txt | Fetched once per host and honoured before every request |
+| Serial requests | One at a time — no concurrency, ever |
+| Throttle | 4 s + up to 2 s random jitter between requests (`--delay`) |
+| Incremental sync | Detail pages are refetched **only** when the index says the post changed |
+| Fresh-cache TTL | `max_age` serves a recent cached copy with **no request at all** |
+| Conditional GET | `If-None-Match` / `If-Modified-Since` from the local cache |
+| Backoff | Exponential, honouring `Retry-After`, on 429 and 5xx |
+| Host bail-out | A 403, or a 429 on every attempt, abandons that host for the run |
+| Source isolation | One source failing costs neither the others nor the output |
+
+The big win is the incremental sync, not the throttling:
+
+- **First run:** ~35 requests, a few minutes — robots + 2 REST + 14 event pages
+  (erasmusplace); 1 profile + 2 event pages (Eventbrite); 1 venue + 8 event
+  pages (Shotgun); 1 listing + 5 event pages (Billetweb).
+- **Every run after:** a handful. erasmusplace detail pages are skipped by
+  change-stamp; Eventbrite, Shotgun and Billetweb pages by TTL.
+
+So a daily cron costs a few requests a day, and only pays for pages that
+actually changed. Which mechanism does the work varies by host: erasmusplace
+sends no `ETag` or `Last-Modified`, so conditional GET is inert there and the
+REST `modified` stamp carries it; Eventbrite does send `ETag`s; Shotgun and
+Billetweb send neither and are `no-store`, so they rely purely on the TTL.
 
 ## Calendar export
 
@@ -188,6 +238,35 @@ There are no `ETag`s and pages are sent `no-store`, so conditional GET is
 unavailable and `max_age` (6 h venue / 12 h detail) is the only thing keeping a
 cron job's traffic down.
 
+### `billetweb` — billetweb.fr organizer pages
+
+Tracks organizer ids in `Billetweb.ORGANIZERS` (currently `155246` =
+*Paris Erasmus Life*). This is the free-walking-tour and day-activity end of
+the calendar rather than club nights.
+
+`multi_event.php?user=<id>` is only a shell that iframes the real listing from
+`multi_event.php?multi=u<id>`, so that is what gets fetched. The listing gives
+ids, titles and booking links, but its dates are unusable on their own — they
+carry neither a year nor a time (`Sam. 05 sept.`), so they are ignored.
+
+**One listing entry can be several events.** Each event page emits *one JSON-LD
+`Event` block per occurrence* with full UTC timestamps, so "Free Walking Tour
+Le Marais" expands into its two Saturdays. Rows are keyed
+`<event_id>:<date>`, so each occurrence is its own stable calendar entry
+instead of repeats overwriting one another. 5 listings currently expand to 9
+events.
+
+Times are UTC here too (`13:00Z` → **15:00** Paris, which matches the "Time:
+3:00 PM" in the event's own description).
+
+**No prices, on purpose.** robots.txt disallows `/api/*`, and that is exactly
+where the shop widget fetches ticket prices from client-side; `shop.php`
+renders them via the same disallowed endpoint. So these events carry no price
+rather than have them pulled from a path the site asked crawlers to leave
+alone. Nor is "free" inferred from the titles: those walking tours are typically tip-based,
+and the same organizer sells a dinner cruise, so guessing from a name would be
+wrong in both directions. They show as `-` and are excluded by `--free-only`.
+
 ## Known gap: cross-source duplicates
 
 There is no deduplication. `key` is `source:source_id`, so an event listed on
@@ -197,6 +276,8 @@ two sites appears twice — and with three sources this now happens for real:
 | --- | --- | --- | --- |
 | 25 Sep | E-BOAT PARTY, from €13 | — | International Boat Party, from €11 |
 | 3 Oct | — | Aquaboulevard, €11.85–27.84 | Aquaboulevard, from €10 |
+
+(Billetweb adds no duplicates: its walking tours appear nowhere else.)
 
 Note the same night is cheaper on Shotgun in both cases, which is an argument
 for *showing* both rather than silently merging them. If you'd rather have one

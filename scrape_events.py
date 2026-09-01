@@ -632,6 +632,13 @@ def parse_price(text: str) -> tuple[float | None, bool | None]:
     return None, None
 
 
+def strip_html(text: str | None) -> str | None:
+    """Billetweb ships descriptions as escaped HTML inside JSON-LD."""
+    if not text:
+        return None
+    return clean(html_mod.unescape(re.sub(r"<[^>]+>", " ", text)))
+
+
 def clean(text: str | None) -> str | None:
     if text is None:
         return None
@@ -1004,8 +1011,14 @@ class Eventbrite(Source):
         return f"{low:.2f} EUR", low, False
 
 
-def find_event_ld(body: bytes) -> dict | None:
-    """First schema.org Event-ish JSON-LD blob on a page (any *Event @type)."""
+def find_all_event_ld(body: bytes) -> list[dict]:
+    """
+    Every schema.org Event-ish JSON-LD blob on a page, in document order.
+
+    Some sites emit one block per occurrence of a recurring event (Billetweb
+    does), so callers that care about repeats need all of them.
+    """
+    found: list[dict] = []
     tree = HTMLParser(body.decode("utf-8", "replace"))
     for node in tree.css('script[type="application/ld+json"]'):
         try:
@@ -1016,8 +1029,14 @@ def find_event_ld(body: bytes) -> dict | None:
             if (isinstance(candidate, dict)
                     and "Event" in str(candidate.get("@type", ""))
                     and candidate.get("startDate")):
-                return candidate
-    return None
+                found.append(candidate)
+    return found
+
+
+def find_event_ld(body: bytes) -> dict | None:
+    """First schema.org Event-ish JSON-LD blob on a page (any *Event @type)."""
+    blocks = find_all_event_ld(body)
+    return blocks[0] if blocks else None
 
 
 def _next_data(body: bytes) -> dict | None:
@@ -1239,10 +1258,147 @@ class Shotgun(Source):
 # Registry - add a new site by writing a Source subclass and listing it here
 # --------------------------------------------------------------------------
 
+class Billetweb(Source):
+    """
+    Tracks billetweb.fr organizer pages, listed in ORGANIZERS.
+
+    robots.txt allows everything except a short list that includes
+    `/api/*`, which is where ticket prices actually come from - the shop widget
+    fetches them client-side. So this source reports **no price at all** rather
+    than reach for a disallowed endpoint or guess. That is deliberate: the
+    titles say "Free Walking Tour", but those tours are typically tip-based,
+    and the same organizer also sells a dinner cruise, so inferring "free" from
+    a name would be wrong in both directions.
+
+    `multi_event.php?user=<id>` is only a shell that iframes the real listing
+    from `multi_event.php?multi=u<id>`, which is what this fetches. The listing
+    gives ids, titles and booking links, but its dates carry neither a year nor
+    a time ("Sam. 05 sept."), so they are not trusted.
+
+    Each event page instead carries **one JSON-LD Event block per occurrence**,
+    with full UTC timestamps. A single listing entry therefore expands into
+    several calendar entries - "Free Walking Tour Le Marais" runs on two
+    Saturdays - keyed as `<event_id>:<date>` so each occurrence is its own
+    stable row.
+    """
+
+    name = "billetweb"
+    BASE = "https://www.billetweb.fr"
+
+    # Organizer ids to track: id -> label (label is for humans only).
+    ORGANIZERS = {
+        "155246": "Paris Erasmus Life",
+    }
+
+    LISTING_TTL = timedelta(hours=6)
+    DETAIL_TTL = timedelta(hours=12)
+
+    def sync(self, city: str) -> Iterator[Event]:
+        for user_id, label in self.ORGANIZERS.items():
+            log.info("[%s] organizer %s (%s)", self.name, user_id, label)
+            yield from self._organizer(user_id, city)
+
+    def _organizer(self, user_id: str, city: str) -> Iterator[Event]:
+        # The `user=` URL is a shell; `multi=u<id>` is the listing the iframe
+        # loads, and `margin=no_margin` is what the site itself requests.
+        body = self.fetcher.get(
+            f"{self.BASE}/multi_event.php?multi=u{user_id}&margin=no_margin",
+            max_age=self.LISTING_TTL)
+        if body is None:
+            return
+
+        entries = self._listing(body)
+        if not entries:
+            log.error("[%s] no events found for organizer %s - page layout "
+                      "changed", self.name, user_id)
+            return
+        log.info("[%s] %d event(s) listed", self.name, len(entries))
+
+        for event_id, url in entries:
+            yield from self._occurrences(event_id, url, city)
+
+    def _listing(self, body: bytes) -> list[tuple[str, str]]:
+        """(event_id, canonical event page URL) from the organizer listing."""
+        tree = HTMLParser(body.decode("utf-8", "replace"))
+        out: list[tuple[str, str]] = []
+        for node in tree.css("div.multi_event_container"):
+            container_id = node.attributes.get("id") or ""
+            m = re.search(r"multi_event_container_(\d+)", container_id)
+            if not m:
+                continue
+            link = node.css_first("a.naviguate")
+            href = (link.attributes.get("href") or "") if link else ""
+            if not href:
+                continue
+            # Strip the widget's tracking/styling params to get a clean,
+            # shareable event URL for the calendar entry.
+            out.append((m.group(1), href.split("?")[0]))
+        return out
+
+    def _occurrences(self, event_id: str, url: str, city: str) -> Iterator[Event]:
+        body = self.fetcher.get(url, max_age=self.DETAIL_TTL)
+        if body is None:
+            return
+        blocks = find_all_event_ld(body)
+        if not blocks:
+            log.warning("[%s] no Event JSON-LD on %s", self.name, url)
+            return
+
+        seen: set[str] = set()
+        for ld in blocks:
+            start_date, start_time = _split_iso(ld.get("startDate") or "")
+            if start_date is None or start_date in seen:
+                continue        # the page repeats a block per occurrence
+            seen.add(start_date)
+            end_date, end_time = _split_iso(ld.get("endDate") or "")
+
+            place = ld.get("location") or {}
+            # Billetweb's `address` is a plain string, not a PostalAddress.
+            address = place.get("address")
+            if isinstance(address, dict):
+                address = address.get("streetAddress")
+            venue = clean(place.get("name")) or clean(address)
+            if city and city.lower() not in (f"{venue or ''} {address or ''}").lower():
+                log.debug("[%s] skipping %s on %s (not in %s)",
+                          self.name, event_id, start_date, city)
+                continue
+
+            image = ld.get("image")
+            if isinstance(image, list):
+                image = image[0] if image else None
+
+            yield Event(
+                source=self.name,
+                # One row per occurrence, so repeats do not overwrite each other.
+                source_id=f"{event_id}:{start_date}",
+                url=url,
+                title=clean(html_mod.unescape(ld.get("name") or "")) or url,
+                city=city.title(),
+                venue=venue,
+                start_date=start_date,
+                start_time=start_time,
+                end_date=end_date,
+                end_time=end_time,
+                # Prices live behind /api/*, which robots.txt disallows.
+                price_text=None,
+                price_eur=None,
+                is_free=None,
+                categories=[],
+                description=_truncate(strip_html(ld.get("description")), 1200),
+                image=image if isinstance(image, str) else None,
+                remote_modified=None,   # none exposed; DETAIL_TTL covers refresh
+            )
+
+
+# --------------------------------------------------------------------------
+# Registry - add a new site by writing a Source subclass and listing it here
+# --------------------------------------------------------------------------
+
 SOURCES: dict[str, type[Source]] = {
     ErasmusPlace.name: ErasmusPlace,
     Eventbrite.name: Eventbrite,
     Shotgun.name: Shotgun,
+    Billetweb.name: Billetweb,
 }
 
 

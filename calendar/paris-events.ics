@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:erasmusplace-14238@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20260902T230000
 DTEND;TZID=Europe/Paris:20260903T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -45,7 +45,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nVoyager à travers le mon
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-584521@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20260904T203000
 DTEND;TZID=Europe/Paris:20260905T050000
 SUMMARY:The Garden Party - Chalet Du Lac - Vendredi 4 Septembre - from 10.0
@@ -78,8 +78,36 @@ DESCRIPTION:Price: from 10.00 EUR\nVenue: Chalet du lac\, Bois de Vincennes
  ac
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1453918:2026-09-05@events-tracker
+DTSTAMP:20260901T082730Z
+DTSTART;TZID=Europe/Paris:20260905T150000
+DTEND;TZID=Europe/Paris:20260905T170000
+SUMMARY:Free Walking Tour Le Marais
+LOCATION:Fontaine Stravinsky\, Rue Brisemiche\, Paris\, France
+URL:https://www.billetweb.fr/free-walking-tour-le-marais1
+DESCRIPTION:Venue: Fontaine Stravinsky\, Rue Brisemiche\, Paris\, France\nC
+ ome to discover the prettiest spots\, stories and funny facts of Le Marais
+  with Paris Erasmus Life - Apero at the end This visit is offered by true 
+ Parisian students\, it will be the perfect opportunity for you all to visi
+ t Paris through a different lens. In the heart of Paris\, if you were to i
+ nquire about a local's preferred neighborhood\, the resounding answer ofte
+ n points to Le Marais. A truly unique blend of fashion\, LGBT pride\, Jewi
+ sh heritage\, and aristocratic history converge within this district's bou
+ ndaries. The synthesis of these diverse cultures in this modern enclave gi
+ ves rise to an atmosphere that is nothing short of exceptional. Tour Date:
+  Saturday\, September 5 & 26 Time: 3:00 PM Meeting Point: Fontaine Stravin
+ sky What Awaits You: Unveil the District's Charismatic Spots: Delve into t
+ he enchanting locales that contribute to Le Marais's irresistible charm. R
+ ecount the Stories that Forged Le Marais's Legacy: Immerse yourself in the
+  narratives that have intricately woven the legendary fabric of Le Marais.
+  Forge International Connections: Forge new friendships as you journey alo
+ ngside fellow international explorers. Special Ending : At the end of the 
+ tour\, all participants...\n\nhttps://www.billetweb.fr/free-walking-tour-l
+ e-marais1
+END:VEVENT
+BEGIN:VEVENT
 UID:eventbrite-1997468836059@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20260906T150000
 DTEND;TZID=Europe/Paris:20260906T200000
 SUMMARY:ERASMUS WELCOME PICNIC 2026 - Free
@@ -93,7 +121,7 @@ DESCRIPTION:Price: Free\nVenue: Tour Eiffel - Parc du Champ-de-Mars\, Champ
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287793@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20260907T200000
 DTEND;TZID=Europe/Paris:20260908T003000
 SUMMARY:Erasmus Meet and speak : Karaoke night - Free
@@ -122,7 +150,7 @@ DESCRIPTION:Price: Free\nVenue: Generator Hostel\nErasmus Meet & Speak t'ac
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287746@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20260909T230000
 DTEND;TZID=Europe/Paris:20260910T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -140,7 +168,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nC’est LE grand rendez-v
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287927@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20260911T230000
 DTEND;TZID=Europe/Paris:20260912T050000
 SUMMARY:Erasmus & Student Party | Club Haussmann - À partir de 13€
@@ -160,8 +188,35 @@ DESCRIPTION:Price: À partir de 13€\nVenue: Club Haussmann\nREADY FOR THE
  lace.com/region/paris/evenements/erasmus-student-party/
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1454018:2026-09-12@events-tracker
+DTSTAMP:20260901T082730Z
+DTSTART;TZID=Europe/Paris:20260912T150000
+DTEND;TZID=Europe/Paris:20260912T170000
+SUMMARY:Free Walking Tour les Iles de Paris
+LOCATION:Pont Neuf\, Paris\, France
+URL:https://www.billetweb.fr/free-walking-tour-les-iles-de-paris1
+DESCRIPTION:Venue: Pont Neuf\, Paris\, France\nCome to discover the prettie
+ st spots\, stories and funny facts of "Les Iles de Paris" with Paris Erasm
+ us Life This visit is offered by true Parisians\; it will be the perfect o
+ pportunity for all of you to explore Paris through a different lens. L'îl
+ e de la Cité" and "l'île Saint-Louis" are considered as the birthplace o
+ f Paris\, embodying the essence of the original city. Serving as the urban
+  nucleus of the medieval metropolis\, they create a microcosm within the l
+ arger urban expanse. From Notre-Dame to the Palais de Justice\, and spanni
+ ng to the Place Dauphine and the flower market\, these islands hold an inv
+ aluable trove of historical and cultural treasures. Come to discover the m
+ ost historic neighborhood\, legends and funny facts. Tour Date: 12 & 27\, 
+ September Time: 3:00 PM Meeting Point: Statue de Henry 4 What Awaits You: 
+ Uncover Enchanting Locations: Explore the captivating sites that imbue the
+  Parisian Islands with their irresistible charm. Reveal the Tales that For
+ ged the Legend: Immerse yourself in the narratives that intricately weave 
+ the legendary tapestry of the Parisian Islands. Forge International Bonds 
+ on Your Journey: Connect with fellow international adventurers as you tr..
+ .\n\nhttps://www.billetweb.fr/free-walking-tour-les-iles-de-paris1
+END:VEVENT
+BEGIN:VEVENT
 UID:shotgun-574275@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20260912T233000
 DTEND;TZID=Europe/Paris:20260913T053000
 SUMMARY:Erasmus Welcome Party 2026 - Solum Pont Alexandre I… - from 13.20
@@ -193,7 +248,7 @@ DESCRIPTION:Price: from 13.20 EUR\nVenue: Solum\, Rive gauche\, Pont Alexan
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-589146@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20260912T233000
 DTEND;TZID=Europe/Paris:20260913T060000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
@@ -226,8 +281,63 @@ DESCRIPTION:Price: from 12.99 EUR\nVenue: YOYO\, Palais De Tokyo\, 13 Avenu
  us-grande-soiree-reggaeton-open-format-yoyo-12septembre
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1435784:2026-09-13@events-tracker
+DTSTAMP:20260901T082730Z
+DTSTART;TZID=Europe/Paris:20260913T130000
+DTEND;TZID=Europe/Paris:20260913T170000
+SUMMARY:Celine on the Seine - The Tribute Cruise Experience
+LOCATION:4 Quai Saint-Bernard\, 75005 Paris\, France
+URL:https://www.billetweb.fr/celine2
+DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
+ OW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à
+  Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la réside
+ nce ou pas - cet événement est fait pour toi. Le temps d'une croisière\
+ , on rend hommage à celle qui continue de faire chavirer des génération
+ s entières. Entre fans\, entre passionné.e.s\, on embarque ensemble pour
+  un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un 
+ DJ 100 % Céline - De "Pour que tu m'aimes encore" à "The Power of Love"\
+ , de "S'il suffisait d'aimer" à "I'm Alive" : pendant toute la croisière
+ \, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses
+  hymnes internationaux. ???? Paris comme décor\, Céline comme bande-son 
+ - La Tour Eiffel\, le Pont Alexandre III\, Notre-Dame\, le Louvre qui déf
+ ile... Chaque monument iconique de Paris prend une autre dimension quand "
+ L'Hymne à l'amour" résonne sur l'eau. C'est une promesse : tu ne regarde
+ ras plus jamais ces paysages sans entendre sa voix. ???? Une violoniste li
+ ve - Pour des moments d'émotion. Elle transforme le pont du bateau en sc
+ ène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que
+  ce n'est pas une croisière ordinaire\, et que...\n\nhttps://www.billetwe
+ b.fr/celine2
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1454014:2026-09-13@events-tracker
+DTSTAMP:20260901T082730Z
+DTSTART;TZID=Europe/Paris:20260913T150000
+DTEND;TZID=Europe/Paris:20260913T170000
+SUMMARY:Free Walking Tour Montmartre
+LOCATION:Place des Abbesses\, Paris\, France
+URL:https://www.billetweb.fr/free-walking-tour-montmartre1
+DESCRIPTION:Venue: Place des Abbesses\, Paris\, France\nCome to discover th
+ e prettiest spots\, stories and funny facts of Montmertre with Paris Erasm
+ us Life - Apero Time at the End This visit is offered by true Parisian stu
+ dents\, it will be the perfect opportunity for you all to visit Paris thro
+ ugh a different lens. When the question arises as to which district is the
+  most beautiful in Paris\, Montmartre is frequently mentioned among the fo
+ remost contenders. A symbol of poetry\, love\, and art\, Montmartre has al
+ so witnessed significant events and tragic episodes throughout the history
+  of Paris. Tour Date: 29th august & 13 September Time: 3:00 PM Meeting Poi
+ nt: Place des Abbesses What Awaits You: Discover Montmartre's Hidden Gems:
+  Traverse through the enchanting corners that define Montmartre's allure. 
+ Unveil Legendary Tales: Delve into the captivating stories that have woven
+  the legend of Montmartre. Forge International Connections: Forge new frie
+ ndships as you journey alongside fellow international explorers. Special E
+ nding : At the end of the tour\, all participants are invited to join us f
+ or a traditional apéro. A relaxed social gathering. How to Participate ? 
+ Book your ticket online and see you at the meeting point More informations
+  Con...\n\nhttps://www.billetweb.fr/free-walking-tour-montmartre1
+END:VEVENT
+BEGIN:VEVENT
 UID:erasmusplace-285795@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20260916T230000
 DTEND;TZID=Europe/Paris:20260917T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -245,7 +355,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée 100% Mexico p
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-286738@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20260918T230000
 DTEND;TZID=Europe/Paris:20260919T050000
 SUMMARY:Erasmus Full Party : Huge Welcome Party - Free
@@ -273,8 +383,64 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nMesdames et Messieurs\,
  rasmusplace.com/region/paris/evenements/erasmus-full-party-full180926/
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1454023:2026-09-19@events-tracker
+DTSTAMP:20260901T082730Z
+DTSTART;TZID=Europe/Paris:20260919T150000
+DTEND;TZID=Europe/Paris:20260919T170000
+SUMMARY:Free Walking Tour Quartier Latin
+LOCATION:Chapelle de la Sorbonne\, Place de la Sorbonne\, Paris\, France
+URL:https://www.billetweb.fr/free-walking-tour-quartier-latin1
+DESCRIPTION:Venue: Chapelle de la Sorbonne\, Place de la Sorbonne\, Paris\,
+  France\nCome to discover the prettiest spots\, stories and funny facts of
+  Quartier Latin with Paris Erasmus Life - Tea time at La Grande Mosque de 
+ Paris This visit is offered by true Parisians\; it will be the perfect opp
+ ortunity for all of you to explore Paris through a different lens. The Lat
+ in Quarter\, one of the oldest districts in Paris\, remains a cherished ch
+ oice among Parisian students. Renowned for its educational institutions\, 
+ artistic vibrancy\, cabarets\, and dining establishments\, it stands as a 
+ district that has traversed two millennia of history. Come to discover thi
+ s emblematic neighborhood\, beautiful locations and funny facts as as a re
+ al parisian Tour Date: Saturday\, August 30th Time: 3:00 PM Meeting Point:
+  Fontaine Saint-Michel What Awaits You: Uncover the District's Charms: Dis
+ cover the captivating places that lend the Quartier Latin its unique allur
+ e. Reveal the Tales that Shaped the Legend: Immerse yourself in the storie
+ s that have woven the legendary tapestry of the Quartier Latin. Forge Inte
+ rnational Connections: Forge new friendships as you journey alongside fell
+ ow international explorers. Special Ending : At the end of the tour\, all 
+ participants are invited to join us...\n\nhttps://www.billetweb.fr/free-wa
+ lking-tour-quartier-latin1
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1435784:2026-09-20@events-tracker
+DTSTAMP:20260901T082730Z
+DTSTART;TZID=Europe/Paris:20260920T130000
+DTEND;TZID=Europe/Paris:20260920T170000
+SUMMARY:Celine on the Seine - The Tribute Cruise Experience
+LOCATION:4 Quai Saint-Bernard\, 75005 Paris\, France
+URL:https://www.billetweb.fr/celine2
+DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
+ OW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à
+  Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la réside
+ nce ou pas - cet événement est fait pour toi. Le temps d'une croisière\
+ , on rend hommage à celle qui continue de faire chavirer des génération
+ s entières. Entre fans\, entre passionné.e.s\, on embarque ensemble pour
+  un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un 
+ DJ 100 % Céline - De "Pour que tu m'aimes encore" à "The Power of Love"\
+ , de "S'il suffisait d'aimer" à "I'm Alive" : pendant toute la croisière
+ \, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses
+  hymnes internationaux. ???? Paris comme décor\, Céline comme bande-son 
+ - La Tour Eiffel\, le Pont Alexandre III\, Notre-Dame\, le Louvre qui déf
+ ile... Chaque monument iconique de Paris prend une autre dimension quand "
+ L'Hymne à l'amour" résonne sur l'eau. C'est une promesse : tu ne regarde
+ ras plus jamais ces paysages sans entendre sa voix. ???? Une violoniste li
+ ve - Pour des moments d'émotion. Elle transforme le pont du bateau en sc
+ ène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que
+  ce n'est pas une croisière ordinaire\, et que...\n\nhttps://www.billetwe
+ b.fr/celine2
+END:VEVENT
+BEGIN:VEVENT
 UID:erasmusplace-14390@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20260923T230000
 DTEND;TZID=Europe/Paris:20260924T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -297,7 +463,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-284315@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20260925T230000
 DTEND;TZID=Europe/Paris:20260926T050000
 SUMMARY:E-BOAT PARTY - A partir de 13€
@@ -320,7 +486,7 @@ DESCRIPTION:Price: A partir de 13€\nVenue: 2 Quai de la Tournelle\, 75005
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-580512@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20260925T230000
 DTEND;TZID=Europe/Paris:20260926T053000
 SUMMARY:International Boat Party - Rhythm & Groove - from 11.00 EUR
@@ -345,8 +511,91 @@ DESCRIPTION:Price: from 11.00 EUR\nVenue: Bateau Concorde Atlantique\, Port
  party-rhythm-groove-2
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1453918:2026-09-26@events-tracker
+DTSTAMP:20260901T082730Z
+DTSTART;TZID=Europe/Paris:20260926T150000
+DTEND;TZID=Europe/Paris:20260926T170000
+SUMMARY:Free Walking Tour Le Marais
+LOCATION:Fontaine Stravinsky\, Rue Brisemiche\, Paris\, France
+URL:https://www.billetweb.fr/free-walking-tour-le-marais1
+DESCRIPTION:Venue: Fontaine Stravinsky\, Rue Brisemiche\, Paris\, France\nC
+ ome to discover the prettiest spots\, stories and funny facts of Le Marais
+  with Paris Erasmus Life - Apero at the end This visit is offered by true 
+ Parisian students\, it will be the perfect opportunity for you all to visi
+ t Paris through a different lens. In the heart of Paris\, if you were to i
+ nquire about a local's preferred neighborhood\, the resounding answer ofte
+ n points to Le Marais. A truly unique blend of fashion\, LGBT pride\, Jewi
+ sh heritage\, and aristocratic history converge within this district's bou
+ ndaries. The synthesis of these diverse cultures in this modern enclave gi
+ ves rise to an atmosphere that is nothing short of exceptional. Tour Date:
+  Saturday\, September 5 & 26 Time: 3:00 PM Meeting Point: Fontaine Stravin
+ sky What Awaits You: Unveil the District's Charismatic Spots: Delve into t
+ he enchanting locales that contribute to Le Marais's irresistible charm. R
+ ecount the Stories that Forged Le Marais's Legacy: Immerse yourself in the
+  narratives that have intricately woven the legendary fabric of Le Marais.
+  Forge International Connections: Forge new friendships as you journey alo
+ ngside fellow international explorers. Special Ending : At the end of the 
+ tour\, all participants...\n\nhttps://www.billetweb.fr/free-walking-tour-l
+ e-marais1
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1435784:2026-09-27@events-tracker
+DTSTAMP:20260901T082730Z
+DTSTART;TZID=Europe/Paris:20260927T130000
+DTEND;TZID=Europe/Paris:20260927T170000
+SUMMARY:Celine on the Seine - The Tribute Cruise Experience
+LOCATION:4 Quai Saint-Bernard\, 75005 Paris\, France
+URL:https://www.billetweb.fr/celine2
+DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
+ OW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à
+  Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la réside
+ nce ou pas - cet événement est fait pour toi. Le temps d'une croisière\
+ , on rend hommage à celle qui continue de faire chavirer des génération
+ s entières. Entre fans\, entre passionné.e.s\, on embarque ensemble pour
+  un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un 
+ DJ 100 % Céline - De "Pour que tu m'aimes encore" à "The Power of Love"\
+ , de "S'il suffisait d'aimer" à "I'm Alive" : pendant toute la croisière
+ \, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses
+  hymnes internationaux. ???? Paris comme décor\, Céline comme bande-son 
+ - La Tour Eiffel\, le Pont Alexandre III\, Notre-Dame\, le Louvre qui déf
+ ile... Chaque monument iconique de Paris prend une autre dimension quand "
+ L'Hymne à l'amour" résonne sur l'eau. C'est une promesse : tu ne regarde
+ ras plus jamais ces paysages sans entendre sa voix. ???? Une violoniste li
+ ve - Pour des moments d'émotion. Elle transforme le pont du bateau en sc
+ ène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que
+  ce n'est pas une croisière ordinaire\, et que...\n\nhttps://www.billetwe
+ b.fr/celine2
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1454018:2026-09-27@events-tracker
+DTSTAMP:20260901T082730Z
+DTSTART;TZID=Europe/Paris:20260927T150000
+DTEND;TZID=Europe/Paris:20260927T170000
+SUMMARY:Free Walking Tour les Iles de Paris
+LOCATION:Pont Neuf\, Paris\, France
+URL:https://www.billetweb.fr/free-walking-tour-les-iles-de-paris1
+DESCRIPTION:Venue: Pont Neuf\, Paris\, France\nCome to discover the prettie
+ st spots\, stories and funny facts of "Les Iles de Paris" with Paris Erasm
+ us Life This visit is offered by true Parisians\; it will be the perfect o
+ pportunity for all of you to explore Paris through a different lens. L'îl
+ e de la Cité" and "l'île Saint-Louis" are considered as the birthplace o
+ f Paris\, embodying the essence of the original city. Serving as the urban
+  nucleus of the medieval metropolis\, they create a microcosm within the l
+ arger urban expanse. From Notre-Dame to the Palais de Justice\, and spanni
+ ng to the Place Dauphine and the flower market\, these islands hold an inv
+ aluable trove of historical and cultural treasures. Come to discover the m
+ ost historic neighborhood\, legends and funny facts. Tour Date: 12 & 27\, 
+ September Time: 3:00 PM Meeting Point: Statue de Henry 4 What Awaits You: 
+ Uncover Enchanting Locations: Explore the captivating sites that imbue the
+  Parisian Islands with their irresistible charm. Reveal the Tales that For
+ ged the Legend: Immerse yourself in the narratives that intricately weave 
+ the legendary tapestry of the Parisian Islands. Forge International Bonds 
+ on Your Journey: Connect with fellow international adventurers as you tr..
+ .\n\nhttps://www.billetweb.fr/free-walking-tour-les-iles-de-paris1
+END:VEVENT
+BEGIN:VEVENT
 UID:erasmusplace-285942@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20260930T230000
 DTEND;TZID=Europe/Paris:20261001T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -363,7 +612,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
 END:VEVENT
 BEGIN:VEVENT
 UID:eventbrite-1989154673174@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20261003T213000
 DTEND;TZID=Europe/Paris:20261004T050000
 SUMMARY:Aquaboulevard Paris Biggest Pool Party 2026 - Samedi 3 octobre - 11
@@ -378,7 +627,7 @@ DESCRIPTION:Price: 11.85-27.84 EUR\nVenue: Aquaboulevard de Paris\, 4 Rue L
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-534853@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20261003T213000
 DTEND;TZID=Europe/Paris:20261004T050000
 SUMMARY:Aquaboulevard Paris Biggest Pool Party 2026 - from 10.00 EUR
@@ -409,7 +658,7 @@ DESCRIPTION:Price: from 10.00 EUR\nVenue: Aquaboulevard de Paris\, 4 Rue Lo
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-285806@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20261007T230000
 DTEND;TZID=Europe/Paris:20261008T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -425,7 +674,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nOlé ! Une soirée dédi
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287750@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20261014T230000
 DTEND;TZID=Europe/Paris:20261015T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -448,7 +697,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287044@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20261021T230000
 DTEND;TZID=Europe/Paris:20261022T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -465,7 +714,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-284296@events-tracker
-DTSTAMP:20260901T060449Z
+DTSTAMP:20260901T082730Z
 DTSTART;TZID=Europe/Paris:20261028T230000
 DTEND;TZID=Europe/Paris:20261029T050000
 SUMMARY:Kiss My Erasmus - Free
