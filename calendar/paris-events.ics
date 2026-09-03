@@ -23,29 +23,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:erasmusplace-14238@events-tracker
-DTSTAMP:20260901T091157Z
-DTSTART;TZID=Europe/Paris:20260902T230000
-DTEND;TZID=Europe/Paris:20260903T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-ready-
- for-a-new-life-020926/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nVoyager à travers le mon
- de en une soirée c’est possible !KISS MY ERASMUS\, c'est le rendez-vous
-  de tous les étudiants Erasmus\, au pair\, stagiaires de nationalité ét
- rangère vivant à Paris et leurs amis…KISS MY ERASMUS Une soirée Erasm
- us qui te fait découvrir les 4 coins du monde en quelques pas de danse et
-  des "Chupitos/shooter" pour briser ta timidité. Tu pourras porter fière
- ment les couleurs de ton pays grâce aux drapeaux distribués dès l’ent
- rée.Côté musique on reste électro\, RNB\, Reggaeton\, Pop\, Disco\, ce
- tte soirée c’est la tienne !\n\nhttps://erasmusplace.com/region/paris/e
- venements/kiss-my-erasmus-ready-for-a-new-life-020926/
-END:VEVENT
-BEGIN:VEVENT
 UID:shotgun-584521@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260904T203000
 DTEND;TZID=Europe/Paris:20260905T050000
 SUMMARY:The Garden Party - Chalet Du Lac - Vendredi 4 Septembre - from 10.0
@@ -79,7 +58,7 @@ DESCRIPTION:Price: from 10.00 EUR\nVenue: Chalet du lac\, Bois de Vincennes
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1453918:2026-09-05@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260905T150000
 DTEND;TZID=Europe/Paris:20260905T170000
 SUMMARY:Free Walking Tour Le Marais
@@ -107,7 +86,7 @@ DESCRIPTION:Venue: Fontaine Stravinsky\, Rue Brisemiche\, Paris\, France\nC
 END:VEVENT
 BEGIN:VEVENT
 UID:eventbrite-1997468836059@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260906T150000
 DTEND;TZID=Europe/Paris:20260906T200000
 SUMMARY:ERASMUS WELCOME PICNIC 2026 - Free
@@ -121,7 +100,7 @@ DESCRIPTION:Price: Free\nVenue: Tour Eiffel - Parc du Champ-de-Mars\, Champ
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287793@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260907T200000
 DTEND;TZID=Europe/Paris:20260908T003000
 SUMMARY:Erasmus Meet and speak : Karaoke night - Free
@@ -150,25 +129,24 @@ DESCRIPTION:Price: Free\nVenue: Generator Hostel\nErasmus Meet & Speak t'ac
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287746@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260909T230000
 DTEND;TZID=Europe/Paris:20260910T050000
 SUMMARY:Kiss My Erasmus - Free
 LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/lyon/evenements/kiss-my-erasmus-welcome
- -party-090926/
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-9/
 CATEGORIES:gratuit,soirees
 DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nC’est LE grand rendez-v
  ous de rentrée. Tous les étudiants internationaux\, Erasmus\, au pairs e
  t jeunes expats sont attendus pour une soirée XXL. On fête ensemble le d
  ébut de cette nouvelle aventure\, avec une ambiance survoltée ! Personne
   ne se connaît encore vraiment... et c’est justement pour ça que c’e
- st si facile de se faire des amis !\n\nhttps://erasmusplace.com/region/lyo
- n/evenements/kiss-my-erasmus-welcome-party-090926/
+ st si facile de se faire des amis !\n\nhttps://erasmusplace.com/region/par
+ is/evenements/kiss-my-erasmus-9/
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287927@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260911T230000
 DTEND;TZID=Europe/Paris:20260912T050000
 SUMMARY:Erasmus & Student Party | Club Haussmann - À partir de 13€
@@ -189,7 +167,7 @@ DESCRIPTION:Price: À partir de 13€\nVenue: Club Haussmann\nREADY FOR THE
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1454018:2026-09-12@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260912T150000
 DTEND;TZID=Europe/Paris:20260912T170000
 SUMMARY:Free Walking Tour les Iles de Paris
@@ -216,7 +194,7 @@ DESCRIPTION:Venue: Pont Neuf\, Paris\, France\nCome to discover the prettie
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-574275@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260912T233000
 DTEND;TZID=Europe/Paris:20260913T053000
 SUMMARY:Erasmus Welcome Party 2026 - Solum Pont Alexandre I… - from 13.20
@@ -248,7 +226,7 @@ DESCRIPTION:Price: from 13.20 EUR\nVenue: Solum\, Rive gauche\, Pont Alexan
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-589146@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260912T233000
 DTEND;TZID=Europe/Paris:20260913T060000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
@@ -282,7 +260,7 @@ DESCRIPTION:Price: from 12.99 EUR\nVenue: YOYO\, Palais De Tokyo\, 13 Avenu
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2026-09-13@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260913T130000
 DTEND;TZID=Europe/Paris:20260913T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -310,7 +288,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1454014:2026-09-13@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260913T150000
 DTEND;TZID=Europe/Paris:20260913T170000
 SUMMARY:Free Walking Tour Montmartre
@@ -337,7 +315,7 @@ DESCRIPTION:Venue: Place des Abbesses\, Paris\, France\nCome to discover th
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-285795@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260916T230000
 DTEND;TZID=Europe/Paris:20260917T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -355,7 +333,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée 100% Mexico p
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-286738@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260918T230000
 DTEND;TZID=Europe/Paris:20260919T050000
 SUMMARY:Erasmus Full Party : Huge Welcome Party - Free
@@ -384,7 +362,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nMesdames et Messieurs\,
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1454023:2026-09-19@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260919T150000
 DTEND;TZID=Europe/Paris:20260919T170000
 SUMMARY:Free Walking Tour Quartier Latin
@@ -412,7 +390,7 @@ DESCRIPTION:Venue: Chapelle de la Sorbonne\, Place de la Sorbonne\, Paris\,
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2026-09-20@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260920T130000
 DTEND;TZID=Europe/Paris:20260920T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -440,7 +418,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-14390@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260923T230000
 DTEND;TZID=Europe/Paris:20260924T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -463,7 +441,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-284315@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260925T230000
 DTEND;TZID=Europe/Paris:20260926T050000
 SUMMARY:E-BOAT PARTY - A partir de 13€
@@ -486,7 +464,7 @@ DESCRIPTION:Price: A partir de 13€\nVenue: 2 Quai de la Tournelle\, 75005
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-580512@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260925T230000
 DTEND;TZID=Europe/Paris:20260926T053000
 SUMMARY:International Boat Party - Rhythm & Groove - from 11.00 EUR
@@ -512,7 +490,7 @@ DESCRIPTION:Price: from 11.00 EUR\nVenue: Bateau Concorde Atlantique\, Port
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1453918:2026-09-26@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260926T150000
 DTEND;TZID=Europe/Paris:20260926T170000
 SUMMARY:Free Walking Tour Le Marais
@@ -540,7 +518,7 @@ DESCRIPTION:Venue: Fontaine Stravinsky\, Rue Brisemiche\, Paris\, France\nC
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2026-09-27@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260927T130000
 DTEND;TZID=Europe/Paris:20260927T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -568,7 +546,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1454018:2026-09-27@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260927T150000
 DTEND;TZID=Europe/Paris:20260927T170000
 SUMMARY:Free Walking Tour les Iles de Paris
@@ -595,7 +573,7 @@ DESCRIPTION:Venue: Pont Neuf\, Paris\, France\nCome to discover the prettie
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-285942@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20260930T230000
 DTEND;TZID=Europe/Paris:20261001T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -612,7 +590,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
 END:VEVENT
 BEGIN:VEVENT
 UID:eventbrite-1989154673174@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20261003T213000
 DTEND;TZID=Europe/Paris:20261004T050000
 SUMMARY:Aquaboulevard Paris Biggest Pool Party 2026 - Samedi 3 octobre - 11
@@ -627,7 +605,7 @@ DESCRIPTION:Price: 11.85-27.84 EUR\nVenue: Aquaboulevard de Paris\, 4 Rue L
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-534853@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20261003T213000
 DTEND;TZID=Europe/Paris:20261004T050000
 SUMMARY:Aquaboulevard Paris Biggest Pool Party 2026 - from 10.00 EUR
@@ -658,7 +636,7 @@ DESCRIPTION:Price: from 10.00 EUR\nVenue: Aquaboulevard de Paris\, 4 Rue Lo
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-285806@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20261007T230000
 DTEND;TZID=Europe/Paris:20261008T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -674,7 +652,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nOlé ! Une soirée dédi
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287750@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20261014T230000
 DTEND;TZID=Europe/Paris:20261015T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -697,7 +675,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287044@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20261021T230000
 DTEND;TZID=Europe/Paris:20261022T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -714,7 +692,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-284296@events-tracker
-DTSTAMP:20260901T091157Z
+DTSTAMP:20260903T062304Z
 DTSTART;TZID=Europe/Paris:20261028T230000
 DTEND;TZID=Europe/Paris:20261029T050000
 SUMMARY:Kiss My Erasmus - Free

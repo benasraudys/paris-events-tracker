@@ -1,27 +1,5 @@
 [
   {
-    "source": "erasmusplace",
-    "source_id": "14238",
-    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-ready-for-a-new-life-020926/",
-    "title": "Kiss My Erasmus",
-    "city": "Paris",
-    "venue": "Café Oz Denfert",
-    "start_date": "2026-09-02",
-    "start_time": "23:00",
-    "end_date": null,
-    "end_time": "05:00",
-    "price_text": "Gratuit avant 00:30",
-    "price_eur": 0.0,
-    "is_free": true,
-    "categories": [
-      "gratuit",
-      "soirees"
-    ],
-    "description": "Voyager à travers le monde en une soirée c’est possible !KISS MY ERASMUS, c'est le rendez-vous de tous les étudiants Erasmus, au pair, stagiaires de nationalité étrangère vivant à Paris et leurs amis…KISS MY ERASMUS Une soirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas de danse et des \"Chupitos/shooter\" pour briser ta timidité. Tu pourras porter fièrement les couleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côté musique on reste électro, RNB, Reggaeton, Pop, Disco, cette soirée c’est la tienne !",
-    "image": "https://erasmusplace.com/wp-content/uploads/2025/07/kiss-9.jpg",
-    "remote_modified": "2026-08-24T21:43:04"
-  },
-  {
     "source": "shotgun",
     "source_id": "584521",
     "url": "https://shotgun.live/en/events/villa-club-the-garden-party-chalet-du-lac",
@@ -102,7 +80,7 @@
   {
     "source": "erasmusplace",
     "source_id": "287746",
-    "url": "https://erasmusplace.com/region/lyon/evenements/kiss-my-erasmus-welcome-party-090926/",
+    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-9/",
     "title": "Kiss My Erasmus",
     "city": "Paris",
     "venue": "Café Oz Denfert",
@@ -119,7 +97,7 @@
     ],
     "description": "C’est LE grand rendez-vous de rentrée. Tous les étudiants internationaux, Erasmus, au pairs et jeunes expats sont attendus pour une soirée XXL. On fête ensemble le début de cette nouvelle aventure, avec une ambiance survoltée ! Personne ne se connaît encore vraiment... et c’est justement pour ça que c’est si facile de se faire des amis !",
     "image": "https://erasmusplace.com/wp-content/uploads/2025/08/DSCF2330-683x1024.jpg",
-    "remote_modified": "2026-07-30T05:37:42"
+    "remote_modified": "2026-09-02T10:31:24"
   },
   {
     "source": "erasmusplace",
