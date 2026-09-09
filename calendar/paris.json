@@ -60,6 +60,44 @@
     "remote_modified": null
   },
   {
+    "source": "eventbrite",
+    "source_id": "2000166763633",
+    "url": "https://www.eventbrite.fr/e/baile-loca-la-grosse-soiree-reggaeton-de-france-tickets-2000166763633",
+    "title": "BAILE LOCA LA + GROSSE SOIRÉE REGGAETON DE FRANCE !",
+    "city": "Paris",
+    "venue": "Palais de tokyo - 13 avenue du president Wilson, 13 avenue du president Wilson, 75116 Paris",
+    "start_date": "2026-09-12",
+    "start_time": "23:00",
+    "end_date": "2026-09-13",
+    "end_time": "05:00",
+    "price_text": "10.99-27.84 EUR",
+    "price_eur": 10.99,
+    "is_free": false,
+    "categories": [],
+    "description": "YOYO – PALAIS DE TOKYO | PARIS 16E REGGAETON PARTY XXL + DE 1400 PERSONNES À CHAQUE ÉDITION !",
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192964488%2F120900098767%2F1%2Foriginal.20260908-132722?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3eeb045ee60663a209304d5f94a2b3e1",
+    "remote_modified": null
+  },
+  {
+    "source": "eventbrite",
+    "source_id": "2000170788672",
+    "url": "https://www.eventbrite.fr/e/erasmus-welcome-party-2026-tickets-2000170788672",
+    "title": "Erasmus Welcome Party 2026",
+    "city": "Paris",
+    "venue": "Solum, Pont Alexandre III, 75007 Paris",
+    "start_date": "2026-09-12",
+    "start_time": "23:00",
+    "end_date": "2026-09-13",
+    "end_time": "05:30",
+    "price_text": "13.98-534.19 EUR",
+    "price_eur": 13.98,
+    "is_free": false,
+    "categories": [],
+    "description": "ERASMUS WELCOME PARTY 2026 – SOLUM PONT ALEXANDRE III",
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192965873%2F120900098767%2F1%2Foriginal.20260908-134414?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4585b755f512e07cb66e778308d22c8c",
+    "remote_modified": null
+  },
+  {
     "source": "shotgun",
     "source_id": "574275",
     "url": "https://shotgun.live/en/events/international-welcome-party-2025-solum-pont-alexandre-iii-4",
@@ -134,6 +172,27 @@
     "description": "Come to discover the prettiest spots, stories and funny facts of Montmertre with Paris Erasmus Life - Apero Time at the End This visit is offered by true Parisian students, it will be the perfect opportunity for you all to visit Paris through a different lens. When the question arises as to which district is the most beautiful in Paris, Montmartre is frequently mentioned among the foremost contenders. A symbol of poetry, love, and art, Montmartre has also witnessed significant events and tragic episodes throughout the history of Paris. Tour Date: 29th august & 13 September Time: 3:00 PM Meeting Point: Place des Abbesses What Awaits You: Discover Montmartre's Hidden Gems: Traverse through the enchanting corners that define Montmartre's allure. Unveil Legendary Tales: Delve into the captivating stories that have woven the legend of Montmartre. Forge International Connections: Forge new friendships as you journey alongside fellow international explorers. Special Ending : At the end of the tour, all participants are invited to join us for a traditional apéro. A relaxed social gathering. How to Participate ? Book your ticket online and see you at the meeting point More informations Con...",
     "image": "https://www.billetweb.fr/event/150/1454014.jpg",
     "remote_modified": null
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "287793",
+    "url": "https://erasmusplace.com/region/paris/evenements/erasmus-meet-and-speak-karaoke/",
+    "title": "Erasmus Meet and speak : Karaoke night",
+    "city": "Paris",
+    "venue": "Generator Hostel",
+    "start_date": "2026-09-14",
+    "start_time": "20:00",
+    "end_date": null,
+    "end_time": "00:30",
+    "price_text": "Gratuit",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit"
+    ],
+    "description": "Erasmus Meet & Speak t'accueille chaque lundi au Generator Paris !Retrouve-nous dans le bar du Generator pour une soirée conviviale où les rencontres se font naturellement autour d'une grande table, de jeux, d'un karaoké et de discussions avec des étudiants venus des quatre coins du monde.Une table, une langue : installe-toi où tu le souhaites, pratique une langue, découvre une nouvelle culture ou profite simplement d'une bonne conversation. Ici, le plus important est de rencontrer de nouvelles personnes et de partager un bon moment.Ouvert aux Erasmus, étudiants internationaux, au-pairs, voyageurs et Français.Que tu souhaites parler anglais, espagnol, italien, allemand, français ou simplement échanger avec des personnes du monde entier, tout le monde est le bienvenu.Au programme : discussions, jeux, karaoké, rencontres et une ambiance chaleureuse pour commencer la semaine de la meilleure façon possible.Que tu viennes d'arriver à Paris ou que tu y vives déjà, c'est le rendez-vous idéal pour élargir ton cercle d'amis, pratiquer les langues et vivre pleinement ton expérience internationale.",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
+    "remote_modified": "2026-09-08T07:14:04"
   },
   {
     "source": "erasmusplace",
