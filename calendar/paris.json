@@ -1,28 +1,6 @@
 [
   {
     "source": "erasmusplace",
-    "source_id": "287746",
-    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-9/",
-    "title": "Kiss My Erasmus",
-    "city": "Paris",
-    "venue": "Café Oz Denfert",
-    "start_date": "2026-09-09",
-    "start_time": "23:00",
-    "end_date": null,
-    "end_time": "05:00",
-    "price_text": "Gratuit avant 00:30",
-    "price_eur": 0.0,
-    "is_free": true,
-    "categories": [
-      "gratuit",
-      "soirees"
-    ],
-    "description": "C’est LE grand rendez-vous de rentrée. Tous les étudiants internationaux, Erasmus, au pairs et jeunes expats sont attendus pour une soirée XXL. On fête ensemble le début de cette nouvelle aventure, avec une ambiance survoltée ! Personne ne se connaît encore vraiment... et c’est justement pour ça que c’est si facile de se faire des amis !",
-    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/DSCF2330-683x1024.jpg",
-    "remote_modified": "2026-09-02T10:31:24"
-  },
-  {
-    "source": "erasmusplace",
     "source_id": "287927",
     "url": "https://erasmusplace.com/region/paris/evenements/erasmus-student-party/",
     "title": "Erasmus & Student Party | Club Haussmann",
