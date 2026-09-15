@@ -1,27 +1,6 @@
 [
   {
     "source": "erasmusplace",
-    "source_id": "287793",
-    "url": "https://erasmusplace.com/region/paris/evenements/erasmus-meet-and-speak-karaoke/",
-    "title": "Erasmus Meet and speak : Karaoke night + free cheese tasting",
-    "city": "Paris",
-    "venue": "Generator Hostel",
-    "start_date": "2026-09-14",
-    "start_time": "20:00",
-    "end_date": null,
-    "end_time": "00:30",
-    "price_text": "Gratuit",
-    "price_eur": 0.0,
-    "is_free": true,
-    "categories": [
-      "gratuit"
-    ],
-    "description": "Erasmus Meet & Speak t'accueille chaque lundi au Generator Paris !Retrouve-nous dans le bar du Generator pour une soirée conviviale où les rencontres se font naturellement autour d'une grande table, de jeux, d'un karaoké et de discussions avec des étudiants venus des quatre coins du monde.Une table, une langue : installe-toi où tu le souhaites, pratique une langue, découvre une nouvelle culture ou profite simplement d'une bonne conversation. Ici, le plus important est de rencontrer de nouvelles personnes et de partager un bon moment.Ouvert aux Erasmus, étudiants internationaux, au-pairs, voyageurs et Français.Que tu souhaites parler anglais, espagnol, italien, allemand, français ou simplement échanger avec des personnes du monde entier, tout le monde est le bienvenu.Au programme : discussions, jeux, karaoké, rencontres et une ambiance chaleureuse pour commencer la semaine de la meilleure façon possible.Que tu viennes d'arriver à Paris ou que tu y vives déjà, c'est le rendez-vous idéal pour élargir ton cercle d'amis, pratiquer les langues et vivre pleinement ton expérience internationale.",
-    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
-    "remote_modified": "2026-09-10T08:14:50"
-  },
-  {
-    "source": "erasmusplace",
     "source_id": "285795",
     "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-dia-de-la-independencia-160926/",
     "title": "Kiss My Erasmus",
@@ -94,11 +73,11 @@
     "start_time": "23:30",
     "end_date": "2026-09-20",
     "end_time": "05:30",
-    "price_text": "from 9.99 EUR",
-    "price_eur": 9.99,
+    "price_text": "from 12.99 EUR",
+    "price_eur": 12.99,
     "is_free": false,
     "categories": [],
-    "description": "BAILE LOCA — LA FIESTA MÁS LOCA DE PARÍS 🔥 📅 SÁBADO 19 DE SEPTIEMBRE 📍 FLOW — PARÍS Prepárate para viajar directo a Latinoamérica sin salir de París… 🌴✈️🔥 Este sábado 19 de septiembre, BAILE LOCA llega a Flow para una noche 100% caliente de Reggaetón, Baile Funk, Perreo & Música Latina. 💃🏽🍑 Sonidos que te harán viajar de Medellín a Río, de Puerto Rico a Buenos Aires… 🌎 🎶 100% REGGAETÓN • BAILE FUNK • PERREO • LATINO Bad Bunny, Karol G, Feid, Anitta, Rauw Alejandro, J Balvin, Myke Towers, Ryan Castro… y todos los hits que están haciendo bailar a Latinoamérica. 🔥 🌊 Una noche sobre el Sena, en pleno corazón de París. 🌴 Ambiente caliente. 🍑 Perreo hasta que salga el sol. 🔥 Y una sola regla: BAILAR SIN PARAR. No necesitas tomar un avión… Latinoamérica llega a París. 🇨🇴🇧🇷🇵🇷🇦🇷 💋 BAILE LOCA LA FIESTA MÁS LOCA DE PARÍS. 📍 FLOW — París 📅 Sábado 19 de septiembre ¿ESTÁS LISTO PARA PERREAR? 🔥",
+    "description": "ENGLISH BELOW BAILE LOCA — LA FIESTA MÁS LOCA DE PARÍS 🔥 📅 SÁBADO 19 DE SEPTIEMBRE 📍 FLOW — PARÍS Prepárate para viajar directo a ESPAÑA & LATINOAMÉRICA sin salir de París… 🇪🇸🌴✈️🔥 Este sábado 19 de septiembre, BAILE LOCA llega a Flow para una noche explosiva de Reggaetón, Baile Funk, Perreo & Música Latina. 💃🏽🍑 De Madrid a Medellín, de Barcelona a Río, de Puerto Rico a Buenos Aires… 🌎🔥 🎶 REGGAETÓN • BAILE FUNK • PERREO • LATINO • HITS ESPAÑOLES Bad Bunny, Karol G, Feid, Anitta, Rauw Alejandro, J Balvin, Myke Towers, Ryan Castro, Quevedo, Bad Gyal, Rosalía… y todos los hits que están haciendo bailar a España y Latinoamérica. 🔥 🌊 Una noche sobre el Sena, en pleno corazón de París. 🌴 Ambiente caliente. 🍑 Perreo hasta que salga el sol. 🔥 Una sola regla: BAILAR SIN PARAR. No necesitas tomar un avión… ESPAÑA & LATINOAMÉRICA LLEGAN A PARÍS. 🇪🇸🇨🇴🇧🇷🇵🇷🇦🇷 💋 BAILE LOCA LA FIESTA MÁS LOCA DE PARÍS. 📍 FLOW — París 📅 Sábado 19 de septiembre ¿ESTÁS LISTO PARA PERREAR? 🔥 --------------------------------------------- BAILE LOCA — THE CRAZIEST PARTY IN PARIS 🔥 📅 SATURDAY, SEPTEMBER 19 📍 FLOW — PARIS Get ready to travel straight to SPAIN & LATIN AMERICA without leaving Paris… 🇪🇸🌴✈️🔥 This Saturday, Se...",
     "image": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_1200,h_630/f_jpg/q_auto/dev/artworks/36de0429-2100-4b38-8211-09e838e8708b_t2ztir.jpg",
     "remote_modified": null
   },
@@ -120,6 +99,27 @@
     "description": "ENGLISH BELOW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la résidence ou pas - cet événement est fait pour toi. Le temps d'une croisière, on rend hommage à celle qui continue de faire chavirer des générations entières. Entre fans, entre passionné.e.s, on embarque ensemble pour un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un DJ 100 % Céline - De \"Pour que tu m'aimes encore\" à \"The Power of Love\", de \"S'il suffisait d'aimer\" à \"I'm Alive\" : pendant toute la croisière, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses hymnes internationaux. ???? Paris comme décor, Céline comme bande-son - La Tour Eiffel, le Pont Alexandre III, Notre-Dame, le Louvre qui défile... Chaque monument iconique de Paris prend une autre dimension quand \"L'Hymne à l'amour\" résonne sur l'eau. C'est une promesse : tu ne regarderas plus jamais ces paysages sans entendre sa voix. ???? Une violoniste live - Pour des moments d'émotion. Elle transforme le pont du bateau en scène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que ce n'est pas une croisière ordinaire, et que...",
     "image": null,
     "remote_modified": null
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "287793",
+    "url": "https://erasmusplace.com/region/paris/evenements/erasmus-meet-and-speak-karaoke/",
+    "title": "Erasmus Meet and speak : Karaoke night",
+    "city": "Paris",
+    "venue": "Generator Hostel",
+    "start_date": "2026-09-21",
+    "start_time": "20:00",
+    "end_date": null,
+    "end_time": "00:30",
+    "price_text": "Gratuit",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit"
+    ],
+    "description": "Erasmus Meet & Speak t'accueille chaque lundi au Generator Paris !Retrouve-nous dans le bar du Generator pour une soirée conviviale où les rencontres se font naturellement autour d'une grande table, de jeux, d'un karaoké et de discussions avec des étudiants venus des quatre coins du monde.Une table, une langue : installe-toi où tu le souhaites, pratique une langue, découvre une nouvelle culture ou profite simplement d'une bonne conversation. Ici, le plus important est de rencontrer de nouvelles personnes et de partager un bon moment.Ouvert aux Erasmus, étudiants internationaux, au-pairs, voyageurs et Français.Que tu souhaites parler anglais, espagnol, italien, allemand, français ou simplement échanger avec des personnes du monde entier, tout le monde est le bienvenu.Au programme : discussions, jeux, karaoké, rencontres et une ambiance chaleureuse pour commencer la semaine de la meilleure façon possible.Que tu viennes d'arriver à Paris ou que tu y vives déjà, c'est le rendez-vous idéal pour élargir ton cercle d'amis, pratiquer les langues et vivre pleinement ton expérience internationale.",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
+    "remote_modified": "2026-09-14T20:46:53"
   },
   {
     "source": "erasmusplace",
@@ -219,7 +219,7 @@
     "is_free": null,
     "categories": [],
     "description": "ENGLISH BELOW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la résidence ou pas - cet événement est fait pour toi. Le temps d'une croisière, on rend hommage à celle qui continue de faire chavirer des générations entières. Entre fans, entre passionné.e.s, on embarque ensemble pour un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un DJ 100 % Céline - De \"Pour que tu m'aimes encore\" à \"The Power of Love\", de \"S'il suffisait d'aimer\" à \"I'm Alive\" : pendant toute la croisière, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses hymnes internationaux. ???? Paris comme décor, Céline comme bande-son - La Tour Eiffel, le Pont Alexandre III, Notre-Dame, le Louvre qui défile... Chaque monument iconique de Paris prend une autre dimension quand \"L'Hymne à l'amour\" résonne sur l'eau. C'est une promesse : tu ne regarderas plus jamais ces paysages sans entendre sa voix. ???? Une violoniste live - Pour des moments d'émotion. Elle transforme le pont du bateau en scène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que ce n'est pas une croisière ordinaire, et que...",
-    "image": "https://www.billetweb.fr/event/150/1435784.jpg",
+    "image": null,
     "remote_modified": null
   },
   {
@@ -302,6 +302,25 @@
     "remote_modified": null
   },
   {
+    "source": "billetweb",
+    "source_id": "1435784:2026-10-04",
+    "url": "https://www.billetweb.fr/celine2",
+    "title": "Celine on the Seine - The Tribute Cruise Experience",
+    "city": "Paris",
+    "venue": "4 Quai Saint-Bernard, 75005 Paris, France",
+    "start_date": "2026-10-04",
+    "start_time": "13:00",
+    "end_date": "2026-10-04",
+    "end_time": "17:00",
+    "price_text": null,
+    "price_eur": null,
+    "is_free": null,
+    "categories": [],
+    "description": "ENGLISH BELOW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la résidence ou pas - cet événement est fait pour toi. Le temps d'une croisière, on rend hommage à celle qui continue de faire chavirer des générations entières. Entre fans, entre passionné.e.s, on embarque ensemble pour un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un DJ 100 % Céline - De \"Pour que tu m'aimes encore\" à \"The Power of Love\", de \"S'il suffisait d'aimer\" à \"I'm Alive\" : pendant toute la croisière, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses hymnes internationaux. ???? Paris comme décor, Céline comme bande-son - La Tour Eiffel, le Pont Alexandre III, Notre-Dame, le Louvre qui défile... Chaque monument iconique de Paris prend une autre dimension quand \"L'Hymne à l'amour\" résonne sur l'eau. C'est une promesse : tu ne regarderas plus jamais ces paysages sans entendre sa voix. ???? Une violoniste live - Pour des moments d'émotion. Elle transforme le pont du bateau en scène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que ce n'est pas une croisière ordinaire, et que...",
+    "image": null,
+    "remote_modified": null
+  },
+  {
     "source": "erasmusplace",
     "source_id": "285806",
     "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-spanish-night-071026/",
@@ -324,6 +343,25 @@
     "remote_modified": "2026-08-24T21:44:55"
   },
   {
+    "source": "billetweb",
+    "source_id": "1435784:2026-10-11",
+    "url": "https://www.billetweb.fr/celine2",
+    "title": "Celine on the Seine - The Tribute Cruise Experience",
+    "city": "Paris",
+    "venue": "4 Quai Saint-Bernard, 75005 Paris, France",
+    "start_date": "2026-10-11",
+    "start_time": "13:00",
+    "end_date": "2026-10-11",
+    "end_time": "17:00",
+    "price_text": null,
+    "price_eur": null,
+    "is_free": null,
+    "categories": [],
+    "description": "ENGLISH BELOW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la résidence ou pas - cet événement est fait pour toi. Le temps d'une croisière, on rend hommage à celle qui continue de faire chavirer des générations entières. Entre fans, entre passionné.e.s, on embarque ensemble pour un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un DJ 100 % Céline - De \"Pour que tu m'aimes encore\" à \"The Power of Love\", de \"S'il suffisait d'aimer\" à \"I'm Alive\" : pendant toute la croisière, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses hymnes internationaux. ???? Paris comme décor, Céline comme bande-son - La Tour Eiffel, le Pont Alexandre III, Notre-Dame, le Louvre qui défile... Chaque monument iconique de Paris prend une autre dimension quand \"L'Hymne à l'amour\" résonne sur l'eau. C'est une promesse : tu ne regarderas plus jamais ces paysages sans entendre sa voix. ???? Une violoniste live - Pour des moments d'émotion. Elle transforme le pont du bateau en scène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que ce n'est pas une croisière ordinaire, et que...",
+    "image": null,
+    "remote_modified": null
+  },
+  {
     "source": "erasmusplace",
     "source_id": "287750",
     "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-italian-party-141026/",
@@ -344,6 +382,25 @@
     "description": "Direction l’Italie pour une soirée haute en couleur (et en chaleur). Entre classiques pop, reggaeton et tubes 100% italiens. Tu n’as pas besoin de parler italien pour venir, mais tu repartiras sûrement avec quelques mots en tête… et peut-être un ou deux nouveaux amis de Rome, Milan ou Naples ! Les italiens savent mettre de l’ambiance !KISS MY ERASMUS Une soirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas de danse et des \"Chupitos/shooter\" pour briser ta timidité. Tu pourras porter fièrement les couleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côté musique on reste électro, RNB, Reggaeton, Pop, Disco, cette soirée c’est la tienne !",
     "image": "https://erasmusplace.com/wp-content/uploads/2025/07/kiss-32.jpg",
     "remote_modified": "2026-08-24T21:45:11"
+  },
+  {
+    "source": "billetweb",
+    "source_id": "1435784:2026-10-18",
+    "url": "https://www.billetweb.fr/celine2",
+    "title": "Celine on the Seine - The Tribute Cruise Experience",
+    "city": "Paris",
+    "venue": "4 Quai Saint-Bernard, 75005 Paris, France",
+    "start_date": "2026-10-18",
+    "start_time": "13:00",
+    "end_date": "2026-10-18",
+    "end_time": "17:00",
+    "price_text": null,
+    "price_eur": null,
+    "is_free": null,
+    "categories": [],
+    "description": "ENGLISH BELOW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la résidence ou pas - cet événement est fait pour toi. Le temps d'une croisière, on rend hommage à celle qui continue de faire chavirer des générations entières. Entre fans, entre passionné.e.s, on embarque ensemble pour un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un DJ 100 % Céline - De \"Pour que tu m'aimes encore\" à \"The Power of Love\", de \"S'il suffisait d'aimer\" à \"I'm Alive\" : pendant toute la croisière, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses hymnes internationaux. ???? Paris comme décor, Céline comme bande-son - La Tour Eiffel, le Pont Alexandre III, Notre-Dame, le Louvre qui défile... Chaque monument iconique de Paris prend une autre dimension quand \"L'Hymne à l'amour\" résonne sur l'eau. C'est une promesse : tu ne regarderas plus jamais ces paysages sans entendre sa voix. ???? Une violoniste live - Pour des moments d'émotion. Elle transforme le pont du bateau en scène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que ce n'est pas une croisière ordinaire, et que...",
+    "image": "https://www.billetweb.fr/event/150/1435784.jpg",
+    "remote_modified": null
   },
   {
     "source": "erasmusplace",
