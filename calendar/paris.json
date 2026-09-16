@@ -264,6 +264,28 @@
     "remote_modified": "2026-08-24T21:44:37"
   },
   {
+    "source": "erasmusplace",
+    "source_id": "287363",
+    "url": "https://erasmusplace.com/region/paris/evenements/e-boat-party-boat290526/",
+    "title": "BOAT PARTY",
+    "city": "Paris",
+    "venue": "Le Flow 4 Port des Invalides",
+    "start_date": "2026-10-02",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "A partir de 13€",
+    "price_eur": 13.0,
+    "is_free": false,
+    "categories": [
+      "payant",
+      "soirees"
+    ],
+    "description": "Tu en veux encore ? Tu penses quoi d'une boat part en face de la tour Eiffel ? Nous allons vous proposer une “boat party” sur le concorde Atlantique ! Notre dernière Boat party tous ensemble ! Notre bateau sera amarré 4 Port des Invalides en face de la tour Eiffel de 23 h à 5h du matin. Erasmus, International, au pair ou stagiaire, tu es le bienvenu !",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/07/BOAT-5.jpg",
+    "remote_modified": "2026-04-29T10:44:27"
+  },
+  {
     "source": "eventbrite",
     "source_id": "1989154673174",
     "url": "https://www.eventbrite.fr/e/aquaboulevard-paris-biggest-pool-party-2026-samedi-3-octobre-tickets-1989154673174",
@@ -382,6 +404,28 @@
     "description": "Direction l’Italie pour une soirée haute en couleur (et en chaleur). Entre classiques pop, reggaeton et tubes 100% italiens. Tu n’as pas besoin de parler italien pour venir, mais tu repartiras sûrement avec quelques mots en tête… et peut-être un ou deux nouveaux amis de Rome, Milan ou Naples ! Les italiens savent mettre de l’ambiance !KISS MY ERASMUS Une soirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas de danse et des \"Chupitos/shooter\" pour briser ta timidité. Tu pourras porter fièrement les couleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côté musique on reste électro, RNB, Reggaeton, Pop, Disco, cette soirée c’est la tienne !",
     "image": "https://erasmusplace.com/wp-content/uploads/2025/07/kiss-32.jpg",
     "remote_modified": "2026-08-24T21:45:11"
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "288886",
+    "url": "https://erasmusplace.com/region/paris/evenements/e-boat-party-boat161026/",
+    "title": "E-BOAT PARTY",
+    "city": "Paris",
+    "venue": "2 Quai de la Tournelle, 75005 Paris",
+    "start_date": "2026-10-16",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "A partir de 13€",
+    "price_eur": 13.0,
+    "is_free": false,
+    "categories": [
+      "payant",
+      "soirees"
+    ],
+    "description": "C’est ta première vraie « Erasmus Boat Party » ! Face à notre dame ! Pour cette saison 2026-27, direction les rives de la seine !Notre bateau sera amarré au Port de la Tournelle,. Notre nouveau petit plaisir se déroulera de 23 h à 5h du matin. Deux niveaux d’ambiance et une terrasse pour admirer Notre Dame de Paris. Nos internationaux seront au rendez-vous. Prix réduit sur les consommations (les temps sont dur) , musique généraliste Electro, pop, RNB, Rock, Latino, Reggaeton, disco…. Pour être dans l’ambiance. Viens avec ta bouée et ton pull à rayures bleus et blancs !Erasmus, International, au pair ou stagiaire, tu es le bienvenu !",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/event-site-internet-Billetweb-12.jpg",
+    "remote_modified": "2026-09-15T12:10:49"
   },
   {
     "source": "billetweb",
