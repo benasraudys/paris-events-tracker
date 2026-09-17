@@ -1,28 +1,6 @@
 [
   {
     "source": "erasmusplace",
-    "source_id": "285795",
-    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-dia-de-la-independencia-160926/",
-    "title": "Kiss My Erasmus",
-    "city": "Paris",
-    "venue": "Café Oz Denfert",
-    "start_date": "2026-09-16",
-    "start_time": "23:00",
-    "end_date": null,
-    "end_time": "05:00",
-    "price_text": "Gratuit avant 00:30",
-    "price_eur": 0.0,
-    "is_free": true,
-    "categories": [
-      "gratuit",
-      "soirees"
-    ],
-    "description": "Une soirée 100% Mexico pour fêter l’indépendance comme là-bas ! Mariachis, couleurs vives, drapeaux de méxique... Cette nuit, on crie \"Viva México\" tous ensemble. Que tu sois mexicain ou juste fan de tacos et de tequila, tu es le bienvenu pour une soirée pleine de chaleur et de musique latine.",
-    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
-    "remote_modified": "2026-08-24T21:44:03"
-  },
-  {
-    "source": "erasmusplace",
     "source_id": "286738",
     "url": "https://erasmusplace.com/region/paris/evenements/erasmus-full-party-full180926/",
     "title": "Erasmus Full Party : Huge Welcome Party",
