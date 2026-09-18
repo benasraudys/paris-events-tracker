@@ -122,6 +122,27 @@
     "remote_modified": "2026-08-24T21:44:18"
   },
   {
+    "source": "shotgun",
+    "source_id": "598674",
+    "url": "https://shotgun.live/en/events/l-arc-paris-jeudi-24-septembre",
+    "title": "L'arc Paris - Jeudi 24 Septembre",
+    "city": "Paris",
+    "venue": "L'Arc Paris, 12 Rue de Presbourg, 75116 Paris, France",
+    "start_date": "2026-09-24",
+    "start_time": "23:30",
+    "end_date": "2026-09-25",
+    "end_time": "05:30",
+    "price_text": "Sold out",
+    "price_eur": null,
+    "is_free": null,
+    "categories": [
+      "sold-out"
+    ],
+    "description": "L’ARC PARIS — THURSDAY, SEPTEMBER 24TH HYPE POP Where elegance, beauty & good vibes meet. Music by SMAAK Hosted by SHELLEY Guestlist before 1AM — exclusively on Shotgun Limited spots available. VIP Tables: +33 6 62 86 13 68 Dress well. Feel good. See you at L’Arc.",
+    "image": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_1200,h_630/f_jpg/q_auto/dev/artworks/ChatGPT_Image_17_sept._2026_20_41_34_byzfdf.png",
+    "remote_modified": null
+  },
+  {
     "source": "erasmusplace",
     "source_id": "284315",
     "url": "https://erasmusplace.com/region/paris/evenements/e-boat-party-boat250926/",
