@@ -1,24 +1,5 @@
 [
   {
-    "source": "billetweb",
-    "source_id": "1435784:2026-09-20",
-    "url": "https://www.billetweb.fr/celine2",
-    "title": "Celine on the Seine - The Tribute Cruise Experience",
-    "city": "Paris",
-    "venue": "4 Quai Saint-Bernard, 75005 Paris, France",
-    "start_date": "2026-09-20",
-    "start_time": "13:00",
-    "end_date": "2026-09-20",
-    "end_time": "17:00",
-    "price_text": null,
-    "price_eur": null,
-    "is_free": null,
-    "categories": [],
-    "description": "ENGLISH BELOW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la résidence ou pas - cet événement est fait pour toi. Le temps d'une croisière, on rend hommage à celle qui continue de faire chavirer des générations entières. Entre fans, entre passionné.e.s, on embarque ensemble pour un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un DJ 100 % Céline - De \"Pour que tu m'aimes encore\" à \"The Power of Love\", de \"S'il suffisait d'aimer\" à \"I'm Alive\" : pendant toute la croisière, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses hymnes internationaux. ???? Paris comme décor, Céline comme bande-son - La Tour Eiffel, le Pont Alexandre III, Notre-Dame, le Louvre qui défile... Chaque monument iconique de Paris prend une autre dimension quand \"L'Hymne à l'amour\" résonne sur l'eau. C'est une promesse : tu ne regarderas plus jamais ces paysages sans entendre sa voix. ???? Une violoniste live - Pour des moments d'émotion. Elle transforme le pont du bateau en scène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que ce n'est pas une croisière ordinaire, et que...",
-    "image": null,
-    "remote_modified": null
-  },
-  {
     "source": "erasmusplace",
     "source_id": "287793",
     "url": "https://erasmusplace.com/region/paris/evenements/erasmus-meet-and-speak-karaoke/",
@@ -302,6 +283,28 @@
     "description": "Olé ! Une soirée dédiée à l’Espagne et à sa culture festive. Au programme : drapeaux rouges et jaunes, flamenco, pop espagnole et reggaeton. Ramène ta bande ou viens solo, tu ne resteras pas seul(e) longtemps !",
     "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
     "remote_modified": "2026-08-24T21:44:55"
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "289700",
+    "url": "https://erasmusplace.com/region/paris/evenements/erasmus-full-party-full091026/",
+    "title": "Erasmus Full Party : Latinos Vs the rest of the world",
+    "city": "Paris",
+    "venue": "Café Oz Châtelet",
+    "start_date": "2026-10-09",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "Gratuit avant 00:30",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit",
+      "soirees"
+    ],
+    "description": "Mesdames et Messieurs, ici Air Erasmus.L'embarquement est désormais ouvert. Destination : le tour du monde... en une seule nuit.Bienvenue à bord de l'Erasmus Full Party - Latinos VS the rest of the world , la plus grande soirée internationale de la rentrée.Prépare-toi à rencontrer des centaines d'étudiants Erasmus, internationaux, français et jeunes actifs venus des quatre coins du monde, dans une ambiance où chaque discussion peut devenir une nouvelle amitié et chaque chanson un souvenir inoubliable.Au programme : les meilleurs sons Reggaeton, Baile Funk, Pop et tous les plus grands hits internationaux que tout le monde chante à l'unisson.Que tu viennes d'arriver ou que tu sois déjà installé, cette soirée est le meilleur moyen de commencer ton aventure, de créer de nouvelles rencontres et de vivre l'expérience internationale qui fait la réputation des soirées Erasmus.Déjà des milliers d'étudiants ont participé aux précédentes éditions. Si tu n'as jamais vécu une Erasmus Full Party, prépare-toi à comprendre pourquoi tout le monde en parle.Bienvenue à bord d'Air Erasmus. Attache ta ceinture... il est temps de faire le tour du monde en une seule nuit.",
+    "image": "https://erasmusplace.com/wp-content/uploads/2026/01/galerie-party-event-site-internet-Billetweb.jpg",
+    "remote_modified": "2026-09-20T12:57:29"
   },
   {
     "source": "billetweb",
