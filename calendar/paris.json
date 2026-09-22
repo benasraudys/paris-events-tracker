@@ -1,27 +1,6 @@
 [
   {
     "source": "erasmusplace",
-    "source_id": "287793",
-    "url": "https://erasmusplace.com/region/paris/evenements/erasmus-meet-and-speak-karaoke/",
-    "title": "Erasmus Meet and speak : Karaoke night",
-    "city": "Paris",
-    "venue": "Generator Hostel",
-    "start_date": "2026-09-21",
-    "start_time": "20:00",
-    "end_date": null,
-    "end_time": "00:30",
-    "price_text": "Gratuit",
-    "price_eur": 0.0,
-    "is_free": true,
-    "categories": [
-      "gratuit"
-    ],
-    "description": "Erasmus Meet & Speak t'accueille chaque lundi au Generator Paris !Retrouve-nous dans le bar du Generator pour une soirée conviviale où les rencontres se font naturellement autour d'une grande table, de jeux, d'un karaoké et de discussions avec des étudiants venus des quatre coins du monde.Une table, une langue : installe-toi où tu le souhaites, pratique une langue, découvre une nouvelle culture ou profite simplement d'une bonne conversation. Ici, le plus important est de rencontrer de nouvelles personnes et de partager un bon moment.Ouvert aux Erasmus, étudiants internationaux, au-pairs, voyageurs et Français.Que tu souhaites parler anglais, espagnol, italien, allemand, français ou simplement échanger avec des personnes du monde entier, tout le monde est le bienvenu.Au programme : discussions, jeux, karaoké, rencontres et une ambiance chaleureuse pour commencer la semaine de la meilleure façon possible.Que tu viennes d'arriver à Paris ou que tu y vives déjà, c'est le rendez-vous idéal pour élargir ton cercle d'amis, pratiquer les langues et vivre pleinement ton expérience internationale.",
-    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
-    "remote_modified": "2026-09-14T20:46:53"
-  },
-  {
-    "source": "erasmusplace",
     "source_id": "14390",
     "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-italian-party-230926/",
     "title": "Kiss My Erasmus",
