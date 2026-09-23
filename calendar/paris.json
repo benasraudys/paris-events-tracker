@@ -75,11 +75,11 @@
     "start_time": "23:00",
     "end_date": "2026-09-26",
     "end_time": "05:30",
-    "price_text": "from 11.00 EUR",
-    "price_eur": 11.0,
+    "price_text": "from 12.00 EUR",
+    "price_eur": 12.0,
     "is_free": false,
     "categories": [],
-    "description": "SAMEDI 26 SEPTEMBRE 2026 - INTERNATIONAL BOAT PARTY X CONCORDE ATLANTIQUE Follow us for more >>> https://www.instagram.com/paris.erasmus.life/ 800 people. One boat. Zero excuses. This Saturday, we takes over Paris's biggest boat on the Seine. Summer warmth, open skies, hot dancefloors, international crowd, the kind of night you'll be telling people about. Spaniards, Brazilians, Italians, Dutch, Germans... every flag is represented. Which one will dominate? See you on the water. 🛥️ 🌐+ 800 Guests 🎉 2 Rooms - 2 Vibes: Afrobeats & HipHop / Generalist & Pop 2000s 📸 Huge rooftop semi-covered 🎶 4 Internationals DJs 🌍 +50 Nationalities 🍭 Candies & Gifts 💸 Tickets from 10€ to 20€ - Act fast to pay less And a lot of surprises....Go Hard or GO HOME Don't miss this unique evening ! Bateau Concorde Atlantique 23 Quai Anatole France 75007 Paris The Boat is staying all night",
+    "description": "VENDREDI 25 SEPTEMBRE 2026 - INTERNATIONAL BOAT PARTY X CONCORDE ATLANTIQUE Follow us for more >>> https://www.instagram.com/paris.erasmus.life/ 800 people. One boat. Zero excuses. This Saturday, we takes over Paris's biggest boat on the Seine. Summer warmth, open skies, hot dancefloors, international crowd, the kind of night you'll be telling people about. Spaniards, Brazilians, Italians, Dutch, Germans... every flag is represented. Which one will dominate? See you on the water. 🛥️ 🌐+ 800 Guests 🎉 2 Rooms - 2 Vibes: Afrobeats & HipHop / Generalist & Pop 2000s 📸 Huge rooftop semi-covered 🎶 4 Internationals DJs 🌍 +50 Nationalities 🍭 Candies & Gifts 💸 Tickets from 10€ to 20€ - Act fast to pay less And a lot of surprises....Go Hard or GO HOME Don't miss this unique evening ! Bateau Concorde Atlantique 23 Quai Anatole France 75007 Paris The Boat is staying all night",
     "image": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_1200,h_630/f_jpg/q_auto/production/artworks/ChatGPT_Image_25_aou%CC%82t_2026_16_33_08_ijdrmj.png",
     "remote_modified": null
   },
@@ -136,9 +136,30 @@
     "price_eur": null,
     "is_free": null,
     "categories": [],
-    "description": "Come to discover the prettiest spots, stories and funny facts of \"Les Iles de Paris\" with Paris Erasmus Life This visit is offered by true Parisians; it will be the perfect opportunity for all of you to explore Paris through a different lens. L'île de la Cité\" and \"l'île Saint-Louis\" are considered as the birthplace of Paris, embodying the essence of the original city. Serving as the urban nucleus of the medieval metropolis, they create a microcosm within the larger urban expanse. From Notre-Dame to the Palais de Justice, and spanning to the Place Dauphine and the flower market, these islands hold an invaluable trove of historical and cultural treasures. Come to discover the most historic neighborhood, legends and funny facts. Tour Date: 12 & 27, September Time: 3:00 PM Meeting Point: Statue de Henry 4 What Awaits You: Uncover Enchanting Locations: Explore the captivating sites that imbue the Parisian Islands with their irresistible charm. Reveal the Tales that Forged the Legend: Immerse yourself in the narratives that intricately weave the legendary tapestry of the Parisian Islands. Forge International Bonds on Your Journey: Connect with fellow international adventurers as you tr...",
+    "description": "Walking Tour Cancelled: Reims & Champagne Trip instead https://www.billetweb.fr/reims-champagne-day-trip",
     "image": "https://www.billetweb.fr/event/150/1454018.jpg",
     "remote_modified": null
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "287793",
+    "url": "https://erasmusplace.com/region/paris/evenements/erasmus-meet-and-speak-karaoke/",
+    "title": "Erasmus Meet and speak : Karaoke night",
+    "city": "Paris",
+    "venue": "Generator Hostel",
+    "start_date": "2026-09-28",
+    "start_time": "20:00",
+    "end_date": null,
+    "end_time": "00:30",
+    "price_text": "Gratuit",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit"
+    ],
+    "description": "Erasmus Meet & Speak t'accueille chaque lundi au Generator Paris !Retrouve-nous dans le bar du Generator pour une soirée conviviale où les rencontres se font naturellement autour d'une grande table, de jeux, d'un karaoké et de discussions avec des étudiants venus des quatre coins du monde.Une table, une langue : installe-toi où tu le souhaites, pratique une langue, découvre une nouvelle culture ou profite simplement d'une bonne conversation. Ici, le plus important est de rencontrer de nouvelles personnes et de partager un bon moment.Ouvert aux Erasmus, étudiants internationaux, au-pairs, voyageurs et Français.Que tu souhaites parler anglais, espagnol, italien, allemand, français ou simplement échanger avec des personnes du monde entier, tout le monde est le bienvenu.Au programme : discussions, jeux, karaoké, rencontres et une ambiance chaleureuse pour commencer la semaine de la meilleure façon possible.Que tu viennes d'arriver à Paris ou que tu y vives déjà, c'est le rendez-vous idéal pour élargir ton cercle d'amis, pratiquer les langues et vivre pleinement ton expérience internationale.",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
+    "remote_modified": "2026-09-22T10:35:59"
   },
   {
     "source": "erasmusplace",
