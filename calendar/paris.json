@@ -22,6 +22,25 @@
     "remote_modified": "2026-08-24T21:44:37"
   },
   {
+    "source": "shotgun",
+    "source_id": "603237",
+    "url": "https://shotgun.live/en/events/boumboum-paris-fashion-week-jeudi-1-er-octobre",
+    "title": "Boumboum — Paris Fashion Week · Jeudi 1er Octobre",
+    "city": "Paris",
+    "venue": "Boum Boum, 37 Avenue de Friedland, 75008 Paris, France",
+    "start_date": "2026-10-01",
+    "start_time": "23:30",
+    "end_date": "2026-10-02",
+    "end_time": "05:30",
+    "price_text": "from 11.00 EUR",
+    "price_eur": 11.0,
+    "is_free": false,
+    "categories": [],
+    "description": "PARIS FASHION WEEK 2026 — BOUMBOUM Join us on Thursday, October 1st for a special Paris Fashion Week night, hosted by ALLNATT Paris × TAILOR AGENCY Paris. Expect a stylish atmosphere, special guests, and a night dedicated to fashion, music & Paris nightlife. 📍 37 Av. de Friedland, 75008 Paris 📅 Thursday, October 1st ✨ Paris Fashion Week Special 🥂 Special Guests Very limited spots - Strict Door Policy Come celebrate Fashion Week with us. See you at BOUMBOUM.",
+    "image": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_1200,h_630/f_jpg/q_auto/dev/artworks/Image_ChatGPT_29_sept._2026_21_05_19_ueafem.png",
+    "remote_modified": null
+  },
+  {
     "source": "erasmusplace",
     "source_id": "287363",
     "url": "https://erasmusplace.com/region/paris/evenements/e-boat-party-boat290526/",
