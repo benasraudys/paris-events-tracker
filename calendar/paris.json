@@ -1,27 +1,5 @@
 [
   {
-    "source": "erasmusplace",
-    "source_id": "285942",
-    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-brazilian-night-300926/",
-    "title": "Kiss My Erasmus",
-    "city": "Paris",
-    "venue": "Café Oz Denfert",
-    "start_date": "2026-09-30",
-    "start_time": "23:00",
-    "end_date": null,
-    "end_time": "05:00",
-    "price_text": "Gratuit avant 00:30",
-    "price_eur": 0.0,
-    "is_free": true,
-    "categories": [
-      "gratuit",
-      "soirees"
-    ],
-    "description": "Un aller simple pour Rio, ça te tente ? Ce soir, c’est le Brésil qui t’accueille avec ses rythmes, et son énergie folle. Attends-toi à danser, rire, chanter, et peut-être même découvrir quelques pas de samba... Les Brésiliens et Brésiliennes savent mettre de l’ambiance crois moi !",
-    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
-    "remote_modified": "2026-08-24T21:44:37"
-  },
-  {
     "source": "shotgun",
     "source_id": "603237",
     "url": "https://shotgun.live/en/events/boumboum-paris-fashion-week-jeudi-1-er-octobre",
@@ -63,6 +41,25 @@
     "remote_modified": "2026-04-29T10:44:27"
   },
   {
+    "source": "shotgun",
+    "source_id": "534853",
+    "url": "https://shotgun.live/en/events/aquaboulevard-paris-biggest-pool-party-2026-samedi-30-mai",
+    "title": "Aquaboulevard Paris Biggest Pool Party 2026",
+    "city": "Paris",
+    "venue": "Aquaboulevard de Paris, 4 Rue Louis Armand, 75015 Paris, France",
+    "start_date": "2026-10-03",
+    "start_time": "21:00",
+    "end_date": "2026-10-04",
+    "end_time": "05:00",
+    "price_text": "from 10.00 EUR",
+    "price_eur": 10.0,
+    "is_free": false,
+    "categories": [],
+    "description": "ENGLISH BELOW 💥💦 SAMEDI 3 OCTOBRE – LA PLUS GRANDE POOL PARTY DE FRANCE 💦💥 📍 AQUABOULEVARD – PARIS 🔥 UNE NUIT. UN LIEU. UNE EXPÉRIENCE INOUBLIABLE. 💦 Immense piscine intérieure & jacuzzis 🎧 2 Dancefloors • 6 DJs internationaux – Urban Pop & Afrobeats by FUSION et Latino, Baile funk by BAILE LOCA + House music 🎭 Performers en live artistes & spectacles ☀ 100% Indoor • 100% Chauffé 🩱 Dress Code : BEACH PLEASE ! De Rio à Mykonos — arbore ton look plage le plus audacieux ✨ 2 000+ fêtards 🌍 50+ nationalités réunies 💡 Après 6 mois de préparation, voici l’ÉVÉNEMENT international de Mai. On ouvre l’été mais on le fais de façon ÉPIQUE. 🎭 PROGRAMME DE LA SOIRÉE 21h – 23h30 : AQUAPARK GEANT 💦 → ACCÈS GRATUIT aux piscines & jacuzzis → XXL Party Pool : bouées géantes, vagues artificielles, canons à mousse, jets d’eau synchronisés, lumières & son immersifs → Ambiance Smooth & House pour bien démarrer → Dancefloor au bord de la piscine + Chill Lounge avec transats ⚠ Arrive tôt — c’est ton moment pour profiter de la magie aquatique ! Ensuite la fête a lieu autour de la piscine ! 23h30 – 5h : CLUB AQUABOULEVARD 🌐 → 2 DANCEFLOORS • 2 AMBIANCES On sort de l’eau et on passe en mode club 💃🏼 • Floor 1...",
+    "image": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_1200,h_630/f_jpg/q_auto/production/artworks/ChatGPT_Image_24_mai_2026_14_40_50_l556h8.png",
+    "remote_modified": null
+  },
+  {
     "source": "eventbrite",
     "source_id": "1989154673174",
     "url": "https://www.eventbrite.fr/e/aquaboulevard-paris-biggest-pool-party-2026-samedi-3-octobre-tickets-1989154673174",
@@ -79,25 +76,6 @@
     "categories": [],
     "description": "2 Dancefloors // Artists & Shows // VIP Area // Pools & Jacuzzis",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185546273%2F120900098767%2F1%2Foriginal.20260527-175817?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=dcf83075e7d3d0f95522cb4e91d3d047",
-    "remote_modified": null
-  },
-  {
-    "source": "shotgun",
-    "source_id": "534853",
-    "url": "https://shotgun.live/en/events/aquaboulevard-paris-biggest-pool-party-2026-samedi-30-mai",
-    "title": "Aquaboulevard Paris Biggest Pool Party 2026",
-    "city": "Paris",
-    "venue": "Aquaboulevard de Paris, 4 Rue Louis Armand, 75015 Paris, France",
-    "start_date": "2026-10-03",
-    "start_time": "21:30",
-    "end_date": "2026-10-04",
-    "end_time": "05:00",
-    "price_text": "from 10.00 EUR",
-    "price_eur": 10.0,
-    "is_free": false,
-    "categories": [],
-    "description": "ENGLISH BELOW 💥💦 SAMEDI 3 OCTOBRE – LA PLUS GRANDE POOL PARTY DE FRANCE 💦💥 📍 AQUABOULEVARD – PARIS 🔥 UNE NUIT. UN LIEU. UNE EXPÉRIENCE INOUBLIABLE. 💦 Immense piscine intérieure & jacuzzis 🎧 2 Dancefloors • 6 DJs internationaux – Urban Pop & Afrobeats by FUSION et Latino, Baile funk by BAILE LOCA + House music 🎭 Performers en live artistes & spectacles ☀ 100% Indoor • 100% Chauffé 🩱 Dress Code : BEACH PLEASE ! De Rio à Mykonos — arbore ton look plage le plus audacieux ✨ 2 000+ fêtards 🌍 50+ nationalités réunies 💡 Après 6 mois de préparation, voici l’ÉVÉNEMENT international de Mai. On ouvre l’été mais on le fais de façon ÉPIQUE. 🎭 PROGRAMME DE LA SOIRÉE 21h – 23h30 : AQUAPARK GEANT 💦 → ACCÈS GRATUIT aux piscines & jacuzzis → XXL Party Pool : bouées géantes, vagues artificielles, canons à mousse, jets d’eau synchronisés, lumières & son immersifs → Ambiance Smooth & House pour bien démarrer → Dancefloor au bord de la piscine + Chill Lounge avec transats ⚠ Arrive tôt — c’est ton moment pour profiter de la magie aquatique ! Ensuite la fête a lieu autour de la piscine ! 23h30 – 5h : CLUB AQUABOULEVARD 🌐 → 2 DANCEFLOORS • 2 AMBIANCES On sort de l’eau et on passe en mode club 💃🏼 • Floor 1...",
-    "image": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_1200,h_630/f_jpg/q_auto/production/artworks/ChatGPT_Image_24_mai_2026_14_40_50_l556h8.png",
     "remote_modified": null
   },
   {
