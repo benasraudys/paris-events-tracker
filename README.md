@@ -13,6 +13,17 @@ Single-file [uv](https://docs.astral.sh/uv/) script with inline (PEP 723) deps â
 uv run scrape_events.py
 ```
 
+Dependency versions are pinned in `scrape_events.py.lock`, which `uv run` uses
+automatically and CI enforces with `--locked`. Upgrades are deliberate:
+
+```bash
+uv lock --script scrape_events.py --upgrade
+```
+
+Before the lock, dependencies floated to the newest release on every run, so
+selectolax 1.0 (which removed the parser backend this used) broke the daily job
+overnight. If you upgrade, run the job by hand once before trusting it.
+
 ## Automation
 
 `.github/workflows/update-calendar.yml` runs daily at 05:17 UTC, then sleeps a

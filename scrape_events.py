@@ -2,7 +2,7 @@
 # requires-python = ">=3.11"
 # dependencies = [
 #     "httpx>=0.27",
-#     "selectolax>=0.3.21",
+#     "selectolax>=1.0,<2",
 #     "tzdata>=2024.1; sys_platform == 'win32'",
 # ]
 # ///
@@ -51,7 +51,10 @@ from typing import Iterable, Iterator
 from zoneinfo import ZoneInfo
 
 import httpx
-from selectolax.parser import HTMLParser
+# selectolax 1.0 removed the old Modest backend (`selectolax.parser` now
+# raises ImportError on import). Lexbor is the maintained HTML5 parser; the
+# alias keeps the rest of the module unchanged.
+from selectolax.lexbor import LexborHTMLParser as HTMLParser
 
 PARIS_TZ = ZoneInfo("Europe/Paris")
 
