@@ -22,6 +22,27 @@
     "remote_modified": "2026-08-24T21:44:55"
   },
   {
+    "source": "shotgun",
+    "source_id": "605380",
+    "url": "https://shotgun.live/en/events/l-arc-paris-jeudi-8-octobre",
+    "title": "L'arc Paris - Jeudi 8 Octobre",
+    "city": "Paris",
+    "venue": "L'Arc Paris, 12 Rue de Presbourg, 75116 Paris, France",
+    "start_date": "2026-10-08",
+    "start_time": "23:30",
+    "end_date": "2026-10-09",
+    "end_time": "05:30",
+    "price_text": "Sold out",
+    "price_eur": null,
+    "is_free": null,
+    "categories": [
+      "sold-out"
+    ],
+    "description": "L’ARC PARIS — THURSDAY, OCTOBER 8TH HYPE POP Where elegance, beauty & good vibes meet. Music by RUDBOY Hosted by SHELLEY Guestlist before 1AM — exclusively on Shotgun Limited spots available. VIP Tables: +33 6 62 86 13 68 Dress well. Feel good. See you at L’Arc.",
+    "image": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_1200,h_630/f_jpg/q_auto/dev/artworks/Soire%CC%81e_dore%CC%81e_sous_les_lumie%CC%80res_de_Paris_jniwah.png",
+    "remote_modified": null
+  },
+  {
     "source": "erasmusplace",
     "source_id": "289700",
     "url": "https://erasmusplace.com/region/paris/evenements/erasmus-full-party-full091026/",
@@ -165,6 +186,25 @@
     "description": "Tu connais les paroles par cœur ? Cette soirée est faite pour toi. Du début à la fin, on balance les sons reggaeton les plus emblématiques. Viens bouger sur Bad Bunny, Karol G, Daddy Yankee et plein d'autres. C’est caliente ce soir !",
     "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
     "remote_modified": "2026-08-24T21:45:25"
+  },
+  {
+    "source": "shotgun",
+    "source_id": "604390",
+    "url": "https://shotgun.live/en/events/superstars-on-boat-speciale-rihanna-vs-beyonce",
+    "title": "Superstars On Boat: Rihanna Vs Beyoncé",
+    "city": "Paris",
+    "venue": "River's King, 4 Quai Saint-Bernard, 75005 Paris, France",
+    "start_date": "2026-10-24",
+    "start_time": "20:00",
+    "end_date": "2026-10-25",
+    "end_time": "05:00",
+    "price_text": "from 9.99 EUR",
+    "price_eur": 9.99,
+    "is_free": false,
+    "categories": [],
+    "description": "✨ SUPERSTARS — RIHANNA VS BEYONCÉ ✨ 🚢 CROISIÈRE + CLUB • PARIS English below WELCOME TO SUPERSTARS ⭐️ SUPERSTARS, c’est la soirée qui célèbre les plus grandes icônes de la pop culture. 💫 À chaque édition, deux superstars, deux univers, une nuit : leurs plus grands hits, les classiques qu’on connaît tous par cœur, les morceaux qui ont marqué nos soirées et toute une génération. Une soirée faite pour chanter fort, danser sans s’arrêter et revivre les hits qui nous ont fait vibrer. 🎤✨ Et pour lancer SUPERSTARS, difficile d’imaginer un duo plus iconique… RIHANNA VS BEYONCÉ 👑 Deux artistes. Deux univers. Des dizaines de hits planétaires. Et pour cette première édition, on ne commence pas directement en club… On commence sur la Seine. 🛥️✨ 🕗 20H — OUVERTURE DES PORTES Accueil à bord et début de soirée. 🚢 21H30 — DÉPART DE LA CROISIÈRE Paris by night, la Seine et les classiques de Rihanna & Beyoncé pour accompagner la navigation. ⚓ 23H — RETOUR À QUAI 🔥 23H → 5H — MODE CLUB La nuit continue avec 50% RIHANNA • 50% BEYONCÉ. De Crazy in Love à Umbrella, de Run the World à We Found Love, de Single Ladies à Work… prépare-toi à chanter et danser toute la nuit. 💃🏽 🎧 4 DJs aux commandes : Louise...",
+    "image": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_1200,h_630/f_jpg/q_auto/dev/artworks/D7908A16-2FA1-45D4-985F-2EA1DB2E4908_a5jnil.png",
+    "remote_modified": null
   },
   {
     "source": "erasmusplace",
