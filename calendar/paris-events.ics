@@ -23,24 +23,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:erasmusplace-285806@events-tracker
-DTSTAMP:20261006T055438Z
-DTSTART;TZID=Europe/Paris:20261007T230000
-DTEND;TZID=Europe/Paris:20261008T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-spanis
- h-night-071026/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nOlé ! Une soirée dédi
- ée à l’Espagne et à sa culture festive. Au programme : drapeaux rouge
- s et jaunes\, flamenco\, pop espagnole et reggaeton. Ramène ta bande ou v
- iens solo\, tu ne resteras pas seul(e) longtemps !\n\nhttps://erasmusplace
- .com/region/paris/evenements/kiss-my-erasmus-spanish-night-071026/
-END:VEVENT
-BEGIN:VEVENT
 UID:shotgun-605380@events-tracker
-DTSTAMP:20261006T055438Z
+DTSTAMP:20261008T055100Z
 DTSTART;TZID=Europe/Paris:20261008T233000
 DTEND;TZID=Europe/Paris:20261009T053000
 SUMMARY:L'arc Paris - Jeudi 8 Octobre - Sold out
@@ -56,7 +40,7 @@ DESCRIPTION:Price: Sold out\nVenue: L'Arc Paris\, 12 Rue de Presbourg\, 751
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-289700@events-tracker
-DTSTAMP:20261006T055438Z
+DTSTAMP:20261008T055100Z
 DTSTART;TZID=Europe/Paris:20261009T230000
 DTEND;TZID=Europe/Paris:20261010T050000
 SUMMARY:Erasmus Full Party : Latinos Vs the rest of the world - Free
@@ -86,7 +70,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nMesdames et Messieurs\,
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-601927@events-tracker
-DTSTAMP:20261006T055438Z
+DTSTAMP:20261008T055100Z
 DTSTART;TZID=Europe/Paris:20261010T233000
 DTEND;TZID=Europe/Paris:20261011T053000
 SUMMARY:Erasmus Welcome Party 2026 - Solum Pont Alexandre I… - from 13.20
@@ -118,7 +102,7 @@ DESCRIPTION:Price: from 13.20 EUR\nVenue: Solum\, Rive gauche\, Pont Alexan
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2026-10-11@events-tracker
-DTSTAMP:20261006T055438Z
+DTSTAMP:20261008T055100Z
 DTSTART;TZID=Europe/Paris:20261011T130000
 DTEND;TZID=Europe/Paris:20261011T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -146,7 +130,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287750@events-tracker
-DTSTAMP:20261006T055438Z
+DTSTAMP:20261008T055100Z
 DTSTART;TZID=Europe/Paris:20261014T230000
 DTEND;TZID=Europe/Paris:20261015T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -169,7 +153,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-288886@events-tracker
-DTSTAMP:20261006T055438Z
+DTSTAMP:20261008T055100Z
 DTSTART;TZID=Europe/Paris:20261016T230000
 DTEND;TZID=Europe/Paris:20261017T050000
 SUMMARY:E-BOAT PARTY - A partir de 13€
@@ -192,7 +176,7 @@ DESCRIPTION:Price: A partir de 13€\nVenue: 2 Quai de la Tournelle\, 75005
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2026-10-18@events-tracker
-DTSTAMP:20261006T055438Z
+DTSTAMP:20261008T055100Z
 DTSTART;TZID=Europe/Paris:20261018T130000
 DTEND;TZID=Europe/Paris:20261018T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -220,7 +204,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287044@events-tracker
-DTSTAMP:20261006T055438Z
+DTSTAMP:20261008T055100Z
 DTSTART;TZID=Europe/Paris:20261021T230000
 DTEND;TZID=Europe/Paris:20261022T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -237,7 +221,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-604390@events-tracker
-DTSTAMP:20261006T055438Z
+DTSTAMP:20261008T055100Z
 DTSTART;TZID=Europe/Paris:20261024T200000
 DTEND;TZID=Europe/Paris:20261025T050000
 SUMMARY:Superstars On Boat: Rihanna Vs Beyoncé - from 9.99 EUR
@@ -268,7 +252,7 @@ DESCRIPTION:Price: from 9.99 EUR\nVenue: River's King\, 4 Quai Saint-Bernar
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-284296@events-tracker
-DTSTAMP:20261006T055438Z
+DTSTAMP:20261008T055100Z
 DTSTART;TZID=Europe/Paris:20261028T230000
 DTEND;TZID=Europe/Paris:20261029T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -291,7 +275,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nCostume\, déguisement\
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261006T055438Z
+DTSTAMP:20261008T055100Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
