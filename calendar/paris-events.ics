@@ -23,24 +23,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:shotgun-605380@events-tracker
-DTSTAMP:20261008T055100Z
-DTSTART;TZID=Europe/Paris:20261008T233000
-DTEND;TZID=Europe/Paris:20261009T053000
-SUMMARY:L'arc Paris - Jeudi 8 Octobre - Sold out
-LOCATION:L'Arc Paris\, 12 Rue de Presbourg\, 75116 Paris\, France
-URL:https://shotgun.live/en/events/l-arc-paris-jeudi-8-octobre
-CATEGORIES:sold-out
-DESCRIPTION:Price: Sold out\nVenue: L'Arc Paris\, 12 Rue de Presbourg\, 751
- 16 Paris\, France\nL’ARC PARIS — THURSDAY\, OCTOBER 8TH HYPE POP Where
-  elegance\, beauty & good vibes meet. Music by RUDBOY Hosted by SHELLEY Gu
- estlist before 1AM — exclusively on Shotgun Limited spots available. VIP
-  Tables: +33 6 62 86 13 68 Dress well. Feel good. See you at L’Arc.\n\nh
- ttps://shotgun.live/en/events/l-arc-paris-jeudi-8-octobre
-END:VEVENT
-BEGIN:VEVENT
 UID:erasmusplace-289700@events-tracker
-DTSTAMP:20261008T055100Z
+DTSTAMP:20261009T053741Z
 DTSTART;TZID=Europe/Paris:20261009T230000
 DTEND;TZID=Europe/Paris:20261010T050000
 SUMMARY:Erasmus Full Party : Latinos Vs the rest of the world - Free
@@ -70,39 +54,39 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nMesdames et Messieurs\,
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-601927@events-tracker
-DTSTAMP:20261008T055100Z
+DTSTAMP:20261009T053741Z
 DTSTART;TZID=Europe/Paris:20261010T233000
 DTEND;TZID=Europe/Paris:20261011T053000
-SUMMARY:Erasmus Welcome Party 2026 - Solum Pont Alexandre I… - from 13.20
+SUMMARY:Erasmus Welcome Party 2026 - Solum Pont Alexandre I… - from 18.70
   EUR
 LOCATION:Solum\, Rive gauche\, Pont Alexandre III\, 75007 Paris\, France
 URL:https://shotgun.live/en/events/international-welcome-party-2025-solum-p
  ont-alexandre-iii-5
-DESCRIPTION:Price: from 13.20 EUR\nVenue: Solum\, Rive gauche\, Pont Alexan
+DESCRIPTION:Price: from 18.70 EUR\nVenue: Solum\, Rive gauche\, Pont Alexan
  dre III\, 75007 Paris\, France\nFOLLOW PARIS ERASMUS LIFE on INSTAGRAM htt
  ps://www.instagram.com/paris.erasmus.life/ 🔥✦✦✦ ERASMUS WELCOME P
- ARTY 2026 – SOLUM PONT ALEXANDRE III ✦✦✦🔥 🎉 SATURDAY\, SEPTE
- MBER 12th – The Ultimate Welcome Party of the Year Lands in Paris! YOU L
- OVED IT\, YOU ASKED FOR IT… PART II IS HERE! 🔥 After the huge success
-  of our first Erasmus Welcome Party\, so many of you asked for another one
- ! 🌍 Some weren’t in Paris yet\, some missed it… and others just wan
- t to do it all over again. 👀 🌍 1200+ Students & Internationals. One 
- Legendary Night. Are You In? Which nationality will be the most represente
- d? —which school will take over the dancefloor? 🔹 WHAT TO EXPECT? ✨
-  Spectacular Location: A stunning venue under Alexander III Bridge 🎭 Li
- ve Performers & Artists: Open your senses 🎧 3 International Guest DJs 
+ ARTY 2026 – SOLUM PONT ALEXANDRE III ✦✦✦🔥 🎉 SATURDAY\, OCTOB
+ ER 10h – The Ultimate Welcome Party of the Year Lands in Paris! YOU LOVE
+ D IT\, YOU ASKED FOR IT… PART II IS HERE! 🔥 After the huge success of
+  our first Erasmus Welcome Party\, so many of you asked for another one! 
+ 🌍 Some weren’t in Paris yet\, some missed it… and others just want 
+ to do it all over again. 👀 🌍 1200+ Students & Internationals. One Le
+ gendary Night. Are You In? Which nationality will be the most represented?
+  —which school will take over the dancefloor? 🔹 WHAT TO EXPECT? ✨ S
+ pectacular Location: A stunning venue under Alexander III Bridge 🎭 Live
+  Performers & Artists: Open your senses 🎧 3 International Guest DJs 
  🔥 Hottest Dancefloor: A fusion of Hip-Hop\, Reggaeton & House beats 
  🏆 Massive VIP area behind the DJ 🌎 50+ Nationalities—Unite\, Dance
  \, Celebrate! 📸 Photographers & Videographers capturing every wild mome
  nt 🎶 Non-Stop Hits from: Drake • J Balvin • Rihanna • Bad Bunny 
  • David Guetta • Karol G • Dua Lipa • Kendrick Lamar • Kanye Wes
  t • Doja Cat • Central Cee • Rauw Alejandro • Maluma • Calvin Ha
- rris • Maj...\n\nhttps://shotgun.live/en/events/international-welcome-pa
- rty-2025-solum-pont-alexandre-iii-5
+ rris • Major...\n\nhttps://shotgun.live/en/events/international-welcome-
+ party-2025-solum-pont-alexandre-iii-5
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2026-10-11@events-tracker
-DTSTAMP:20261008T055100Z
+DTSTAMP:20261009T053741Z
 DTSTART;TZID=Europe/Paris:20261011T130000
 DTEND;TZID=Europe/Paris:20261011T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -130,7 +114,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287750@events-tracker
-DTSTAMP:20261008T055100Z
+DTSTAMP:20261009T053741Z
 DTSTART;TZID=Europe/Paris:20261014T230000
 DTEND;TZID=Europe/Paris:20261015T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -153,7 +137,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-288886@events-tracker
-DTSTAMP:20261008T055100Z
+DTSTAMP:20261009T053741Z
 DTSTART;TZID=Europe/Paris:20261016T230000
 DTEND;TZID=Europe/Paris:20261017T050000
 SUMMARY:E-BOAT PARTY - A partir de 13€
@@ -176,7 +160,7 @@ DESCRIPTION:Price: A partir de 13€\nVenue: 2 Quai de la Tournelle\, 75005
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2026-10-18@events-tracker
-DTSTAMP:20261008T055100Z
+DTSTAMP:20261009T053741Z
 DTSTART;TZID=Europe/Paris:20261018T130000
 DTEND;TZID=Europe/Paris:20261018T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -204,7 +188,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287044@events-tracker
-DTSTAMP:20261008T055100Z
+DTSTAMP:20261009T053741Z
 DTSTART;TZID=Europe/Paris:20261021T230000
 DTEND;TZID=Europe/Paris:20261022T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -220,8 +204,37 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
  -night-211026/
 END:VEVENT
 BEGIN:VEVENT
+UID:erasmusplace-290420@events-tracker
+DTSTAMP:20261009T053741Z
+DTSTART;TZID=Europe/Paris:20261023T230000
+DTEND;TZID=Europe/Paris:20261024T050000
+SUMMARY:Erasmus Full Party : Rooftop Party - Free
+LOCATION:Café Oz Rooftop
+URL:https://erasmusplace.com/region/paris/evenements/erasmus-full-party-ful
+ l231026/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Rooftop\nMesdames et Messieurs\, i
+ ci Air Erasmus.L'embarquement est désormais ouvert. Destination : le tour
+  du monde... en une seule nuit.Bienvenue à bord de l'Erasmus Full Party -
+  ROOFTOP PARTY \, la plus grande soirée internationale de la rentrée.Pr
+ épare-toi à rencontrer des centaines d'étudiants Erasmus\, internationa
+ ux\, français et jeunes actifs venus des quatre coins du monde\, dans une
+  ambiance où chaque discussion peut devenir une nouvelle amitié et chaqu
+ e chanson un souvenir inoubliable.Au programme : les meilleurs sons Reggae
+ ton\, Baile Funk\, Pop et tous les plus grands hits internationaux que tou
+ t le monde chante à l'unisson.Que tu viennes d'arriver ou que tu sois dé
+ jà installé\, cette soirée est le meilleur moyen de commencer ton avent
+ ure\, de créer de nouvelles rencontres et de vivre l'expérience internat
+ ionale qui fait la réputation des soirées Erasmus.Déjà des milliers d'
+ étudiants ont participé aux précédentes éditions. Si tu n'as jamais v
+ écu une Erasmus Full Party\, prépare-toi à comprendre pourquoi tout le 
+ monde en parle.Bienvenue à bord d'Air Erasmus. Attache ta ceinture... il 
+ est temps de faire le tour du monde en une seule nuit.\n\nhttps://erasmusp
+ lace.com/region/paris/evenements/erasmus-full-party-full231026/
+END:VEVENT
+BEGIN:VEVENT
 UID:shotgun-604390@events-tracker
-DTSTAMP:20261008T055100Z
+DTSTAMP:20261009T053741Z
 DTSTART;TZID=Europe/Paris:20261024T200000
 DTEND;TZID=Europe/Paris:20261025T050000
 SUMMARY:Superstars On Boat: Rihanna Vs Beyoncé - from 9.99 EUR
@@ -252,7 +265,7 @@ DESCRIPTION:Price: from 9.99 EUR\nVenue: River's King\, 4 Quai Saint-Bernar
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-284296@events-tracker
-DTSTAMP:20261008T055100Z
+DTSTAMP:20261009T053741Z
 DTSTART;TZID=Europe/Paris:20261028T230000
 DTEND;TZID=Europe/Paris:20261029T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -274,8 +287,32 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nCostume\, déguisement\
  een-281026/
 END:VEVENT
 BEGIN:VEVENT
+UID:erasmusplace-290417@events-tracker
+DTSTAMP:20261009T053741Z
+DTSTART;TZID=Europe/Paris:20261030T230000
+DTEND;TZID=Europe/Paris:20261031T060000
+SUMMARY:Erasmus & Student Party Halloween - À partir de 13€
+LOCATION:Concorde Atlantique
+URL:https://erasmusplace.com/region/paris/evenements/erasmus-student-party-
+ halloween/
+DESCRIPTION:Price: À partir de 13€\nVenue: Concorde Atlantique\nPRÊTS P
+ OUR HALLOWEEN ? 🎃 RDV le Vendredi 30 octobre au Concorde Atlantique pou
+ r une nuit remplie de SURPRISES et d’HORREUR ! 🕸️🎃 AU PROGRAMME 
+ 🎃💀 Préparez votre meilleur DÉGUISEMENT HALLOWEEN pour votre soiré
+ e PRÉFÉRÉE de l’année ! 🎃 Distribution gratuite de GOODIES spéci
+ al HALLOWEEN🥂 HAPPY HOUR de 23h à 00h : profitez de tarifs réduits su
+ r toute la carte du bar 🍻 TOURNOI de BEER PONG : prêts à remporter la
+  compétition ? 📸 PHOTOBOOTH en usage gratuit 🎉 GOODIES et BRIQUETS 
+ DÉCAP’ offerts💚 Bracelets Fluo verts : CŒUR À PRENDRE 💙 Bracele
+ ts Fluo bleus : VIENS VOIR PAR TOI-MÊME (comme ça tu peux adapter ta sit
+ uation selon le prétendant 😏) ❤️ Bracelets Fluo rouges : EN COUPLE
+ 🎃 Un Concorde Atlantique enflammé aux couleurs d’HALLOWEEN 🎵 Musi
+ que généraliste et commerciale\n\nhttps://erasmusplace.com/region/paris/
+ evenements/erasmus-student-party-halloween/
+END:VEVENT
+BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261008T055100Z
+DTSTAMP:20261009T053741Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro

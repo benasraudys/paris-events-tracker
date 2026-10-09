@@ -1,26 +1,5 @@
 [
   {
-    "source": "shotgun",
-    "source_id": "605380",
-    "url": "https://shotgun.live/en/events/l-arc-paris-jeudi-8-octobre",
-    "title": "L'arc Paris - Jeudi 8 Octobre",
-    "city": "Paris",
-    "venue": "L'Arc Paris, 12 Rue de Presbourg, 75116 Paris, France",
-    "start_date": "2026-10-08",
-    "start_time": "23:30",
-    "end_date": "2026-10-09",
-    "end_time": "05:30",
-    "price_text": "Sold out",
-    "price_eur": null,
-    "is_free": null,
-    "categories": [
-      "sold-out"
-    ],
-    "description": "L’ARC PARIS — THURSDAY, OCTOBER 8TH HYPE POP Where elegance, beauty & good vibes meet. Music by RUDBOY Hosted by SHELLEY Guestlist before 1AM — exclusively on Shotgun Limited spots available. VIP Tables: +33 6 62 86 13 68 Dress well. Feel good. See you at L’Arc.",
-    "image": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_1200,h_630/f_jpg/q_auto/dev/artworks/Soire%CC%81e_dore%CC%81e_sous_les_lumie%CC%80res_de_Paris_jniwah.png",
-    "remote_modified": null
-  },
-  {
     "source": "erasmusplace",
     "source_id": "289700",
     "url": "https://erasmusplace.com/region/paris/evenements/erasmus-full-party-full091026/",
@@ -53,12 +32,12 @@
     "start_time": "23:30",
     "end_date": "2026-10-11",
     "end_time": "05:30",
-    "price_text": "from 13.20 EUR",
-    "price_eur": 13.2,
+    "price_text": "from 18.70 EUR",
+    "price_eur": 18.7,
     "is_free": false,
     "categories": [],
-    "description": "FOLLOW PARIS ERASMUS LIFE on INSTAGRAM https://www.instagram.com/paris.erasmus.life/ 🔥✦✦✦ ERASMUS WELCOME PARTY 2026 – SOLUM PONT ALEXANDRE III ✦✦✦🔥 🎉 SATURDAY, SEPTEMBER 12th – The Ultimate Welcome Party of the Year Lands in Paris! YOU LOVED IT, YOU ASKED FOR IT… PART II IS HERE! 🔥 After the huge success of our first Erasmus Welcome Party, so many of you asked for another one! 🌍 Some weren’t in Paris yet, some missed it… and others just want to do it all over again. 👀 🌍 1200+ Students & Internationals. One Legendary Night. Are You In? Which nationality will be the most represented? —which school will take over the dancefloor? 🔹 WHAT TO EXPECT? ✨ Spectacular Location: A stunning venue under Alexander III Bridge 🎭 Live Performers & Artists: Open your senses 🎧 3 International Guest DJs 🔥 Hottest Dancefloor: A fusion of Hip-Hop, Reggaeton & House beats 🏆 Massive VIP area behind the DJ 🌎 50+ Nationalities—Unite, Dance, Celebrate! 📸 Photographers & Videographers capturing every wild moment 🎶 Non-Stop Hits from: Drake • J Balvin • Rihanna • Bad Bunny • David Guetta • Karol G • Dua Lipa • Kendrick Lamar • Kanye West • Doja Cat • Central Cee • Rauw Alejandro • Maluma • Calvin Harris • Maj...",
-    "image": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_1200,h_630/f_jpg/q_auto/dev/artworks/Image_ChatGPT_26_sept._2026_22_31_37_bhwuae.png",
+    "description": "FOLLOW PARIS ERASMUS LIFE on INSTAGRAM https://www.instagram.com/paris.erasmus.life/ 🔥✦✦✦ ERASMUS WELCOME PARTY 2026 – SOLUM PONT ALEXANDRE III ✦✦✦🔥 🎉 SATURDAY, OCTOBER 10h – The Ultimate Welcome Party of the Year Lands in Paris! YOU LOVED IT, YOU ASKED FOR IT… PART II IS HERE! 🔥 After the huge success of our first Erasmus Welcome Party, so many of you asked for another one! 🌍 Some weren’t in Paris yet, some missed it… and others just want to do it all over again. 👀 🌍 1200+ Students & Internationals. One Legendary Night. Are You In? Which nationality will be the most represented? —which school will take over the dancefloor? 🔹 WHAT TO EXPECT? ✨ Spectacular Location: A stunning venue under Alexander III Bridge 🎭 Live Performers & Artists: Open your senses 🎧 3 International Guest DJs 🔥 Hottest Dancefloor: A fusion of Hip-Hop, Reggaeton & House beats 🏆 Massive VIP area behind the DJ 🌎 50+ Nationalities—Unite, Dance, Celebrate! 📸 Photographers & Videographers capturing every wild moment 🎶 Non-Stop Hits from: Drake • J Balvin • Rihanna • Bad Bunny • David Guetta • Karol G • Dua Lipa • Kendrick Lamar • Kanye West • Doja Cat • Central Cee • Rauw Alejandro • Maluma • Calvin Harris • Major...",
+    "image": "https://assets.shotgun.live/image/upload/c_limit,w_1200,h_630/f_jpg/q_auto/dev/artworks/Image_ChatGPT_26_sept._2026_22_31_37_bhwuae.png",
     "remote_modified": null
   },
   {
@@ -166,6 +145,28 @@
     "remote_modified": "2026-08-24T21:45:25"
   },
   {
+    "source": "erasmusplace",
+    "source_id": "290420",
+    "url": "https://erasmusplace.com/region/paris/evenements/erasmus-full-party-full231026/",
+    "title": "Erasmus Full Party : Rooftop Party",
+    "city": "Paris",
+    "venue": "Café Oz Rooftop",
+    "start_date": "2026-10-23",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "Gratuit avant 00:30",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit",
+      "soirees"
+    ],
+    "description": "Mesdames et Messieurs, ici Air Erasmus.L'embarquement est désormais ouvert. Destination : le tour du monde... en une seule nuit.Bienvenue à bord de l'Erasmus Full Party - ROOFTOP PARTY , la plus grande soirée internationale de la rentrée.Prépare-toi à rencontrer des centaines d'étudiants Erasmus, internationaux, français et jeunes actifs venus des quatre coins du monde, dans une ambiance où chaque discussion peut devenir une nouvelle amitié et chaque chanson un souvenir inoubliable.Au programme : les meilleurs sons Reggaeton, Baile Funk, Pop et tous les plus grands hits internationaux que tout le monde chante à l'unisson.Que tu viennes d'arriver ou que tu sois déjà installé, cette soirée est le meilleur moyen de commencer ton aventure, de créer de nouvelles rencontres et de vivre l'expérience internationale qui fait la réputation des soirées Erasmus.Déjà des milliers d'étudiants ont participé aux précédentes éditions. Si tu n'as jamais vécu une Erasmus Full Party, prépare-toi à comprendre pourquoi tout le monde en parle.Bienvenue à bord d'Air Erasmus. Attache ta ceinture... il est temps de faire le tour du monde en une seule nuit.",
+    "image": "https://erasmusplace.com/wp-content/uploads/2026/10/event-site-internet-_-Billetweb-11.jpg",
+    "remote_modified": "2026-10-08T15:11:44"
+  },
+  {
     "source": "shotgun",
     "source_id": "604390",
     "url": "https://shotgun.live/en/events/superstars-on-boat-speciale-rihanna-vs-beyonce",
@@ -207,6 +208,25 @@
     "remote_modified": "2026-07-05T17:13:03"
   },
   {
+    "source": "erasmusplace",
+    "source_id": "290417",
+    "url": "https://erasmusplace.com/region/paris/evenements/erasmus-student-party-halloween/",
+    "title": "Erasmus & Student Party Halloween",
+    "city": "Paris",
+    "venue": "Concorde Atlantique",
+    "start_date": "2026-10-30",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "06:00",
+    "price_text": "À partir de 13€",
+    "price_eur": 13.0,
+    "is_free": false,
+    "categories": [],
+    "description": "PRÊTS POUR HALLOWEEN ? 🎃 RDV le Vendredi 30 octobre au Concorde Atlantique pour une nuit remplie de SURPRISES et d’HORREUR ! 🕸️🎃 AU PROGRAMME 🎃💀 Préparez votre meilleur DÉGUISEMENT HALLOWEEN pour votre soirée PRÉFÉRÉE de l’année ! 🎃 Distribution gratuite de GOODIES spécial HALLOWEEN🥂 HAPPY HOUR de 23h à 00h : profitez de tarifs réduits sur toute la carte du bar 🍻 TOURNOI de BEER PONG : prêts à remporter la compétition ? 📸 PHOTOBOOTH en usage gratuit 🎉 GOODIES et BRIQUETS DÉCAP’ offerts💚 Bracelets Fluo verts : CŒUR À PRENDRE 💙 Bracelets Fluo bleus : VIENS VOIR PAR TOI-MÊME (comme ça tu peux adapter ta situation selon le prétendant 😏) ❤️ Bracelets Fluo rouges : EN COUPLE🎃 Un Concorde Atlantique enflammé aux couleurs d’HALLOWEEN 🎵 Musique généraliste et commerciale",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/07/halloween-8.jpg",
+    "remote_modified": "2026-10-08T15:06:40"
+  },
+  {
     "source": "shotgun",
     "source_id": "601028",
     "url": "https://shotgun.live/en/events/la-plus-grande-soiree-reggaeton-open-format-yoyo-05-decembre",
@@ -222,7 +242,7 @@
     "is_free": false,
     "categories": [],
     "description": "🌶 SAMEDI 05 DÉCEMBRE | DE 23H00 À 06H00 🌶 BAILE LOCA LA + GROSSE SOIRÉE REGGAETON DE FRANCE ! ✨ La plus grosse soirée 100% Reggaeton | Latino | Hiphop de Paris 🕛 Le meilleur des sons actuels & des classiques de 23h30 à 05h30 📍 YOYO – PALAIS DE TOKYO | PARIS 16E 💥 REGGAETON PARTY XXL 💥 🚨 + DE 1400 PERSONNES À CHAQUE ÉDITION ! ➡️ LE RENDEZ-VOUS LATINO #1 DE LA CAPITALE ! 🇨🇴🇨🇺🇵🇷🇩🇴 ⸻ 🔥 BAILE LOCA EST DEVENUE EN QUELQUES ANNÉES LA SOIRÉE REGGAETON DE RÉFÉRENCE A PARIS LA NUIT S’ANNONCE BRÛLANTE… 🔥 Prépare-toi pour La soirée reggaeton & Open Format, latino & hip-hop de l’année à Paris ! Une ambiance de folie, une foule en délire, des rythmes endiablés… 💃🏼 Viens danser jusqu’au lever du soleil sur le meilleur de la culture latine ! 🕺🏽 AJOUTEZ NOUS SUR INSTAGRAM > https://instagram.com/soireeaparis75 🎶 AU PROGRAMME MUSICAL : ➡️ 100% REGGAETON 💃 | LATINO CLASSIQUES 🌴 | HIP-HOP 🔥 & OPEN FORMAT 🎧 🎧 Aux platines : ✨ DJ' S : DJ VACE, DJ FELIPE ROCHXX & SEAN CORTEZ AUX COMMANDES 💥 🚨🔥 ➡️ Un mix explosif des plus gros hits du moment & des classiques qui font vibrer tout le monde ! 🎵 Tu vas t’enjailler sur : Bad Bunny 🐰 – Karol G 💅 – Daddy Yankee 🚀 – Nicky Jam 🎤 – Rosalía 💃 – Don Omar 🔥 – J Balvin...",
-    "image": "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_1200,h_630/f_jpg/q_auto/dev/artworks/PHOTO-2026-09-24-05-44-41-2_bdnu7v.jpg",
+    "image": "https://assets.shotgun.live/image/upload/c_limit,w_1200,h_630/f_jpg/q_auto/dev/artworks/PHOTO-2026-09-24-05-44-41-2_bdnu7v.jpg",
     "remote_modified": null
   }
 ]
