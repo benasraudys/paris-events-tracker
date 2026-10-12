@@ -23,36 +23,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:billetweb-1435784:2026-10-11@events-tracker
-DTSTAMP:20261011T060503Z
-DTSTART;TZID=Europe/Paris:20261011T130000
-DTEND;TZID=Europe/Paris:20261011T170000
-SUMMARY:Celine on the Seine - The Tribute Cruise Experience
-LOCATION:4 Quai Saint-Bernard\, 75005 Paris\, France
-URL:https://www.billetweb.fr/celine2
-DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
- OW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à
-  Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la réside
- nce ou pas - cet événement est fait pour toi. Le temps d'une croisière\
- , on rend hommage à celle qui continue de faire chavirer des génération
- s entières. Entre fans\, entre passionné.e.s\, on embarque ensemble pour
-  un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un 
- DJ 100 % Céline - De "Pour que tu m'aimes encore" à "The Power of Love"\
- , de "S'il suffisait d'aimer" à "I'm Alive" : pendant toute la croisière
- \, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses
-  hymnes internationaux. ???? Paris comme décor\, Céline comme bande-son 
- - La Tour Eiffel\, le Pont Alexandre III\, Notre-Dame\, le Louvre qui déf
- ile... Chaque monument iconique de Paris prend une autre dimension quand "
- L'Hymne à l'amour" résonne sur l'eau. C'est une promesse : tu ne regarde
- ras plus jamais ces paysages sans entendre sa voix. ???? Une violoniste li
- ve - Pour des moments d'émotion. Elle transforme le pont du bateau en sc
- ène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que
-  ce n'est pas une croisière ordinaire\, et que...\n\nhttps://www.billetwe
- b.fr/celine2
-END:VEVENT
-BEGIN:VEVENT
 UID:erasmusplace-287750@events-tracker
-DTSTAMP:20261011T060503Z
+DTSTAMP:20261012T061113Z
 DTSTART;TZID=Europe/Paris:20261014T230000
 DTEND;TZID=Europe/Paris:20261015T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -75,7 +47,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-288886@events-tracker
-DTSTAMP:20261011T060503Z
+DTSTAMP:20261012T061113Z
 DTSTART;TZID=Europe/Paris:20261016T230000
 DTEND;TZID=Europe/Paris:20261017T050000
 SUMMARY:E-BOAT PARTY - A partir de 13€
@@ -98,7 +70,7 @@ DESCRIPTION:Price: A partir de 13€\nVenue: 2 Quai de la Tournelle\, 75005
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2026-10-18@events-tracker
-DTSTAMP:20261011T060503Z
+DTSTAMP:20261012T061113Z
 DTSTART;TZID=Europe/Paris:20261018T130000
 DTEND;TZID=Europe/Paris:20261018T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -126,7 +98,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287044@events-tracker
-DTSTAMP:20261011T060503Z
+DTSTAMP:20261012T061113Z
 DTSTART;TZID=Europe/Paris:20261021T230000
 DTEND;TZID=Europe/Paris:20261022T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -143,7 +115,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290420@events-tracker
-DTSTAMP:20261011T060503Z
+DTSTAMP:20261012T061113Z
 DTSTART;TZID=Europe/Paris:20261023T230000
 DTEND;TZID=Europe/Paris:20261024T050000
 SUMMARY:Erasmus Full Party : Rooftop Party - Free
@@ -172,7 +144,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Rooftop\nMesdames et Messieurs\, i
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-604390@events-tracker
-DTSTAMP:20261011T060503Z
+DTSTAMP:20261012T061113Z
 DTSTART;TZID=Europe/Paris:20261024T200000
 DTEND;TZID=Europe/Paris:20261025T050000
 SUMMARY:Superstars On Boat: Rihanna Vs Beyoncé - from 9.99 EUR
@@ -203,7 +175,7 @@ DESCRIPTION:Price: from 9.99 EUR\nVenue: River's King\, 4 Quai Saint-Bernar
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-284296@events-tracker
-DTSTAMP:20261011T060503Z
+DTSTAMP:20261012T061113Z
 DTSTART;TZID=Europe/Paris:20261028T230000
 DTEND;TZID=Europe/Paris:20261029T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -226,7 +198,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nCostume\, déguisement\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290417@events-tracker
-DTSTAMP:20261011T060503Z
+DTSTAMP:20261012T061113Z
 DTSTART;TZID=Europe/Paris:20261030T230000
 DTEND;TZID=Europe/Paris:20261031T060000
 SUMMARY:Erasmus & Student Party Halloween - À partir de 13€
@@ -250,7 +222,7 @@ DESCRIPTION:Price: À partir de 13€\nVenue: Concorde Atlantique\nPRÊTS P
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261011T060503Z
+DTSTAMP:20261012T061113Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
