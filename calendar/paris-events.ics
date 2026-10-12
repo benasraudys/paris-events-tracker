@@ -23,8 +23,25 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:billetweb-1484395:2026-10-14@events-tracker
+DTSTAMP:20261012T102649Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:International dinner
+LOCATION:Champ-de-Mars
+URL:https://www.billetweb.fr/international-dinner8
+DESCRIPTION:Venue: Champ-de-Mars\nLove good food and discovering new cultur
+ es? What if you could bring the best of both worlds together right by the 
+ Eiffel Tower? ???????? Pizza\, Knödel\, Paella\, Tzatziki\, Goulash... ev
+ ery country has unique and delicious dishes to share! Bring a typical dish
+ \, snack or drink from your home country\, share your traditions\, and let
+ 's raise a toast to this amazing semester! ????✨ ????Tip: October evenin
+ gs can get chilly\, make sure to bring warm clothes/a jacket (and maybe a 
+ blanket)!\n\nhttps://www.billetweb.fr/international-dinner8
+END:VEVENT
+BEGIN:VEVENT
 UID:erasmusplace-287750@events-tracker
-DTSTAMP:20261012T061113Z
+DTSTAMP:20261012T102649Z
 DTSTART;TZID=Europe/Paris:20261014T230000
 DTEND;TZID=Europe/Paris:20261015T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -46,8 +63,25 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
  s/kiss-my-erasmus-italian-party-141026/
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1480668:2026-10-15@events-tracker
+DTSTAMP:20261012T102649Z
+DTSTART;TZID=Europe/Paris:20261015T194000
+DTEND;TZID=Europe/Paris:20261015T214000
+SUMMARY:Soirée Jeux
+LOCATION:The OakenShield Tavern\, 184 Rue St Jacques 75005 Paris
+URL:https://www.billetweb.fr/soiree-jeux120
+DESCRIPTION:Venue: The OakenShield Tavern\, 184 Rue St Jacques 75005 Paris\
+ nJoin us for a fun and friendly game night with ESN at the OakenShield Tav
+ ern! Whether you’re into classic board games or video games\, there’s 
+ something for everyone! It’s the perfect opportunity to meet new people\
+ , grab a drink\, play some games\, and enjoy a relaxed and welcoming atmos
+ phere. One drink is required to participate\, with drinks ranging from €
+ 6 to €16. Bring your good vibes and your competitive spirit\, let’s ha
+ ve a great time together!\n\nhttps://www.billetweb.fr/soiree-jeux120
+END:VEVENT
+BEGIN:VEVENT
 UID:erasmusplace-288886@events-tracker
-DTSTAMP:20261012T061113Z
+DTSTAMP:20261012T102649Z
 DTSTART;TZID=Europe/Paris:20261016T230000
 DTEND;TZID=Europe/Paris:20261017T050000
 SUMMARY:E-BOAT PARTY - A partir de 13€
@@ -69,8 +103,20 @@ DESCRIPTION:Price: A partir de 13€\nVenue: 2 Quai de la Tournelle\, 75005
  t-party-boat161026/
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1482262:2026-10-17@events-tracker
+DTSTAMP:20261012T102649Z
+DTSTART;TZID=Europe/Paris:20261017T140000
+DTEND;TZID=Europe/Paris:20261017T160000
+SUMMARY:ESN Yoga class
+LOCATION:30 rue de Chazelles
+URL:https://www.billetweb.fr/esn-yoga-class2
+DESCRIPTION:Venue: 30 rue de Chazelles\nCome join us for a professionally t
+ aught Yengar yoga class in the center of Paris this saturday 17 at 12:00\n
+ \nhttps://www.billetweb.fr/esn-yoga-class2
+END:VEVENT
+BEGIN:VEVENT
 UID:billetweb-1435784:2026-10-18@events-tracker
-DTSTAMP:20261012T061113Z
+DTSTAMP:20261012T102649Z
 DTSTART;TZID=Europe/Paris:20261018T130000
 DTEND;TZID=Europe/Paris:20261018T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -97,8 +143,45 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
  b.fr/celine2
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1482097:2026-10-20@events-tracker
+DTSTAMP:20261012T102649Z
+DTSTART;TZID=Europe/Paris:20261020T203000
+DTEND;TZID=Europe/Paris:20261020T223000
+SUMMARY:Pool and football night
+LOCATION:39 Bd de Strasbourg\, 75010 Paris
+URL:https://www.billetweb.fr/pool-and-football-night
+DESCRIPTION:Venue: 39 Bd de Strasbourg\, 75010 Paris\n???? Pool & Champions
+  League night ⚽ Join us for a fun evening combining pool\, drinks and Ch
+ ampions League! We’ll kick off the evening at 6:30 PM with 2 hours of bi
+ lliards and other games at L'Exode bar. Either you are passionate or want 
+ to discover it\, feel free to join (a volunteer will give you some tips if
+  you are a beginner). BEGINNER - FRIENDLY Then\, let's gather together at 
+ 9:00 PM to watch the highly anticipated PSG vs FC Barcelona game on screen
+ . Get ready for an exciting night ! ???? Tuesday\, October 20th 2026 from 
+ 6:30 PM ???? L'Exode : 39 Bd de Strasbourg\, 75010 Paris ???? Billiards: 6
+ :30 PM - 8:30 PM ⚽ PSG vs FC Barcelona: 9:00 PM Come to play pool\, stay
+  for the football ! ????\n\nhttps://www.billetweb.fr/pool-and-football-nig
+ ht
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1482096:2026-10-21@events-tracker
+DTSTAMP:20261012T102649Z
+DTSTART;TZID=Europe/Paris:20261021T220000
+DTEND;TZID=Europe/Paris:20261022T000000
+SUMMARY:CHAMPIONS LEAGUE NIGHT
+LOCATION:Pub Saint Hilaire
+URL:https://www.billetweb.fr/champions-league-night
+DESCRIPTION:Venue: Pub Saint Hilaire\n⚽️ CHAMPIONS LEAGUE NIGHT ???? Ge
+ t ready for an unforgettable night with students from all around the world
+ ! ???? Join us for an Erasmus-style Champions League night\, where footbal
+ l\, drinks\, music\, and international vibes come together. ???????????? W
+ hether you’re here to support your favorite team or simply looking for a
+  great night out with new friends\, everyone is welcome!\n\nhttps://www.bi
+ lletweb.fr/champions-league-night
+END:VEVENT
+BEGIN:VEVENT
 UID:erasmusplace-287044@events-tracker
-DTSTAMP:20261012T061113Z
+DTSTAMP:20261012T102649Z
 DTSTART;TZID=Europe/Paris:20261021T230000
 DTEND;TZID=Europe/Paris:20261022T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -115,7 +198,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290420@events-tracker
-DTSTAMP:20261012T061113Z
+DTSTAMP:20261012T102649Z
 DTSTART;TZID=Europe/Paris:20261023T230000
 DTEND;TZID=Europe/Paris:20261024T050000
 SUMMARY:Erasmus Full Party : Rooftop Party - Free
@@ -143,8 +226,20 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Rooftop\nMesdames et Messieurs\, i
  lace.com/region/paris/evenements/erasmus-full-party-full231026/
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1482261:2026-10-24@events-tracker
+DTSTAMP:20261012T102649Z
+DTSTART;TZID=Europe/Paris:20261024T140000
+DTEND;TZID=Europe/Paris:20261024T160000
+SUMMARY:ESN Yoga class
+LOCATION:30 rue de Chazelles
+URL:https://www.billetweb.fr/esn-yoga-class1
+DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professinally taught 
+ Yengar Yoga class this saturday 26 at 12:00 in the center of Paris\n\nhttp
+ s://www.billetweb.fr/esn-yoga-class1
+END:VEVENT
+BEGIN:VEVENT
 UID:shotgun-604390@events-tracker
-DTSTAMP:20261012T061113Z
+DTSTAMP:20261012T102649Z
 DTSTART;TZID=Europe/Paris:20261024T200000
 DTEND;TZID=Europe/Paris:20261025T050000
 SUMMARY:Superstars On Boat: Rihanna Vs Beyoncé - from 9.99 EUR
@@ -174,8 +269,48 @@ DESCRIPTION:Price: from 9.99 EUR\nVenue: River's King\, 4 Quai Saint-Bernar
  peciale-rihanna-vs-beyonce
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1483197:2026-10-27@events-tracker
+DTSTAMP:20261012T102649Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Lost in Frenchslation Mission Cléopâtre
+LOCATION:53 Rue Notre Dame des Champs\, 75006 Paris
+URL:https://www.billetweb.fr/lost-in-frenchslation-mission-cleopatre
+DESCRIPTION:Venue: 53 Rue Notre Dame des Champs\, 75006 Paris\n????✨ Movi
+ e Night with Erasmus Paris x Lost in Frenchlation! ✨???? Do you love fil
+ ms? Then come and join us for a special screening of a true French comedy 
+ classic: ???? Astérix & Obélix: Mission Cléopâtre ????????✨ Plot The
+  Egyptian Queen Cleopatra bets against the Roman Emperor\, Julius Caesar\,
+  that her people are still great\, even if the times of the Pharaohs has l
+ ong passed. She vows (against all logic) to build a new palace for Caesar 
+ within three months. Since all her architects are either busy otherwise or
+  too conservative in style\, this ambivalent honor falls to Edifis. He is 
+ to build the palace and be covered in gold or\, if not\, his fate is to be
+  eaten by crocodiles. ???? Don’t miss this chance to discover a French c
+ lassic with English subtitles\, meet new people ????\, and share a magical
+  evening together! ???? Tuesday\, October 27 ???? 7:00 PM ????Lucernaire :
+  53 Rue Notre Dame des Champs\, 75006 Paris ???? 7 €\n\nhttps://www.bill
+ etweb.fr/lost-in-frenchslation-mission-cleopatre
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1480670:2026-10-28@events-tracker
+DTSTAMP:20261012T102649Z
+DTSTART;TZID=Europe/Paris:20261028T190000
+DTEND;TZID=Europe/Paris:20261028T210000
+SUMMARY:Coloring chill
+LOCATION:TBD
+URL:https://www.billetweb.fr/coloring-chill
+DESCRIPTION:Venue: TBD\n????☕ Autumn is here… and Bonapetix is ready to
+  explore Paris! ???????? Get cozy and join us for a creative coloring adve
+ nture through Paris\, with our mascot Bonapetix! ???? A fun and cozy momen
+ t to create\, share and relive our Erasmus memories — while supporting a
+  beautiful cause. ???? ???? Part of the ticket price will be donated to ca
+ ncer research as part of Pink October. Paris\, colors\, memories & a littl
+ e bit of solidarity. ????✨\n\nhttps://www.billetweb.fr/coloring-chill
+END:VEVENT
+BEGIN:VEVENT
 UID:erasmusplace-284296@events-tracker
-DTSTAMP:20261012T061113Z
+DTSTAMP:20261012T102649Z
 DTSTART;TZID=Europe/Paris:20261028T230000
 DTEND;TZID=Europe/Paris:20261029T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -198,7 +333,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nCostume\, déguisement\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290417@events-tracker
-DTSTAMP:20261012T061113Z
+DTSTAMP:20261012T102649Z
 DTSTART;TZID=Europe/Paris:20261030T230000
 DTEND;TZID=Europe/Paris:20261031T060000
 SUMMARY:Erasmus & Student Party Halloween - À partir de 13€
@@ -221,8 +356,20 @@ DESCRIPTION:Price: À partir de 13€\nVenue: Concorde Atlantique\nPRÊTS P
  evenements/erasmus-student-party-halloween/
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1482258:2026-10-31@events-tracker
+DTSTAMP:20261012T102649Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:ESN Yoga Class
+LOCATION:30 rue de Chazelles
+URL:https://www.billetweb.fr/esn-yoga-class
+DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
+  Yengar yoga class saturday 31 of october at 12:OO in the center of Paris 
+ :)\n\nhttps://www.billetweb.fr/esn-yoga-class
+END:VEVENT
+BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261012T061113Z
+DTSTAMP:20261012T102649Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
