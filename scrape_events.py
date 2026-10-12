@@ -1089,6 +1089,16 @@ def _next_data(body: bytes) -> dict | None:
         return None
 
 
+def _is_utc_midnight(stamp: str) -> bool:
+    """True for e.g. '2026-10-14T00:00:00.000Z' - a date with no time set."""
+    try:
+        parsed = datetime.fromisoformat(stamp)
+    except ValueError:
+        return False
+    return (parsed.tzinfo is not None and parsed.utcoffset() == timedelta(0)
+            and (parsed.hour, parsed.minute, parsed.second) == (0, 0, 0))
+
+
 def _split_iso(stamp: str) -> tuple[str | None, str | None]:
     """
     ISO stamp -> ('YYYY-MM-DD', 'HH:MM') in Paris wall-clock time.
@@ -1324,15 +1334,23 @@ class Billetweb(Source):
     BASE = "https://www.billetweb.fr"
 
     # Organizer ids to track: id -> label (label is for humans only).
+    # Organizer id -> (label for humans, home city). Billetweb addresses are
+    # free text that often omits the city ("Champ-de-Mars", "30 rue de
+    # Chazelles", "TBD"), so an event's city is taken from the organizer it
+    # was listed under rather than guessed from its address. Only add
+    # organizers whose events are in that city.
     ORGANIZERS = {
-        "155246": "Paris Erasmus Life",
+        "155246": ("Paris Erasmus Life", "paris"),
+        "7428": ("ESN Paris", "paris"),
     }
 
     LISTING_TTL = timedelta(hours=6)
     DETAIL_TTL = timedelta(hours=12)
 
     def sync(self, city: str) -> Iterator[Event]:
-        for user_id, label in self.ORGANIZERS.items():
+        for user_id, (label, home_city) in self.ORGANIZERS.items():
+            if city and home_city.lower() != city.lower():
+                continue
             log.info("[%s] organizer %s (%s)", self.name, user_id, label)
             yield from self._organizer(user_id, city)
 
@@ -1384,11 +1402,23 @@ class Billetweb(Source):
 
         seen: set[str] = set()
         for ld in blocks:
-            start_date, start_time = _split_iso(ld.get("startDate") or "")
+            raw_start = ld.get("startDate") or ""
+            raw_end = ld.get("endDate") or ""
+            start_date, start_time = _split_iso(raw_start)
             if start_date is None or start_date in seen:
                 continue        # the page repeats a block per occurrence
             seen.add(start_date)
-            end_date, end_time = _split_iso(ld.get("endDate") or "")
+            end_date, end_time = _split_iso(raw_end)
+
+            # Organizers who never set an end time get endDate == startDate.
+            # That is "unknown", not a zero-length event.
+            if raw_end == raw_start:
+                end_date = end_time = None
+                # And one who never set a *start* time gets midnight UTC,
+                # which would read as 01:00/02:00 in Paris - a "2 AM
+                # international dinner". Keep the date, drop the clock.
+                if _is_utc_midnight(raw_start):
+                    start_date, start_time = raw_start[:10], None
 
             place = ld.get("location") or {}
             # Billetweb's `address` is a plain string, not a PostalAddress.
@@ -1396,10 +1426,6 @@ class Billetweb(Source):
             if isinstance(address, dict):
                 address = address.get("streetAddress")
             venue = clean(place.get("name")) or clean(address)
-            if city and city.lower() not in (f"{venue or ''} {address or ''}").lower():
-                log.debug("[%s] skipping %s on %s (not in %s)",
-                          self.name, event_id, start_date, city)
-                continue
 
             image = ld.get("image")
             if isinstance(image, list):
@@ -1508,7 +1534,9 @@ def _vevent(ev: Event, stamp: str) -> list[str]:
             # past midnight if the clock went backwards.
             end = _at(date.fromisoformat(ev.end_date) if ev.end_date else day,
                       ev.end_time)
-            if end <= start:          # 23:00 -> 05:00 runs past midnight
+            if end == start:          # an "end" equal to the start means none
+                end = start + DEFAULT_DURATION
+            elif end < start:         # 23:00 -> 05:00 runs past midnight
                 end += timedelta(days=1)
         else:
             end = start + DEFAULT_DURATION

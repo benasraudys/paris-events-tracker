@@ -251,9 +251,25 @@ cron job's traffic down.
 
 ### `billetweb` — billetweb.fr organizer pages
 
-Tracks organizer ids in `Billetweb.ORGANIZERS` (currently `155246` =
-*Paris Erasmus Life*). This is the free-walking-tour and day-activity end of
-the calendar rather than club nights.
+Tracks organizers in `Billetweb.ORGANIZERS`, each with a home city:
+
+| id | Organizer | Typical events |
+| --- | --- | --- |
+| `155246` | Paris Erasmus Life | free walking tours, river cruises |
+| `7428` | ESN Paris | game nights, yoga, international dinners, sports nights |
+
+**An event's city comes from its organizer, not its address.** Billetweb
+addresses are free text that often omits the city — `Champ-de-Mars`,
+`30 rue de Chazelles`, `Pub Saint Hilaire`, `TBD` — so matching "Paris" in the
+address silently dropped 6 of ESN Paris's 9 events. Only add organizers whose
+events are in their listed city.
+
+**Missing times are treated as missing, not invented.** Organizers who never set
+an end time get `endDate == startDate`; that is read as "unknown" and gets the
+2-hour default, rather than a zero-length or (via midnight rollover) 24-hour
+event. Organizers who never set a *start* time get exactly `00:00:00Z`, which
+would read as 01:00–02:00 in Paris; those become all-day entries on the right
+date instead of a 2 AM dinner.
 
 `multi_event.php?user=<id>` is only a shell that iframes the real listing from
 `multi_event.php?multi=u<id>`, so that is what gets fetched. The listing gives
