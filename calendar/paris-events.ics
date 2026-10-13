@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:billetweb-1484395:2026-10-14@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:International dinner
@@ -41,7 +41,7 @@ DESCRIPTION:Venue: Champ-de-Mars\nLove good food and discovering new cultur
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287750@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261014T230000
 DTEND;TZID=Europe/Paris:20261015T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -64,7 +64,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1480668:2026-10-15@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261015T194000
 DTEND;TZID=Europe/Paris:20261015T214000
 SUMMARY:Soirée Jeux
@@ -80,8 +80,27 @@ DESCRIPTION:Venue: The OakenShield Tavern\, 184 Rue St Jacques 75005 Paris\
  ve a great time together!\n\nhttps://www.billetweb.fr/soiree-jeux120
 END:VEVENT
 BEGIN:VEVENT
+UID:shotgun-608221@events-tracker
+DTSTAMP:20261013T060759Z
+DTSTART;TZID=Europe/Paris:20261015T234500
+DTEND;TZID=Europe/Paris:20261016T053000
+SUMMARY:Boumboum Paris · Jeudi 15 Octobre - from 11.00 EUR
+LOCATION:Boum Boum\, 37 Avenue de Friedland\, 75008 Paris\, France
+URL:https://shotgun.live/en/events/boumboum-paris-jeudi-15-octobre
+DESCRIPTION:Price: from 11.00 EUR\nVenue: Boum Boum\, 37 Avenue de Friedlan
+ d\, 75008 Paris\, France\nBOUMBOUM PARIS — THURSDAY\, OCTOBER 15TH 🥂
+ ✨ Join us for an exclusive Thursday night at BOUMBOUM Paris\, one of the
+  most iconic nightlife spots in the heart of Paris. Expect an elegant atmo
+ sphere\, a stylish international crowd\, great music\, and an unforgettabl
+ e Parisian night. 📍 37 Av. de Friedland\, 75008 Paris 📅 Thursday\, O
+ ctober 15th 🥂 Special Guests & International Crowd 🎶 Music\, Drinks 
+ & Good Vibes Very Limited Spots — Strict Door Policy Dress to impress an
+ d experience Paris nightlife at its finest. See you at BOUMBOUM! 🖤\n\nh
+ ttps://shotgun.live/en/events/boumboum-paris-jeudi-15-octobre
+END:VEVENT
+BEGIN:VEVENT
 UID:erasmusplace-288886@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261016T230000
 DTEND;TZID=Europe/Paris:20261017T050000
 SUMMARY:E-BOAT PARTY - A partir de 13€
@@ -104,7 +123,7 @@ DESCRIPTION:Price: A partir de 13€\nVenue: 2 Quai de la Tournelle\, 75005
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482262:2026-10-17@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261017T140000
 DTEND;TZID=Europe/Paris:20261017T160000
 SUMMARY:ESN Yoga class
@@ -116,7 +135,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nCome join us for a professionally t
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2026-10-18@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261018T130000
 DTEND;TZID=Europe/Paris:20261018T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -144,28 +163,25 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482097:2026-10-20@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261020T203000
 DTEND;TZID=Europe/Paris:20261020T223000
 SUMMARY:Pool and football night
-LOCATION:39 Bd de Strasbourg\, 75010 Paris
+LOCATION:L&#039\;Exode : 39 Bd de Strasbourg\, 75010 Paris
 URL:https://www.billetweb.fr/pool-and-football-night
-DESCRIPTION:Venue: 39 Bd de Strasbourg\, 75010 Paris\n???? Pool & Champions
-  League night ⚽ Join us for a fun evening combining pool\, drinks and Ch
- ampions League! We’ll kick off the evening at 6:30 PM with 2 hours of bi
- lliards and other games at L'Exode bar. Either you are passionate or want 
- to discover it\, feel free to join (a volunteer will give you some tips if
-  you are a beginner). BEGINNER - FRIENDLY Then\, let's gather together at 
- 9:00 PM to watch the highly anticipated PSG vs FC Barcelona game on screen
- . Get ready for an exciting night ! ???? Tuesday\, October 20th 2026 from 
- 6:30 PM ???? L'Exode : 39 Bd de Strasbourg\, 75010 Paris ???? Billiards: 6
- :30 PM - 8:30 PM ⚽ PSG vs FC Barcelona: 9:00 PM Come to play pool\, stay
-  for the football ! ????\n\nhttps://www.billetweb.fr/pool-and-football-nig
- ht
+DESCRIPTION:Venue: L&#039\;Exode : 39 Bd de Strasbourg\, 75010 Paris\nPool 
+ & Champions League night (PSG vs FC Barcelona) / Join us for a fun evening
+  combining pool\, drinks and Champions League! We’ll kick off the evenin
+ g\, from 6:30 PM to 8:30 PM\, with pool and other games at L'Exode bar. Ei
+ ther you are passionate or want to discover it\, feel free to join (a volu
+ nteer will give you some tips for pool if you are a beginner). BEGINNER - 
+ FRIENDLY Then\, let's gather together at 9:00 PM to watch the highly antic
+ ipated PSG vs FC Barcelona game on screen. Get ready for an exciting night
+  !\n\nhttps://www.billetweb.fr/pool-and-football-night
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482096:2026-10-21@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261021T220000
 DTEND;TZID=Europe/Paris:20261022T000000
 SUMMARY:CHAMPIONS LEAGUE NIGHT
@@ -181,7 +197,7 @@ DESCRIPTION:Venue: Pub Saint Hilaire\n⚽️ CHAMPIONS LEAGUE NIGHT ???? Ge
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287044@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261021T230000
 DTEND;TZID=Europe/Paris:20261022T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -198,7 +214,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290420@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261023T230000
 DTEND;TZID=Europe/Paris:20261024T050000
 SUMMARY:Erasmus Full Party : Rooftop Party - Free
@@ -227,7 +243,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Rooftop\nMesdames et Messieurs\, i
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482261:2026-10-24@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261024T140000
 DTEND;TZID=Europe/Paris:20261024T160000
 SUMMARY:ESN Yoga class
@@ -239,7 +255,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professinally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-604390@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261024T200000
 DTEND;TZID=Europe/Paris:20261025T050000
 SUMMARY:Superstars On Boat: Rihanna Vs Beyoncé - from 9.99 EUR
@@ -270,7 +286,7 @@ DESCRIPTION:Price: from 9.99 EUR\nVenue: River's King\, 4 Quai Saint-Bernar
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1483197:2026-10-27@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:Lost in Frenchslation Mission Cléopâtre
@@ -294,7 +310,7 @@ DESCRIPTION:Venue: 53 Rue Notre Dame des Champs\, 75006 Paris\n????✨ Movi
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1480670:2026-10-28@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261028T190000
 DTEND;TZID=Europe/Paris:20261028T210000
 SUMMARY:Coloring chill
@@ -310,7 +326,7 @@ DESCRIPTION:Venue: TBD\n????☕ Autumn is here… and Bonapetix is ready to
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-284296@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261028T230000
 DTEND;TZID=Europe/Paris:20261029T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -333,7 +349,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nCostume\, déguisement\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290417@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261030T230000
 DTEND;TZID=Europe/Paris:20261031T060000
 SUMMARY:Erasmus & Student Party Halloween - À partir de 13€
@@ -357,7 +373,7 @@ DESCRIPTION:Price: À partir de 13€\nVenue: Concorde Atlantique\nPRÊTS P
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482258:2026-10-31@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:ESN Yoga Class
@@ -369,7 +385,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261012T102649Z
+DTSTAMP:20261013T060759Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
