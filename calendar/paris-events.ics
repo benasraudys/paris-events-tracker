@@ -23,31 +23,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:erasmusplace-287750@events-tracker
-DTSTAMP:20261014T060228Z
-DTSTART;TZID=Europe/Paris:20261014T230000
-DTEND;TZID=Europe/Paris:20261015T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-italia
- n-party-141026/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
-  une soirée haute en couleur (et en chaleur). Entre classiques pop\, regg
- aeton et tubes 100% italiens. Tu n’as pas besoin de parler italien pour 
- venir\, mais tu repartiras sûrement avec quelques mots en tête… et peu
- t-être un ou deux nouveaux amis de Rome\, Milan ou Naples ! Les italiens 
- savent mettre de l’ambiance !KISS MY ERASMUS Une soirée Erasmus qui te 
- fait découvrir les 4 coins du monde en quelques pas de danse et des "Chup
- itos/shooter" pour briser ta timidité. Tu pourras porter fièrement les c
- ouleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côt
- é musique on reste électro\, RNB\, Reggaeton\, Pop\, Disco\, cette soir
- ée c’est la tienne !\n\nhttps://erasmusplace.com/region/paris/evenement
- s/kiss-my-erasmus-italian-party-141026/
-END:VEVENT
-BEGIN:VEVENT
 UID:billetweb-1480668:2026-10-15@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261015T194000
 DTEND;TZID=Europe/Paris:20261015T214000
 SUMMARY:Soirée Jeux
@@ -64,7 +41,7 @@ DESCRIPTION:Venue: The OakenShield Tavern\, 184 Rue St Jacques 75005 Paris\
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-608221@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261015T234500
 DTEND;TZID=Europe/Paris:20261016T053000
 SUMMARY:Boumboum Paris · Jeudi 15 Octobre - from 11.00 EUR
@@ -83,7 +60,7 @@ DESCRIPTION:Price: from 11.00 EUR\nVenue: Boum Boum\, 37 Avenue de Friedlan
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-288886@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261016T230000
 DTEND;TZID=Europe/Paris:20261017T050000
 SUMMARY:E-BOAT PARTY - A partir de 13€
@@ -106,7 +83,7 @@ DESCRIPTION:Price: A partir de 13€\nVenue: 2 Quai de la Tournelle\, 75005
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-608606@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261016T230000
 DTEND;TZID=Europe/Paris:20261017T053000
 SUMMARY:Bridge Club - Vendredi 16 Octobre - from 9.99 EUR
@@ -135,7 +112,7 @@ DESCRIPTION:Price: from 9.99 EUR\nVenue: Bridge Club\, 3 Port des Champs-É
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1486119:2026-10-17@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:Chestnut picking
@@ -159,7 +136,7 @@ DESCRIPTION:Venue: Gare du Nord\nHello guys ! ???? On the 17th of October 2
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482262:2026-10-17@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261017T140000
 DTEND;TZID=Europe/Paris:20261017T160000
 SUMMARY:ESN Yoga class
@@ -171,7 +148,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nCome join us for a professionally t
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2026-10-18@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261018T130000
 DTEND;TZID=Europe/Paris:20261018T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -199,7 +176,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1486051:2026-10-18@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261018T160000
 DTEND;TZID=Europe/Paris:20261018T180000
 SUMMARY:Sip & Paint at Le Marais
@@ -211,10 +188,10 @@ DESCRIPTION:Venue: WeWork\, Coeur Marais\, Rue des Archives\, Paris\, Franc
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482097:2026-10-20@events-tracker
-DTSTAMP:20261014T060228Z
-DTSTART;TZID=Europe/Paris:20261020T203000
-DTEND;TZID=Europe/Paris:20261020T223000
-SUMMARY:Pool and Champions League night
+DTSTAMP:20261015T060347Z
+DTSTART;TZID=Europe/Paris:20261020T183000
+DTEND;TZID=Europe/Paris:20261020T203000
+SUMMARY:Pool and Champions League night (PSG vs FC Barcelona)
 LOCATION:L&#039\;Exode : 39 Bd de Strasbourg\, 75010 Paris
 URL:https://www.billetweb.fr/pool-and-football-night
 DESCRIPTION:Venue: L&#039\;Exode : 39 Bd de Strasbourg\, 75010 Paris\nPool 
@@ -229,10 +206,10 @@ DESCRIPTION:Venue: L&#039\;Exode : 39 Bd de Strasbourg\, 75010 Paris\nPool
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482096:2026-10-21@events-tracker
-DTSTAMP:20261014T060228Z
-DTSTART;TZID=Europe/Paris:20261021T220000
-DTEND;TZID=Europe/Paris:20261022T000000
-SUMMARY:CHAMPIONS LEAGUE NIGHT
+DTSTAMP:20261015T060347Z
+DTSTART;TZID=Europe/Paris:20261021T200000
+DTEND;TZID=Europe/Paris:20261021T230000
+SUMMARY:Champions League night
 LOCATION:Pub Saint Hilaire
 URL:https://www.billetweb.fr/champions-league-night
 DESCRIPTION:Venue: Pub Saint Hilaire\n⚽️ CHAMPIONS LEAGUE NIGHT ???? Ge
@@ -245,7 +222,7 @@ DESCRIPTION:Venue: Pub Saint Hilaire\n⚽️ CHAMPIONS LEAGUE NIGHT ???? Ge
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287044@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261021T230000
 DTEND;TZID=Europe/Paris:20261022T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -262,7 +239,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290420@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261023T230000
 DTEND;TZID=Europe/Paris:20261024T050000
 SUMMARY:Erasmus Full Party : Rooftop Party - Free
@@ -291,7 +268,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Rooftop\nMesdames et Messieurs\, i
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482261:2026-10-24@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261024T140000
 DTEND;TZID=Europe/Paris:20261024T160000
 SUMMARY:ESN Yoga class
@@ -303,7 +280,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professinally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-604390@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261024T200000
 DTEND;TZID=Europe/Paris:20261025T050000
 SUMMARY:Superstars On Boat: Rihanna Vs Beyoncé - from 9.99 EUR
@@ -333,8 +310,21 @@ DESCRIPTION:Price: from 9.99 EUR\nVenue: River's King\, 4 Quai Saint-Bernar
  peciale-rihanna-vs-beyonce
 END:VEVENT
 BEGIN:VEVENT
+UID:eventbrite-2003413775533@events-tracker
+DTSTAMP:20261015T060347Z
+DTSTART;TZID=Europe/Paris:20261025T190000
+DTEND;TZID=Europe/Paris:20261025T210000
+SUMMARY:Paris is a Joke - Stand up comedy in English - 10.00-15.00 EUR
+LOCATION:Envole Moi\, 176 rue Montmartre\, 75002 Paris
+URL:https://www.eventbrite.fr/e/paris-is-a-joke-stand-up-comedy-in-english-
+ tickets-2003413775533
+DESCRIPTION:Price: 10.00-15.00 EUR\nVenue: Envole Moi\, 176 rue Montmartre\
+ , 75002 Paris\n5 artists - 1h30\n\nhttps://www.eventbrite.fr/e/paris-is-a-
+ joke-stand-up-comedy-in-english-tickets-2003413775533
+END:VEVENT
+BEGIN:VEVENT
 UID:billetweb-1483197:2026-10-27@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:Lost in Frenchslation Mission Cléopâtre
@@ -358,7 +348,7 @@ DESCRIPTION:Venue: 53 Rue Notre Dame des Champs\, 75006 Paris\n????✨ Movi
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1480670:2026-10-28@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261028T190000
 DTEND;TZID=Europe/Paris:20261028T210000
 SUMMARY:Coloring chill
@@ -374,7 +364,7 @@ DESCRIPTION:Venue: TBD\n????☕ Autumn is here… and Bonapetix is ready to
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-284296@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261028T230000
 DTEND;TZID=Europe/Paris:20261029T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -397,7 +387,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nCostume\, déguisement\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290417@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261030T230000
 DTEND;TZID=Europe/Paris:20261031T060000
 SUMMARY:Erasmus & Student Party Halloween - À partir de 13€
@@ -421,7 +411,7 @@ DESCRIPTION:Price: À partir de 13€\nVenue: Concorde Atlantique\nPRÊTS P
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482258:2026-10-31@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:ESN Yoga Class
@@ -432,8 +422,30 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
  :)\n\nhttps://www.billetweb.fr/esn-yoga-class
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1485966:2026-10-31@events-tracker
+DTSTAMP:20261015T060347Z
+DTSTART;TZID=Europe/Paris:20261031T094500
+DTEND;TZID=Europe/Paris:20261031T114500
+SUMMARY:Palais Garnier Guided Tour
+LOCATION:Palais Garnier\, Place de l&#039\;Opéra\, Paris\, France
+URL:https://www.billetweb.fr/palais-garnier-guided-tour
+DESCRIPTION:Venue: Palais Garnier\, Place de l&#039\;Opéra\, Paris\, Franc
+ e\n⚜️ Guided Tour of the Palais Garnier ⚜️ Step into the grandeur 
+ and fascinating architecture of the Palais Garnier with a guided tour! Bui
+ lt in the 19th century under the direction of architect Charles Garnier\, 
+ this iconic opera house is a symbol of Parisian elegance and artistic exce
+ llence. From its lavish decorations to the mythical tales of the Phantom o
+ f the Opera\, every corner of the Palais Garnier is steeped in history Exp
+ lore this architectural masterpiece\, marvel at its majestic grand stairca
+ se\, opulent foyers\, and the world-famous auditorium with us! ❤️ Date
+ : Saturday\, october 31st ⏰ Time: From 9:45 AM to 11:45 AM ☝️ Locati
+ on: Palais Garnier\, Pl. de l'Opéra\, 75009 Paris ❗Price: 11.87€ (Stu
+ dents with ESNcard) / 12\,87€ (Students without ESNcard)\n\nhttps://www.
+ billetweb.fr/palais-garnier-guided-tour
+END:VEVENT
+BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261014T060228Z
+DTSTAMP:20261015T060347Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
