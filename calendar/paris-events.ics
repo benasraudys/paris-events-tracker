@@ -23,44 +23,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:billetweb-1480668:2026-10-15@events-tracker
-DTSTAMP:20261015T060347Z
-DTSTART;TZID=Europe/Paris:20261015T194000
-DTEND;TZID=Europe/Paris:20261015T214000
-SUMMARY:Soirée Jeux
-LOCATION:The OakenShield Tavern\, 184 Rue St Jacques 75005 Paris
-URL:https://www.billetweb.fr/soiree-jeux120
-DESCRIPTION:Venue: The OakenShield Tavern\, 184 Rue St Jacques 75005 Paris\
- nJoin us for a fun and friendly game night with ESN at the OakenShield Tav
- ern! Whether you’re into classic board games or video games\, there’s 
- something for everyone! It’s the perfect opportunity to meet new people\
- , grab a drink\, play some games\, and enjoy a relaxed and welcoming atmos
- phere. One drink is required to participate\, with drinks ranging from €
- 6 to €16. Bring your good vibes and your competitive spirit\, let’s ha
- ve a great time together!\n\nhttps://www.billetweb.fr/soiree-jeux120
-END:VEVENT
-BEGIN:VEVENT
-UID:shotgun-608221@events-tracker
-DTSTAMP:20261015T060347Z
-DTSTART;TZID=Europe/Paris:20261015T234500
-DTEND;TZID=Europe/Paris:20261016T053000
-SUMMARY:Boumboum Paris · Jeudi 15 Octobre - from 11.00 EUR
-LOCATION:Boum Boum\, 37 Avenue de Friedland\, 75008 Paris\, France
-URL:https://shotgun.live/en/events/boumboum-paris-jeudi-15-octobre
-DESCRIPTION:Price: from 11.00 EUR\nVenue: Boum Boum\, 37 Avenue de Friedlan
- d\, 75008 Paris\, France\nBOUMBOUM PARIS — THURSDAY\, OCTOBER 15TH 🥂
- ✨ Join us for an exclusive Thursday night at BOUMBOUM Paris\, one of the
-  most iconic nightlife spots in the heart of Paris. Expect an elegant atmo
- sphere\, a stylish international crowd\, great music\, and an unforgettabl
- e Parisian night. 📍 37 Av. de Friedland\, 75008 Paris 📅 Thursday\, O
- ctober 15th 🥂 Special Guests & International Crowd 🎶 Music\, Drinks 
- & Good Vibes Very Limited Spots — Strict Door Policy Dress to impress an
- d experience Paris nightlife at its finest. See you at BOUMBOUM! 🖤\n\nh
- ttps://shotgun.live/en/events/boumboum-paris-jeudi-15-octobre
-END:VEVENT
-BEGIN:VEVENT
 UID:erasmusplace-288886@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261016T230000
 DTEND;TZID=Europe/Paris:20261017T050000
 SUMMARY:E-BOAT PARTY - A partir de 13€
@@ -83,7 +47,7 @@ DESCRIPTION:Price: A partir de 13€\nVenue: 2 Quai de la Tournelle\, 75005
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-608606@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261016T230000
 DTEND;TZID=Europe/Paris:20261017T053000
 SUMMARY:Bridge Club - Vendredi 16 Octobre - from 9.99 EUR
@@ -112,7 +76,7 @@ DESCRIPTION:Price: from 9.99 EUR\nVenue: Bridge Club\, 3 Port des Champs-É
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1486119:2026-10-17@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:Chestnut picking
@@ -136,7 +100,7 @@ DESCRIPTION:Venue: Gare du Nord\nHello guys ! ???? On the 17th of October 2
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482262:2026-10-17@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261017T140000
 DTEND;TZID=Europe/Paris:20261017T160000
 SUMMARY:ESN Yoga class
@@ -148,7 +112,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nCome join us for a professionally t
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2026-10-18@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261018T130000
 DTEND;TZID=Europe/Paris:20261018T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -176,7 +140,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1486051:2026-10-18@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261018T160000
 DTEND;TZID=Europe/Paris:20261018T180000
 SUMMARY:Sip & Paint at Le Marais
@@ -188,9 +152,9 @@ DESCRIPTION:Venue: WeWork\, Coeur Marais\, Rue des Archives\, Paris\, Franc
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482097:2026-10-20@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261020T183000
-DTEND;TZID=Europe/Paris:20261020T203000
+DTEND;TZID=Europe/Paris:20261020T233000
 SUMMARY:Pool and Champions League night (PSG vs FC Barcelona)
 LOCATION:L&#039\;Exode : 39 Bd de Strasbourg\, 75010 Paris
 URL:https://www.billetweb.fr/pool-and-football-night
@@ -206,7 +170,7 @@ DESCRIPTION:Venue: L&#039\;Exode : 39 Bd de Strasbourg\, 75010 Paris\nPool
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482096:2026-10-21@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261021T200000
 DTEND;TZID=Europe/Paris:20261021T230000
 SUMMARY:Champions League night
@@ -222,7 +186,7 @@ DESCRIPTION:Venue: Pub Saint Hilaire\n⚽️ CHAMPIONS LEAGUE NIGHT ???? Ge
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287044@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261021T230000
 DTEND;TZID=Europe/Paris:20261022T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -239,7 +203,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290420@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261023T230000
 DTEND;TZID=Europe/Paris:20261024T050000
 SUMMARY:Erasmus Full Party : Rooftop Party - Free
@@ -268,7 +232,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Rooftop\nMesdames et Messieurs\, i
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482261:2026-10-24@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261024T140000
 DTEND;TZID=Europe/Paris:20261024T160000
 SUMMARY:ESN Yoga class
@@ -280,7 +244,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professinally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-604390@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261024T200000
 DTEND;TZID=Europe/Paris:20261025T050000
 SUMMARY:Superstars On Boat: Rihanna Vs Beyoncé - from 9.99 EUR
@@ -311,7 +275,7 @@ DESCRIPTION:Price: from 9.99 EUR\nVenue: River's King\, 4 Quai Saint-Bernar
 END:VEVENT
 BEGIN:VEVENT
 UID:eventbrite-2003413775533@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:Paris is a Joke - Stand up comedy in English - 10.00-15.00 EUR
@@ -323,48 +287,116 @@ DESCRIPTION:Price: 10.00-15.00 EUR\nVenue: Envole Moi\, 176 rue Montmartre\
  joke-stand-up-comedy-in-english-tickets-2003413775533
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1487466:2026-10-25@events-tracker
+DTSTAMP:20261016T054208Z
+DTSTART;TZID=Europe/Paris:20261025T190000
+DTEND;TZID=Europe/Paris:20261025T210000
+SUMMARY:Paris is a Joke - Stand up comedy in English
+LOCATION:ENVOLE MOI\, Rue Montmartre\, Paris\, France
+URL:https://www.billetweb.fr/paris-is-a-joke-stand-up-comedy-in-english
+DESCRIPTION:Venue: ENVOLE MOI\, Rue Montmartre\, Paris\, France\n??????????
+ ?? PARIS IS A JOKE — THE INTERNATIONAL COMEDY SHOW! ???? Different Natio
+ nalities. Different Cultures. One Language: LAUGHTER! ???? PARIS ERASMUS L
+ IFE brings you a brand-new experience in Paris! ???? What happens when com
+ edians from around the world come together to make fun of Paris\, French p
+ eople\, cultural differences\, and the crazy situations we all experience 
+ as internationals? Welcome to PARIS IS A JOKE! ???? For our very first edi
+ tion\, we're bringing together international stand-up comedians for a hila
+ rious night dedicated to life in Paris\, Erasmus adventures\, cultural cla
+ shes\, dating\, French stereotypes\, and the funny differences between nat
+ ionalities! ???????? Why are French people always complaining? ???????? Wh
+ y do Italians take food so seriously? ???????? Why are Spanish people alwa
+ ys late? ???????? Why is dating in Paris so complicated? ???? And why does
+  every nationality think they're the best? Expect hilarious stories\, unex
+ pected punchlines\, international humor\, and plenty of jokes about the ci
+ ty we all love (and sometimes hate)! ???? Whether you're an Erasmus studen
+ t\, an expat\, an international student\, a tourist\, or a Parisian\, this
+  show is made for YOU! ✨...\n\nhttps://www.billetweb.fr/paris-is-a-joke-
+ stand-up-comedy-in-english
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1487534:2026-10-25@events-tracker
+DTSTAMP:20261016T054208Z
+DTSTART;TZID=Europe/Paris:20261025T190000
+DTEND;TZID=Europe/Paris:20261025T210000
+SUMMARY:DIY gourdes
+LOCATION:Les 2 pianos
+URL:https://www.billetweb.fr/diy-gourdes2
+DESCRIPTION:Venue: Les 2 pianos\nAprès\n\nhttps://www.billetweb.fr/diy-gou
+ rdes2
+END:VEVENT
+BEGIN:VEVENT
+UID:shotgun-609491@events-tracker
+DTSTAMP:20261016T054208Z
+DTSTART;TZID=Europe/Paris:20261025T190000
+DTEND;TZID=Europe/Paris:20261025T210000
+SUMMARY:Paris Is A Joke - Standup Comedy In English - from 10.00 EUR
+LOCATION:176 Rue Montmartre\, 75002 Paris\, France
+URL:https://shotgun.live/en/events/paris-is-a-joke-standup-comedy-in-englis
+ h
+DESCRIPTION:Price: from 10.00 EUR\nVenue: 176 Rue Montmartre\, 75002 Paris\
+ , France\n🎤🇫🇷 PARIS IS A JOKE — THE INTERNATIONAL COMEDY SHOW! 
+ 🌍 Different Nationalities. Different Cultures. One Language: LAUGHTER! 
+ 😂 PARIS ERASMUS LIFE brings you a brand-new experience in Paris! 🔥 W
+ hat happens when comedians from around the world come together to make fun
+  of Paris\, French people\, cultural differences\, and the crazy situation
+ s we all experience as internationals? Welcome to PARIS IS A JOKE! 🎤 Fo
+ r our very first edition\, we're bringing together international stand-up 
+ comedians for a hilarious night dedicated to life in Paris\, Erasmus adven
+ tures\, cultural clashes\, dating\, French stereotypes\, and the funny dif
+ ferences between nationalities! 🇫🇷 Why are French people always comp
+ laining? 🇮🇹 Why do Italians take food so seriously? 🇪🇸 Why are
+  Spanish people always late? 🇬🇧 Why is dating in Paris so complicate
+ d? 🌍 And why does every nationality think they're the best? Expect hila
+ rious stories\, unexpected punchlines\, international humor\, and plenty o
+ f jokes about the city we all love (and sometimes hate)! 😂 Whether you'
+ re an Erasmus student\, an expat\, an international student\, a tourist\, 
+ or a Parisian\, this show is made for YOU! ✨ WHAT TO EXPECT? 🎤 Talent
+ ed international stand-up...\n\nhttps://shotgun.live/en/events/paris-is-a-
+ joke-standup-comedy-in-english
+END:VEVENT
+BEGIN:VEVENT
 UID:billetweb-1483197:2026-10-27@events-tracker
-DTSTAMP:20261015T060347Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTAMP:20261016T054208Z
+DTSTART;TZID=Europe/Paris:20261027T190000
+DTEND;TZID=Europe/Paris:20261027T220000
 SUMMARY:Lost in Frenchslation Mission Cléopâtre
 LOCATION:53 Rue Notre Dame des Champs\, 75006 Paris
 URL:https://www.billetweb.fr/lost-in-frenchslation-mission-cleopatre
-DESCRIPTION:Venue: 53 Rue Notre Dame des Champs\, 75006 Paris\n????✨ Movi
- e Night with Erasmus Paris x Lost in Frenchlation! ✨???? Do you love fil
- ms? Then come and join us for a special screening of a true French comedy 
- classic: ???? Astérix & Obélix: Mission Cléopâtre ????????✨ Plot The
-  Egyptian Queen Cleopatra bets against the Roman Emperor\, Julius Caesar\,
-  that her people are still great\, even if the times of the Pharaohs has l
- ong passed. She vows (against all logic) to build a new palace for Caesar 
- within three months. Since all her architects are either busy otherwise or
-  too conservative in style\, this ambivalent honor falls to Edifis. He is 
- to build the palace and be covered in gold or\, if not\, his fate is to be
-  eaten by crocodiles. ???? Don’t miss this chance to discover a French c
- lassic with English subtitles\, meet new people ????\, and share a magical
-  evening together! ???? Tuesday\, October 27 ???? 7:00 PM ????Lucernaire :
-  53 Rue Notre Dame des Champs\, 75006 Paris ???? 7 €\n\nhttps://www.bill
- etweb.fr/lost-in-frenchslation-mission-cleopatre
+DESCRIPTION:Venue: 53 Rue Notre Dame des Champs\, 75006 Paris\n✨ Movie Ni
+ ght with Erasmus Paris x Lost in Frenchlation! ✨ Do you love films? Then
+  come and join us for a special screening of a true French comedy classic:
+  Astérix & Obélix: Mission Cléopâtre Plot: The Egyptian Queen Cleopatr
+ a bets against the Roman Emperor\, Julius Caesar\, that her people are sti
+ ll great\, even if the times of the Pharaohs has long passed. She vows (ag
+ ainst all logic) to build a new palace for Caesar within three months. Sin
+ ce all her architects are either busy otherwise or too conservative in sty
+ le\, this ambivalent honor falls to Edifis. He is to build the palace and 
+ be covered in gold or\, if not\, his fate is to be eaten by crocodiles. Do
+ n’t miss this chance to discover a French classic with English subtitles
+ \, meet new people\, and share a magical evening together! Tuesday\, Octob
+ er 27 7:00 PM Lucernaire : 53 Rue Notre Dame des Champs 75006 Paris\n\nhtt
+ ps://www.billetweb.fr/lost-in-frenchslation-mission-cleopatre
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1480670:2026-10-28@events-tracker
-DTSTAMP:20261015T060347Z
-DTSTART;TZID=Europe/Paris:20261028T190000
-DTEND;TZID=Europe/Paris:20261028T210000
+DTSTAMP:20261016T054208Z
+DTSTART;TZID=Europe/Paris:20261028T180000
+DTEND;TZID=Europe/Paris:20261028T193000
 SUMMARY:Coloring chill
 LOCATION:TBD
 URL:https://www.billetweb.fr/coloring-chill
-DESCRIPTION:Venue: TBD\n????☕ Autumn is here… and Bonapetix is ready to
-  explore Paris! ???????? Get cozy and join us for a creative coloring adve
- nture through Paris\, with our mascot Bonapetix! ???? A fun and cozy momen
- t to create\, share and relive our Erasmus memories — while supporting a
-  beautiful cause. ???? ???? Part of the ticket price will be donated to ca
- ncer research as part of Pink October. Paris\, colors\, memories & a littl
- e bit of solidarity. ????✨\n\nhttps://www.billetweb.fr/coloring-chill
+DESCRIPTION:Venue: TBD\n☕ Autumn is here… and Bonapetix is ready to exp
+ lore Paris! Get cozy and join us for a creative coloring adventure through
+  Paris\, with our mascot Bonapetix! A fun moment to create\, share and rel
+ ive our Erasmus memories — while supporting a beautiful cause. Part of t
+ he ticket price will be donated to cancer research as part of Pink October
+ . Paris\, colors\, memories & a little bit of solidarity ✨\n\nhttps://ww
+ w.billetweb.fr/coloring-chill
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-284296@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261028T230000
 DTEND;TZID=Europe/Paris:20261029T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -387,7 +419,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nCostume\, déguisement\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290417@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261030T230000
 DTEND;TZID=Europe/Paris:20261031T060000
 SUMMARY:Erasmus & Student Party Halloween - À partir de 13€
@@ -411,7 +443,7 @@ DESCRIPTION:Price: À partir de 13€\nVenue: Concorde Atlantique\nPRÊTS P
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482258:2026-10-31@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:ESN Yoga Class
@@ -423,7 +455,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1485966:2026-10-31@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261031T094500
 DTEND;TZID=Europe/Paris:20261031T114500
 SUMMARY:Palais Garnier Guided Tour
@@ -445,7 +477,7 @@ DESCRIPTION:Venue: Palais Garnier\, Place de l&#039\;Opéra\, Paris\, Franc
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261015T060347Z
+DTSTAMP:20261016T054208Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
