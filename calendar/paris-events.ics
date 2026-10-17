@@ -23,96 +23,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:erasmusplace-288886@events-tracker
-DTSTAMP:20261016T054208Z
-DTSTART;TZID=Europe/Paris:20261016T230000
-DTEND;TZID=Europe/Paris:20261017T050000
-SUMMARY:E-BOAT PARTY - A partir de 13€
-LOCATION:2 Quai de la Tournelle\, 75005 Paris
-URL:https://erasmusplace.com/region/paris/evenements/e-boat-party-boat16102
- 6/
-CATEGORIES:payant,soirees
-DESCRIPTION:Price: A partir de 13€\nVenue: 2 Quai de la Tournelle\, 75005
-  Paris\nC’est ta première vraie « Erasmus Boat Party » ! Face à notr
- e dame ! Pour cette saison 2026-27\, direction les rives de la seine !Notr
- e bateau sera amarré au Port de la Tournelle\,. Notre nouveau petit plais
- ir se déroulera de 23 h à 5h du matin. Deux niveaux d’ambiance et une 
- terrasse pour admirer Notre Dame de Paris. Nos internationaux seront au re
- ndez-vous. Prix réduit sur les consommations (les temps sont dur) \, musi
- que généraliste Electro\, pop\, RNB\, Rock\, Latino\, Reggaeton\, disco
- …. Pour être dans l’ambiance. Viens avec ta bouée et ton pull à ray
- ures bleus et blancs !Erasmus\, International\, au pair ou stagiaire\, tu 
- es le bienvenu !\n\nhttps://erasmusplace.com/region/paris/evenements/e-boa
- t-party-boat161026/
-END:VEVENT
-BEGIN:VEVENT
-UID:shotgun-608606@events-tracker
-DTSTAMP:20261016T054208Z
-DTSTART;TZID=Europe/Paris:20261016T230000
-DTEND;TZID=Europe/Paris:20261017T053000
-SUMMARY:Bridge Club - Vendredi 16 Octobre - from 9.99 EUR
-LOCATION:Bridge Club\, 3 Port des Champs-Élysées\, 75008 Paris\, France
-URL:https://shotgun.live/en/events/bridge-club-vendredi-16-octobre
-DESCRIPTION:Price: from 9.99 EUR\nVenue: Bridge Club\, 3 Port des Champs-É
- lysées\, 75008 Paris\, France\nFOLLOW PARIS ERASMUS LIFE ON INSTAGRAM htt
- ps://www.instagram.com/paris.erasmus.life/ ✨✦✦✦ INTERNATIONAL NIGH
- T — BRIDGE CLUB PARIS ✦✦✦✨ 🥂 FRIDAY\, OCTOBER 16 — Your Fri
- day Night\, Parisian Style. An iconic Parisian setting. An international c
- rowd. One dancefloor bringing everyone together. 🌍 Join Paris Erasmus L
- ife at BRIDGE CLUB for a night beneath Pont Alexandre III — where Parisi
- an elegance meets international energy. Coming with your friends or arrivi
- ng solo? Get ready to meet people from around the world and dance together
-  until late. Which nationality will take over the dancefloor? Which univer
- sity will bring the biggest crew? 👀 🔹 WHAT TO EXPECT? ✨ Iconic Loc
- ation: Party beneath the spectacular Pont Alexandre III 🌍 Erasmus\, Stu
- dents & Internationals: All nationalities\, universities and schools welco
- me 🎧 Hip-Hop\, Reggaeton & Pop: Your favourite tracks all night 🔥 A 
- Huge Dancefloor: Bring your energy and your best moves 🥂 Parisian Night
- life: Dress up\, meet new people and make it a night to remember 🎶 THE 
- SOUNDTRACK From Hip-Hop classics to Reggaeton anthems and Pop favourites 
- — expect the tracks you know\, love and sing at the top of your lungs. 
- 🎟️ TICKETS Book your ticket directl...\n\nhttps://shotgun.live/en/eve
- nts/bridge-club-vendredi-16-octobre
-END:VEVENT
-BEGIN:VEVENT
-UID:billetweb-1486119:2026-10-17@events-tracker
-DTSTAMP:20261016T054208Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Chestnut picking
-LOCATION:Gare du Nord
-URL:https://www.billetweb.fr/chestnut-picking
-DESCRIPTION:Venue: Gare du Nord\nHello guys ! ???? On the 17th of October 2
- 026 we are going to the forest to pick some nice chestnuts ???? Luckily fo
- r you guys\, I am an expert ahah ???? You will know everything about them\
- , where and when to find them\, how to tell them appart from their cousin 
- the horse chestnut\, which is not edible. How to preserve\, prepare & cook
-  them ???? And many other things you would not expect about this amazing f
- ruit ! Meeting point is at 2:00 pm at Gare du nord ???? Don't be late ! Th
- e train leaves at 2:26pm. Otherwise if you are not coming from Paris\, you
-  can join us directly at Gare Vaucelles at 3:00 pm You need at least a tot
- e bag ????️ or a backpack ???? to bring them back home. I advise you to 
- take suitable clothes and shoes ???? Gardener gloves ???? or similar are h
- ighly recommended to avoid being pricked by the chestnut burrs ! ???? A sm
- all water bottle is nice to have too. ESN card is mandatory to participate
-  ! You can get it here: https://crmdev.esn.paris/esncardpage\n\nhttps://ww
- w.billetweb.fr/chestnut-picking
-END:VEVENT
-BEGIN:VEVENT
-UID:billetweb-1482262:2026-10-17@events-tracker
-DTSTAMP:20261016T054208Z
-DTSTART;TZID=Europe/Paris:20261017T140000
-DTEND;TZID=Europe/Paris:20261017T160000
-SUMMARY:ESN Yoga class
-LOCATION:30 rue de Chazelles
-URL:https://www.billetweb.fr/esn-yoga-class2
-DESCRIPTION:Venue: 30 rue de Chazelles\nCome join us for a professionally t
- aught Yengar yoga class in the center of Paris this saturday 17 at 12:00\n
- \nhttps://www.billetweb.fr/esn-yoga-class2
-END:VEVENT
-BEGIN:VEVENT
 UID:billetweb-1435784:2026-10-18@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261018T130000
 DTEND;TZID=Europe/Paris:20261018T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -140,7 +52,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1486051:2026-10-18@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261018T160000
 DTEND;TZID=Europe/Paris:20261018T180000
 SUMMARY:Sip & Paint at Le Marais
@@ -152,7 +64,7 @@ DESCRIPTION:Venue: WeWork\, Coeur Marais\, Rue des Archives\, Paris\, Franc
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482097:2026-10-20@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261020T183000
 DTEND;TZID=Europe/Paris:20261020T233000
 SUMMARY:Pool and Champions League night (PSG vs FC Barcelona)
@@ -170,7 +82,7 @@ DESCRIPTION:Venue: L&#039\;Exode : 39 Bd de Strasbourg\, 75010 Paris\nPool
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482096:2026-10-21@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261021T200000
 DTEND;TZID=Europe/Paris:20261021T230000
 SUMMARY:Champions League night
@@ -186,7 +98,7 @@ DESCRIPTION:Venue: Pub Saint Hilaire\n⚽️ CHAMPIONS LEAGUE NIGHT ???? Ge
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287044@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261021T230000
 DTEND;TZID=Europe/Paris:20261022T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -202,8 +114,24 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
  -night-211026/
 END:VEVENT
 BEGIN:VEVENT
+UID:shotgun-609751@events-tracker
+DTSTAMP:20261017T054508Z
+DTSTART;TZID=Europe/Paris:20261022T234500
+DTEND;TZID=Europe/Paris:20261023T053000
+SUMMARY:L'arc Paris - Jeudi 22 Octobre - Sold out
+LOCATION:L'Arc Paris\, 12 Rue de Presbourg\, 75116 Paris\, France
+URL:https://shotgun.live/en/events/l-arc-paris-jeudi-22-octobre
+CATEGORIES:sold-out
+DESCRIPTION:Price: Sold out\nVenue: L'Arc Paris\, 12 Rue de Presbourg\, 751
+ 16 Paris\, France\nL’ARC PARIS — THURSDAY\, OCTOBER 22TH HYPE POP Wher
+ e elegance\, beauty & good vibes meet. Music by JON ROCCA Hosted by SHELLE
+ Y Guestlist before 1AM — exclusively on Shotgun Limited spots available.
+  VIP Tables: +33 6 62 86 13 68 Dress well. Feel good. See you at L’Arc.\
+ n\nhttps://shotgun.live/en/events/l-arc-paris-jeudi-22-octobre
+END:VEVENT
+BEGIN:VEVENT
 UID:erasmusplace-290420@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261023T230000
 DTEND;TZID=Europe/Paris:20261024T050000
 SUMMARY:Erasmus Full Party : Rooftop Party - Free
@@ -232,7 +160,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Rooftop\nMesdames et Messieurs\, i
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482261:2026-10-24@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261024T140000
 DTEND;TZID=Europe/Paris:20261024T160000
 SUMMARY:ESN Yoga class
@@ -244,7 +172,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professinally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-604390@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261024T200000
 DTEND;TZID=Europe/Paris:20261025T050000
 SUMMARY:Superstars On Boat: Rihanna Vs Beyoncé - from 9.99 EUR
@@ -275,7 +203,7 @@ DESCRIPTION:Price: from 9.99 EUR\nVenue: River's King\, 4 Quai Saint-Bernar
 END:VEVENT
 BEGIN:VEVENT
 UID:eventbrite-2003413775533@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:Paris is a Joke - Stand up comedy in English - 10.00-15.00 EUR
@@ -288,7 +216,7 @@ DESCRIPTION:Price: 10.00-15.00 EUR\nVenue: Envole Moi\, 176 rue Montmartre\
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1487466:2026-10-25@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:Paris is a Joke - Stand up comedy in English
@@ -316,7 +244,7 @@ DESCRIPTION:Venue: ENVOLE MOI\, Rue Montmartre\, Paris\, France\n??????????
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1487534:2026-10-25@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:DIY gourdes
@@ -327,7 +255,7 @@ DESCRIPTION:Venue: Les 2 pianos\nAprès\n\nhttps://www.billetweb.fr/diy-gou
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-609491@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:Paris Is A Joke - Standup Comedy In English - from 10.00 EUR
@@ -357,7 +285,7 @@ DESCRIPTION:Price: from 10.00 EUR\nVenue: 176 Rue Montmartre\, 75002 Paris\
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1483197:2026-10-27@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261027T190000
 DTEND;TZID=Europe/Paris:20261027T220000
 SUMMARY:Lost in Frenchslation Mission Cléopâtre
@@ -380,7 +308,7 @@ DESCRIPTION:Venue: 53 Rue Notre Dame des Champs\, 75006 Paris\n✨ Movie Ni
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1480670:2026-10-28@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261028T180000
 DTEND;TZID=Europe/Paris:20261028T193000
 SUMMARY:Coloring chill
@@ -396,7 +324,7 @@ DESCRIPTION:Venue: TBD\n☕ Autumn is here… and Bonapetix is ready to exp
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-284296@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261028T230000
 DTEND;TZID=Europe/Paris:20261029T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -419,7 +347,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nCostume\, déguisement\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290417@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261030T230000
 DTEND;TZID=Europe/Paris:20261031T060000
 SUMMARY:Erasmus & Student Party Halloween - À partir de 13€
@@ -443,7 +371,7 @@ DESCRIPTION:Price: À partir de 13€\nVenue: Concorde Atlantique\nPRÊTS P
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482258:2026-10-31@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:ESN Yoga Class
@@ -455,7 +383,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1485966:2026-10-31@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261031T094500
 DTEND;TZID=Europe/Paris:20261031T114500
 SUMMARY:Palais Garnier Guided Tour
@@ -477,7 +405,7 @@ DESCRIPTION:Venue: Palais Garnier\, Place de l&#039\;Opéra\, Paris\, Franc
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261016T054208Z
+DTSTAMP:20261017T054508Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
