@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:billetweb-1435784:2026-10-18@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261018T130000
 DTEND;TZID=Europe/Paris:20261018T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -52,7 +52,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1486051:2026-10-18@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261018T160000
 DTEND;TZID=Europe/Paris:20261018T180000
 SUMMARY:Sip & Paint at Le Marais
@@ -64,7 +64,7 @@ DESCRIPTION:Venue: WeWork\, Coeur Marais\, Rue des Archives\, Paris\, Franc
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482097:2026-10-20@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261020T183000
 DTEND;TZID=Europe/Paris:20261020T233000
 SUMMARY:Pool and Champions League night (PSG vs FC Barcelona)
@@ -82,7 +82,7 @@ DESCRIPTION:Venue: L&#039\;Exode : 39 Bd de Strasbourg\, 75010 Paris\nPool
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482096:2026-10-21@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261021T200000
 DTEND;TZID=Europe/Paris:20261021T230000
 SUMMARY:Champions League night
@@ -98,7 +98,7 @@ DESCRIPTION:Venue: Pub Saint Hilaire\n⚽️ CHAMPIONS LEAGUE NIGHT ???? Ge
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287044@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261021T230000
 DTEND;TZID=Europe/Paris:20261022T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -115,7 +115,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-609751@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261022T234500
 DTEND;TZID=Europe/Paris:20261023T053000
 SUMMARY:L'arc Paris - Jeudi 22 Octobre - Sold out
@@ -131,7 +131,7 @@ DESCRIPTION:Price: Sold out\nVenue: L'Arc Paris\, 12 Rue de Presbourg\, 751
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290420@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261023T230000
 DTEND;TZID=Europe/Paris:20261024T050000
 SUMMARY:Erasmus Full Party : Rooftop Party - Free
@@ -160,7 +160,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Rooftop\nMesdames et Messieurs\, i
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482261:2026-10-24@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261024T140000
 DTEND;TZID=Europe/Paris:20261024T160000
 SUMMARY:ESN Yoga class
@@ -172,7 +172,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professinally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-604390@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261024T200000
 DTEND;TZID=Europe/Paris:20261025T050000
 SUMMARY:Superstars On Boat: Rihanna Vs Beyoncé - from 9.99 EUR
@@ -203,7 +203,7 @@ DESCRIPTION:Price: from 9.99 EUR\nVenue: River's King\, 4 Quai Saint-Bernar
 END:VEVENT
 BEGIN:VEVENT
 UID:eventbrite-2003413775533@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:Paris is a Joke - Stand up comedy in English - 10.00-15.00 EUR
@@ -216,7 +216,7 @@ DESCRIPTION:Price: 10.00-15.00 EUR\nVenue: Envole Moi\, 176 rue Montmartre\
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1487466:2026-10-25@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:Paris is a Joke - Stand up comedy in English
@@ -244,7 +244,7 @@ DESCRIPTION:Venue: ENVOLE MOI\, Rue Montmartre\, Paris\, France\n??????????
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1487534:2026-10-25@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:DIY gourdes
@@ -255,7 +255,7 @@ DESCRIPTION:Venue: Les 2 pianos\nAprès\n\nhttps://www.billetweb.fr/diy-gou
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-609491@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:Paris Is A Joke - Standup Comedy In English - from 10.00 EUR
@@ -285,7 +285,7 @@ DESCRIPTION:Price: from 10.00 EUR\nVenue: 176 Rue Montmartre\, 75002 Paris\
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1483197:2026-10-27@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261027T190000
 DTEND;TZID=Europe/Paris:20261027T220000
 SUMMARY:Lost in Frenchslation Mission Cléopâtre
@@ -308,7 +308,7 @@ DESCRIPTION:Venue: 53 Rue Notre Dame des Champs\, 75006 Paris\n✨ Movie Ni
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1480670:2026-10-28@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261028T180000
 DTEND;TZID=Europe/Paris:20261028T193000
 SUMMARY:Coloring chill
@@ -324,7 +324,7 @@ DESCRIPTION:Venue: TBD\n☕ Autumn is here… and Bonapetix is ready to exp
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-284296@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261028T230000
 DTEND;TZID=Europe/Paris:20261029T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -347,7 +347,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nCostume\, déguisement\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290417@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261030T230000
 DTEND;TZID=Europe/Paris:20261031T060000
 SUMMARY:Erasmus & Student Party Halloween - À partir de 13€
@@ -371,7 +371,7 @@ DESCRIPTION:Price: À partir de 13€\nVenue: Concorde Atlantique\nPRÊTS P
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482258:2026-10-31@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:ESN Yoga Class
@@ -383,7 +383,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1485966:2026-10-31@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261031T094500
 DTEND;TZID=Europe/Paris:20261031T114500
 SUMMARY:Palais Garnier Guided Tour
@@ -404,8 +404,104 @@ DESCRIPTION:Venue: Palais Garnier\, Place de l&#039\;Opéra\, Paris\, Franc
  billetweb.fr/palais-garnier-guided-tour
 END:VEVENT
 BEGIN:VEVENT
+UID:erasmusplace-290508@events-tracker
+DTSTAMP:20261018T060429Z
+DTSTART;TZID=Europe/Paris:20261104T230000
+DTEND;TZID=Europe/Paris:20261105T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-reggae
+ ton-night-041126-2/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
+ r cœur ? Cette soirée est faite pour toi. Du début à la fin\, on balan
+ ce les sons reggaeton les plus emblématiques. Viens bouger sur Bad Bunny\
+ , Karol G\, Daddy Yankee et plein d'autres. C’est caliente ce soir !\n\n
+ https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-reggaeton
+ -night-041126-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-285942@events-tracker
+DTSTAMP:20261018T060429Z
+DTSTART;TZID=Europe/Paris:20261111T230000
+DTEND;TZID=Europe/Paris:20261112T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-brazil
+ ian-night-111126/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
+ , ça te tente ? Ce soir\, c’est le Brésil qui t’accueille avec ses r
+ ythmes\, et son énergie folle. Attends-toi à danser\, rire\, chanter\, e
+ t peut-être même découvrir quelques pas de samba... Les Brésiliens et 
+ Brésiliennes savent mettre de l’ambiance crois moi !\n\nhttps://erasmus
+ place.com/region/paris/evenements/kiss-my-erasmus-brazilian-night-111126/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-285806@events-tracker
+DTSTAMP:20261018T060429Z
+DTSTART;TZID=Europe/Paris:20261118T230000
+DTEND;TZID=Europe/Paris:20261119T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-spanis
+ h-night-181126/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nOlé ! Une soirée dédi
+ ée à l’Espagne et à sa culture festive. Au programme : drapeaux rouge
+ s et jaunes\, flamenco\, pop espagnole et reggaeton. Ramène ta bande ou v
+ iens solo\, tu ne resteras pas seul(e) longtemps !\n\nhttps://erasmusplace
+ .com/region/paris/evenements/kiss-my-erasmus-spanish-night-181126/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-287199@events-tracker
+DTSTAMP:20261018T060429Z
+DTSTART;TZID=Europe/Paris:20261125T230000
+DTEND;TZID=Europe/Paris:20261126T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-usa-25
+ 1126/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
+  tes couleurs ! nous te ramenons ton drapeau\, porte-le fièrement et vien
+ s représenter ton pays parmi des dizaines d’autres. C’est la soirée 
+ parfaite pour rencontrer un maximum de monde de son pays. Que tu sois là 
+ pour faire la fête ou simplement échanger sur ta culture\, tu trouveras 
+ toujours quelqu’un avec qui discuter... ou danser !KISS MY ERASMUS Une s
+ oirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas
+  de danse et des "Chupitos/shooter" pour briser ta timidité. Tu pourras p
+ orter fièrement les couleurs de ton pays grâce aux drapeaux distribués 
+ dès l’entrée.Côté musique on reste électro\, RNB\, Reggaeton\, Pop\
+ , Disco\, cette soirée c’est la tienne !\n\nhttps://erasmusplace.com/re
+ gion/paris/evenements/kiss-my-erasmus-usa-251126/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-287205@events-tracker
+DTSTAMP:20261018T060429Z
+DTSTART;TZID=Europe/Paris:20261202T230000
+DTEND;TZID=Europe/Paris:20261203T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-italia
+ n-night-021226/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
+  une soirée haute en couleur (et en chaleur). Entre classiques pop\, regg
+ aeton et tubes 100% italiens. Tu n’as pas besoin de parler italien pour 
+ venir\, mais tu repartiras sûrement avec quelques mots en tête… et peu
+ t-être un ou deux nouveaux amis de Rome\, Milan ou Naples ! Les italiens 
+ savent mettre de l’ambiance !KISS MY ERASMUS Une soirée Erasmus qui te 
+ fait découvrir les 4 coins du monde en quelques pas de danse et des "Chup
+ itos/shooter" pour briser ta timidité. Tu pourras porter fièrement les c
+ ouleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côt
+ é musique on reste électro\, RNB\, Reggaeton\, Pop\, Disco\, cette soir
+ ée c’est la tienne !\n\nhttps://erasmusplace.com/region/paris/evenement
+ s/kiss-my-erasmus-italian-night-021226/
+END:VEVENT
+BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261017T054508Z
+DTSTAMP:20261018T060429Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
@@ -436,5 +532,68 @@ DESCRIPTION:Price: from 12.99 EUR\nVenue: YOYO\, Palais De Tokyo\, 13 Avenu
  ol G 💅 – Daddy Yankee 🚀 – Nicky Jam 🎤 – Rosalía 💃 – D
  on Omar 🔥 – J Balvin...\n\nhttps://shotgun.live/en/events/la-plus-gra
  nde-soiree-reggaeton-open-format-yoyo-05-decembre
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-290521@events-tracker
+DTSTAMP:20261018T060429Z
+DTSTART;TZID=Europe/Paris:20261209T230000
+DTEND;TZID=Europe/Paris:20261210T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-scandi
+ navia-091226/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
+  tes couleurs ! nous te ramenons ton drapeau\, porte-le fièrement et vien
+ s représenter ton pays parmi des dizaines d’autres. C’est la soirée 
+ parfaite pour rencontrer un maximum de monde de son pays. Que tu sois là 
+ pour faire la fête ou simplement échanger sur ta culture\, tu trouveras 
+ toujours quelqu’un avec qui discuter... ou danser !KISS MY ERASMUS Une s
+ oirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas
+  de danse et des "Chupitos/shooter" pour briser ta timidité. Tu pourras p
+ orter fièrement les couleurs de ton pays grâce aux drapeaux distribués 
+ dès l’entrée.Côté musique on reste électro\, RNB\, Reggaeton\, Pop\
+ , Disco\, cette soirée c’est la tienne !\n\nhttps://erasmusplace.com/re
+ gion/paris/evenements/kiss-my-erasmus-scandinavia-091226/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-290524@events-tracker
+DTSTAMP:20261018T060429Z
+DTSTART;TZID=Europe/Paris:20261223T230000
+DTEND;TZID=Europe/Paris:20261224T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-xmas-2
+ 31226/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
+ , ça te tente ? Ce soir\, c’est le Brésil qui t’accueille avec ses r
+ ythmes\, et son énergie folle. Attends-toi à danser\, rire\, chanter\, e
+ t peut-être même découvrir quelques pas de samba... Les Brésiliens et 
+ Brésiliennes savent mettre de l’ambiance crois moi !\n\nhttps://erasmus
+ place.com/region/paris/evenements/kiss-my-erasmus-xmas-231226/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-14974@events-tracker
+DTSTAMP:20261018T060429Z
+DTSTART;TZID=Europe/Paris:20261230T230000
+DTEND;TZID=Europe/Paris:20261231T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-flag-p
+ arty-301226/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
+  tes couleurs ! nous te ramenons ton drapeau\, porte-le fièrement et vien
+ s représenter ton pays parmi des dizaines d’autres. C’est la soirée 
+ parfaite pour rencontrer un maximum de monde de son pays. Que tu sois là 
+ pour faire la fête ou simplement échanger sur ta culture\, tu trouveras 
+ toujours quelqu’un avec qui discuter... ou danser !KISS MY ERASMUS Une s
+ oirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas
+  de danse et des "Chupitos/shooter" pour briser ta timidité. Tu pourras p
+ orter fièrement les couleurs de ton pays grâce aux drapeaux distribués 
+ dès l’entrée.Côté musique on reste électro\, RNB\, Reggaeton\, Pop\
+ , Disco\, cette soirée c’est la tienne !\n\nhttps://erasmusplace.com/re
+ gion/paris/evenements/kiss-my-erasmus-flag-party-301226/
 END:VEVENT
 END:VCALENDAR
