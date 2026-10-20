@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:billetweb-1482097:2026-10-20@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261020T183000
 DTEND;TZID=Europe/Paris:20261020T233000
 SUMMARY:Pool and Champions League night (PSG vs FC Barcelona)
@@ -42,7 +42,7 @@ DESCRIPTION:Venue: L&#039\;Exode : 39 Bd de Strasbourg\, 75010 Paris\nPool
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482096:2026-10-21@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261021T200000
 DTEND;TZID=Europe/Paris:20261021T230000
 SUMMARY:Champions League night
@@ -58,7 +58,7 @@ DESCRIPTION:Venue: Pub Saint Hilaire\n⚽️ CHAMPIONS LEAGUE NIGHT ???? Ge
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287044@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261021T230000
 DTEND;TZID=Europe/Paris:20261022T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -75,7 +75,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-609751@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261022T234500
 DTEND;TZID=Europe/Paris:20261023T053000
 SUMMARY:L'arc Paris - Jeudi 22 Octobre - Sold out
@@ -91,7 +91,7 @@ DESCRIPTION:Price: Sold out\nVenue: L'Arc Paris\, 12 Rue de Presbourg\, 751
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290420@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261023T230000
 DTEND;TZID=Europe/Paris:20261024T050000
 SUMMARY:Erasmus Full Party : Rooftop Party - Free
@@ -120,7 +120,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Rooftop\nMesdames et Messieurs\, i
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482261:2026-10-24@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261024T140000
 DTEND;TZID=Europe/Paris:20261024T160000
 SUMMARY:ESN Yoga class
@@ -131,39 +131,55 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professinally taught
  s://www.billetweb.fr/esn-yoga-class1
 END:VEVENT
 BEGIN:VEVENT
+UID:eventbrite-2003618471785@events-tracker
+DTSTAMP:20261020T054808Z
+DTSTART;TZID=Europe/Paris:20261024T140000
+DTEND;TZID=Europe/Paris:20261031T160000
+SUMMARY:Free Walking Tour Père Lachaise - Halloween Edition - Free
+LOCATION:Cimetière du Père-Lachaise\, cimetieere du pere lachaise entree 
+ principale\, 75020 Paris
+URL:https://www.eventbrite.fr/e/free-walking-tour-pere-lachaise-halloween-e
+ dition-tickets-2003618471785
+DESCRIPTION:Price: Free\nVenue: Cimetière du Père-Lachaise\, cimetieere d
+ u pere lachaise entree principale\, 75020 Paris\nExplore the spooky secret
+ s of Père Lachaise on a free Halloween-themed stroll that’s anything bu
+ t ordinary!\n\nhttps://www.eventbrite.fr/e/free-walking-tour-pere-lachaise
+ -halloween-edition-tickets-2003618471785
+END:VEVENT
+BEGIN:VEVENT
 UID:shotgun-604390@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261024T200000
 DTEND;TZID=Europe/Paris:20261025T050000
-SUMMARY:Superstars On Boat: Rihanna Vs Beyoncé - from 9.99 EUR
+SUMMARY:Superstars On Boat: Rihanna Vs Beyoncé - from 14.99 EUR
 LOCATION:River's King\, 4 Quai Saint-Bernard\, 75005 Paris\, France
 URL:https://shotgun.live/en/events/superstars-on-boat-speciale-rihanna-vs-b
  eyonce
-DESCRIPTION:Price: from 9.99 EUR\nVenue: River's King\, 4 Quai Saint-Bernar
- d\, 75005 Paris\, France\n✨ SUPERSTARS — RIHANNA VS BEYONCÉ ✨ 🚢 
- CROISIÈRE + CLUB • PARIS English below WELCOME TO SUPERSTARS ⭐️ SUP
- ERSTARS\, c’est la soirée qui célèbre les plus grandes icônes de la 
- pop culture. 💫 À chaque édition\, deux superstars\, deux univers\, un
- e nuit : leurs plus grands hits\, les classiques qu’on connaît tous par
-  cœur\, les morceaux qui ont marqué nos soirées et toute une générati
- on. Une soirée faite pour chanter fort\, danser sans s’arrêter et revi
- vre les hits qui nous ont fait vibrer. 🎤✨ Et pour lancer SUPERSTARS\,
-  difficile d’imaginer un duo plus iconique… RIHANNA VS BEYONCÉ 👑 D
- eux artistes. Deux univers. Des dizaines de hits planétaires. Et pour cet
- te première édition\, on ne commence pas directement en club… On comme
- nce sur la Seine. 🛥️✨ 🕗 20H — OUVERTURE DES PORTES Accueil à 
- bord et début de soirée. 🚢 21H30 — DÉPART DE LA CROISIÈRE Paris b
- y night\, la Seine et les classiques de Rihanna & Beyoncé pour accompagne
- r la navigation. ⚓ 23H — RETOUR À QUAI 🔥 23H → 5H — MODE CLUB 
- La nuit continue avec 50% RIHANNA • 50% BEYONCÉ. De Crazy in Love à Um
- brella\, de Run the World à We Found Love\, de Single Ladies à Work… p
- répare-toi à chanter et danser toute la nuit. 💃🏽 🎧 4 DJs aux co
- mmandes : Louise...\n\nhttps://shotgun.live/en/events/superstars-on-boat-s
- peciale-rihanna-vs-beyonce
+DESCRIPTION:Price: from 14.99 EUR\nVenue: River's King\, 4 Quai Saint-Berna
+ rd\, 75005 Paris\, France\n✨ SUPERSTARS — RIHANNA VS BEYONCÉ ✨ 🚢
+  CRUISE + CLUB • PARIS English below 🇬🇧 WELCOME TO SUPERSTARS ⭐
+ ️ SUPERSTARS\, c’est la soirée 100% POP HITS\, GIRLY ANTHEMS\, R&B & 
+ 2000s ! 💖 Une soirée dédiée aux plus grands tubes des années 2000 
+ à aujourd’hui\, aux classiques qu’on connaît tous par cœur et aux c
+ hansons qui ont marqué toute une génération. De Britney Spears à Lady 
+ Gaga\, de Rihanna à Beyoncé\, en passant par Shakira\, Jennifer Lopez\, 
+ Ariana Grande\, Pussycat Dolls et bien d’autres… 🎤✨ À chaque éd
+ ition\, SUPERSTARS met à l’honneur des artistes iconiques de la pop cul
+ ture\, avec leurs plus grands hits\, des animations et des surprises autou
+ r de leur univers. Et pour cette première édition\, on voit les choses e
+ n grand… 👑 RIHANNA VS BEYONCÉ 👑 Deux icônes. Deux univers. Des d
+ izaines de hits planétaires. Et pour commencer cette aventure\, on ne vou
+ s emmène pas dans n’importe quel club… On commence par une croisière
+  sur la Seine\, à bord du magnifique RIVER KING ! 🚢✨ 🕗 20H — OU
+ VERTURE DES PORTES Bienvenue à bord\, la fête commence ! 🚢 21H30 — 
+ DÉPART DE LA CROISIÈRE Paris by night\, la Seine et les plus grands hits
+  pop & R&B. ⚓ 23H — RETOUR À QUAI 🔥 23H → 5H — CLUB MODE Une n
+ uit de POP HITS\, GIRLY...\n\nhttps://shotgun.live/en/events/superstars-on
+ -boat-speciale-rihanna-vs-beyonce
 END:VEVENT
 BEGIN:VEVENT
 UID:eventbrite-2003413775533@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:Paris is a Joke - Stand up comedy in English - 10.00-15.00 EUR
@@ -176,7 +192,7 @@ DESCRIPTION:Price: 10.00-15.00 EUR\nVenue: Envole Moi\, 176 rue Montmartre\
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1487466:2026-10-25@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:Paris is a Joke - Stand up comedy in English
@@ -204,18 +220,19 @@ DESCRIPTION:Venue: ENVOLE MOI\, Rue Montmartre\, Paris\, France\n??????????
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1487534:2026-10-25@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:DIY gourdes
 LOCATION:Les 2 pianos
 URL:https://www.billetweb.fr/diy-gourdes2
-DESCRIPTION:Venue: Les 2 pianos\nAprès\n\nhttps://www.billetweb.fr/diy-gou
- rdes2
+DESCRIPTION:Venue: Les 2 pianos\nCome and personalise your water bottle to 
+ make it unique. If you don't have one\, it's okay\, we can provide you wit
+ h one\n\nhttps://www.billetweb.fr/diy-gourdes2
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-609491@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:Paris Is A Joke - Standup Comedy In English - from 10.00 EUR
@@ -245,7 +262,7 @@ DESCRIPTION:Price: from 10.00 EUR\nVenue: 176 Rue Montmartre\, 75002 Paris\
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1483197:2026-10-27@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261027T190000
 DTEND;TZID=Europe/Paris:20261027T220000
 SUMMARY:Lost in Frenchslation Mission Cléopâtre
@@ -268,7 +285,7 @@ DESCRIPTION:Venue: 53 Rue Notre Dame des Champs\, 75006 Paris\n✨ Movie Ni
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1480670:2026-10-28@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261028T180000
 DTEND;TZID=Europe/Paris:20261028T193000
 SUMMARY:Coloring chill
@@ -284,7 +301,7 @@ DESCRIPTION:Venue: TBD\n☕ Autumn is here… and Bonapetix is ready to exp
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-284296@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261028T230000
 DTEND;TZID=Europe/Paris:20261029T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -307,7 +324,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nCostume\, déguisement\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290417@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261030T230000
 DTEND;TZID=Europe/Paris:20261031T060000
 SUMMARY:Erasmus & Student Party Halloween - À partir de 13€
@@ -331,7 +348,7 @@ DESCRIPTION:Price: À partir de 13€\nVenue: Concorde Atlantique\nPRÊTS P
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482258:2026-10-31@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:ESN Yoga Class
@@ -343,7 +360,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1485966:2026-10-31@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261031T094500
 DTEND;TZID=Europe/Paris:20261031T114500
 SUMMARY:Palais Garnier Guided Tour
@@ -364,8 +381,39 @@ DESCRIPTION:Venue: Palais Garnier\, Place de l&#039\;Opéra\, Paris\, Franc
  billetweb.fr/palais-garnier-guided-tour
 END:VEVENT
 BEGIN:VEVENT
+UID:shotgun-610512@events-tracker
+DTSTAMP:20261020T054808Z
+DTSTART;TZID=Europe/Paris:20261031T220000
+DTEND;TZID=Europe/Paris:20261101T053000
+SUMMARY:La Noche De Terror - Halloween Hotel Party - from 10.00 EUR
+LOCATION:Belushi's Paris (Canal)\, 159 Rue de Crimée\, 75019 Paris\, Franc
+ e
+URL:https://shotgun.live/en/events/la-noche-de-terror-halloween-hotel-party
+DESCRIPTION:Price: from 10.00 EUR\nVenue: Belushi's Paris (Canal)\, 159 Rue
+  de Crimée\, 75019 Paris\, France\n🎃 NOCHE DE TERROR — HALLOWEEN BY 
+ THE CANAL 🎃 SAMEDI 31 OCTOBRE • BELUSHI’S PARIS Cette année\, pour
+  Halloween\, on vous emmène dans un lieu totalement inattendu… au cœur
+  d’un hôtel au bord du canal ! 👻🏨 Oubliez les soirées habituelle
+ s ! Le temps d’une nuit\, le Belushi’s se transforme en hôtel hanté 
+ pour accueillir étudiants français et internationaux dans une soirée Ha
+ lloween exceptionnelle\, avec 2 salles et 2 ambiances ! 🕸️ UN LIEU UN
+ IQUE : UN HÔTEL AU BORD DU CANAL Un hôtel\, des dancefloors et une terra
+ sse donnant sur le Canal Saint-Martin. Profitez de l'extérieur pour prend
+ re l'air au bord de l'eau… avant de replonger dans la folie de la soiré
+ e ! 🎃 UNE DÉCORATION 100 % HALLOWEEN Décorations terrifiantes\, ambia
+ nce mystérieuse et costumes effrayants… Pour une nuit\, l'hôtel se tra
+ nsforme en véritable maison hantée ! 🎧 2 SALLES • 2 AMBIANCES • D
+ Js INTERNATIONAUX 🔥 ROOM 1 — GÉNÉRALISTE\, POP & PARTY HITS Les plu
+ s grands tubes\, les classiques incontournables et les meilleurs hits pour
+  faire la fête toute la nuit ! 🌴 ROOM 2 — REGGAETON\, BRAZILIAN & LA
+ TINO VIBES Direction l'Amérique latine avec les meilleurs sons reggaeton\
+ , brésiliens et latino pour faire monter la température ! 💸 UNE SOI..
+ .\n\nhttps://shotgun.live/en/events/la-noche-de-terror-halloween-hotel-par
+ ty
+END:VEVENT
+BEGIN:VEVENT
 UID:erasmusplace-290508@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261104T230000
 DTEND;TZID=Europe/Paris:20261105T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -382,7 +430,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-285942@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261111T230000
 DTEND;TZID=Europe/Paris:20261112T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -399,7 +447,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-285806@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261118T230000
 DTEND;TZID=Europe/Paris:20261119T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -415,7 +463,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nOlé ! Une soirée dédi
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287199@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261125T230000
 DTEND;TZID=Europe/Paris:20261126T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -438,7 +486,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287205@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261202T230000
 DTEND;TZID=Europe/Paris:20261203T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -461,7 +509,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
@@ -495,7 +543,7 @@ DESCRIPTION:Price: from 12.99 EUR\nVenue: YOYO\, Palais De Tokyo\, 13 Avenu
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290521@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261209T230000
 DTEND;TZID=Europe/Paris:20261210T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -518,7 +566,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-285813@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261216T230000
 DTEND;TZID=Europe/Paris:20261217T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -538,7 +586,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nÇa commence à sentir la
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290524@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261223T230000
 DTEND;TZID=Europe/Paris:20261224T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -555,7 +603,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-14974@events-tracker
-DTSTAMP:20261019T060928Z
+DTSTAMP:20261020T054808Z
 DTSTART;TZID=Europe/Paris:20261230T230000
 DTEND;TZID=Europe/Paris:20261231T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -575,5 +623,201 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
  dès l’entrée.Côté musique on reste électro\, RNB\, Reggaeton\, Pop\
  , Disco\, cette soirée c’est la tienne !\n\nhttps://erasmusplace.com/re
  gion/paris/evenements/kiss-my-erasmus-flag-party-301226/
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1435784:2027-04-18@events-tracker
+DTSTAMP:20261020T054808Z
+DTSTART;TZID=Europe/Paris:20270418T130000
+DTEND;TZID=Europe/Paris:20270418T170000
+SUMMARY:Celine on the Seine - The Tribute Cruise Experience
+LOCATION:4 Quai Saint-Bernard\, 75005 Paris\, France
+URL:https://www.billetweb.fr/celine2
+DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
+ OW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à
+  Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la réside
+ nce ou pas - cet événement est fait pour toi. Le temps d'une croisière\
+ , on rend hommage à celle qui continue de faire chavirer des génération
+ s entières. Entre fans\, entre passionné.e.s\, on embarque ensemble pour
+  un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un 
+ DJ 100 % Céline - De "Pour que tu m'aimes encore" à "The Power of Love"\
+ , de "S'il suffisait d'aimer" à "I'm Alive" : pendant toute la croisière
+ \, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses
+  hymnes internationaux. ???? Paris comme décor\, Céline comme bande-son 
+ - La Tour Eiffel\, le Pont Alexandre III\, Notre-Dame\, le Louvre qui déf
+ ile... Chaque monument iconique de Paris prend une autre dimension quand "
+ L'Hymne à l'amour" résonne sur l'eau. C'est une promesse : tu ne regarde
+ ras plus jamais ces paysages sans entendre sa voix. ???? Une violoniste li
+ ve - Pour des moments d'émotion. Elle transforme le pont du bateau en sc
+ ène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que
+  ce n'est pas une croisière ordinaire\, et que...\n\nhttps://www.billetwe
+ b.fr/celine2
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1435784:2027-04-25@events-tracker
+DTSTAMP:20261020T054808Z
+DTSTART;TZID=Europe/Paris:20270425T130000
+DTEND;TZID=Europe/Paris:20270425T170000
+SUMMARY:Celine on the Seine - The Tribute Cruise Experience
+LOCATION:4 Quai Saint-Bernard\, 75005 Paris\, France
+URL:https://www.billetweb.fr/celine2
+DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
+ OW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à
+  Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la réside
+ nce ou pas - cet événement est fait pour toi. Le temps d'une croisière\
+ , on rend hommage à celle qui continue de faire chavirer des génération
+ s entières. Entre fans\, entre passionné.e.s\, on embarque ensemble pour
+  un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un 
+ DJ 100 % Céline - De "Pour que tu m'aimes encore" à "The Power of Love"\
+ , de "S'il suffisait d'aimer" à "I'm Alive" : pendant toute la croisière
+ \, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses
+  hymnes internationaux. ???? Paris comme décor\, Céline comme bande-son 
+ - La Tour Eiffel\, le Pont Alexandre III\, Notre-Dame\, le Louvre qui déf
+ ile... Chaque monument iconique de Paris prend une autre dimension quand "
+ L'Hymne à l'amour" résonne sur l'eau. C'est une promesse : tu ne regarde
+ ras plus jamais ces paysages sans entendre sa voix. ???? Une violoniste li
+ ve - Pour des moments d'émotion. Elle transforme le pont du bateau en sc
+ ène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que
+  ce n'est pas une croisière ordinaire\, et que...\n\nhttps://www.billetwe
+ b.fr/celine2
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1435784:2027-05-02@events-tracker
+DTSTAMP:20261020T054808Z
+DTSTART;TZID=Europe/Paris:20270502T130000
+DTEND;TZID=Europe/Paris:20270502T170000
+SUMMARY:Celine on the Seine - The Tribute Cruise Experience
+LOCATION:4 Quai Saint-Bernard\, 75005 Paris\, France
+URL:https://www.billetweb.fr/celine2
+DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
+ OW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à
+  Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la réside
+ nce ou pas - cet événement est fait pour toi. Le temps d'une croisière\
+ , on rend hommage à celle qui continue de faire chavirer des génération
+ s entières. Entre fans\, entre passionné.e.s\, on embarque ensemble pour
+  un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un 
+ DJ 100 % Céline - De "Pour que tu m'aimes encore" à "The Power of Love"\
+ , de "S'il suffisait d'aimer" à "I'm Alive" : pendant toute la croisière
+ \, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses
+  hymnes internationaux. ???? Paris comme décor\, Céline comme bande-son 
+ - La Tour Eiffel\, le Pont Alexandre III\, Notre-Dame\, le Louvre qui déf
+ ile... Chaque monument iconique de Paris prend une autre dimension quand "
+ L'Hymne à l'amour" résonne sur l'eau. C'est une promesse : tu ne regarde
+ ras plus jamais ces paysages sans entendre sa voix. ???? Une violoniste li
+ ve - Pour des moments d'émotion. Elle transforme le pont du bateau en sc
+ ène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que
+  ce n'est pas une croisière ordinaire\, et que...\n\nhttps://www.billetwe
+ b.fr/celine2
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1435784:2027-05-09@events-tracker
+DTSTAMP:20261020T054808Z
+DTSTART;TZID=Europe/Paris:20270509T130000
+DTEND;TZID=Europe/Paris:20270509T170000
+SUMMARY:Celine on the Seine - The Tribute Cruise Experience
+LOCATION:4 Quai Saint-Bernard\, 75005 Paris\, France
+URL:https://www.billetweb.fr/celine2
+DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
+ OW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à
+  Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la réside
+ nce ou pas - cet événement est fait pour toi. Le temps d'une croisière\
+ , on rend hommage à celle qui continue de faire chavirer des génération
+ s entières. Entre fans\, entre passionné.e.s\, on embarque ensemble pour
+  un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un 
+ DJ 100 % Céline - De "Pour que tu m'aimes encore" à "The Power of Love"\
+ , de "S'il suffisait d'aimer" à "I'm Alive" : pendant toute la croisière
+ \, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses
+  hymnes internationaux. ???? Paris comme décor\, Céline comme bande-son 
+ - La Tour Eiffel\, le Pont Alexandre III\, Notre-Dame\, le Louvre qui déf
+ ile... Chaque monument iconique de Paris prend une autre dimension quand "
+ L'Hymne à l'amour" résonne sur l'eau. C'est une promesse : tu ne regarde
+ ras plus jamais ces paysages sans entendre sa voix. ???? Une violoniste li
+ ve - Pour des moments d'émotion. Elle transforme le pont du bateau en sc
+ ène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que
+  ce n'est pas une croisière ordinaire\, et que...\n\nhttps://www.billetwe
+ b.fr/celine2
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1435784:2027-05-16@events-tracker
+DTSTAMP:20261020T054808Z
+DTSTART;TZID=Europe/Paris:20270516T130000
+DTEND;TZID=Europe/Paris:20270516T170000
+SUMMARY:Celine on the Seine - The Tribute Cruise Experience
+LOCATION:4 Quai Saint-Bernard\, 75005 Paris\, France
+URL:https://www.billetweb.fr/celine2
+DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
+ OW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à
+  Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la réside
+ nce ou pas - cet événement est fait pour toi. Le temps d'une croisière\
+ , on rend hommage à celle qui continue de faire chavirer des génération
+ s entières. Entre fans\, entre passionné.e.s\, on embarque ensemble pour
+  un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un 
+ DJ 100 % Céline - De "Pour que tu m'aimes encore" à "The Power of Love"\
+ , de "S'il suffisait d'aimer" à "I'm Alive" : pendant toute la croisière
+ \, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses
+  hymnes internationaux. ???? Paris comme décor\, Céline comme bande-son 
+ - La Tour Eiffel\, le Pont Alexandre III\, Notre-Dame\, le Louvre qui déf
+ ile... Chaque monument iconique de Paris prend une autre dimension quand "
+ L'Hymne à l'amour" résonne sur l'eau. C'est une promesse : tu ne regarde
+ ras plus jamais ces paysages sans entendre sa voix. ???? Une violoniste li
+ ve - Pour des moments d'émotion. Elle transforme le pont du bateau en sc
+ ène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que
+  ce n'est pas une croisière ordinaire\, et que...\n\nhttps://www.billetwe
+ b.fr/celine2
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1435784:2027-05-23@events-tracker
+DTSTAMP:20261020T054808Z
+DTSTART;TZID=Europe/Paris:20270523T130000
+DTEND;TZID=Europe/Paris:20270523T170000
+SUMMARY:Celine on the Seine - The Tribute Cruise Experience
+LOCATION:4 Quai Saint-Bernard\, 75005 Paris\, France
+URL:https://www.billetweb.fr/celine2
+DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
+ OW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à
+  Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la réside
+ nce ou pas - cet événement est fait pour toi. Le temps d'une croisière\
+ , on rend hommage à celle qui continue de faire chavirer des génération
+ s entières. Entre fans\, entre passionné.e.s\, on embarque ensemble pour
+  un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un 
+ DJ 100 % Céline - De "Pour que tu m'aimes encore" à "The Power of Love"\
+ , de "S'il suffisait d'aimer" à "I'm Alive" : pendant toute la croisière
+ \, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses
+  hymnes internationaux. ???? Paris comme décor\, Céline comme bande-son 
+ - La Tour Eiffel\, le Pont Alexandre III\, Notre-Dame\, le Louvre qui déf
+ ile... Chaque monument iconique de Paris prend une autre dimension quand "
+ L'Hymne à l'amour" résonne sur l'eau. C'est une promesse : tu ne regarde
+ ras plus jamais ces paysages sans entendre sa voix. ???? Une violoniste li
+ ve - Pour des moments d'émotion. Elle transforme le pont du bateau en sc
+ ène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que
+  ce n'est pas une croisière ordinaire\, et que...\n\nhttps://www.billetwe
+ b.fr/celine2
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1435784:2027-05-30@events-tracker
+DTSTAMP:20261020T054808Z
+DTSTART;TZID=Europe/Paris:20270530T130000
+DTEND;TZID=Europe/Paris:20270530T170000
+SUMMARY:Celine on the Seine - The Tribute Cruise Experience
+LOCATION:4 Quai Saint-Bernard\, 75005 Paris\, France
+URL:https://www.billetweb.fr/celine2
+DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
+ OW CÉLINE ON THE SEINE - THE CRUISE EXPERIENCE Elle revient sur scène à
+  Paris. On fête ça sur la Seine. Que tu aies eu ta place pour la réside
+ nce ou pas - cet événement est fait pour toi. Le temps d'une croisière\
+ , on rend hommage à celle qui continue de faire chavirer des génération
+ s entières. Entre fans\, entre passionné.e.s\, on embarque ensemble pour
+  un après-midi hommage à Céline ! ???? CE QUI T'ATTEND À BORD ???? Un 
+ DJ 100 % Céline - De "Pour que tu m'aimes encore" à "The Power of Love"\
+ , de "S'il suffisait d'aimer" à "I'm Alive" : pendant toute la croisière
+ \, la playlist ne joue qu'elle - de ses premiers tubes francophones à ses
+  hymnes internationaux. ???? Paris comme décor\, Céline comme bande-son 
+ - La Tour Eiffel\, le Pont Alexandre III\, Notre-Dame\, le Louvre qui déf
+ ile... Chaque monument iconique de Paris prend une autre dimension quand "
+ L'Hymne à l'amour" résonne sur l'eau. C'est une promesse : tu ne regarde
+ ras plus jamais ces paysages sans entendre sa voix. ???? Une violoniste li
+ ve - Pour des moments d'émotion. Elle transforme le pont du bateau en sc
+ ène à ciel ouvert. ???? Une surprise à bord - On ne dit rien. Juste que
+  ce n'est pas une croisière ordinaire\, et que...\n\nhttps://www.billetwe
+ b.fr/celine2
 END:VEVENT
 END:VCALENDAR
