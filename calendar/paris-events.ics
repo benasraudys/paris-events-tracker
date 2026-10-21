@@ -23,26 +23,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:billetweb-1482097:2026-10-20@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261020T183000
-DTEND;TZID=Europe/Paris:20261020T233000
-SUMMARY:Pool and Champions League night (PSG vs FC Barcelona)
-LOCATION:L&#039\;Exode : 39 Bd de Strasbourg\, 75010 Paris
-URL:https://www.billetweb.fr/pool-and-football-night
-DESCRIPTION:Venue: L&#039\;Exode : 39 Bd de Strasbourg\, 75010 Paris\nPool 
- & Champions League night (PSG vs FC Barcelona) / Join us for a fun evening
-  combining pool\, drinks and Champions League! We’ll kick off the evenin
- g\, from 6:30 PM to 8:30 PM\, with pool and other games at L'Exode bar. Ei
- ther you are passionate or want to discover it\, feel free to join (a volu
- nteer will give you some tips for pool if you are a beginner). BEGINNER - 
- FRIENDLY Then\, let's gather together at 9:00 PM to watch the highly antic
- ipated PSG vs FC Barcelona game on screen. Get ready for an exciting night
-  !\n\nhttps://www.billetweb.fr/pool-and-football-night
-END:VEVENT
-BEGIN:VEVENT
 UID:billetweb-1482096:2026-10-21@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20261021T200000
 DTEND;TZID=Europe/Paris:20261021T230000
 SUMMARY:Champions League night
@@ -57,25 +39,8 @@ DESCRIPTION:Venue: Pub Saint Hilaire\n⚽️ CHAMPIONS LEAGUE NIGHT ???? Ge
  lletweb.fr/champions-league-night
 END:VEVENT
 BEGIN:VEVENT
-UID:erasmusplace-287044@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261021T230000
-DTEND;TZID=Europe/Paris:20261022T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-reggae
- ton-night-211026/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
- r cœur ? Cette soirée est faite pour toi. Du début à la fin\, on balan
- ce les sons reggaeton les plus emblématiques. Viens bouger sur Bad Bunny\
- , Karol G\, Daddy Yankee et plein d'autres. C’est caliente ce soir !\n\n
- https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-reggaeton
- -night-211026/
-END:VEVENT
-BEGIN:VEVENT
 UID:shotgun-609751@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20261022T234500
 DTEND;TZID=Europe/Paris:20261023T053000
 SUMMARY:L'arc Paris - Jeudi 22 Octobre - Sold out
@@ -90,37 +55,8 @@ DESCRIPTION:Price: Sold out\nVenue: L'Arc Paris\, 12 Rue de Presbourg\, 751
  n\nhttps://shotgun.live/en/events/l-arc-paris-jeudi-22-octobre
 END:VEVENT
 BEGIN:VEVENT
-UID:erasmusplace-290420@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261023T230000
-DTEND;TZID=Europe/Paris:20261024T050000
-SUMMARY:Erasmus Full Party : Rooftop Party - Free
-LOCATION:Café Oz Rooftop
-URL:https://erasmusplace.com/region/paris/evenements/erasmus-full-party-ful
- l231026/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Rooftop\nMesdames et Messieurs\, i
- ci Air Erasmus.L'embarquement est désormais ouvert. Destination : le tour
-  du monde... en une seule nuit.Bienvenue à bord de l'Erasmus Full Party -
-  ROOFTOP PARTY \, la plus grande soirée internationale de la rentrée.Pr
- épare-toi à rencontrer des centaines d'étudiants Erasmus\, internationa
- ux\, français et jeunes actifs venus des quatre coins du monde\, dans une
-  ambiance où chaque discussion peut devenir une nouvelle amitié et chaqu
- e chanson un souvenir inoubliable.Au programme : les meilleurs sons Reggae
- ton\, Baile Funk\, Pop et tous les plus grands hits internationaux que tou
- t le monde chante à l'unisson.Que tu viennes d'arriver ou que tu sois dé
- jà installé\, cette soirée est le meilleur moyen de commencer ton avent
- ure\, de créer de nouvelles rencontres et de vivre l'expérience internat
- ionale qui fait la réputation des soirées Erasmus.Déjà des milliers d'
- étudiants ont participé aux précédentes éditions. Si tu n'as jamais v
- écu une Erasmus Full Party\, prépare-toi à comprendre pourquoi tout le 
- monde en parle.Bienvenue à bord d'Air Erasmus. Attache ta ceinture... il 
- est temps de faire le tour du monde en une seule nuit.\n\nhttps://erasmusp
- lace.com/region/paris/evenements/erasmus-full-party-full231026/
-END:VEVENT
-BEGIN:VEVENT
 UID:billetweb-1482261:2026-10-24@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20261024T140000
 DTEND;TZID=Europe/Paris:20261024T160000
 SUMMARY:ESN Yoga class
@@ -132,7 +68,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professinally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:eventbrite-2003618471785@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20261024T140000
 DTEND;TZID=Europe/Paris:20261031T160000
 SUMMARY:Free Walking Tour Père Lachaise - Halloween Edition - Free
@@ -148,7 +84,7 @@ DESCRIPTION:Price: Free\nVenue: Cimetière du Père-Lachaise\, cimetieere d
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-604390@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20261024T200000
 DTEND;TZID=Europe/Paris:20261025T050000
 SUMMARY:Superstars On Boat: Rihanna Vs Beyoncé - from 14.99 EUR
@@ -178,8 +114,20 @@ DESCRIPTION:Price: from 14.99 EUR\nVenue: River's King\, 4 Quai Saint-Berna
  -boat-speciale-rihanna-vs-beyonce
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1487534:2026-10-25@events-tracker
+DTSTAMP:20261021T061245Z
+DTSTART;TZID=Europe/Paris:20261025T180000
+DTEND;TZID=Europe/Paris:20261025T200000
+SUMMARY:DIY gourdes
+LOCATION:Les 2 pianos
+URL:https://www.billetweb.fr/diy-gourdes2
+DESCRIPTION:Venue: Les 2 pianos\nReady to spend a cosy\, autumn evening wit
+ h your ESNer friends? come join us for our DIY session where you could mak
+ e your own French “gourde”!\n\nhttps://www.billetweb.fr/diy-gourdes2
+END:VEVENT
+BEGIN:VEVENT
 UID:eventbrite-2003413775533@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:Paris is a Joke - Stand up comedy in English - 10.00-15.00 EUR
@@ -192,7 +140,7 @@ DESCRIPTION:Price: 10.00-15.00 EUR\nVenue: Envole Moi\, 176 rue Montmartre\
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1487466:2026-10-25@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:Paris is a Joke - Stand up comedy in English
@@ -219,20 +167,8 @@ DESCRIPTION:Venue: ENVOLE MOI\, Rue Montmartre\, Paris\, France\n??????????
  stand-up-comedy-in-english
 END:VEVENT
 BEGIN:VEVENT
-UID:billetweb-1487534:2026-10-25@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261025T190000
-DTEND;TZID=Europe/Paris:20261025T210000
-SUMMARY:DIY gourdes
-LOCATION:Les 2 pianos
-URL:https://www.billetweb.fr/diy-gourdes2
-DESCRIPTION:Venue: Les 2 pianos\nCome and personalise your water bottle to 
- make it unique. If you don't have one\, it's okay\, we can provide you wit
- h one\n\nhttps://www.billetweb.fr/diy-gourdes2
-END:VEVENT
-BEGIN:VEVENT
 UID:shotgun-609491@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20261025T190000
 DTEND;TZID=Europe/Paris:20261025T210000
 SUMMARY:Paris Is A Joke - Standup Comedy In English - from 10.00 EUR
@@ -262,7 +198,7 @@ DESCRIPTION:Price: from 10.00 EUR\nVenue: 176 Rue Montmartre\, 75002 Paris\
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1483197:2026-10-27@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20261027T190000
 DTEND;TZID=Europe/Paris:20261027T220000
 SUMMARY:Lost in Frenchslation Mission Cléopâtre
@@ -285,7 +221,7 @@ DESCRIPTION:Venue: 53 Rue Notre Dame des Champs\, 75006 Paris\n✨ Movie Ni
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1480670:2026-10-28@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20261028T180000
 DTEND;TZID=Europe/Paris:20261028T193000
 SUMMARY:Coloring chill
@@ -300,55 +236,8 @@ DESCRIPTION:Venue: TBD\n☕ Autumn is here… and Bonapetix is ready to exp
  w.billetweb.fr/coloring-chill
 END:VEVENT
 BEGIN:VEVENT
-UID:erasmusplace-284296@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261028T230000
-DTEND;TZID=Europe/Paris:20261029T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Châtelet
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-hallow
- een-281026/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nCostume\, déguisement\
- , maquillage effrayant ou drôle\, tout est permis ! L’Halloween version
-  Erasmus\, c’est une grande fête déguisée où tu peux vraiment être 
- qui tu veux (ou ce que tu veux). Musique éclectique\, ambiance mystérieu
- se\, et toujours cette atmosphère internationale qui rend chaque soirée 
- unique !KISS MY ERASMUS Une soirée Erasmus qui te fait découvrir les 4 c
- oins du monde en quelques pas de danse et des "Chupitos/shooter" pour bris
- er ta timidité. Tu pourras porter fièrement les couleurs de ton pays gr
- âce aux drapeaux distribués dès l’entrée.Côté musique on reste él
- ectro\, RNB\, Reggaeton\, Pop\, Disco\, cette soirée c’est la tienne !\
- n\nhttps://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-hallow
- een-281026/
-END:VEVENT
-BEGIN:VEVENT
-UID:erasmusplace-290417@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261030T230000
-DTEND;TZID=Europe/Paris:20261031T060000
-SUMMARY:Erasmus & Student Party Halloween - À partir de 13€
-LOCATION:Concorde Atlantique
-URL:https://erasmusplace.com/region/paris/evenements/erasmus-student-party-
- halloween/
-DESCRIPTION:Price: À partir de 13€\nVenue: Concorde Atlantique\nPRÊTS P
- OUR HALLOWEEN ? 🎃 RDV le Vendredi 30 octobre au Concorde Atlantique pou
- r une nuit remplie de SURPRISES et d’HORREUR ! 🕸️🎃 AU PROGRAMME 
- 🎃💀 Préparez votre meilleur DÉGUISEMENT HALLOWEEN pour votre soiré
- e PRÉFÉRÉE de l’année ! 🎃 Distribution gratuite de GOODIES spéci
- al HALLOWEEN🥂 HAPPY HOUR de 23h à 00h : profitez de tarifs réduits su
- r toute la carte du bar 🍻 TOURNOI de BEER PONG : prêts à remporter la
-  compétition ? 📸 PHOTOBOOTH en usage gratuit 🎉 GOODIES et BRIQUETS 
- DÉCAP’ offerts💚 Bracelets Fluo verts : CŒUR À PRENDRE 💙 Bracele
- ts Fluo bleus : VIENS VOIR PAR TOI-MÊME (comme ça tu peux adapter ta sit
- uation selon le prétendant 😏) ❤️ Bracelets Fluo rouges : EN COUPLE
- 🎃 Un Concorde Atlantique enflammé aux couleurs d’HALLOWEEN 🎵 Musi
- que généraliste et commerciale\n\nhttps://erasmusplace.com/region/paris/
- evenements/erasmus-student-party-halloween/
-END:VEVENT
-BEGIN:VEVENT
 UID:billetweb-1482258:2026-10-31@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:ESN Yoga Class
@@ -360,29 +249,74 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1485966:2026-10-31@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20261031T094500
 DTEND;TZID=Europe/Paris:20261031T114500
 SUMMARY:Palais Garnier Guided Tour
 LOCATION:Palais Garnier\, Place de l&#039\;Opéra\, Paris\, France
 URL:https://www.billetweb.fr/palais-garnier-guided-tour
 DESCRIPTION:Venue: Palais Garnier\, Place de l&#039\;Opéra\, Paris\, Franc
- e\n⚜️ Guided Tour of the Palais Garnier ⚜️ Step into the grandeur 
- and fascinating architecture of the Palais Garnier with a guided tour! Bui
- lt in the 19th century under the direction of architect Charles Garnier\, 
- this iconic opera house is a symbol of Parisian elegance and artistic exce
- llence. From its lavish decorations to the mythical tales of the Phantom o
- f the Opera\, every corner of the Palais Garnier is steeped in history Exp
- lore this architectural masterpiece\, marvel at its majestic grand stairca
- se\, opulent foyers\, and the world-famous auditorium with us! ❤️ Date
- : Saturday\, october 31st ⏰ Time: From 9:45 AM to 11:45 AM ☝️ Locati
- on: Palais Garnier\, Pl. de l'Opéra\, 75009 Paris ❗Price: 11.87€ (Stu
- dents with ESNcard) / 12\,87€ (Students without ESNcard)\n\nhttps://www.
- billetweb.fr/palais-garnier-guided-tour
+ e\n⚜️ Guided Tour of the Palais Garnier ⚜️ With a professional gui
+ de\, explore this 19th-century masterpiece by Charles Garnier: its majesti
+ c grand staircase\, opulent foyers and world-famous auditorium\, and hear 
+ the tales of the Phantom of the Opera. Fully guided from start to finish! 
+ ❤️ Date: Saturday\, october 31st ⏰ Time: From 9:45 AM to 11:45 AM 
+ ☝️ Location: Palais Garnier\, Pl. de l'Opéra\, 75009 Paris ❗Price: 
+ 11.87€ (Students with ESNcard) / 12\,87€ (Students without ESNcard)\n\
+ nhttps://www.billetweb.fr/palais-garnier-guided-tour
+END:VEVENT
+BEGIN:VEVENT
+UID:eventbrite-2003676304765@events-tracker
+DTSTAMP:20261021T061245Z
+DTSTART;TZID=Europe/Paris:20261031T200000
+DTEND;TZID=Europe/Paris:20261101T050000
+SUMMARY:La Croisère Des Vampires Halloween Paris Boat Party Club - 20.00-5
+ 4.49 EUR
+LOCATION:Boat Loceynus\, 4 quai saint Bernard\, 75005 Paris
+URL:https://www.eventbrite.fr/e/la-croisere-des-vampires-halloween-paris-bo
+ at-party-club-tickets-2003676304765
+DESCRIPTION:Price: 20.00-54.49 EUR\nVenue: Boat Loceynus\, 4 quai saint Ber
+ nard\, 75005 Paris\nLa Croisère Des Vampires Halloween Paris Boat Party C
+ lub\n\nhttps://www.eventbrite.fr/e/la-croisere-des-vampires-halloween-pari
+ s-boat-party-club-tickets-2003676304765
+END:VEVENT
+BEGIN:VEVENT
+UID:shotgun-610122@events-tracker
+DTSTAMP:20261021T061245Z
+DTSTART;TZID=Europe/Paris:20261031T210000
+DTEND;TZID=Europe/Paris:20261101T040000
+SUMMARY:La Plus Grande Soirée Latino D’Halloween By Baile Loca 👻 - fr
+ om 19.99 EUR
+LOCATION:Chalet du lac\, Bois de Vincennes\, 2 Avenue Anna Politkovskaïa O
+ rée du\, 75012 Paris\, France
+URL:https://shotgun.live/en/events/la-plus-grande-soiree-latino-d-halloween
+ -by-baile-loca
+DESCRIPTION:Price: from 19.99 EUR\nVenue: Chalet du lac\, Bois de Vincennes
+ \, 2 Avenue Anna Politkovskaïa Orée du\, 75012 Paris\, France\n🎃🔥 
+ BAILE LOCA – HALLOWEEN EDITION 👻💀 SAMEDI 31 OCTOBRE | CHALET DU LA
+ C | 22H – 5H 🔥 LA FIESTA LA MÁS LOCA SE TRANSFORME EN LA NOCHE LA M
+ ÁS TERRORÍFICA ! 🔥 Cette année\, BAILE LOCA célèbre Halloween avec
+  une édition spéciale qui s’annonce complètement folle ! 😈 Le myth
+ ique Chalet du Lac se transforme en un univers sombre\, caliente et mysté
+ rieux pour une nuit où les démons viennent danser jusqu’au bout de la 
+ nuit. 🌙 💃 DEUX SALLES\, DEUX AMBIANCES\, UNE NUIT 100% FIESTA ! Pré
+ pare-toi à vivre 7 heures de fiesta dans deux espaces : 🔥 SALLE LATINO
+  : REGGAETON\, BAILE FUNK\, PERREO ET DEMBOW 🔥 SALLE GÉNÉRALISTE : LE
+ S MEILLEURS HITS POUR DANSER JUSQU’AU BOUT DE LA NUIT Des classiques inc
+ ontournables aux derniers hits\, une seule mission : PERREAR HASTA ABAJO !
+  🍑🔥 👻 HALLOWEEN SPECIAL 🕷️ Décoration et ambiance Halloween
+  🎃 Costumes et déguisements encouragés 💀 Une atmosphère diaboliqu
+ ement festive 🔥 Une énergie caliente jusqu’à 5h du matin Que tu vie
+ nnes en ange\, en démon ou dans ton outfit le plus sexy\, prépare-toi à
+  vivre une nuit inoubliable ! 📍 CHALET DU LAC – PARIS 📅 Vendredi 3
+ 1 octobre 🕙 22H – 5H 🎟️ Places limitées – Réserve ton billet
+  dès maintenant ! BAILE LOCA – LA FIESTA LA MÁS LOCA ! ❤️...\n\nht
+ tps://shotgun.live/en/events/la-plus-grande-soiree-latino-d-halloween-by-b
+ aile-loca
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-610512@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20261031T220000
 DTEND;TZID=Europe/Paris:20261101T053000
 SUMMARY:La Noche De Terror - Halloween Hotel Party - from 10.00 EUR
@@ -412,104 +346,53 @@ DESCRIPTION:Price: from 10.00 EUR\nVenue: Belushi's Paris (Canal)\, 159 Rue
  ty
 END:VEVENT
 BEGIN:VEVENT
-UID:erasmusplace-290508@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261104T230000
-DTEND;TZID=Europe/Paris:20261105T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-reggae
- ton-night-041126-2/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
- r cœur ? Cette soirée est faite pour toi. Du début à la fin\, on balan
- ce les sons reggaeton les plus emblématiques. Viens bouger sur Bad Bunny\
- , Karol G\, Daddy Yankee et plein d'autres. C’est caliente ce soir !\n\n
- https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-reggaeton
- -night-041126-2/
+UID:eventbrite-2003675116210@events-tracker
+DTSTAMP:20261021T061245Z
+DTSTART;TZID=Europe/Paris:20261031T220000
+DTEND;TZID=Europe/Paris:20261101T000000
+SUMMARY:Le Grand Royaume Des Tenebres - Halloween Chateau De Longchamp - 19
+ .99 EUR
+LOCATION:Château de Longchamp\, 1 Carrefour de Longchamp\, 75016 Paris
+URL:https://www.eventbrite.fr/e/le-grand-royaume-des-tenebres-halloween-cha
+ teau-de-longchamp-tickets-2003675116210
+DESCRIPTION:Price: 19.99 EUR\nVenue: Château de Longchamp\, 1 Carrefour de
+  Longchamp\, 75016 Paris\n\nhttps://www.eventbrite.fr/e/le-grand-royaume-d
+ es-tenebres-halloween-chateau-de-longchamp-tickets-2003675116210
 END:VEVENT
 BEGIN:VEVENT
-UID:erasmusplace-285942@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261111T230000
-DTEND;TZID=Europe/Paris:20261112T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-brazil
- ian-night-111126/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
- , ça te tente ? Ce soir\, c’est le Brésil qui t’accueille avec ses r
- ythmes\, et son énergie folle. Attends-toi à danser\, rire\, chanter\, e
- t peut-être même découvrir quelques pas de samba... Les Brésiliens et 
- Brésiliennes savent mettre de l’ambiance crois moi !\n\nhttps://erasmus
- place.com/region/paris/evenements/kiss-my-erasmus-brazilian-night-111126/
-END:VEVENT
-BEGIN:VEVENT
-UID:erasmusplace-285806@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261118T230000
-DTEND;TZID=Europe/Paris:20261119T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-spanis
- h-night-181126/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nOlé ! Une soirée dédi
- ée à l’Espagne et à sa culture festive. Au programme : drapeaux rouge
- s et jaunes\, flamenco\, pop espagnole et reggaeton. Ramène ta bande ou v
- iens solo\, tu ne resteras pas seul(e) longtemps !\n\nhttps://erasmusplace
- .com/region/paris/evenements/kiss-my-erasmus-spanish-night-181126/
-END:VEVENT
-BEGIN:VEVENT
-UID:erasmusplace-287199@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261125T230000
-DTEND;TZID=Europe/Paris:20261126T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-usa-25
- 1126/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
-  tes couleurs ! nous te ramenons ton drapeau\, porte-le fièrement et vien
- s représenter ton pays parmi des dizaines d’autres. C’est la soirée 
- parfaite pour rencontrer un maximum de monde de son pays. Que tu sois là 
- pour faire la fête ou simplement échanger sur ta culture\, tu trouveras 
- toujours quelqu’un avec qui discuter... ou danser !KISS MY ERASMUS Une s
- oirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas
-  de danse et des "Chupitos/shooter" pour briser ta timidité. Tu pourras p
- orter fièrement les couleurs de ton pays grâce aux drapeaux distribués 
- dès l’entrée.Côté musique on reste électro\, RNB\, Reggaeton\, Pop\
- , Disco\, cette soirée c’est la tienne !\n\nhttps://erasmusplace.com/re
- gion/paris/evenements/kiss-my-erasmus-usa-251126/
-END:VEVENT
-BEGIN:VEVENT
-UID:erasmusplace-287205@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261202T230000
-DTEND;TZID=Europe/Paris:20261203T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-italia
- n-night-021226/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
-  une soirée haute en couleur (et en chaleur). Entre classiques pop\, regg
- aeton et tubes 100% italiens. Tu n’as pas besoin de parler italien pour 
- venir\, mais tu repartiras sûrement avec quelques mots en tête… et peu
- t-être un ou deux nouveaux amis de Rome\, Milan ou Naples ! Les italiens 
- savent mettre de l’ambiance !KISS MY ERASMUS Une soirée Erasmus qui te 
- fait découvrir les 4 coins du monde en quelques pas de danse et des "Chup
- itos/shooter" pour briser ta timidité. Tu pourras porter fièrement les c
- ouleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côt
- é musique on reste électro\, RNB\, Reggaeton\, Pop\, Disco\, cette soir
- ée c’est la tienne !\n\nhttps://erasmusplace.com/region/paris/evenement
- s/kiss-my-erasmus-italian-night-021226/
+UID:shotgun-611016@events-tracker
+DTSTAMP:20261021T061245Z
+DTSTART;TZID=Europe/Paris:20261031T230000
+DTEND;TZID=Europe/Paris:20261101T050000
+SUMMARY:The Biggest Hip Hop & Afrobeats Horror Halloween - Solum - from 19.
+ 99 EUR
+LOCATION:Solum\, Rive gauche\, Pont Alexandre III\, 75007 Paris\, France
+URL:https://shotgun.live/en/events/the-biggest-hip-hop-afrobeats-horror-hal
+ loween-solum
+DESCRIPTION:Price: from 19.99 EUR\nVenue: Solum\, Rive gauche\, Pont Alexan
+ dre III\, 75007 Paris\, France\n👻 HALLOWEEN HORROR STORY 2026 🏰 THE 
+ BIGGEST HAUNTED CASTLE PARTY IN PARIS 🔥 1\,500 M² HAUNTED CLUB • 1\,
+ 400 PARTY PEOPLE • ONE TERRIFYING NIGHT 🔥 📍 SOLUM CLUB PARIS — P
+ ONT ALEXANDRE III 📅 Saturday\, October 31st\, 2026 | 11 PM – 5 AM Thi
+ s Halloween\, get ready for an unforgettable night in one of Paris's most 
+ spectacular clubs! 🎃 For one night only\, the legendary SOLUM CLUB\, lo
+ cated beneath the iconic Pont Alexandre III\, will be transformed into a G
+ IANT HAUNTED CASTLE! Imagine 1\,500 m² of terrifying decorations\, specta
+ cular lighting\, international DJs and over 1\,400 creatures ready to danc
+ e until sunrise. 💀🔥 WELCOME TO HALLOWEEN HORROR STORY 2026! --- 🏰
+  AN EXCEPTIONAL VENUE IN THE HEART OF PARIS Discover one of the most impre
+ ssive nightlife venues in the French capital. ✨ 1\,500 m² of spectacula
+ r party space 👻 100% Halloween decorations & haunted atmosphere 🏛️
+  Historic vaulted stone arches beneath Pont Alexandre III 🌉 Magical vie
+ ws over the Seine 🔥 Giant dancefloor & multiple bars 💀 Immersive LED
+  walls\, incredible sound & lighting 🎃 Outdoor terrace & smoking areas 
+ 👹 Capacity for up to 1\,400 party monsters A legendary Parisian locatio
+ n transformed into a terrifying Halloween experience!...\n\nhttps://shotgu
+ n.live/en/events/the-biggest-hip-hop-afrobeats-horror-halloween-solum
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
@@ -542,91 +425,8 @@ DESCRIPTION:Price: from 12.99 EUR\nVenue: YOYO\, Palais De Tokyo\, 13 Avenu
  nde-soiree-reggaeton-open-format-yoyo-05-decembre
 END:VEVENT
 BEGIN:VEVENT
-UID:erasmusplace-290521@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261209T230000
-DTEND;TZID=Europe/Paris:20261210T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-scandi
- navia-091226/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
-  tes couleurs ! nous te ramenons ton drapeau\, porte-le fièrement et vien
- s représenter ton pays parmi des dizaines d’autres. C’est la soirée 
- parfaite pour rencontrer un maximum de monde de son pays. Que tu sois là 
- pour faire la fête ou simplement échanger sur ta culture\, tu trouveras 
- toujours quelqu’un avec qui discuter... ou danser !KISS MY ERASMUS Une s
- oirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas
-  de danse et des "Chupitos/shooter" pour briser ta timidité. Tu pourras p
- orter fièrement les couleurs de ton pays grâce aux drapeaux distribués 
- dès l’entrée.Côté musique on reste électro\, RNB\, Reggaeton\, Pop\
- , Disco\, cette soirée c’est la tienne !\n\nhttps://erasmusplace.com/re
- gion/paris/evenements/kiss-my-erasmus-scandinavia-091226/
-END:VEVENT
-BEGIN:VEVENT
-UID:erasmusplace-285813@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261216T230000
-DTEND;TZID=Europe/Paris:20261217T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-huge-f
- arewell-party-161226/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nÇa commence à sentir la
-  fin… mais pas tout à fait. Avant la vraie dernière\, on se retrouve p
- our une grosse soirée au au Café Oz. C’est la première des “goodbye
-  parties”\, celle où on commence à réaliser que l’aventure Erasmus 
- touche bientôt à sa fin. Pas de discours\, pas de larmes (pas encore) ju
- ste une belle excuse pour danser encore une fois avec tous ceux qu’on a 
- croisés pendant ces mois de folie. Si t’as envie de profiter jusqu’au
-  bout\, c’est maintenant.\n\nhttps://erasmusplace.com/region/paris/evene
- ments/kiss-my-erasmus-huge-farewell-party-161226/
-END:VEVENT
-BEGIN:VEVENT
-UID:erasmusplace-290524@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261223T230000
-DTEND;TZID=Europe/Paris:20261224T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-xmas-2
- 31226/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
- , ça te tente ? Ce soir\, c’est le Brésil qui t’accueille avec ses r
- ythmes\, et son énergie folle. Attends-toi à danser\, rire\, chanter\, e
- t peut-être même découvrir quelques pas de samba... Les Brésiliens et 
- Brésiliennes savent mettre de l’ambiance crois moi !\n\nhttps://erasmus
- place.com/region/paris/evenements/kiss-my-erasmus-xmas-231226/
-END:VEVENT
-BEGIN:VEVENT
-UID:erasmusplace-14974@events-tracker
-DTSTAMP:20261020T054808Z
-DTSTART;TZID=Europe/Paris:20261230T230000
-DTEND;TZID=Europe/Paris:20261231T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-flag-p
- arty-301226/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
-  tes couleurs ! nous te ramenons ton drapeau\, porte-le fièrement et vien
- s représenter ton pays parmi des dizaines d’autres. C’est la soirée 
- parfaite pour rencontrer un maximum de monde de son pays. Que tu sois là 
- pour faire la fête ou simplement échanger sur ta culture\, tu trouveras 
- toujours quelqu’un avec qui discuter... ou danser !KISS MY ERASMUS Une s
- oirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas
-  de danse et des "Chupitos/shooter" pour briser ta timidité. Tu pourras p
- orter fièrement les couleurs de ton pays grâce aux drapeaux distribués 
- dès l’entrée.Côté musique on reste électro\, RNB\, Reggaeton\, Pop\
- , Disco\, cette soirée c’est la tienne !\n\nhttps://erasmusplace.com/re
- gion/paris/evenements/kiss-my-erasmus-flag-party-301226/
-END:VEVENT
-BEGIN:VEVENT
 UID:billetweb-1435784:2027-04-18@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20270418T130000
 DTEND;TZID=Europe/Paris:20270418T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -654,7 +454,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-04-25@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20270425T130000
 DTEND;TZID=Europe/Paris:20270425T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -682,7 +482,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-02@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20270502T130000
 DTEND;TZID=Europe/Paris:20270502T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -710,7 +510,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-09@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20270509T130000
 DTEND;TZID=Europe/Paris:20270509T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -738,7 +538,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-16@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20270516T130000
 DTEND;TZID=Europe/Paris:20270516T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -766,7 +566,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-23@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20270523T130000
 DTEND;TZID=Europe/Paris:20270523T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -794,7 +594,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-30@events-tracker
-DTSTAMP:20261020T054808Z
+DTSTAMP:20261021T061245Z
 DTSTART;TZID=Europe/Paris:20270530T130000
 DTEND;TZID=Europe/Paris:20270530T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
