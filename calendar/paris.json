@@ -1,24 +1,5 @@
 [
   {
-    "source": "billetweb",
-    "source_id": "1482096:2026-10-21",
-    "url": "https://www.billetweb.fr/champions-league-night",
-    "title": "Champions League night",
-    "city": "Paris",
-    "venue": "Pub Saint Hilaire",
-    "start_date": "2026-10-21",
-    "start_time": "20:00",
-    "end_date": "2026-10-21",
-    "end_time": "23:00",
-    "price_text": null,
-    "price_eur": null,
-    "is_free": null,
-    "categories": [],
-    "description": "⚽️ CHAMPIONS LEAGUE NIGHT ???? Get ready for an unforgettable night with students from all around the world! ???? Join us for an Erasmus-style Champions League night, where football, drinks, music, and international vibes come together. ???????????? Whether you’re here to support your favorite team or simply looking for a great night out with new friends, everyone is welcome!",
-    "image": "https://www.billetweb.fr/event/150/1482096.jpg",
-    "remote_modified": null
-  },
-  {
     "source": "shotgun",
     "source_id": "609751",
     "url": "https://shotgun.live/en/events/l-arc-paris-jeudi-22-octobre",
@@ -38,6 +19,28 @@
     "description": "L’ARC PARIS — THURSDAY, OCTOBER 22TH HYPE POP Where elegance, beauty & good vibes meet. Music by JON ROCCA Hosted by SHELLEY Guestlist before 1AM — exclusively on Shotgun Limited spots available. VIP Tables: +33 6 62 86 13 68 Dress well. Feel good. See you at L’Arc.",
     "image": "https://assets.shotgun.live/image/upload/c_limit,w_1200,h_630,f_jpg,q_auto/production/artworks/Soire%CC%81e_glamour_L_Arc_Paris_au_coucher_du_soleil_jlpzbs.png",
     "remote_modified": null
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "290420",
+    "url": "https://erasmusplace.com/region/paris/evenements/erasmus-full-party-full231026/",
+    "title": "Erasmus Full Party : Rooftop Party",
+    "city": "Paris",
+    "venue": "Café Oz Rooftop",
+    "start_date": "2026-10-23",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "Gratuit avant 00:30",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit",
+      "soirees"
+    ],
+    "description": "Mesdames et Messieurs, ici Air Erasmus.L'embarquement est désormais ouvert. Destination : le tour du monde... en une seule nuit.Bienvenue à bord de l'Erasmus Full Party - ROOFTOP PARTY , la plus grande soirée internationale de la rentrée.Prépare-toi à rencontrer des centaines d'étudiants Erasmus, internationaux, français et jeunes actifs venus des quatre coins du monde, dans une ambiance où chaque discussion peut devenir une nouvelle amitié et chaque chanson un souvenir inoubliable.Au programme : les meilleurs sons Reggaeton, Baile Funk, Pop et tous les plus grands hits internationaux que tout le monde chante à l'unisson.Que tu viennes d'arriver ou que tu sois déjà installé, cette soirée est le meilleur moyen de commencer ton aventure, de créer de nouvelles rencontres et de vivre l'expérience internationale qui fait la réputation des soirées Erasmus.Déjà des milliers d'étudiants ont participé aux précédentes éditions. Si tu n'as jamais vécu une Erasmus Full Party, prépare-toi à comprendre pourquoi tout le monde en parle.Bienvenue à bord d'Air Erasmus. Attache ta ceinture... il est temps de faire le tour du monde en une seule nuit.",
+    "image": "https://erasmusplace.com/wp-content/uploads/2026/10/event-site-internet-_-Billetweb-11.jpg",
+    "remote_modified": "2026-10-08T15:11:44"
   },
   {
     "source": "billetweb",
@@ -211,6 +214,47 @@
     "remote_modified": null
   },
   {
+    "source": "erasmusplace",
+    "source_id": "284296",
+    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-halloween-281026/",
+    "title": "Kiss My Erasmus",
+    "city": "Paris",
+    "venue": "Café Oz Châtelet",
+    "start_date": "2026-10-28",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "Gratuit avant 00:30",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit",
+      "soirees"
+    ],
+    "description": "Costume, déguisement, maquillage effrayant ou drôle, tout est permis ! L’Halloween version Erasmus, c’est une grande fête déguisée où tu peux vraiment être qui tu veux (ou ce que tu veux). Musique éclectique, ambiance mystérieuse, et toujours cette atmosphère internationale qui rend chaque soirée unique !KISS MY ERASMUS Une soirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas de danse et des \"Chupitos/shooter\" pour briser ta timidité. Tu pourras porter fièrement les couleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côté musique on reste électro, RNB, Reggaeton, Pop, Disco, cette soirée c’est la tienne !",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
+    "remote_modified": "2026-07-05T17:13:03"
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "290417",
+    "url": "https://erasmusplace.com/region/paris/evenements/erasmus-student-party-halloween/",
+    "title": "Erasmus & Student Party Halloween",
+    "city": "Paris",
+    "venue": "Concorde Atlantique",
+    "start_date": "2026-10-30",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "06:00",
+    "price_text": "À partir de 13€",
+    "price_eur": 13.0,
+    "is_free": false,
+    "categories": [],
+    "description": "PRÊTS POUR HALLOWEEN ? 🎃 RDV le Vendredi 30 octobre au Concorde Atlantique pour une nuit remplie de SURPRISES et d’HORREUR ! 🕸️🎃 AU PROGRAMME 🎃💀 Préparez votre meilleur DÉGUISEMENT HALLOWEEN pour votre soirée PRÉFÉRÉE de l’année ! 🎃 Distribution gratuite de GOODIES spécial HALLOWEEN🥂 HAPPY HOUR de 23h à 00h : profitez de tarifs réduits sur toute la carte du bar 🍻 TOURNOI de BEER PONG : prêts à remporter la compétition ? 📸 PHOTOBOOTH en usage gratuit 🎉 GOODIES et BRIQUETS DÉCAP’ offerts💚 Bracelets Fluo verts : CŒUR À PRENDRE 💙 Bracelets Fluo bleus : VIENS VOIR PAR TOI-MÊME (comme ça tu peux adapter ta situation selon le prétendant 😏) ❤️ Bracelets Fluo rouges : EN COUPLE🎃 Un Concorde Atlantique enflammé aux couleurs d’HALLOWEEN 🎵 Musique généraliste et commerciale",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/07/halloween-8.jpg",
+    "remote_modified": "2026-10-08T15:06:40"
+  },
+  {
     "source": "billetweb",
     "source_id": "1482258:2026-10-31",
     "url": "https://www.billetweb.fr/esn-yoga-class",
@@ -344,6 +388,116 @@
     "remote_modified": null
   },
   {
+    "source": "erasmusplace",
+    "source_id": "290508",
+    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-reggaeton-night-041126-2/",
+    "title": "Kiss My Erasmus",
+    "city": "Paris",
+    "venue": "Café Oz Denfert",
+    "start_date": "2026-11-04",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "Gratuit avant 00:30",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit",
+      "soirees"
+    ],
+    "description": "Tu connais les paroles par cœur ? Cette soirée est faite pour toi. Du début à la fin, on balance les sons reggaeton les plus emblématiques. Viens bouger sur Bad Bunny, Karol G, Daddy Yankee et plein d'autres. C’est caliente ce soir !",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
+    "remote_modified": "2026-10-17T11:46:27"
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "285942",
+    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-brazilian-night-111126/",
+    "title": "Kiss My Erasmus",
+    "city": "Paris",
+    "venue": "Café Oz Denfert",
+    "start_date": "2026-11-11",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "Gratuit avant 00:30",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit",
+      "soirees"
+    ],
+    "description": "Un aller simple pour Rio, ça te tente ? Ce soir, c’est le Brésil qui t’accueille avec ses rythmes, et son énergie folle. Attends-toi à danser, rire, chanter, et peut-être même découvrir quelques pas de samba... Les Brésiliens et Brésiliennes savent mettre de l’ambiance crois moi !",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
+    "remote_modified": "2026-10-17T11:56:13"
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "285806",
+    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-spanish-night-181126/",
+    "title": "Kiss My Erasmus",
+    "city": "Paris",
+    "venue": "Café Oz Denfert",
+    "start_date": "2026-11-18",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "Gratuit avant 00:30",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit",
+      "soirees"
+    ],
+    "description": "Olé ! Une soirée dédiée à l’Espagne et à sa culture festive. Au programme : drapeaux rouges et jaunes, flamenco, pop espagnole et reggaeton. Ramène ta bande ou viens solo, tu ne resteras pas seul(e) longtemps !",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
+    "remote_modified": "2026-10-17T11:47:46"
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "287199",
+    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-usa-251126/",
+    "title": "Kiss My Erasmus",
+    "city": "Paris",
+    "venue": "Café Oz Denfert",
+    "start_date": "2026-11-25",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "Gratuit avant 00:30",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit",
+      "soirees"
+    ],
+    "description": "Une soirée pour afficher tes couleurs ! nous te ramenons ton drapeau, porte-le fièrement et viens représenter ton pays parmi des dizaines d’autres. C’est la soirée parfaite pour rencontrer un maximum de monde de son pays. Que tu sois là pour faire la fête ou simplement échanger sur ta culture, tu trouveras toujours quelqu’un avec qui discuter... ou danser !KISS MY ERASMUS Une soirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas de danse et des \"Chupitos/shooter\" pour briser ta timidité. Tu pourras porter fièrement les couleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côté musique on reste électro, RNB, Reggaeton, Pop, Disco, cette soirée c’est la tienne !",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
+    "remote_modified": "2026-10-17T12:36:48"
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "287205",
+    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-italian-night-021226/",
+    "title": "Kiss My Erasmus",
+    "city": "Paris",
+    "venue": "Café Oz Denfert",
+    "start_date": "2026-12-02",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "Gratuit avant 00:30",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit",
+      "soirees"
+    ],
+    "description": "Direction l’Italie pour une soirée haute en couleur (et en chaleur). Entre classiques pop, reggaeton et tubes 100% italiens. Tu n’as pas besoin de parler italien pour venir, mais tu repartiras sûrement avec quelques mots en tête… et peut-être un ou deux nouveaux amis de Rome, Milan ou Naples ! Les italiens savent mettre de l’ambiance !KISS MY ERASMUS Une soirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas de danse et des \"Chupitos/shooter\" pour briser ta timidité. Tu pourras porter fièrement les couleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côté musique on reste électro, RNB, Reggaeton, Pop, Disco, cette soirée c’est la tienne !",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
+    "remote_modified": "2026-10-17T12:36:52"
+  },
+  {
     "source": "shotgun",
     "source_id": "601028",
     "url": "https://shotgun.live/en/events/la-plus-grande-soiree-reggaeton-open-format-yoyo-05-decembre",
@@ -361,6 +515,94 @@
     "description": "🌶 SAMEDI 05 DÉCEMBRE | DE 23H00 À 06H00 🌶 BAILE LOCA LA + GROSSE SOIRÉE REGGAETON DE FRANCE ! ✨ La plus grosse soirée 100% Reggaeton | Latino | Hiphop de Paris 🕛 Le meilleur des sons actuels & des classiques de 23h30 à 05h30 📍 YOYO – PALAIS DE TOKYO | PARIS 16E 💥 REGGAETON PARTY XXL 💥 🚨 + DE 1400 PERSONNES À CHAQUE ÉDITION ! ➡️ LE RENDEZ-VOUS LATINO #1 DE LA CAPITALE ! 🇨🇴🇨🇺🇵🇷🇩🇴 ⸻ 🔥 BAILE LOCA EST DEVENUE EN QUELQUES ANNÉES LA SOIRÉE REGGAETON DE RÉFÉRENCE A PARIS LA NUIT S’ANNONCE BRÛLANTE… 🔥 Prépare-toi pour La soirée reggaeton & Open Format, latino & hip-hop de l’année à Paris ! Une ambiance de folie, une foule en délire, des rythmes endiablés… 💃🏼 Viens danser jusqu’au lever du soleil sur le meilleur de la culture latine ! 🕺🏽 AJOUTEZ NOUS SUR INSTAGRAM > https://instagram.com/soireeaparis75 🎶 AU PROGRAMME MUSICAL : ➡️ 100% REGGAETON 💃 | LATINO CLASSIQUES 🌴 | HIP-HOP 🔥 & OPEN FORMAT 🎧 🎧 Aux platines : ✨ DJ' S : DJ VACE, DJ FELIPE ROCHXX & SEAN CORTEZ AUX COMMANDES 💥 🚨🔥 ➡️ Un mix explosif des plus gros hits du moment & des classiques qui font vibrer tout le monde ! 🎵 Tu vas t’enjailler sur : Bad Bunny 🐰 – Karol G 💅 – Daddy Yankee 🚀 – Nicky Jam 🎤 – Rosalía 💃 – Don Omar 🔥 – J Balvin...",
     "image": "https://assets.shotgun.live/image/upload/c_limit,w_1200,h_630,f_jpg,q_auto/dev/artworks/PHOTO-2026-09-24-05-44-41-2_bdnu7v.jpg",
     "remote_modified": null
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "290521",
+    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-scandinavia-091226/",
+    "title": "Kiss My Erasmus",
+    "city": "Paris",
+    "venue": "Café Oz Denfert",
+    "start_date": "2026-12-09",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "Gratuit avant 00:30",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit",
+      "soirees"
+    ],
+    "description": "Une soirée pour afficher tes couleurs ! nous te ramenons ton drapeau, porte-le fièrement et viens représenter ton pays parmi des dizaines d’autres. C’est la soirée parfaite pour rencontrer un maximum de monde de son pays. Que tu sois là pour faire la fête ou simplement échanger sur ta culture, tu trouveras toujours quelqu’un avec qui discuter... ou danser !KISS MY ERASMUS Une soirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas de danse et des \"Chupitos/shooter\" pour briser ta timidité. Tu pourras porter fièrement les couleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côté musique on reste électro, RNB, Reggaeton, Pop, Disco, cette soirée c’est la tienne !",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/07/kiss-29.jpg",
+    "remote_modified": "2026-10-17T11:53:57"
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "285813",
+    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-huge-farewell-party-161226/",
+    "title": "Kiss My Erasmus",
+    "city": "Paris",
+    "venue": "Café Oz Denfert",
+    "start_date": "2026-12-16",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "Gratuit avant 00:30",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit",
+      "soirees"
+    ],
+    "description": "Ça commence à sentir la fin… mais pas tout à fait. Avant la vraie dernière, on se retrouve pour une grosse soirée au au Café Oz. C’est la première des “goodbye parties”, celle où on commence à réaliser que l’aventure Erasmus touche bientôt à sa fin. Pas de discours, pas de larmes (pas encore) juste une belle excuse pour danser encore une fois avec tous ceux qu’on a croisés pendant ces mois de folie. Si t’as envie de profiter jusqu’au bout, c’est maintenant.",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
+    "remote_modified": "2026-10-18T08:58:50"
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "290524",
+    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-xmas-231226/",
+    "title": "Kiss My Erasmus",
+    "city": "Paris",
+    "venue": "Café Oz Denfert",
+    "start_date": "2026-12-23",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "Gratuit avant 00:30",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit",
+      "soirees"
+    ],
+    "description": "Un aller simple pour Rio, ça te tente ? Ce soir, c’est le Brésil qui t’accueille avec ses rythmes, et son énergie folle. Attends-toi à danser, rire, chanter, et peut-être même découvrir quelques pas de samba... Les Brésiliens et Brésiliennes savent mettre de l’ambiance crois moi !",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
+    "remote_modified": "2026-10-17T11:57:49"
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "14974",
+    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-flag-party-301226/",
+    "title": "Kiss My Erasmus",
+    "city": "Paris",
+    "venue": "Café Oz Denfert",
+    "start_date": "2026-12-30",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "Gratuit avant 00:30",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit",
+      "soirees"
+    ],
+    "description": "Une soirée pour afficher tes couleurs ! nous te ramenons ton drapeau, porte-le fièrement et viens représenter ton pays parmi des dizaines d’autres. C’est la soirée parfaite pour rencontrer un maximum de monde de son pays. Que tu sois là pour faire la fête ou simplement échanger sur ta culture, tu trouveras toujours quelqu’un avec qui discuter... ou danser !KISS MY ERASMUS Une soirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas de danse et des \"Chupitos/shooter\" pour briser ta timidité. Tu pourras porter fièrement les couleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côté musique on reste électro, RNB, Reggaeton, Pop, Disco, cette soirée c’est la tienne !",
+    "image": "https://erasmusplace.com/wp-content/uploads/2025/07/kiss-29.jpg",
+    "remote_modified": "2026-10-17T11:59:11"
   },
   {
     "source": "billetweb",
