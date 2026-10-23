@@ -1,26 +1,5 @@
 [
   {
-    "source": "shotgun",
-    "source_id": "609751",
-    "url": "https://shotgun.live/en/events/l-arc-paris-jeudi-22-octobre",
-    "title": "L'arc Paris - Jeudi 22 Octobre",
-    "city": "Paris",
-    "venue": "L'Arc Paris, 12 Rue de Presbourg, 75116 Paris, France",
-    "start_date": "2026-10-22",
-    "start_time": "23:45",
-    "end_date": "2026-10-23",
-    "end_time": "05:30",
-    "price_text": "Sold out",
-    "price_eur": null,
-    "is_free": null,
-    "categories": [
-      "sold-out"
-    ],
-    "description": "L’ARC PARIS — THURSDAY, OCTOBER 22TH HYPE POP Where elegance, beauty & good vibes meet. Music by JON ROCCA Hosted by SHELLEY Guestlist before 1AM — exclusively on Shotgun Limited spots available. VIP Tables: +33 6 62 86 13 68 Dress well. Feel good. See you at L’Arc.",
-    "image": "https://assets.shotgun.live/image/upload/c_limit,w_1200,h_630,f_jpg,q_auto/production/artworks/Soire%CC%81e_glamour_L_Arc_Paris_au_coucher_du_soleil_jlpzbs.png",
-    "remote_modified": null
-  },
-  {
     "source": "erasmusplace",
     "source_id": "290420",
     "url": "https://erasmusplace.com/region/paris/evenements/erasmus-full-party-full231026/",
