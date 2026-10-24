@@ -1,27 +1,5 @@
 [
   {
-    "source": "erasmusplace",
-    "source_id": "290420",
-    "url": "https://erasmusplace.com/region/paris/evenements/erasmus-full-party-full231026/",
-    "title": "Erasmus Full Party : Rooftop Party",
-    "city": "Paris",
-    "venue": "Café Oz Rooftop",
-    "start_date": "2026-10-23",
-    "start_time": "23:00",
-    "end_date": null,
-    "end_time": "05:00",
-    "price_text": "Gratuit avant 00:30",
-    "price_eur": 0.0,
-    "is_free": true,
-    "categories": [
-      "gratuit",
-      "soirees"
-    ],
-    "description": "Mesdames et Messieurs, ici Air Erasmus.L'embarquement est désormais ouvert. Destination : le tour du monde... en une seule nuit.Bienvenue à bord de l'Erasmus Full Party - ROOFTOP PARTY , la plus grande soirée internationale de la rentrée.Prépare-toi à rencontrer des centaines d'étudiants Erasmus, internationaux, français et jeunes actifs venus des quatre coins du monde, dans une ambiance où chaque discussion peut devenir une nouvelle amitié et chaque chanson un souvenir inoubliable.Au programme : les meilleurs sons Reggaeton, Baile Funk, Pop et tous les plus grands hits internationaux que tout le monde chante à l'unisson.Que tu viennes d'arriver ou que tu sois déjà installé, cette soirée est le meilleur moyen de commencer ton aventure, de créer de nouvelles rencontres et de vivre l'expérience internationale qui fait la réputation des soirées Erasmus.Déjà des milliers d'étudiants ont participé aux précédentes éditions. Si tu n'as jamais vécu une Erasmus Full Party, prépare-toi à comprendre pourquoi tout le monde en parle.Bienvenue à bord d'Air Erasmus. Attache ta ceinture... il est temps de faire le tour du monde en une seule nuit.",
-    "image": "https://erasmusplace.com/wp-content/uploads/2026/10/event-site-internet-_-Billetweb-11.jpg",
-    "remote_modified": "2026-10-08T15:11:44"
-  },
-  {
     "source": "billetweb",
     "source_id": "1482261:2026-10-24",
     "url": "https://www.billetweb.fr/esn-yoga-class1",
@@ -70,8 +48,8 @@
     "start_time": "20:00",
     "end_date": "2026-10-25",
     "end_time": "05:00",
-    "price_text": "from 14.99 EUR",
-    "price_eur": 14.99,
+    "price_text": "from 9.99 EUR",
+    "price_eur": 9.99,
     "is_free": false,
     "categories": [],
     "description": "✨ SUPERSTARS — RIHANNA VS BEYONCÉ ✨ 🚢 CRUISE + CLUB • PARIS English below 🇬🇧 WELCOME TO SUPERSTARS ⭐️ SUPERSTARS, c’est la soirée 100% POP HITS, GIRLY ANTHEMS, R&B & 2000s ! 💖 Une soirée dédiée aux plus grands tubes des années 2000 à aujourd’hui, aux classiques qu’on connaît tous par cœur et aux chansons qui ont marqué toute une génération. De Britney Spears à Lady Gaga, de Rihanna à Beyoncé, en passant par Shakira, Jennifer Lopez, Ariana Grande, Pussycat Dolls et bien d’autres… 🎤✨ À chaque édition, SUPERSTARS met à l’honneur des artistes iconiques de la pop culture, avec leurs plus grands hits, des animations et des surprises autour de leur univers. Et pour cette première édition, on voit les choses en grand… 👑 RIHANNA VS BEYONCÉ 👑 Deux icônes. Deux univers. Des dizaines de hits planétaires. Et pour commencer cette aventure, on ne vous emmène pas dans n’importe quel club… On commence par une croisière sur la Seine, à bord du magnifique RIVER KING ! 🚢✨ 🕗 20H — OUVERTURE DES PORTES Bienvenue à bord, la fête commence ! 🚢 21H30 — DÉPART DE LA CROISIÈRE Paris by night, la Seine et les plus grands hits pop & R&B. ⚓ 23H — RETOUR À QUAI 🔥 23H → 5H — CLUB MODE Une nuit de POP HITS, GIRLY...",
@@ -319,7 +297,7 @@
     "start_date": "2026-10-31",
     "start_time": "22:00",
     "end_date": "2026-11-01",
-    "end_time": "05:30",
+    "end_time": "05:00",
     "price_text": "from 10.00 EUR",
     "price_eur": 10.0,
     "is_free": false,
