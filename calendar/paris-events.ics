@@ -23,91 +23,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:billetweb-1487534:2026-10-25@events-tracker
-DTSTAMP:20261025T055846Z
-DTSTART;TZID=Europe/Paris:20261025T180000
-DTEND;TZID=Europe/Paris:20261025T200000
-SUMMARY:DIY gourdes
-LOCATION:Les 2 pianos
-URL:https://www.billetweb.fr/diy-gourdes2
-DESCRIPTION:Venue: Les 2 pianos\nReady to spend a cosy\, autumn evening wit
- h your ESNer friends? come join us for our DIY session where you could mak
- e your own French “gourde”!\n\nhttps://www.billetweb.fr/diy-gourdes2
-END:VEVENT
-BEGIN:VEVENT
-UID:eventbrite-2003413775533@events-tracker
-DTSTAMP:20261025T055846Z
-DTSTART;TZID=Europe/Paris:20261025T190000
-DTEND;TZID=Europe/Paris:20261025T210000
-SUMMARY:Paris is a Joke - Stand up comedy in English - 10.00-15.00 EUR
-LOCATION:Envole Moi\, 176 rue Montmartre\, 75002 Paris
-URL:https://www.eventbrite.fr/e/paris-is-a-joke-stand-up-comedy-in-english-
- tickets-2003413775533
-DESCRIPTION:Price: 10.00-15.00 EUR\nVenue: Envole Moi\, 176 rue Montmartre\
- , 75002 Paris\n5 artists - 1h30\n\nhttps://www.eventbrite.fr/e/paris-is-a-
- joke-stand-up-comedy-in-english-tickets-2003413775533
-END:VEVENT
-BEGIN:VEVENT
-UID:billetweb-1487466:2026-10-25@events-tracker
-DTSTAMP:20261025T055846Z
-DTSTART;TZID=Europe/Paris:20261025T190000
-DTEND;TZID=Europe/Paris:20261025T210000
-SUMMARY:Paris is a Joke - Stand up comedy in English
-LOCATION:ENVOLE MOI\, Rue Montmartre\, Paris\, France
-URL:https://www.billetweb.fr/paris-is-a-joke-stand-up-comedy-in-english
-DESCRIPTION:Venue: ENVOLE MOI\, Rue Montmartre\, Paris\, France\n??????????
- ?? PARIS IS A JOKE — THE INTERNATIONAL COMEDY SHOW! ???? Different Natio
- nalities. Different Cultures. One Language: LAUGHTER! ???? PARIS ERASMUS L
- IFE brings you a brand-new experience in Paris! ???? What happens when com
- edians from around the world come together to make fun of Paris\, French p
- eople\, cultural differences\, and the crazy situations we all experience 
- as internationals? Welcome to PARIS IS A JOKE! ???? For our very first edi
- tion\, we're bringing together international stand-up comedians for a hila
- rious night dedicated to life in Paris\, Erasmus adventures\, cultural cla
- shes\, dating\, French stereotypes\, and the funny differences between nat
- ionalities! ???????? Why are French people always complaining? ???????? Wh
- y do Italians take food so seriously? ???????? Why are Spanish people alwa
- ys late? ???????? Why is dating in Paris so complicated? ???? And why does
-  every nationality think they're the best? Expect hilarious stories\, unex
- pected punchlines\, international humor\, and plenty of jokes about the ci
- ty we all love (and sometimes hate)! ???? Whether you're an Erasmus studen
- t\, an expat\, an international student\, a tourist\, or a Parisian\, this
-  show is made for YOU! ✨...\n\nhttps://www.billetweb.fr/paris-is-a-joke-
- stand-up-comedy-in-english
-END:VEVENT
-BEGIN:VEVENT
-UID:shotgun-609491@events-tracker
-DTSTAMP:20261025T055846Z
-DTSTART;TZID=Europe/Paris:20261025T190000
-DTEND;TZID=Europe/Paris:20261025T210000
-SUMMARY:Paris Is A Joke - Standup Comedy In English - from 10.00 EUR
-LOCATION:176 Rue Montmartre\, 75002 Paris\, France
-URL:https://shotgun.live/en/events/paris-is-a-joke-standup-comedy-in-englis
- h
-DESCRIPTION:Price: from 10.00 EUR\nVenue: 176 Rue Montmartre\, 75002 Paris\
- , France\n🎤🇫🇷 PARIS IS A JOKE — THE INTERNATIONAL COMEDY SHOW! 
- 🌍 Different Nationalities. Different Cultures. One Language: LAUGHTER! 
- 😂 PARIS ERASMUS LIFE brings you a brand-new experience in Paris! 🔥 W
- hat happens when comedians from around the world come together to make fun
-  of Paris\, French people\, cultural differences\, and the crazy situation
- s we all experience as internationals? Welcome to PARIS IS A JOKE! 🎤 Fo
- r our very first edition\, we're bringing together international stand-up 
- comedians for a hilarious night dedicated to life in Paris\, Erasmus adven
- tures\, cultural clashes\, dating\, French stereotypes\, and the funny dif
- ferences between nationalities! 🇫🇷 Why are French people always comp
- laining? 🇮🇹 Why do Italians take food so seriously? 🇪🇸 Why are
-  Spanish people always late? 🇬🇧 Why is dating in Paris so complicate
- d? 🌍 And why does every nationality think they're the best? Expect hila
- rious stories\, unexpected punchlines\, international humor\, and plenty o
- f jokes about the city we all love (and sometimes hate)! 😂 Whether you'
- re an Erasmus student\, an expat\, an international student\, a tourist\, 
- or a Parisian\, this show is made for YOU! ✨ WHAT TO EXPECT? 🎤 Talent
- ed international stand-up...\n\nhttps://shotgun.live/en/events/paris-is-a-
- joke-standup-comedy-in-english
-END:VEVENT
-BEGIN:VEVENT
 UID:billetweb-1483197:2026-10-27@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261027T190000
 DTEND;TZID=Europe/Paris:20261027T220000
 SUMMARY:Lost in Frenchslation Mission Cléopâtre
@@ -130,23 +47,23 @@ DESCRIPTION:Venue: 53 Rue Notre Dame des Champs\, 75006 Paris\n✨ Movie Ni
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1480670:2026-10-28@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261028T180000
 DTEND;TZID=Europe/Paris:20261028T193000
 SUMMARY:Coloring chill
-LOCATION:TBD
+LOCATION:LES 2 PIANOS\, Rue de Lourmel\, Paris\, France
 URL:https://www.billetweb.fr/coloring-chill
-DESCRIPTION:Venue: TBD\n☕ Autumn is here… and Bonapetix is ready to exp
- lore Paris! Get cozy and join us for a creative coloring adventure through
-  Paris\, with our mascot Bonapetix! A fun moment to create\, share and rel
- ive our Erasmus memories — while supporting a beautiful cause. Part of t
- he ticket price will be donated to cancer research as part of Pink October
- . Paris\, colors\, memories & a little bit of solidarity ✨\n\nhttps://ww
- w.billetweb.fr/coloring-chill
+DESCRIPTION:Venue: LES 2 PIANOS\, Rue de Lourmel\, Paris\, France\n☕ Autu
+ mn is here… and Bonapetix is ready to explore Paris! Get cozy and join u
+ s for a creative coloring adventure through Paris\, with our mascot Bonape
+ tix! A fun moment to create\, share and relive our Erasmus memories — wh
+ ile supporting a beautiful cause. Part of the ticket price will be donated
+  to cancer research as part of Pink October. Paris\, colors\, memories & a
+  little bit of solidarity ✨\n\nhttps://www.billetweb.fr/coloring-chill
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-284296@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261028T230000
 DTEND;TZID=Europe/Paris:20261029T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -169,7 +86,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nCostume\, déguisement\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290417@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261030T230000
 DTEND;TZID=Europe/Paris:20261031T060000
 SUMMARY:Erasmus & Student Party Halloween - À partir de 13€
@@ -193,7 +110,7 @@ DESCRIPTION:Price: À partir de 13€\nVenue: Concorde Atlantique\nPRÊTS P
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1482258:2026-10-31@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:ESN Yoga Class
@@ -205,7 +122,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1485966:2026-10-31@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261031T094500
 DTEND;TZID=Europe/Paris:20261031T114500
 SUMMARY:Palais Garnier Guided Tour
@@ -223,7 +140,7 @@ DESCRIPTION:Venue: Palais Garnier\, Place de l&#039\;Opéra\, Paris\, Franc
 END:VEVENT
 BEGIN:VEVENT
 UID:eventbrite-2003676304765@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261031T200000
 DTEND;TZID=Europe/Paris:20261101T050000
 SUMMARY:La Croisère Des Vampires Halloween Paris Boat Party Club - 20.00-5
@@ -238,7 +155,7 @@ DESCRIPTION:Price: 20.00-54.49 EUR\nVenue: Boat Loceynus\, 4 quai saint Ber
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-610122@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261031T210000
 DTEND;TZID=Europe/Paris:20261101T040000
 SUMMARY:La Plus Grande Soirée Latino D’Halloween By Baile Loca 👻 - fr
@@ -272,7 +189,7 @@ DESCRIPTION:Price: from 24.99 EUR\nVenue: Chalet du lac\, Bois de Vincennes
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-610512@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261031T220000
 DTEND;TZID=Europe/Paris:20261101T050000
 SUMMARY:La Noche De Terror - Halloween Hotel Party - from 10.00 EUR
@@ -303,7 +220,7 @@ DESCRIPTION:Price: from 10.00 EUR\nVenue: Belushi's Paris (Canal)\, 159 Rue
 END:VEVENT
 BEGIN:VEVENT
 UID:eventbrite-2003675116210@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261031T220000
 DTEND;TZID=Europe/Paris:20261101T000000
 SUMMARY:Le Grand Royaume Des Tenebres - Halloween Chateau De Longchamp - 19
@@ -316,8 +233,24 @@ DESCRIPTION:Price: 19.99 EUR\nVenue: Château de Longchamp\, 1 Carrefour de
  es-tenebres-halloween-chateau-de-longchamp-tickets-2003675116210
 END:VEVENT
 BEGIN:VEVENT
+UID:eventbrite-2003877473466@events-tracker
+DTSTAMP:20261026T054616Z
+DTSTART;TZID=Europe/Paris:20261031T220000
+DTEND;TZID=Europe/Paris:20261101T050000
+SUMMARY:Le Rooftop Géant De L'horreur Halloween - Terminal 7 - 21.00-42.00
+  EUR
+LOCATION:Terminal 7\, 1 Place de la Porte de Versailles #Pavillon 7 - Etage
+  7.4\, 75015 Paris
+URL:https://www.eventbrite.fr/e/le-rooftop-geant-de-lhorreur-halloween-term
+ inal-7-tickets-2003877473466
+DESCRIPTION:Price: 21.00-42.00 EUR\nVenue: Terminal 7\, 1 Place de la Porte
+  de Versailles #Pavillon 7 - Etage 7.4\, 75015 Paris\nHALLOWEEN ROOFTOP CL
+ UB 2026\n\nhttps://www.eventbrite.fr/e/le-rooftop-geant-de-lhorreur-hallow
+ een-terminal-7-tickets-2003877473466
+END:VEVENT
+BEGIN:VEVENT
 UID:shotgun-611016@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261031T230000
 DTEND;TZID=Europe/Paris:20261101T050000
 SUMMARY:The Biggest Hip Hop & Afrobeats Horror Halloween - Solum - from 19.
@@ -348,7 +281,7 @@ DESCRIPTION:Price: from 19.99 EUR\nVenue: Solum\, Rive gauche\, Pont Alexan
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290508@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261104T230000
 DTEND;TZID=Europe/Paris:20261105T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -364,8 +297,37 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
  -night-041126-2/
 END:VEVENT
 BEGIN:VEVENT
+UID:erasmusplace-290586@events-tracker
+DTSTAMP:20261026T054616Z
+DTSTART;TZID=Europe/Paris:20261106T230000
+DTEND;TZID=Europe/Paris:20261107T050000
+SUMMARY:Erasmus Full Party - Free
+LOCATION:Café Oz Châtelet
+URL:https://erasmusplace.com/region/paris/evenements/erasmus-full-party-ful
+ l061126/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nMesdames et Messieurs\,
+  ici Air Erasmus.L'embarquement est désormais ouvert. Destination : le to
+ ur du monde... en une seule nuit.Bienvenue à bord de l'Erasmus Full Party
+  la plus grande soirée internationale de la rentrée.Prépare-toi à renc
+ ontrer des centaines d'étudiants Erasmus\, internationaux\, français et 
+ jeunes actifs venus des quatre coins du monde\, dans une ambiance où chaq
+ ue discussion peut devenir une nouvelle amitié et chaque chanson un souve
+ nir inoubliable.Au programme : les meilleurs sons Reggaeton\, Baile Funk\,
+  Pop et tous les plus grands hits internationaux que tout le monde chante 
+ à l'unisson.Que tu viennes d'arriver ou que tu sois déjà installé\, ce
+ tte soirée est le meilleur moyen de commencer ton aventure\, de créer de
+  nouvelles rencontres et de vivre l'expérience internationale qui fait la
+  réputation des soirées Erasmus.Déjà des milliers d'étudiants ont par
+ ticipé aux précédentes éditions. Si tu n'as jamais vécu une Erasmus F
+ ull Party\, prépare-toi à comprendre pourquoi tout le monde en parle.Bie
+ nvenue à bord d'Air Erasmus. Attache ta ceinture... il est temps de faire
+  le tour du monde en une seule nuit.\n\nhttps://erasmusplace.com/region/pa
+ ris/evenements/erasmus-full-party-full061126/
+END:VEVENT
+BEGIN:VEVENT
 UID:erasmusplace-285942@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261111T230000
 DTEND;TZID=Europe/Paris:20261112T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -382,7 +344,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-285806@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261118T230000
 DTEND;TZID=Europe/Paris:20261119T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -398,7 +360,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nOlé ! Une soirée dédi
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287199@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261125T230000
 DTEND;TZID=Europe/Paris:20261126T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -421,7 +383,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287205@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261202T230000
 DTEND;TZID=Europe/Paris:20261203T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -444,7 +406,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
@@ -478,7 +440,7 @@ DESCRIPTION:Price: from 12.99 EUR\nVenue: YOYO\, Palais De Tokyo\, 13 Avenu
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290521@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261209T230000
 DTEND;TZID=Europe/Paris:20261210T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -501,7 +463,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-285813@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261216T230000
 DTEND;TZID=Europe/Paris:20261217T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -521,7 +483,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nÇa commence à sentir la
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290524@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261223T230000
 DTEND;TZID=Europe/Paris:20261224T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -538,7 +500,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-14974@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20261230T230000
 DTEND;TZID=Europe/Paris:20261231T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -561,7 +523,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-04-18@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20270418T130000
 DTEND;TZID=Europe/Paris:20270418T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -589,7 +551,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-04-25@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20270425T130000
 DTEND;TZID=Europe/Paris:20270425T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -617,7 +579,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-02@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20270502T130000
 DTEND;TZID=Europe/Paris:20270502T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -645,7 +607,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-09@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20270509T130000
 DTEND;TZID=Europe/Paris:20270509T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -673,7 +635,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-16@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20270516T130000
 DTEND;TZID=Europe/Paris:20270516T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -701,7 +663,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-23@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20270523T130000
 DTEND;TZID=Europe/Paris:20270523T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -729,7 +691,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-30@events-tracker
-DTSTAMP:20261025T055846Z
+DTSTAMP:20261026T054616Z
 DTSTART;TZID=Europe/Paris:20270530T130000
 DTEND;TZID=Europe/Paris:20270530T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
