@@ -23,32 +23,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:erasmusplace-290417@events-tracker
-DTSTAMP:20261030T055756Z
-DTSTART;TZID=Europe/Paris:20261030T230000
-DTEND;TZID=Europe/Paris:20261031T060000
-SUMMARY:Erasmus & Student Party Halloween - À partir de 13€
-LOCATION:Concorde Atlantique
-URL:https://erasmusplace.com/region/paris/evenements/erasmus-student-party-
- halloween/
-DESCRIPTION:Price: À partir de 13€\nVenue: Concorde Atlantique\nPRÊTS P
- OUR HALLOWEEN ? 🎃 RDV le Vendredi 30 octobre au Concorde Atlantique pou
- r une nuit remplie de SURPRISES et d’HORREUR ! 🕸️🎃 AU PROGRAMME 
- 🎃💀 Préparez votre meilleur DÉGUISEMENT HALLOWEEN pour votre soiré
- e PRÉFÉRÉE de l’année ! 🎃 Distribution gratuite de GOODIES spéci
- al HALLOWEEN🥂 HAPPY HOUR de 23h à 00h : profitez de tarifs réduits su
- r toute la carte du bar 🍻 TOURNOI de BEER PONG : prêts à remporter la
-  compétition ? 📸 PHOTOBOOTH en usage gratuit 🎉 GOODIES et BRIQUETS 
- DÉCAP’ offerts💚 Bracelets Fluo verts : CŒUR À PRENDRE 💙 Bracele
- ts Fluo bleus : VIENS VOIR PAR TOI-MÊME (comme ça tu peux adapter ta sit
- uation selon le prétendant 😏) ❤️ Bracelets Fluo rouges : EN COUPLE
- 🎃 Un Concorde Atlantique enflammé aux couleurs d’HALLOWEEN 🎵 Musi
- que généraliste et commerciale\n\nhttps://erasmusplace.com/region/paris/
- evenements/erasmus-student-party-halloween/
-END:VEVENT
-BEGIN:VEVENT
 UID:billetweb-1485966:2026-10-31@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261031T094500
 DTEND;TZID=Europe/Paris:20261031T114500
 SUMMARY:Palais Garnier Guided Tour
@@ -66,7 +42,7 @@ DESCRIPTION:Venue: Palais Garnier\, Place de l&#039\;Opéra\, Paris\, Franc
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-610122@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261031T210000
 DTEND;TZID=Europe/Paris:20261101T040000
 SUMMARY:La Plus Grande Soirée Latino D’Halloween By Baile Loca 👻 - fr
@@ -100,7 +76,7 @@ DESCRIPTION:Price: from 42.00 EUR\nVenue: Chalet du lac\, Bois de Vincennes
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-610512@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261031T220000
 DTEND;TZID=Europe/Paris:20261101T050000
 SUMMARY:La Noche De Terror - Halloween Hotel Party - from 25.00 EUR
@@ -131,7 +107,7 @@ DESCRIPTION:Price: from 25.00 EUR\nVenue: Belushi's Paris (Canal)\, 159 Rue
 END:VEVENT
 BEGIN:VEVENT
 UID:eventbrite-2003675116210@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261031T220000
 DTEND;TZID=Europe/Paris:20261101T000000
 SUMMARY:Le Grand Royaume Des Tenebres - Halloween Chateau De Longchamp - 19
@@ -145,7 +121,7 @@ DESCRIPTION:Price: 19.99 EUR\nVenue: Château de Longchamp\, 1 Carrefour de
 END:VEVENT
 BEGIN:VEVENT
 UID:eventbrite-2003877473466@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261031T220000
 DTEND;TZID=Europe/Paris:20261101T050000
 SUMMARY:Le Rooftop Géant De L'horreur Halloween - Terminal 7 - 21.00-42.00
@@ -161,7 +137,7 @@ DESCRIPTION:Price: 21.00-42.00 EUR\nVenue: Terminal 7\, 1 Place de la Porte
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-611016@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261031T230000
 DTEND;TZID=Europe/Paris:20261101T050000
 SUMMARY:The Biggest Hip Hop & Afrobeats Horror Halloween - Solum - from 31.
@@ -193,7 +169,7 @@ DESCRIPTION:Price: from 31.50 EUR\nVenue: Solum\, Rive gauche\, Pont Alexan
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290508@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261104T230000
 DTEND;TZID=Europe/Paris:20261105T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -210,7 +186,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nTu connais les paroles pa
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492218:2026-11-06@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261106T210000
 DTEND;TZID=Europe/Paris:20261106T230000
 SUMMARY:Rocky Horror Picture Show movie and live show
@@ -238,7 +214,7 @@ DESCRIPTION:Venue: Studio Galande\, 42 rue Galande\, 75005 Paris\nReady for
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290586@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261106T230000
 DTEND;TZID=Europe/Paris:20261107T050000
 SUMMARY:Erasmus Full Party - Free
@@ -267,7 +243,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nMesdames et Messieurs\,
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492538:2026-11-07@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:ESN Yoga class
@@ -278,8 +254,35 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
  :)\n\nhttps://www.billetweb.fr/esn-yoga-class3
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1494280:2026-11-10@events-tracker
+DTSTAMP:20261031T054806Z
+DTSTART;TZID=Europe/Paris:20261110T190000
+DTEND;TZID=Europe/Paris:20261110T220000
+SUMMARY:Movie Night: Minotaure
+LOCATION:Le Saint-Germain-des-Prés 22 rue Guillaume-Apollinaire Paris\, 75
+ 006
+URL:https://www.billetweb.fr/movie-night-minotaure
+DESCRIPTION:Venue: Le Saint-Germain-des-Prés 22 rue Guillaume-Apollinaire 
+ Paris\, 75006\nMovie Night: Minotaure ✨ Ready for a special Russian cine
+ ma night in the heart of Saint-Germain-des-Prés? Join us on Tuesday\, Nov
+ ember 10th for a screening of Minotaure\, in Russian with English subtitle
+ s. The evening will begin with drinks at 7 PM\, followed by the screening 
+ at 8 PM at Cinéma Le Saint-Germain-des-Prés. The screening will be intro
+ duced by Joël Chapron\, an expert in Russian cinema and the cinemas of Ce
+ ntral and Eastern Europe\, and a close friend of director Andrey Zvyagints
+ ev since the beginning of his career. Minotaure is a 2026 Russian-language
+  political thriller drama directed and edited by Andrey Zvyagintsev\, co-w
+ ritten with Simon Liashenko and inspired by Claude Chabrol’s 1969 film T
+ he Unfaithful Wife. Critically acclaimed and selected as France’s entry 
+ for Best International Feature Film at the 99th Academy Awards\, the film 
+ promises a powerful and thought-provoking cinematic experience. No worries
+  if you don’t speak Russian: the film comes with English subtitles\,so e
+ veryone can enjoy it! Spots available: 20 - book quickly\, places are very
+  limited!\n\nhttps://www.billetweb.fr/movie-night-minotaure
+END:VEVENT
+BEGIN:VEVENT
 UID:erasmusplace-285942@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261111T230000
 DTEND;TZID=Europe/Paris:20261112T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -296,7 +299,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492543:2026-11-14@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261114T130000
 DTEND;TZID=Europe/Paris:20261114T150000
 SUMMARY:ESN Yoga class
@@ -308,7 +311,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492719:2026-11-14@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261114T140000
 DTEND;TZID=Europe/Paris:20261114T180000
 SUMMARY:Coffee Party
@@ -327,7 +330,7 @@ DESCRIPTION:Venue: Matchai and Coffee : 10 Rue La Boétie\, 75008 Paris\nCO
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-285806@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261118T230000
 DTEND;TZID=Europe/Paris:20261119T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -343,7 +346,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nOlé ! Une soirée dédi
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492557:2026-11-21@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261121T130000
 DTEND;TZID=Europe/Paris:20261121T150000
 SUMMARY:ESN Yoga class
@@ -355,7 +358,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287199@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261125T230000
 DTEND;TZID=Europe/Paris:20261126T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -378,7 +381,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492220:2026-11-28@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Visit Musée de Cluny
@@ -402,7 +405,7 @@ DESCRIPTION:Venue: 28 Rue Rue du Sommerard (75005 PARIS)\nVisit Musée de C
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492558:2026-11-28@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261128T130000
 DTEND;TZID=Europe/Paris:20261128T150000
 SUMMARY:ESN Yoga class
@@ -414,7 +417,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492563:2026-11-28@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261128T130000
 DTEND;TZID=Europe/Paris:20261128T150000
 SUMMARY:ESN Yoga class
@@ -426,7 +429,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287205@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261202T230000
 DTEND;TZID=Europe/Paris:20261203T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -449,7 +452,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
@@ -483,7 +486,7 @@ DESCRIPTION:Price: from 12.99 EUR\nVenue: YOYO\, Palais De Tokyo\, 13 Avenu
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290521@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261209T230000
 DTEND;TZID=Europe/Paris:20261210T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -506,7 +509,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-285813@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261216T230000
 DTEND;TZID=Europe/Paris:20261217T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -526,7 +529,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nÇa commence à sentir la
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290524@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261223T230000
 DTEND;TZID=Europe/Paris:20261224T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -543,7 +546,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-14974@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20261230T230000
 DTEND;TZID=Europe/Paris:20261231T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -566,7 +569,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-04-18@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20270418T130000
 DTEND;TZID=Europe/Paris:20270418T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -594,7 +597,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-04-25@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20270425T130000
 DTEND;TZID=Europe/Paris:20270425T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -622,7 +625,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-02@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20270502T130000
 DTEND;TZID=Europe/Paris:20270502T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -650,7 +653,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-09@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20270509T130000
 DTEND;TZID=Europe/Paris:20270509T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -678,7 +681,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-16@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20270516T130000
 DTEND;TZID=Europe/Paris:20270516T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -706,7 +709,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-23@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20270523T130000
 DTEND;TZID=Europe/Paris:20270523T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -734,7 +737,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-30@events-tracker
-DTSTAMP:20261030T055756Z
+DTSTAMP:20261031T054806Z
 DTSTART;TZID=Europe/Paris:20270530T130000
 DTEND;TZID=Europe/Paris:20270530T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience

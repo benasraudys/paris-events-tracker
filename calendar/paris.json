@@ -1,24 +1,5 @@
 [
   {
-    "source": "erasmusplace",
-    "source_id": "290417",
-    "url": "https://erasmusplace.com/region/paris/evenements/erasmus-student-party-halloween/",
-    "title": "Erasmus & Student Party Halloween",
-    "city": "Paris",
-    "venue": "Concorde Atlantique",
-    "start_date": "2026-10-30",
-    "start_time": "23:00",
-    "end_date": null,
-    "end_time": "06:00",
-    "price_text": "À partir de 13€",
-    "price_eur": 13.0,
-    "is_free": false,
-    "categories": [],
-    "description": "PRÊTS POUR HALLOWEEN ? 🎃 RDV le Vendredi 30 octobre au Concorde Atlantique pour une nuit remplie de SURPRISES et d’HORREUR ! 🕸️🎃 AU PROGRAMME 🎃💀 Préparez votre meilleur DÉGUISEMENT HALLOWEEN pour votre soirée PRÉFÉRÉE de l’année ! 🎃 Distribution gratuite de GOODIES spécial HALLOWEEN🥂 HAPPY HOUR de 23h à 00h : profitez de tarifs réduits sur toute la carte du bar 🍻 TOURNOI de BEER PONG : prêts à remporter la compétition ? 📸 PHOTOBOOTH en usage gratuit 🎉 GOODIES et BRIQUETS DÉCAP’ offerts💚 Bracelets Fluo verts : CŒUR À PRENDRE 💙 Bracelets Fluo bleus : VIENS VOIR PAR TOI-MÊME (comme ça tu peux adapter ta situation selon le prétendant 😏) ❤️ Bracelets Fluo rouges : EN COUPLE🎃 Un Concorde Atlantique enflammé aux couleurs d’HALLOWEEN 🎵 Musique généraliste et commerciale",
-    "image": "https://erasmusplace.com/wp-content/uploads/2025/07/halloween-8.jpg",
-    "remote_modified": "2026-10-08T15:06:40"
-  },
-  {
     "source": "billetweb",
     "source_id": "1485966:2026-10-31",
     "url": "https://www.billetweb.fr/palais-garnier-guided-tour",
@@ -212,6 +193,25 @@
     "categories": [],
     "description": "Join us for a professionally taught Yengar yoga class saturday 7 of november at 12:00 in the center of Paris :)",
     "image": "https://www.billetweb.fr/event/150/1492538.jpg",
+    "remote_modified": null
+  },
+  {
+    "source": "billetweb",
+    "source_id": "1494280:2026-11-10",
+    "url": "https://www.billetweb.fr/movie-night-minotaure",
+    "title": "Movie Night: Minotaure",
+    "city": "Paris",
+    "venue": "Le Saint-Germain-des-Prés 22 rue Guillaume-Apollinaire Paris, 75006",
+    "start_date": "2026-11-10",
+    "start_time": "19:00",
+    "end_date": "2026-11-10",
+    "end_time": "22:00",
+    "price_text": null,
+    "price_eur": null,
+    "is_free": null,
+    "categories": [],
+    "description": "Movie Night: Minotaure ✨ Ready for a special Russian cinema night in the heart of Saint-Germain-des-Prés? Join us on Tuesday, November 10th for a screening of Minotaure, in Russian with English subtitles. The evening will begin with drinks at 7 PM, followed by the screening at 8 PM at Cinéma Le Saint-Germain-des-Prés. The screening will be introduced by Joël Chapron, an expert in Russian cinema and the cinemas of Central and Eastern Europe, and a close friend of director Andrey Zvyagintsev since the beginning of his career. Minotaure is a 2026 Russian-language political thriller drama directed and edited by Andrey Zvyagintsev, co-written with Simon Liashenko and inspired by Claude Chabrol’s 1969 film The Unfaithful Wife. Critically acclaimed and selected as France’s entry for Best International Feature Film at the 99th Academy Awards, the film promises a powerful and thought-provoking cinematic experience. No worries if you don’t speak Russian: the film comes with English subtitles,so everyone can enjoy it! Spots available: 20 - book quickly, places are very limited!",
+    "image": "https://www.billetweb.fr/event/150/1494280.jpg",
     "remote_modified": null
   },
   {
