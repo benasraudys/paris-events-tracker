@@ -22,6 +22,27 @@
     "remote_modified": "2026-10-17T11:46:27"
   },
   {
+    "source": "shotgun",
+    "source_id": "615142",
+    "url": "https://shotgun.live/en/events/l-arc-paris-jeudi-5-novembre",
+    "title": "L'arc Paris - Jeudi 5 Novembre",
+    "city": "Paris",
+    "venue": "L'Arc Paris, 12 Rue de Presbourg, 75116 Paris, France",
+    "start_date": "2026-11-05",
+    "start_time": "23:30",
+    "end_date": "2026-11-06",
+    "end_time": "05:30",
+    "price_text": "Sold out",
+    "price_eur": null,
+    "is_free": null,
+    "categories": [
+      "sold-out"
+    ],
+    "description": "L’ARC PARIS - THURSDAY, NOVEMBER 5TH HYPE POP ✨ Where elegance meets good music & beautiful people. 🎧 Music by TOMY B ✨ Hosted by SHELLEY 🥂 Guestlist before 1AM - exclusively on Shotgun. Limited availability. 🍾 VIP Tables: +33 6 62 86 13 68 Dress to impress. See you at L’Arc.",
+    "image": "https://assets.shotgun.live/image/upload/c_limit,w_1200,h_630,f_jpg,q_auto/production/artworks/Affiche_Hype_Pop_a%CC%80_L_Arc_Paris_hhkf5q.png",
+    "remote_modified": null
+  },
+  {
     "source": "billetweb",
     "source_id": "1492218:2026-11-06",
     "url": "https://www.billetweb.fr/rocky-horror-picture-show-movie-and-live-show",
@@ -158,6 +179,25 @@
     "categories": [],
     "description": "COFFEE PARTY - Sip, Vibe & Repeat! Have you ever thought of partying in a coffee shop? Well, now is your chance! Come hang out, sip on some really good coffee, and enjoy great music in a cozy café atmosphere. Not a coffee person? No worries, other drinks are on the menu too :) ???? DJ set + a secret guest ☕ Good coffee, good drinks (1 drink is included in your ticket) ✨ International crowd, new connections ???? November 14th, 2026 - from 2 PM to 6 PM Bring your friends, meet new people, grab your favorite drink, and let’s turn an ordinary afternoon into something special!",
     "image": "https://www.billetweb.fr/event/150/1492719.jpg",
+    "remote_modified": null
+  },
+  {
+    "source": "billetweb",
+    "source_id": "1494939:2026-11-15",
+    "url": "https://www.billetweb.fr/movie-night-amelie",
+    "title": "Movie Night Amélie",
+    "city": "Paris",
+    "venue": "l’Épée de Bois, 100 Rue Mouffetard, 75005 Paris",
+    "start_date": "2026-11-15",
+    "start_time": null,
+    "end_date": null,
+    "end_time": null,
+    "price_text": null,
+    "price_eur": null,
+    "is_free": null,
+    "categories": [],
+    "description": "Movie Night: Amélie ✨ Ready for a proper French cinema night in the heart of the Quartier Latin? Join us on Sunday, November 15th for a screening of Le Fabuleux Destin d’Amélie Poulain (in French with English subtitles). ???? We’ll grab drinks first at 7 PM, followed by the movie screening at 8 PM, both at Cinéma Épée du Bois. Amélie is an absolute French classic, and frankly, it's pretty much impossible to live in Paris without seeing this movie! It showcases so many spots across Paris, so it’ll be super fun recognising places you’ve seen in real life or discovering brand-new hidden corners as the film goes. It follows Amélie, a quiet young waitress caught up in her own imaginative world, who decides to secretly help the people around her find happiness. Her quest to spread joy ultimately leads her to true love. Don't worry if your French is a bit rusty: the film has English subtitles, so everyone can follow along! ???? ????️ Spots available: 20 - grab yours quick, space is pretty limited!",
+    "image": "https://www.billetweb.fr/event/150/1494939.jpg",
     "remote_modified": null
   },
   {
