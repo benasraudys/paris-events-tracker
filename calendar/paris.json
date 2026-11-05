@@ -1,27 +1,5 @@
 [
   {
-    "source": "erasmusplace",
-    "source_id": "290508",
-    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-reggaeton-night-041126-2/",
-    "title": "Kiss My Erasmus",
-    "city": "Paris",
-    "venue": "Café Oz Denfert",
-    "start_date": "2026-11-04",
-    "start_time": "23:00",
-    "end_date": null,
-    "end_time": "05:00",
-    "price_text": "Gratuit avant 00:30",
-    "price_eur": 0.0,
-    "is_free": true,
-    "categories": [
-      "gratuit",
-      "soirees"
-    ],
-    "description": "Tu connais les paroles par cœur ? Cette soirée est faite pour toi. Du début à la fin, on balance les sons reggaeton les plus emblématiques. Viens bouger sur Bad Bunny, Karol G, Daddy Yankee et plein d'autres. C’est caliente ce soir !",
-    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
-    "remote_modified": "2026-10-17T11:46:27"
-  },
-  {
     "source": "shotgun",
     "source_id": "615142",
     "url": "https://shotgun.live/en/events/l-arc-paris-jeudi-5-novembre",
@@ -138,6 +116,44 @@
     "categories": [],
     "description": "Movie Night: Minotaure ✨ Ready for a special Russian cinema night in the heart of Saint-Germain-des-Prés? Join us on Tuesday, November 10th for a screening of Minotaure, in Russian with English subtitles. The evening will begin with drinks at 7 PM, followed by the screening at 8 PM at Cinéma Le Saint-Germain-des-Prés. The screening will be introduced by Joël Chapron, an expert in Russian cinema and the cinemas of Central and Eastern Europe, and a close friend of director Andrey Zvyagintsev since the beginning of his career. Minotaure is a 2026 Russian-language political thriller drama directed and edited by Andrey Zvyagintsev, co-written with Simon Liashenko and inspired by Claude Chabrol’s 1969 film The Unfaithful Wife. Critically acclaimed and selected as France’s entry for Best International Feature Film at the 99th Academy Awards, the film promises a powerful and thought-provoking cinematic experience. No worries if you don’t speak Russian: the film comes with English subtitles,so everyone can enjoy it! Spots available: 20 - book quickly, places are very limited!",
     "image": "https://www.billetweb.fr/event/150/1494280.jpg",
+    "remote_modified": null
+  },
+  {
+    "source": "billetweb",
+    "source_id": "1496872:2026-11-11",
+    "url": "https://www.billetweb.fr/the-art-of-fragrance-perfume-museum-visit",
+    "title": "The Art of Fragrance - Perfume Museum Visit",
+    "city": "Paris",
+    "venue": "Musée du Parfum Fragonard, 9 rue Scribe, 75009 Paris",
+    "start_date": "2026-11-11",
+    "start_time": null,
+    "end_date": null,
+    "end_time": null,
+    "price_text": null,
+    "price_eur": null,
+    "is_free": null,
+    "categories": [],
+    "description": "Discover the art of French perfumery! Join us for an exclusive guided tour of Paris's famous perfume museum. Learn about the history of fragrance-making, explore rare raw materials, and test your sense of smell with a fun sensory experience. A great chance to discover a unique part of French culture and meet other international students!",
+    "image": "https://www.billetweb.fr/event/150/1496872.jpg",
+    "remote_modified": null
+  },
+  {
+    "source": "billetweb",
+    "source_id": "1496632:2026-11-11",
+    "url": "https://www.billetweb.fr/paris-basket-vs-fenerbahce-euroleague-basketball-paris-erasmus-life",
+    "title": "Paris Basket vs Fenerbahce EuroLeague BasketBall - Paris Erasmus Life",
+    "city": "Paris",
+    "venue": "Accor Arena, Boulevard de Bercy, Paris, France",
+    "start_date": "2026-11-11",
+    "start_time": "20:30",
+    "end_date": "2026-11-11",
+    "end_time": "22:30",
+    "price_text": null,
+    "price_eur": null,
+    "is_free": null,
+    "categories": [],
+    "description": "???????? PARIS BASKETBALL VS FENERBAHÇE | EUROLEAGUE Get ready for an unforgettable basketball experience in Paris! ???????? Two European basketball powerhouses face off in a spectacular EuroLeague clash at the iconic Accor Arena! More than just a basketball game, expect an incredible atmosphere, spectacular shows, live entertainment, music and thousands of passionate fans! ???? Experience world-class basketball and an amazing NBA sports show in one of Paris' most legendary arenas! SPECIAL PRICE WITH PARIS ERASMUS LIFE: 18e (instead of 55e) -LIMITED SPOTS Catégorie 3 & 4 ???? Wednesday, November 11, 2026 ???? Tip-off: 8:45 PM ???? Accor Arena, Paris Bercy ???? EuroLeague: Paris Basketball vs Fenerbahçe ???? Metro Bercy, Lines 6 & 14 ???? Don't miss this unique sporting and entertainment experience in Paris!",
+    "image": "https://www.billetweb.fr/event/150/1496632.jpg",
     "remote_modified": null
   },
   {
@@ -300,6 +316,25 @@
     "description": "Une soirée pour afficher tes couleurs ! nous te ramenons ton drapeau, porte-le fièrement et viens représenter ton pays parmi des dizaines d’autres. C’est la soirée parfaite pour rencontrer un maximum de monde de son pays. Que tu sois là pour faire la fête ou simplement échanger sur ta culture, tu trouveras toujours quelqu’un avec qui discuter... ou danser !KISS MY ERASMUS Une soirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas de danse et des \"Chupitos/shooter\" pour briser ta timidité. Tu pourras porter fièrement les couleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côté musique on reste électro, RNB, Reggaeton, Pop, Disco, cette soirée c’est la tienne !",
     "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
     "remote_modified": "2026-10-17T12:36:48"
+  },
+  {
+    "source": "shotgun",
+    "source_id": "615721",
+    "url": "https://shotgun.live/en/events/superstars-on-boat-speciale-rihanna-vs-beyonce-2",
+    "title": "Superstars: Drake Vs Rihanna",
+    "city": "Paris",
+    "venue": "River's King, 4 Quai Saint-Bernard, 75005 Paris, France",
+    "start_date": "2026-11-27",
+    "start_time": "20:00",
+    "end_date": "2026-11-28",
+    "end_time": "05:00",
+    "price_text": "from 9.99 EUR",
+    "price_eur": 9.99,
+    "is_free": false,
+    "categories": [],
+    "description": "🌟 SUPERSTARS – EPISODE 2 🌟 🔥 DRAKE VS RIHANNA 🔥 📅 VENDREDI 27 NOVEMBRE 2026 📍 RIVERS KING – PARIS 👑 TWO ICONS. ONE NIGHT. ONLY HITS. Après une première édition Beyonce vs Rihanna, SUPERSTARS est de retour pour un deuxième épisode encore plus explosif ! 🚀 Cette fois, deux légendes de la musique s’affrontent pour une nuit exceptionnelle : 💎 DRAKE VS RIHANNA 💎 D’un côté, DRAKE 🦉 One Dance, God’s Plan, Hotline Bling, Passionfruit, In My Feelings, Nice For What… De l’autre, RIHANNA 💋 We Found Love, Work, Diamonds, Umbrella, Only Girl, Rude Boy… Deux univers, des dizaines de hits planétaires et une seule mission : vous faire chanter et danser toute la nuit ! 🎶 LE CONCEPT SUPERSTARS Une soirée unique où les plus grands tubes de deux superstars se rencontrent, entre R&B, Hip-Hop, Pop, Dancehall et Club Anthems. 🔥 Des classiques intemporels aux plus gros bangers, préparez-vous à revivre les morceaux qui ont marqué toute une génération ! 🚢 UNE EXPÉRIENCE UNIQUE SUR LA SEINE Retrouvez-nous à bord du RIVERS KING, en plein cœur de Paris, pour une soirée entre croisière nocturne et clubbing jusqu’au petit matin. ⏰ PROGRAMME 🥂 20H00 – Ouverture des portes & warm-up 🚢 21H30 – Départ de la croisiè...",
+    "image": "https://assets.shotgun.live/image/upload/c_limit,w_1200,h_630,f_jpg,q_auto/production/artworks/79A8CBD6-7E87-4DD2-B474-F8CF9DA46057_ne6ovp.png",
+    "remote_modified": null
   },
   {
     "source": "billetweb",
