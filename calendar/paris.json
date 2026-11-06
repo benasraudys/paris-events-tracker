@@ -1,26 +1,5 @@
 [
   {
-    "source": "shotgun",
-    "source_id": "615142",
-    "url": "https://shotgun.live/en/events/l-arc-paris-jeudi-5-novembre",
-    "title": "L'arc Paris - Jeudi 5 Novembre",
-    "city": "Paris",
-    "venue": "L'Arc Paris, 12 Rue de Presbourg, 75116 Paris, France",
-    "start_date": "2026-11-05",
-    "start_time": "23:30",
-    "end_date": "2026-11-06",
-    "end_time": "05:30",
-    "price_text": "Sold out",
-    "price_eur": null,
-    "is_free": null,
-    "categories": [
-      "sold-out"
-    ],
-    "description": "L’ARC PARIS - THURSDAY, NOVEMBER 5TH HYPE POP ✨ Where elegance meets good music & beautiful people. 🎧 Music by TOMY B ✨ Hosted by SHELLEY 🥂 Guestlist before 1AM - exclusively on Shotgun. Limited availability. 🍾 VIP Tables: +33 6 62 86 13 68 Dress to impress. See you at L’Arc.",
-    "image": "https://assets.shotgun.live/image/upload/c_limit,w_1200,h_630,f_jpg,q_auto/production/artworks/Affiche_Hype_Pop_a%CC%80_L_Arc_Paris_hhkf5q.png",
-    "remote_modified": null
-  },
-  {
     "source": "billetweb",
     "source_id": "1492218:2026-11-06",
     "url": "https://www.billetweb.fr/rocky-horror-picture-show-movie-and-live-show",
@@ -126,7 +105,7 @@
     "city": "Paris",
     "venue": "Musée du Parfum Fragonard, 9 rue Scribe, 75009 Paris",
     "start_date": "2026-11-11",
-    "start_time": null,
+    "start_time": "15:00",
     "end_date": null,
     "end_time": null,
     "price_text": null,
@@ -152,7 +131,7 @@
     "price_eur": null,
     "is_free": null,
     "categories": [],
-    "description": "???????? PARIS BASKETBALL VS FENERBAHÇE | EUROLEAGUE Get ready for an unforgettable basketball experience in Paris! ???????? Two European basketball powerhouses face off in a spectacular EuroLeague clash at the iconic Accor Arena! More than just a basketball game, expect an incredible atmosphere, spectacular shows, live entertainment, music and thousands of passionate fans! ???? Experience world-class basketball and an amazing NBA sports show in one of Paris' most legendary arenas! SPECIAL PRICE WITH PARIS ERASMUS LIFE: 18e (instead of 55e) -LIMITED SPOTS Catégorie 3 & 4 ???? Wednesday, November 11, 2026 ???? Tip-off: 8:45 PM ???? Accor Arena, Paris Bercy ???? EuroLeague: Paris Basketball vs Fenerbahçe ???? Metro Bercy, Lines 6 & 14 ???? Don't miss this unique sporting and entertainment experience in Paris!",
+    "description": "PARIS BASKETBALL VS FENERBAHÇE | EUROLEAGUE Get ready for an unforgettable basketball experience in Paris! Two European basketball powerhouses face off in a spectacular EuroLeague clash at the iconic Accor Arena! More than just a basketball game, expect an incredible atmosphere, spectacular shows, live entertainment, music and thousands of passionate fans! Experience world-class basketball and an amazing NBA sports show in one of Paris' most legendary arenas! SPECIAL PRICE WITH PARIS ERASMUS LIFE: 18e (instead of 55e) -LIMITED SPOTS Catégorie 3 & 4 Wednesday, November 11, 2026 Tip-off: 8:45 PM Accor Arena, Paris Bercy EuroLeague: Paris Basketball vs Fenerbahçe Metro Bercy, Lines 6 & 14 Don't miss this unique sporting and entertainment experience in Paris!",
     "image": "https://www.billetweb.fr/event/150/1496632.jpg",
     "remote_modified": null
   },
@@ -177,6 +156,27 @@
     "description": "Un aller simple pour Rio, ça te tente ? Ce soir, c’est le Brésil qui t’accueille avec ses rythmes, et son énergie folle. Attends-toi à danser, rire, chanter, et peut-être même découvrir quelques pas de samba... Les Brésiliens et Brésiliennes savent mettre de l’ambiance crois moi !",
     "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
     "remote_modified": "2026-10-17T11:56:13"
+  },
+  {
+    "source": "shotgun",
+    "source_id": "615142",
+    "url": "https://shotgun.live/en/events/l-arc-paris-jeudi-5-novembre",
+    "title": "L'arc Paris - Jeudi 12 Novembre",
+    "city": "Paris",
+    "venue": "L'Arc Paris, 12 Rue de Presbourg, 75116 Paris, France",
+    "start_date": "2026-11-12",
+    "start_time": "23:30",
+    "end_date": "2026-11-13",
+    "end_time": "05:30",
+    "price_text": "Sold out",
+    "price_eur": null,
+    "is_free": null,
+    "categories": [
+      "sold-out"
+    ],
+    "description": "L’ARC PARIS - THURSDAY, NOVEMBER 12TH HYPE POP ✨ Where elegance meets good music & beautiful people. 🎧 Music by RUMBLE ✨ Hosted by SHELLEY 🥂 Guestlist before 1AM - exclusively on Shotgun. Limited availability. 🍾 VIP Tables: +33 6 62 86 13 68 Dress to impress. See you at L’Arc.",
+    "image": "https://assets.shotgun.live/image/upload/c_limit,w_1200,h_630,f_jpg,q_auto/production/artworks/Affiche_Hype_Pop_a%CC%80_L_Arc_Paris_hhkf5q.png",
+    "remote_modified": null
   },
   {
     "source": "billetweb",
