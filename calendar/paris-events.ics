@@ -23,55 +23,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:billetweb-1492548:2026-11-15@events-tracker
-DTSTAMP:20261115T053814Z
-DTSTART;TZID=Europe/Paris:20261115T111000
-DTEND;TZID=Europe/Paris:20261115T131000
-SUMMARY:Hiking along the Yerres
-LOCATION:Gare de Lyon
-URL:https://www.billetweb.fr/hiking-along-the-yerres
-DESCRIPTION:Venue: Gare de Lyon\nHey everyone! Ready for a little escape fr
- om Paris? ????✨ Join us on November 15\, 2026 for a day full of nature a
- nd good vibes with ESN! ✨ ???? Meeting point: 11:10 AM at Gare de Lyon W
- e’ll enjoy a 9 km scenic walk along the Yerres River\, surrounded by nat
- ure and away from the hustle and bustle of the city. ???? It’s the perfe
- ct opportunity to meet new people\, get some fresh air\, and enjoy a relax
- ing day away from Paris! ???? If the weather isn’t on our side\, we’ll
-  swap the walk for a cozy time at a bar instead! ????✨ ⚠️ ESNcard ma
- ndatory\n\nhttps://www.billetweb.fr/hiking-along-the-yerres
-END:VEVENT
-BEGIN:VEVENT
-UID:shotgun-615352@events-tracker
-DTSTAMP:20261115T053814Z
-DTSTART;TZID=Europe/Paris:20261115T190000
-DTEND;TZID=Europe/Paris:20261115T210000
-SUMMARY:Paris Is A Joke - Standup Comedy In English - from 11.00 EUR
-LOCATION:176 Rue Montmartre\, 75002 Paris\, France
-URL:https://shotgun.live/en/events/paris-is-a-joke-standup-comedy-in-englis
- h-2
-DESCRIPTION:Price: from 11.00 EUR\nVenue: 176 Rue Montmartre\, 75002 Paris\
- , France\n🎤🇫🇷 PARIS IS A JOKE - EPISODE 2! 😂 🔥 AFTER A SOLD
- -OUT FIRST EDITION\, WE'RE BACK! You laughed\, you loved it\, and you aske
- d for more… So here we go again! 🎤 PARIS ERASMUS LIFE brings you anot
- her unforgettable night of international stand-up comedy in the heart of P
- aris! 🌍 Different Nationalities. Different Cultures. One Language: LAUG
- HTER! From French stereotypes to cultural clashes\, Erasmus adventures\, d
- ating disasters and the everyday madness of living in Paris… Nothing is 
- off-limits! 😂 ✨ WHAT TO EXPECT? 🎤 International stand-up comedians
-  😂 100% Comedy in ENGLISH 🌍 Cultural differences & hilarious stereot
- ypes 🇫🇷 Jokes about Parisian life 🤝 Meet internationals\, expats 
- & Erasmus students 🍸 Drinks\, laughter & great vibes! 📅 SUNDAY\, NOV
- EMBER 15TH\, 2026 🕖 Doors Open: 7:00 PM 📍 ENVOLE MOI - 176 Rue Montm
- artre\, Paris 2nd 🚇 Grands Boulevards / Bourse 🎟️ START AT €10 -
-  LIMITED SPOTS! Our first edition SOLD OUT\, so don't wait until the last 
- minute to grab your ticket! ❤️ Whether you're French\, Erasmus\, expat
-  or just visiting Paris\, everyone is welcome! Paris is a joke. And we're 
- just getting started! 🇫🇷😂\n\nhttps://shotgun.live/en/events/paris
- -is-a-joke-standup-comedy-in-english-2
-END:VEVENT
-BEGIN:VEVENT
 UID:erasmusplace-285806@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261118T230000
 DTEND;TZID=Europe/Paris:20261119T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -87,7 +40,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nOlé ! Une soirée dédi
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1500268:2026-11-19@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261119T193000
 DTEND;TZID=Europe/Paris:20261119T210000
 SUMMARY:Tour Eiffel Night Climb ✨
@@ -103,7 +56,7 @@ DESCRIPTION:Venue: Tour Eiffel\, Av. Gustave Eiffel\, 75007 Paris\nJoin us
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492557:2026-11-21@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261121T130000
 DTEND;TZID=Europe/Paris:20261121T150000
 SUMMARY:ESN Yoga class
@@ -114,8 +67,25 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
  is :)\n\nhttps://www.billetweb.fr/esn-yoga-class5
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1501759:2026-11-22@events-tracker
+DTSTAMP:20261116T060244Z
+DTSTART;TZID=Europe/Paris:20261122T113000
+DTEND;TZID=Europe/Paris:20261122T133000
+SUMMARY:Musée Carnavalet Tour
+LOCATION:23 Rue de Sévigné\, 75003 Paris
+URL:https://www.billetweb.fr/musee-carnavalet-tour
+DESCRIPTION:Venue: 23 Rue de Sévigné\, 75003 Paris\nDiscover the history 
+ of Paris with ESN Paris! Join us for a cultural afternoon exploring the Mu
+ sée Carnavalet\, the oldest museum in the city\, located in the heart of 
+ the Marais district. Wander through magnificent period rooms and fascinati
+ ng collections tracing the history of the capital from prehistory to the p
+ resent day. It is a fantastic opportunity to discover Parisian heritage\, 
+ learn something new\, and meet other international students in a friendly 
+ atmosphere.\n\nhttps://www.billetweb.fr/musee-carnavalet-tour
+END:VEVENT
+BEGIN:VEVENT
 UID:erasmusplace-287199@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261125T230000
 DTEND;TZID=Europe/Paris:20261126T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -138,7 +108,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-615721@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261127T200000
 DTEND;TZID=Europe/Paris:20261128T050000
 SUMMARY:Superstars: Drake Vs Rihanna - from 9.99 EUR
@@ -169,7 +139,7 @@ DESCRIPTION:Price: from 9.99 EUR\nVenue: River's King\, 4 Quai Saint-Bernar
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492558:2026-11-28@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261128T130000
 DTEND;TZID=Europe/Paris:20261128T150000
 SUMMARY:ESN Yoga class
@@ -181,7 +151,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492563:2026-11-28@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261128T130000
 DTEND;TZID=Europe/Paris:20261128T150000
 SUMMARY:ESN Yoga class
@@ -192,32 +162,49 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
  ris :)\n\nhttps://www.billetweb.fr/esn-yoga-class7
 END:VEVENT
 BEGIN:VEVENT
-UID:billetweb-1492220:2026-11-28@events-tracker
-DTSTAMP:20261115T053814Z
+UID:billetweb-1501745:2026-11-28@events-tracker
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261128T143000
 DTEND;TZID=Europe/Paris:20261128T163000
-SUMMARY:Visit Musée de Cluny
-LOCATION:28 Rue Rue du Sommerard (75005 PARIS)
-URL:https://www.billetweb.fr/visit-musee-de-cluny
-DESCRIPTION:Venue: 28 Rue Rue du Sommerard (75005 PARIS)\nVisit Musée de C
- luny and discover the world's most iconic alchemist with ESN Paris! Join u
- s for a cultural morning visit at Musée de Cluny\, located in the heart o
- f the Latin Quarter. Nearly as old as Paris this place has served as Roman
-  baths\, as an abbey\, as a palace and even as storage for the city’s sc
- ulptures. Nowadays Cluny is a national museum specialised in medieval hist
- ory. We invite you to discover its temporary exhibition where you will dis
- cover the real history of Nicolas Flamel\, a figure that has inspired our 
- literature and pop culture. After the visit we’ll enjoy lunch and a drin
- k in a restaurant nearby! The event will take place on November 28th. We w
- ill meet at 10:30 at 28 Rue du Sommerard. The event is free for UE citizen
- s between 16-25 years old ????We recommend the other visitors who don’t 
- have their free entry to buy their ticket in advance at the official websi
- te: https://billetterie.musee-moyenage.fr/fr/collection-permanente\n\nhttp
- s://www.billetweb.fr/visit-musee-de-cluny
+SUMMARY:Musée de Cluny Visit
+LOCATION:28 Rue du Sommerard\, 75005 Paris
+URL:https://www.billetweb.fr/musee-de-cluny-visit
+DESCRIPTION:Venue: 28 Rue du Sommerard\, 75005 Paris\nVisit the Musée de C
+ luny and discover the world's most iconic alchemist with ESN Paris! Locate
+ d in the heart of the Latin Quarter and nearly as old as Paris\, the now-m
+ useum has served as Roman baths\, as an abbey\, as a palace and even as st
+ orage for the city’s sculptures. Nowadays\, it specialises in medieval h
+ istory. We invite you to discover its temporary exhibition about the real 
+ history of Nicolas Flamel\, a figure that has inspired our literature and 
+ pop culture. The event is free for UE citizens between 16-25 years old. We
+  recommend the other visitors who don’t have their free entry to buy the
+ ir ticket in advance at the official website: https://billetterie.musee-mo
+ yenage.fr/fr/collection-permanente\n\nhttps://www.billetweb.fr/musee-de-cl
+ uny-visit
+END:VEVENT
+BEGIN:VEVENT
+UID:billetweb-1501761:2026-11-29@events-tracker
+DTSTAMP:20261116T060244Z
+DTSTART;TZID=Europe/Paris:20261129T160000
+DTEND;TZID=Europe/Paris:20261129T180000
+SUMMARY:Montmartre City Tour
+LOCATION:Abbesses\, Paris\, France
+URL:https://www.billetweb.fr/montmartre-city-tour
+DESCRIPTION:Venue: Abbesses\, Paris\, France\nESN Paris takes you to the Mo
+ ntmartre district of Paris! The hilltop neighbourhood of Montmartre\, Pari
+ s\, is one of the city’s most popular tourist spots. Until 1860 it was j
+ ust outside Paris’ city but under the act of extension of the city\, it 
+ became the 18th arrondissement of Paris. During the Belle Époque\, many a
+ rtists lived in\, had studios or worked in Montmartre\, including Modiglia
+ ni\, Claude Monet and Pierre-Auguste Renoir. Sunday 29th of November\, com
+ e with us to discover the famous Wall of Love\, the imposing Basilica of t
+ he Sacré-Coeur\, Place du Tertre and all the charming streets that have m
+ ade Montmartre one of the most poetic places in the world! ????\n\nhttps:/
+ /www.billetweb.fr/montmartre-city-tour
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287205@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261202T230000
 DTEND;TZID=Europe/Paris:20261203T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -240,7 +227,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
@@ -274,7 +261,7 @@ DESCRIPTION:Price: from 12.99 EUR\nVenue: YOYO\, Palais De Tokyo\, 13 Avenu
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-620080@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T053000
 SUMMARY:Erasmus Closing Party 2026 - Solum Pont Alexandre III - from 12.00 
@@ -305,7 +292,7 @@ DESCRIPTION:Price: from 12.00 EUR\nVenue: Solum\, Rive gauche\, Pont Alexan
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290521@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261209T230000
 DTEND;TZID=Europe/Paris:20261210T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -328,7 +315,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-285813@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261216T230000
 DTEND;TZID=Europe/Paris:20261217T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -348,7 +335,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nÇa commence à sentir la
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290524@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261223T230000
 DTEND;TZID=Europe/Paris:20261224T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -365,7 +352,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-14974@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20261230T230000
 DTEND;TZID=Europe/Paris:20261231T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -388,7 +375,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-04-18@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20270418T130000
 DTEND;TZID=Europe/Paris:20270418T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -416,7 +403,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-04-25@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20270425T130000
 DTEND;TZID=Europe/Paris:20270425T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -444,7 +431,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-02@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20270502T130000
 DTEND;TZID=Europe/Paris:20270502T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -472,7 +459,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-09@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20270509T130000
 DTEND;TZID=Europe/Paris:20270509T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -500,7 +487,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-16@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20270516T130000
 DTEND;TZID=Europe/Paris:20270516T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -528,7 +515,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-23@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20270523T130000
 DTEND;TZID=Europe/Paris:20270523T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -556,7 +543,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-30@events-tracker
-DTSTAMP:20261115T053814Z
+DTSTAMP:20261116T060244Z
 DTSTART;TZID=Europe/Paris:20270530T130000
 DTEND;TZID=Europe/Paris:20270530T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
