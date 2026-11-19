@@ -1,27 +1,5 @@
 [
   {
-    "source": "erasmusplace",
-    "source_id": "285806",
-    "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-spanish-night-181126/",
-    "title": "Kiss My Erasmus",
-    "city": "Paris",
-    "venue": "Café Oz Denfert",
-    "start_date": "2026-11-18",
-    "start_time": "23:00",
-    "end_date": null,
-    "end_time": "05:00",
-    "price_text": "Gratuit avant 00:30",
-    "price_eur": 0.0,
-    "is_free": true,
-    "categories": [
-      "gratuit",
-      "soirees"
-    ],
-    "description": "Olé ! Une soirée dédiée à l’Espagne et à sa culture festive. Au programme : drapeaux rouges et jaunes, flamenco, pop espagnole et reggaeton. Ramène ta bande ou viens solo, tu ne resteras pas seul(e) longtemps !",
-    "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
-    "remote_modified": "2026-10-17T11:47:46"
-  },
-  {
     "source": "billetweb",
     "source_id": "1500268:2026-11-19",
     "url": "https://www.billetweb.fr/tour-eiffel-night-climb",
@@ -99,6 +77,25 @@
     "description": "Une soirée pour afficher tes couleurs ! nous te ramenons ton drapeau, porte-le fièrement et viens représenter ton pays parmi des dizaines d’autres. C’est la soirée parfaite pour rencontrer un maximum de monde de son pays. Que tu sois là pour faire la fête ou simplement échanger sur ta culture, tu trouveras toujours quelqu’un avec qui discuter... ou danser !KISS MY ERASMUS Une soirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas de danse et des \"Chupitos/shooter\" pour briser ta timidité. Tu pourras porter fièrement les couleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côté musique on reste électro, RNB, Reggaeton, Pop, Disco, cette soirée c’est la tienne !",
     "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
     "remote_modified": "2026-10-17T12:36:48"
+  },
+  {
+    "source": "billetweb",
+    "source_id": "1503806:2026-11-26",
+    "url": "https://www.billetweb.fr/board-game-night-in-the-latin-quarter",
+    "title": "Board Game Night in the Latin Quarter",
+    "city": "Paris",
+    "venue": "The Oakenshield Tavern, 184 Rue St Jacques, 75005 Paris",
+    "start_date": "2026-11-26",
+    "start_time": "19:00",
+    "end_date": "2026-11-26",
+    "end_time": "22:00",
+    "price_text": null,
+    "price_eur": null,
+    "is_free": null,
+    "categories": [],
+    "description": "ESN Paris is delighted to welcome you to the Oakenshield Tavern for an evening of games, fun and meeting new people! On the programme, we will introduce you to several board games, including Saboteur and Top Ten. Whether you're a regular board game player or simply curious to give it a try, everyone is welcome. Entry is free, but buying at least one drink from the bar upon entry is mandatory. We can't wait to see you around the game table!",
+    "image": "https://www.billetweb.fr/event/150/1503806.jpg",
+    "remote_modified": null
   },
   {
     "source": "shotgun",

@@ -23,24 +23,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:erasmusplace-285806@events-tracker
-DTSTAMP:20261118T053034Z
-DTSTART;TZID=Europe/Paris:20261118T230000
-DTEND;TZID=Europe/Paris:20261119T050000
-SUMMARY:Kiss My Erasmus - Free
-LOCATION:Café Oz Denfert
-URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-spanis
- h-night-181126/
-CATEGORIES:gratuit,soirees
-DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nOlé ! Une soirée dédi
- ée à l’Espagne et à sa culture festive. Au programme : drapeaux rouge
- s et jaunes\, flamenco\, pop espagnole et reggaeton. Ramène ta bande ou v
- iens solo\, tu ne resteras pas seul(e) longtemps !\n\nhttps://erasmusplace
- .com/region/paris/evenements/kiss-my-erasmus-spanish-night-181126/
-END:VEVENT
-BEGIN:VEVENT
 UID:billetweb-1500268:2026-11-19@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261119T193000
 DTEND;TZID=Europe/Paris:20261119T210000
 SUMMARY:Tour Eiffel Night Climb ✨
@@ -56,7 +40,7 @@ DESCRIPTION:Venue: Tour Eiffel\, Av. Gustave Eiffel\, 75007 Paris\nJoin us
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492557:2026-11-21@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261121T130000
 DTEND;TZID=Europe/Paris:20261121T150000
 SUMMARY:ESN Yoga class
@@ -68,7 +52,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1501759:2026-11-22@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261122T101500
 DTEND;TZID=Europe/Paris:20261122T130000
 SUMMARY:Musée Carnavalet Tour
@@ -85,7 +69,7 @@ DESCRIPTION:Venue: 23 Rue de Sévigné\, 75003 Paris\nDiscover the history
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287199@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261125T230000
 DTEND;TZID=Europe/Paris:20261126T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -107,8 +91,25 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
  gion/paris/evenements/kiss-my-erasmus-usa-251126/
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1503806:2026-11-26@events-tracker
+DTSTAMP:20261119T053002Z
+DTSTART;TZID=Europe/Paris:20261126T190000
+DTEND;TZID=Europe/Paris:20261126T220000
+SUMMARY:Board Game Night in the Latin Quarter
+LOCATION:The Oakenshield Tavern\, 184 Rue St Jacques\, 75005 Paris
+URL:https://www.billetweb.fr/board-game-night-in-the-latin-quarter
+DESCRIPTION:Venue: The Oakenshield Tavern\, 184 Rue St Jacques\, 75005 Pari
+ s\nESN Paris is delighted to welcome you to the Oakenshield Tavern for an 
+ evening of games\, fun and meeting new people! On the programme\, we will 
+ introduce you to several board games\, including Saboteur and Top Ten. Whe
+ ther you're a regular board game player or simply curious to give it a try
+ \, everyone is welcome. Entry is free\, but buying at least one drink from
+  the bar upon entry is mandatory. We can't wait to see you around the game
+  table!\n\nhttps://www.billetweb.fr/board-game-night-in-the-latin-quarter
+END:VEVENT
+BEGIN:VEVENT
 UID:shotgun-615721@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261127T200000
 DTEND;TZID=Europe/Paris:20261128T050000
 SUMMARY:Superstars: Drake Vs Rihanna - from 9.99 EUR
@@ -139,7 +140,7 @@ DESCRIPTION:Price: from 9.99 EUR\nVenue: River's King\, 4 Quai Saint-Bernar
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492558:2026-11-28@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261128T130000
 DTEND;TZID=Europe/Paris:20261128T150000
 SUMMARY:ESN Yoga class
@@ -151,7 +152,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492563:2026-11-28@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261128T130000
 DTEND;TZID=Europe/Paris:20261128T150000
 SUMMARY:ESN Yoga class
@@ -163,7 +164,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1501745:2026-11-28@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261128T143000
 DTEND;TZID=Europe/Paris:20261128T163000
 SUMMARY:Musée de Cluny Visit
@@ -184,7 +185,7 @@ DESCRIPTION:Venue: 28 Rue du Sommerard\, 75005 Paris\nVisit the Musée de C
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1501761:2026-11-29@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261129T160000
 DTEND;TZID=Europe/Paris:20261129T180000
 SUMMARY:Montmartre City Tour
@@ -204,7 +205,7 @@ DESCRIPTION:Venue: Abbesses\, Paris\, France\nESN Paris takes you to the Mo
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287205@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261202T230000
 DTEND;TZID=Europe/Paris:20261203T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -227,7 +228,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
@@ -261,7 +262,7 @@ DESCRIPTION:Price: from 12.99 EUR\nVenue: YOYO\, Palais De Tokyo\, 13 Avenu
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-620080@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T053000
 SUMMARY:Erasmus Closing Party 2026 - Solum Pont Alexandre III - from 12.00 
@@ -292,7 +293,7 @@ DESCRIPTION:Price: from 12.00 EUR\nVenue: Solum\, Rive gauche\, Pont Alexan
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290521@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261209T230000
 DTEND;TZID=Europe/Paris:20261210T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -315,7 +316,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-285813@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261216T230000
 DTEND;TZID=Europe/Paris:20261217T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -335,7 +336,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nÇa commence à sentir la
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290524@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261223T230000
 DTEND;TZID=Europe/Paris:20261224T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -352,7 +353,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-14974@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20261230T230000
 DTEND;TZID=Europe/Paris:20261231T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -375,7 +376,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-04-18@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20270418T130000
 DTEND;TZID=Europe/Paris:20270418T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -403,7 +404,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-04-25@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20270425T130000
 DTEND;TZID=Europe/Paris:20270425T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -431,7 +432,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-02@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20270502T130000
 DTEND;TZID=Europe/Paris:20270502T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -459,7 +460,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-09@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20270509T130000
 DTEND;TZID=Europe/Paris:20270509T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -487,7 +488,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-16@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20270516T130000
 DTEND;TZID=Europe/Paris:20270516T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -515,7 +516,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-23@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20270523T130000
 DTEND;TZID=Europe/Paris:20270523T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -543,7 +544,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-30@events-tracker
-DTSTAMP:20261118T053034Z
+DTSTAMP:20261119T053002Z
 DTSTART;TZID=Europe/Paris:20270530T130000
 DTEND;TZID=Europe/Paris:20270530T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
