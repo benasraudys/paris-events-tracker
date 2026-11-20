@@ -1,25 +1,6 @@
 [
   {
     "source": "billetweb",
-    "source_id": "1500268:2026-11-19",
-    "url": "https://www.billetweb.fr/tour-eiffel-night-climb",
-    "title": "Tour Eiffel Night Climb ✨",
-    "city": "Paris",
-    "venue": "Tour Eiffel, Av. Gustave Eiffel, 75007 Paris",
-    "start_date": "2026-11-19",
-    "start_time": "19:30",
-    "end_date": "2026-11-19",
-    "end_time": "21:00",
-    "price_text": null,
-    "price_eur": null,
-    "is_free": null,
-    "categories": [],
-    "description": "Join us for an unforgettable evening as we climb the Eiffel Tower by night! Skip the elevators and take on the stairs with our group to reach the 2nd floor, where you'll get a breathtaking panoramic view of Paris illuminated. Experience the magic of the Eiffel Tower's sparkling lights up close while meeting other international students and making new friends.",
-    "image": "https://www.billetweb.fr/event/150/1500268.jpg",
-    "remote_modified": null
-  },
-  {
-    "source": "billetweb",
     "source_id": "1492557:2026-11-21",
     "url": "https://www.billetweb.fr/esn-yoga-class5",
     "title": "ESN Yoga class",
@@ -213,6 +194,28 @@
     "description": "Direction l’Italie pour une soirée haute en couleur (et en chaleur). Entre classiques pop, reggaeton et tubes 100% italiens. Tu n’as pas besoin de parler italien pour venir, mais tu repartiras sûrement avec quelques mots en tête… et peut-être un ou deux nouveaux amis de Rome, Milan ou Naples ! Les italiens savent mettre de l’ambiance !KISS MY ERASMUS Une soirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas de danse et des \"Chupitos/shooter\" pour briser ta timidité. Tu pourras porter fièrement les couleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côté musique on reste électro, RNB, Reggaeton, Pop, Disco, cette soirée c’est la tienne !",
     "image": "https://erasmusplace.com/wp-content/uploads/2025/08/ErasmusPLACE2025_bleu-.png",
     "remote_modified": "2026-10-17T12:36:52"
+  },
+  {
+    "source": "erasmusplace",
+    "source_id": "287236",
+    "url": "https://erasmusplace.com/region/paris/evenements/erasmus-goodbye-party/",
+    "title": "Erasmus GoodBye Party",
+    "city": "Paris",
+    "venue": "Café Oz Châtelet",
+    "start_date": "2026-12-04",
+    "start_time": "23:00",
+    "end_date": null,
+    "end_time": "05:00",
+    "price_text": "Gratuit avant 00:30",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [
+      "gratuit",
+      "soirees"
+    ],
+    "description": "C’est la dernière. La soirée que personne ne veut vraiment vivre, mais que tout le monde attend. Celle où tu retrouves les visages que tu as croisés toute l’année. On danse, on rit, on s’enlace. On prend des photos qu’on regardera plus tard. L’ambiance est spéciale : plus douce, plus intense. Chaque moment compte, chaque musique réveille un souvenir. C’est une fête, oui. Mais c’est surtout une façon de se dire au revoir, ensemble!Une dernière danse avant que chacun reprenne sa route. Pas besoin d’en faire trop : juste être là, pour fermer ce chapitre comme il le mérite ! Vous allez nous manquer.....",
+    "image": "https://erasmusplace.com/wp-content/uploads/2026/04/event-site-internet-_-Billetweb-27.jpg",
+    "remote_modified": "2026-11-19T11:22:31"
   },
   {
     "source": "shotgun",
