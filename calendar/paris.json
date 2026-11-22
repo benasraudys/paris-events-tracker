@@ -1,25 +1,6 @@
 [
   {
     "source": "billetweb",
-    "source_id": "1492557:2026-11-21",
-    "url": "https://www.billetweb.fr/esn-yoga-class5",
-    "title": "ESN Yoga class",
-    "city": "Paris",
-    "venue": "30 rue de Chazelles",
-    "start_date": "2026-11-21",
-    "start_time": "13:00",
-    "end_date": null,
-    "end_time": null,
-    "price_text": null,
-    "price_eur": null,
-    "is_free": null,
-    "categories": [],
-    "description": "Join us for a professionally taught Yengar yoga class saturday 21st of november at 12:00 in the center of Paris :)",
-    "image": "https://www.billetweb.fr/event/150/1492557.jpg",
-    "remote_modified": null
-  },
-  {
-    "source": "billetweb",
     "source_id": "1501759:2026-11-22",
     "url": "https://www.billetweb.fr/musee-carnavalet-tour",
     "title": "Musée Carnavalet Tour",
@@ -152,6 +133,25 @@
     "categories": [],
     "description": "Visit the Musée de Cluny and discover the world's most iconic alchemist with ESN Paris! Located in the heart of the Latin Quarter and nearly as old as Paris, the now-museum has served as Roman baths, as an abbey, as a palace and even as storage for the city’s sculptures. Nowadays, it specialises in medieval history. We invite you to discover its temporary exhibition about the real history of Nicolas Flamel, a figure that has inspired our literature and pop culture. The event is free for UE citizens between 16-25 years old. We recommend the other visitors who don’t have their free entry to buy their ticket in advance at the official website: https://billetterie.musee-moyenage.fr/fr/collection-permanente",
     "image": "https://www.billetweb.fr/event/150/1501745.jpg",
+    "remote_modified": null
+  },
+  {
+    "source": "billetweb",
+    "source_id": "1500570:2026-11-29",
+    "url": "https://www.billetweb.fr/ice-skating-in-parisss",
+    "title": "Ice skating in Parisss",
+    "city": "Paris",
+    "venue": "1 Allée Pierre de Coubertin, 92600 Asnières-sur-Seine, France",
+    "start_date": "2026-11-29",
+    "start_time": "09:30",
+    "end_date": "2026-11-29",
+    "end_time": "11:30",
+    "price_text": null,
+    "price_eur": null,
+    "is_free": null,
+    "categories": [],
+    "description": "Join us for a nice ice skating session in the olympic ice skating rink of Courtilles. The skates and entry are included in the price",
+    "image": "https://www.billetweb.fr/event/150/1500570.jpg",
     "remote_modified": null
   },
   {
