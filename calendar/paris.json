@@ -1,24 +1,5 @@
 [
   {
-    "source": "billetweb",
-    "source_id": "1501759:2026-11-22",
-    "url": "https://www.billetweb.fr/musee-carnavalet-tour",
-    "title": "Musée Carnavalet Tour",
-    "city": "Paris",
-    "venue": "23 Rue de Sévigné, 75003 Paris",
-    "start_date": "2026-11-22",
-    "start_time": "10:45",
-    "end_date": "2026-11-22",
-    "end_time": "13:00",
-    "price_text": null,
-    "price_eur": null,
-    "is_free": null,
-    "categories": [],
-    "description": "Discover the history of Paris with ESN Paris! Join us for a cultural afternoon exploring the Musée Carnavalet, the oldest museum in the city, located in the heart of the Marais district. Wander through magnificent period rooms and fascinating collections tracing the history of the capital from prehistory to the present day. It is a fantastic opportunity to discover Parisian heritage, learn something new, and meet other international students in a friendly atmosphere.",
-    "image": "https://www.billetweb.fr/event/150/1501759.jpg",
-    "remote_modified": null
-  },
-  {
     "source": "erasmusplace",
     "source_id": "287199",
     "url": "https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-usa-251126/",
