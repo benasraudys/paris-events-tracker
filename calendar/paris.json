@@ -117,6 +117,25 @@
     "remote_modified": null
   },
   {
+    "source": "eventbrite",
+    "source_id": "2005302713397",
+    "url": "https://www.eventbrite.fr/e/free-walking-tour-les-passages-couverts-special-christmas-tickets-2005302713397",
+    "title": "FREE WALKING TOUR: Les Passages Couverts - Special Christmas",
+    "city": "Paris",
+    "venue": "Place Colette, Galerie du Théatre Français, 75001 Paris",
+    "start_date": "2026-11-28",
+    "start_time": "15:00",
+    "end_date": "2026-11-28",
+    "end_time": "17:00",
+    "price_text": "Free",
+    "price_eur": 0.0,
+    "is_free": true,
+    "categories": [],
+    "description": "tep into a world of elegance, history, and festive charm as we explore the legendary Passages Couverts of Paris, beautifully decorated",
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198552735%2F120900098767%2F1%2Foriginal.20261123-190132?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4d16b1e8c9f8b41c11315cc1d377056f",
+    "remote_modified": null
+  },
+  {
     "source": "billetweb",
     "source_id": "1500570:2026-11-29",
     "url": "https://www.billetweb.fr/ice-skating-in-parisss",
