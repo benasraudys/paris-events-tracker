@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:erasmusplace-287199@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261125T230000
 DTEND;TZID=Europe/Paris:20261126T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -47,7 +47,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1503806:2026-11-26@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261126T190000
 DTEND;TZID=Europe/Paris:20261126T220000
 SUMMARY:Board Game Night in the Latin Quarter
@@ -64,7 +64,7 @@ DESCRIPTION:Venue: The Oakenshield Tavern\, 184 Rue St Jacques\, 75005 Pari
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-615721@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261127T200000
 DTEND;TZID=Europe/Paris:20261128T050000
 SUMMARY:Superstars: Drake Vs Rihanna - from 9.99 EUR
@@ -95,7 +95,7 @@ DESCRIPTION:Price: from 9.99 EUR\nVenue: River's King\, 4 Quai Saint-Bernar
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492558:2026-11-28@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261128T130000
 DTEND;TZID=Europe/Paris:20261128T150000
 SUMMARY:ESN Yoga class
@@ -107,7 +107,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1492563:2026-11-28@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261128T130000
 DTEND;TZID=Europe/Paris:20261128T150000
 SUMMARY:ESN Yoga class
@@ -119,7 +119,7 @@ DESCRIPTION:Venue: 30 rue de Chazelles\nJoin us for a professionally taught
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1501745:2026-11-28@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261128T143000
 DTEND;TZID=Europe/Paris:20261128T163000
 SUMMARY:Musée de Cluny Visit
@@ -140,7 +140,7 @@ DESCRIPTION:Venue: 28 Rue du Sommerard\, 75005 Paris\nVisit the Musée de C
 END:VEVENT
 BEGIN:VEVENT
 UID:eventbrite-2005302713397@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261128T150000
 DTEND;TZID=Europe/Paris:20261128T170000
 SUMMARY:FREE WALKING TOUR: Les Passages Couverts - Special Christmas - Free
@@ -155,7 +155,7 @@ DESCRIPTION:Price: Free\nVenue: Place Colette\, Galerie du Théatre França
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1500570:2026-11-29@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261129T093000
 DTEND;TZID=Europe/Paris:20261129T113000
 SUMMARY:Ice skating in Parisss
@@ -168,7 +168,7 @@ DESCRIPTION:Venue: 1 Allée Pierre de Coubertin\, 92600 Asnières-sur-Seine
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1501761:2026-11-29@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261129T160000
 DTEND;TZID=Europe/Paris:20261129T180000
 SUMMARY:Montmartre City Tour
@@ -188,7 +188,7 @@ DESCRIPTION:Venue: Abbesses\, Paris\, France\nESN Paris takes you to the Mo
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-287205@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261202T230000
 DTEND;TZID=Europe/Paris:20261203T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -210,8 +210,25 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
  s/kiss-my-erasmus-italian-night-021226/
 END:VEVENT
 BEGIN:VEVENT
+UID:billetweb-1506763:2026-12-03@events-tracker
+DTSTAMP:20261125T055718Z
+DTSTART;TZID=Europe/Paris:20261203T193000
+DTEND;TZID=Europe/Paris:20261203T213000
+SUMMARY:Evening visit to the Hôtel Gaillard
+LOCATION:1 Place du Général Catroux\, 75017 Paris
+URL:https://www.billetweb.fr/evening-visit-to-the-hotel-gaillard
+DESCRIPTION:Venue: 1 Place du Général Catroux\, 75017 Paris\nJoin us for 
+ a visit to the Hôtel Gaillard in the evening\, during the Cité de l’É
+ conomie's monthly late opening. Located in the heart of Paris\, the Hôtel
+  Gaillard is a magnificent neo-Renaissance mansion built in the late 19th 
+ century. Once the private residence of a wealthy banker\, it is now home t
+ o the Cité de l’Économie. Come and discover this remarkable building\,
+  its history and its architecture with other international students!\n\nht
+ tps://www.billetweb.fr/evening-visit-to-the-hotel-gaillard
+END:VEVENT
+BEGIN:VEVENT
 UID:erasmusplace-287236@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261204T230000
 DTEND;TZID=Europe/Paris:20261205T050000
 SUMMARY:Erasmus GoodBye Party - Free
@@ -232,7 +249,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Châtelet\nC’est la dernière. L
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-601028@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T050000
 SUMMARY:La + Grosse Soirée Reggaeton & Open Format Yoyo Palais Tokyo - fro
@@ -266,7 +283,7 @@ DESCRIPTION:Price: from 12.99 EUR\nVenue: YOYO\, Palais De Tokyo\, 13 Avenu
 END:VEVENT
 BEGIN:VEVENT
 UID:shotgun-620080@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261205T230000
 DTEND;TZID=Europe/Paris:20261206T053000
 SUMMARY:Erasmus Closing Party 2026 - Solum Pont Alexandre III - from 12.00 
@@ -297,7 +314,7 @@ DESCRIPTION:Price: from 12.00 EUR\nVenue: Solum\, Rive gauche\, Pont Alexan
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290521@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261209T230000
 DTEND;TZID=Europe/Paris:20261210T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -320,7 +337,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-285813@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261216T230000
 DTEND;TZID=Europe/Paris:20261217T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -340,7 +357,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nÇa commence à sentir la
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-290524@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261223T230000
 DTEND;TZID=Europe/Paris:20261224T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -357,7 +374,7 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUn aller simple pour Rio\
 END:VEVENT
 BEGIN:VEVENT
 UID:erasmusplace-14974@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20261230T230000
 DTEND;TZID=Europe/Paris:20261231T050000
 SUMMARY:Kiss My Erasmus - Free
@@ -379,8 +396,91 @@ DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
  gion/paris/evenements/kiss-my-erasmus-flag-party-301226/
 END:VEVENT
 BEGIN:VEVENT
+UID:erasmusplace-14238@events-tracker
+DTSTAMP:20261125T055718Z
+DTSTART;TZID=Europe/Paris:20270106T230000
+DTEND;TZID=Europe/Paris:20270107T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-ready-
+ for-a-new-life-060127/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nVoyager à travers le mon
+ de en une soirée c’est possible !KISS MY ERASMUS\, c'est le rendez-vous
+  de tous les étudiants Erasmus\, au pair\, stagiaires de nationalité ét
+ rangère vivant à Paris et leurs amis…KISS MY ERASMUS Une soirée Erasm
+ us qui te fait découvrir les 4 coins du monde en quelques pas de danse et
+  des "Chupitos/shooter" pour briser ta timidité. Tu pourras porter fière
+ ment les couleurs de ton pays grâce aux drapeaux distribués dès l’ent
+ rée.Côté musique on reste électro\, RNB\, Reggaeton\, Pop\, Disco\, ce
+ tte soirée c’est la tienne !\n\nhttps://erasmusplace.com/region/paris/e
+ venements/kiss-my-erasmus-ready-for-a-new-life-060127/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-287211@events-tracker
+DTSTAMP:20261125T055718Z
+DTSTART;TZID=Europe/Paris:20270113T230000
+DTEND;TZID=Europe/Paris:20270114T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-flag-p
+ arty-130127/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nUne soirée pour afficher
+  tes couleurs ! nous te ramenons ton drapeau\, porte-le fièrement et vien
+ s représenter ton pays parmi des dizaines d’autres. C’est la soirée 
+ parfaite pour rencontrer un maximum de monde de son pays. Que tu sois là 
+ pour faire la fête ou simplement échanger sur ta culture\, tu trouveras 
+ toujours quelqu’un avec qui discuter... ou danser !KISS MY ERASMUS Une s
+ oirée Erasmus qui te fait découvrir les 4 coins du monde en quelques pas
+  de danse et des "Chupitos/shooter" pour briser ta timidité. Tu pourras p
+ orter fièrement les couleurs de ton pays grâce aux drapeaux distribués 
+ dès l’entrée.Côté musique on reste électro\, RNB\, Reggaeton\, Pop\
+ , Disco\, cette soirée c’est la tienne !\n\nhttps://erasmusplace.com/re
+ gion/paris/evenements/kiss-my-erasmus-flag-party-130127/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-14390@events-tracker
+DTSTAMP:20261125T055718Z
+DTSTART;TZID=Europe/Paris:20270120T230000
+DTEND;TZID=Europe/Paris:20270121T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-italia
+ n-party-200127/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nDirection l’Italie pour
+  une soirée haute en couleur (et en chaleur). Entre classiques pop\, regg
+ aeton et tubes 100% italiens. Tu n’as pas besoin de parler italien pour 
+ venir\, mais tu repartiras sûrement avec quelques mots en tête… et peu
+ t-être un ou deux nouveaux amis de Rome\, Milan ou Naples ! Les italiens 
+ savent mettre de l’ambiance !KISS MY ERASMUS Une soirée Erasmus qui te 
+ fait découvrir les 4 coins du monde en quelques pas de danse et des "Chup
+ itos/shooter" pour briser ta timidité. Tu pourras porter fièrement les c
+ ouleurs de ton pays grâce aux drapeaux distribués dès l’entrée.Côt
+ é musique on reste électro\, RNB\, Reggaeton\, Pop\, Disco\, cette soir
+ ée c’est la tienne !\n\nhttps://erasmusplace.com/region/paris/evenement
+ s/kiss-my-erasmus-italian-party-200127/
+END:VEVENT
+BEGIN:VEVENT
+UID:erasmusplace-285806@events-tracker
+DTSTAMP:20261125T055718Z
+DTSTART;TZID=Europe/Paris:20270127T230000
+DTEND;TZID=Europe/Paris:20270128T050000
+SUMMARY:Kiss My Erasmus - Free
+LOCATION:Café Oz Denfert
+URL:https://erasmusplace.com/region/paris/evenements/kiss-my-erasmus-spanis
+ h-night-270127/
+CATEGORIES:gratuit,soirees
+DESCRIPTION:Price: Free\nVenue: Café Oz Denfert\nOlé ! Une soirée dédi
+ ée à l’Espagne et à sa culture festive. Au programme : drapeaux rouge
+ s et jaunes\, flamenco\, pop espagnole et reggaeton. Ramène ta bande ou v
+ iens solo\, tu ne resteras pas seul(e) longtemps !\n\nhttps://erasmusplace
+ .com/region/paris/evenements/kiss-my-erasmus-spanish-night-270127/
+END:VEVENT
+BEGIN:VEVENT
 UID:billetweb-1435784:2027-04-18@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20270418T130000
 DTEND;TZID=Europe/Paris:20270418T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -408,7 +508,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-04-25@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20270425T130000
 DTEND;TZID=Europe/Paris:20270425T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -436,7 +536,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-02@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20270502T130000
 DTEND;TZID=Europe/Paris:20270502T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -464,7 +564,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-09@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20270509T130000
 DTEND;TZID=Europe/Paris:20270509T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -492,7 +592,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-16@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20270516T130000
 DTEND;TZID=Europe/Paris:20270516T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -520,7 +620,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-23@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20270523T130000
 DTEND;TZID=Europe/Paris:20270523T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
@@ -548,7 +648,7 @@ DESCRIPTION:Venue: 4 Quai Saint-Bernard\, 75005 Paris\, France\nENGLISH BEL
 END:VEVENT
 BEGIN:VEVENT
 UID:billetweb-1435784:2027-05-30@events-tracker
-DTSTAMP:20261124T053414Z
+DTSTAMP:20261125T055718Z
 DTSTART;TZID=Europe/Paris:20270530T130000
 DTEND;TZID=Europe/Paris:20270530T170000
 SUMMARY:Celine on the Seine - The Tribute Cruise Experience
