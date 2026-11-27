@@ -1,24 +1,5 @@
 [
   {
-    "source": "billetweb",
-    "source_id": "1503806:2026-11-26",
-    "url": "https://www.billetweb.fr/board-game-night-in-the-latin-quarter",
-    "title": "Board Game Night in the Latin Quarter",
-    "city": "Paris",
-    "venue": "The Oakenshield Tavern, 184 Rue St Jacques, 75005 Paris",
-    "start_date": "2026-11-26",
-    "start_time": "19:00",
-    "end_date": "2026-11-26",
-    "end_time": "22:00",
-    "price_text": null,
-    "price_eur": null,
-    "is_free": null,
-    "categories": [],
-    "description": "ESN Paris is delighted to welcome you to the Oakenshield Tavern for an evening of games, fun and meeting new people! On the programme, we will introduce you to several board games, including Saboteur and Top Ten. Whether you're a regular board game player or simply curious to give it a try, everyone is welcome. Entry is free, but buying at least one drink from the bar upon entry is mandatory. We can't wait to see you around the game table!",
-    "image": "https://www.billetweb.fr/event/150/1503806.jpg",
-    "remote_modified": null
-  },
-  {
     "source": "shotgun",
     "source_id": "615721",
     "url": "https://shotgun.live/en/events/superstars-on-boat-speciale-rihanna-vs-beyonce-2",
