@@ -1,24 +1,5 @@
 [
   {
-    "source": "shotgun",
-    "source_id": "615721",
-    "url": "https://shotgun.live/en/events/superstars-on-boat-speciale-rihanna-vs-beyonce-2",
-    "title": "Superstars: Drake Vs Rihanna",
-    "city": "Paris",
-    "venue": "River's King, 4 Quai Saint-Bernard, 75005 Paris, France",
-    "start_date": "2026-11-27",
-    "start_time": "20:00",
-    "end_date": "2026-11-28",
-    "end_time": "05:00",
-    "price_text": "from 9.99 EUR",
-    "price_eur": 9.99,
-    "is_free": false,
-    "categories": [],
-    "description": "✨ SUPERSTARS #02 : DRAKE VS RIHANNA ✨ 🚢 CRUISE + CLUB • PARIS 👑 TWO ICONS. ONE NIGHT. ONLY HITS. ⭐️ WELCOME TO SUPERSTARS! SUPERSTARS, c’est la soirée 100% POP HITS, GIRLY ANTHEMS, R&B & 2000s ! 💖 Une soirée dédiée aux plus grands tubes des années 2000 à aujourd’hui, aux classiques qu’on connaît tous par cœur et aux chansons qui ont marqué toute une génération. De Britney Spears à Lady Gaga, de Rihanna à Beyoncé, en passant par Drake, Shakira, Jennifer Lopez, Ariana Grande, Pussycat Dolls et bien d’autres… 🎤✨ À chaque édition, SUPERSTARS met à l’honneur deux artistes iconiques de la pop culture, avec leurs plus grands hits, des animations et des surprises autour de leur univers. Après une première édition RIHANNA VS BEYONCÉ, SUPERSTARS revient pour un deuxième épisode explosif ! 🔥 👑 DRAKE VS RIHANNA 👑 Deux superstars. Deux univers. Des dizaines de hits planétaires. 🦉 TEAM DRAKE One Dance, God’s Plan, Hotline Bling, Passionfruit, In My Feelings, Nice For What… 💋 TEAM RIHANNA We Found Love, Work, Diamonds, Umbrella, Only Girl, Rude Boy… 🎶 THE MUSIC CONCEPT 🦉 33% DRAKE 💋 33% RIHANNA 💖 33% SUPERSTARS HITS : Britney Spears, Beyoncé, Lady Gaga, Shakira, Jennifer Lopez, Ariana Grande, Bl...",
-    "image": "https://assets.shotgun.live/image/upload/c_limit,w_1200,h_630,f_jpg,q_auto/production/artworks/79A8CBD6-7E87-4DD2-B474-F8CF9DA46057_ne6ovp.png",
-    "remote_modified": null
-  },
-  {
     "source": "billetweb",
     "source_id": "1492558:2026-11-28",
     "url": "https://www.billetweb.fr/esn-yoga-class6",
@@ -78,8 +59,8 @@
   {
     "source": "eventbrite",
     "source_id": "2005302713397",
-    "url": "https://www.eventbrite.fr/e/free-walking-tour-les-passages-couverts-special-christmas-tickets-2005302713397",
-    "title": "FREE WALKING TOUR: Les Passages Couverts - Special Christmas",
+    "url": "https://www.eventbrite.fr/e/free-walking-tour-les-passages-couverts-special-christmas-postponed-tickets-2005302713397",
+    "title": "FREE WALKING TOUR: Les Passages Couverts - Special Christmas POSTPONED",
     "city": "Paris",
     "venue": "Place Colette, Galerie du Théatre Français, 75001 Paris",
     "start_date": "2026-11-28",
